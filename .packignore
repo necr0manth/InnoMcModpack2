@@ -41,3 +41,5 @@
 *.py
 /server_pack/config/skinrestorer/mojang_profile_cache.json
 /.mixin.out
+/cache
+/.sable
