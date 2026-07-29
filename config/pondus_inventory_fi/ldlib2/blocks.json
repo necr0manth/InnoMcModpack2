@@ -1,0 +1,8 @@
+{
+  "ldlib2:renderer_block": {
+    "block_id": "ldlib2:renderer_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

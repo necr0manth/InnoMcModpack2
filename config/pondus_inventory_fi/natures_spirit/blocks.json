@@ -1,0 +1,4628 @@
+{
+  "natures_spirit:potted_anemone": {
+    "block_id": "natures_spirit:potted_anemone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_hanging_sign": {
+    "block_id": "natures_spirit:joshua_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_sign": {
+    "block_id": "natures_spirit:paper_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_leaves": {
+    "block_id": "natures_spirit:redwood_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_chalk_stairs": {
+    "block_id": "natures_spirit:lime_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aureate_succulent": {
+    "block_id": "natures_spirit:aureate_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_wall_sign": {
+    "block_id": "natures_spirit:olive_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_bitter_sprouts": {
+    "block_id": "natures_spirit:red_bitter_sprouts",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:evergreen_thatch_carpet": {
+    "block_id": "natures_spirit:evergreen_thatch_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_beach_grass": {
+    "block_id": "natures_spirit:potted_beach_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:foamy_wall_succulent": {
+    "block_id": "natures_spirit:foamy_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:bleeding_heart": {
+    "block_id": "natures_spirit:bleeding_heart",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_hanging_sign": {
+    "block_id": "natures_spirit:mahogany_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_travertine_brick_stairs": {
+    "block_id": "natures_spirit:mossy_travertine_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_bitter_sprouts": {
+    "block_id": "natures_spirit:green_bitter_sprouts",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_cedar_log": {
+    "block_id": "natures_spirit:stripped_cedar_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_olive_wood": {
+    "block_id": "natures_spirit:stripped_olive_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin": {
+    "block_id": "natures_spirit:lime_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_log": {
+    "block_id": "natures_spirit:cypress_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_slab": {
+    "block_id": "natures_spirit:mahogany_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:orange_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin_brick_slab": {
+    "block_id": "natures_spirit:black_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_stairs": {
+    "block_id": "natures_spirit:joshua_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_ghaf_wood": {
+    "block_id": "natures_spirit:stripped_ghaf_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_red_heather": {
+    "block_id": "natures_spirit:potted_red_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:part_white_wisteria_leaves": {
+    "block_id": "natures_spirit:part_white_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:marigold": {
+    "block_id": "natures_spirit:marigold",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:desert_turnip_block": {
+    "block_id": "natures_spirit:desert_turnip_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_shiitake_mushroom": {
+    "block_id": "natures_spirit:potted_shiitake_mushroom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_tiles": {
+    "block_id": "natures_spirit:travertine_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_sandstone_wall": {
+    "block_id": "natures_spirit:pink_sandstone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin_brick_slab": {
+    "block_id": "natures_spirit:light_gray_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cracked_travertine_tiles": {
+    "block_id": "natures_spirit:cracked_travertine_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_sign": {
+    "block_id": "natures_spirit:palo_verde_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin_slab": {
+    "block_id": "natures_spirit:pink_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_thatch": {
+    "block_id": "natures_spirit:coconut_thatch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_iron_ore": {
+    "block_id": "natures_spirit:chert_iron_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_wildflower": {
+    "block_id": "natures_spirit:purple_wildflower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_hanging_sign": {
+    "block_id": "natures_spirit:willow_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin": {
+    "block_id": "natures_spirit:pink_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin": {
+    "block_id": "natures_spirit:brown_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:protea": {
+    "block_id": "natures_spirit:protea",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_chalk_stairs": {
+    "block_id": "natures_spirit:green_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin_stairs": {
+    "block_id": "natures_spirit:pink_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cracked_travertine_bricks": {
+    "block_id": "natures_spirit:cracked_travertine_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:black_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin_brick_slab": {
+    "block_id": "natures_spirit:cyan_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_chalk": {
+    "block_id": "natures_spirit:lime_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_fence_gate": {
+    "block_id": "natures_spirit:olive_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_panel": {
+    "block_id": "natures_spirit:paper_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:cyan_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_chalk_stairs": {
+    "block_id": "natures_spirit:orange_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_slab": {
+    "block_id": "natures_spirit:coconut_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_sign": {
+    "block_id": "natures_spirit:olive_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:calcite_cluster": {
+    "block_id": "natures_spirit:calcite_cluster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_wall_hanging_sign": {
+    "block_id": "natures_spirit:fir_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin_bricks": {
+    "block_id": "natures_spirit:white_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_pressure_plate": {
+    "block_id": "natures_spirit:joshua_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_sedge_grass": {
+    "block_id": "natures_spirit:tall_sedge_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_slab": {
+    "block_id": "natures_spirit:wisteria_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin_brick_slab": {
+    "block_id": "natures_spirit:brown_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_log": {
+    "block_id": "natures_spirit:saxaul_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_cypress_log": {
+    "block_id": "natures_spirit:stripped_cypress_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_door": {
+    "block_id": "natures_spirit:sugi_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_fence": {
+    "block_id": "natures_spirit:willow_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_wall_sign": {
+    "block_id": "natures_spirit:palo_verde_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_wall_hanging_sign": {
+    "block_id": "natures_spirit:cedar_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_pressure_plate": {
+    "block_id": "natures_spirit:aspen_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin_slab": {
+    "block_id": "natures_spirit:orange_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_willow_sapling": {
+    "block_id": "natures_spirit:potted_willow_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_travertine_slab": {
+    "block_id": "natures_spirit:polished_travertine_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:framed_paper_block": {
+    "block_id": "natures_spirit:framed_paper_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:beach_grass": {
+    "block_id": "natures_spirit:beach_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_wood": {
+    "block_id": "natures_spirit:palo_verde_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_wisteria_sapling": {
+    "block_id": "natures_spirit:blue_wisteria_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_wall_sign": {
+    "block_id": "natures_spirit:willow_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_slab": {
+    "block_id": "natures_spirit:chert_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_slab": {
+    "block_id": "natures_spirit:aspen_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_log": {
+    "block_id": "natures_spirit:aspen_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_tile_slab": {
+    "block_id": "natures_spirit:travertine_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_wall_hanging_sign": {
+    "block_id": "natures_spirit:palo_verde_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_oat_grass": {
+    "block_id": "natures_spirit:tall_oat_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_chalk_slab": {
+    "block_id": "natures_spirit:white_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin": {
+    "block_id": "natures_spirit:purple_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_coal_ore": {
+    "block_id": "natures_spirit:chert_coal_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_stairs": {
+    "block_id": "natures_spirit:olive_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_chalk_stairs": {
+    "block_id": "natures_spirit:light_blue_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_stairs": {
+    "block_id": "natures_spirit:ghaf_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_sandstone_stairs": {
+    "block_id": "natures_spirit:pink_sandstone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_bitter_sprouts": {
+    "block_id": "natures_spirit:purple_bitter_sprouts",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:dwarf_blossoms": {
+    "block_id": "natures_spirit:dwarf_blossoms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_button": {
+    "block_id": "natures_spirit:saxaul_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_sapling": {
+    "block_id": "natures_spirit:cedar_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_wood": {
+    "block_id": "natures_spirit:saxaul_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_fence_gate": {
+    "block_id": "natures_spirit:cypress_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_cedar_sapling": {
+    "block_id": "natures_spirit:potted_cedar_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:xeric_thatch_slab": {
+    "block_id": "natures_spirit:xeric_thatch_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_bricks": {
+    "block_id": "natures_spirit:chert_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:desert_turnip_stem": {
+    "block_id": "natures_spirit:desert_turnip_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_maple_sapling": {
+    "block_id": "natures_spirit:yellow_maple_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_fence": {
+    "block_id": "natures_spirit:sugi_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_door": {
+    "block_id": "natures_spirit:fir_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_chert": {
+    "block_id": "natures_spirit:polished_chert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:desert_turnip_root_block": {
+    "block_id": "natures_spirit:desert_turnip_root_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_trapdoor": {
+    "block_id": "natures_spirit:cedar_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_olive_sapling": {
+    "block_id": "natures_spirit:potted_olive_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_wall_sign": {
+    "block_id": "natures_spirit:redwood_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_trapdoor": {
+    "block_id": "natures_spirit:joshua_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_travertine_bricks": {
+    "block_id": "natures_spirit:mossy_travertine_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_chalk_stairs": {
+    "block_id": "natures_spirit:light_gray_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cobbled_travertine_wall": {
+    "block_id": "natures_spirit:cobbled_travertine_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_brick_wall": {
+    "block_id": "natures_spirit:travertine_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_tiger_lily": {
+    "block_id": "natures_spirit:potted_tiger_lily",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_wall_hanging_sign": {
+    "block_id": "natures_spirit:larch_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_white_wisteria_sapling": {
+    "block_id": "natures_spirit:potted_white_wisteria_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:purple_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin": {
+    "block_id": "natures_spirit:kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_wood": {
+    "block_id": "natures_spirit:cypress_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_fence": {
+    "block_id": "natures_spirit:ghaf_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_chalk": {
+    "block_id": "natures_spirit:red_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_cypress_wood": {
+    "block_id": "natures_spirit:stripped_cypress_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_wall_hanging_sign": {
+    "block_id": "natures_spirit:olive_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin_slab": {
+    "block_id": "natures_spirit:green_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_larch_log": {
+    "block_id": "natures_spirit:stripped_larch_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:smooth_pink_sandstone_slab": {
+    "block_id": "natures_spirit:smooth_pink_sandstone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_leaves": {
+    "block_id": "natures_spirit:joshua_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:brown_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_moss_block": {
+    "block_id": "natures_spirit:red_moss_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_wisteria_sapling": {
+    "block_id": "natures_spirit:white_wisteria_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cracked_chert_tiles": {
+    "block_id": "natures_spirit:cracked_chert_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_button": {
+    "block_id": "natures_spirit:wisteria_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_tiles": {
+    "block_id": "natures_spirit:chert_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_tile_wall": {
+    "block_id": "natures_spirit:chert_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_button": {
+    "block_id": "natures_spirit:coconut_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_stairs": {
+    "block_id": "natures_spirit:palo_verde_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_fence": {
+    "block_id": "natures_spirit:saxaul_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_slab": {
+    "block_id": "natures_spirit:cedar_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_planks": {
+    "block_id": "natures_spirit:willow_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin_stairs": {
+    "block_id": "natures_spirit:black_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_leaves": {
+    "block_id": "natures_spirit:ghaf_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_bundle": {
+    "block_id": "natures_spirit:joshua_bundle",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_purple_heather": {
+    "block_id": "natures_spirit:potted_purple_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_fence_gate": {
+    "block_id": "natures_spirit:mahogany_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:pink_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_hanging_sign": {
+    "block_id": "natures_spirit:larch_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:shiitake_mushroom": {
+    "block_id": "natures_spirit:shiitake_mushroom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin": {
+    "block_id": "natures_spirit:gray_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_fence_gate": {
+    "block_id": "natures_spirit:ghaf_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_purple_wildflower": {
+    "block_id": "natures_spirit:potted_purple_wildflower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:white_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_slab": {
+    "block_id": "natures_spirit:saxaul_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_lapis_ore": {
+    "block_id": "natures_spirit:chert_lapis_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_slab": {
+    "block_id": "natures_spirit:ghaf_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_fence_gate": {
+    "block_id": "natures_spirit:aspen_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_button": {
+    "block_id": "natures_spirit:palo_verde_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_brick_wall": {
+    "block_id": "natures_spirit:chert_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_moss_carpet": {
+    "block_id": "natures_spirit:red_moss_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_chalk_slab": {
+    "block_id": "natures_spirit:red_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_chalk_slab": {
+    "block_id": "natures_spirit:light_blue_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_pink_wisteria_sapling": {
+    "block_id": "natures_spirit:potted_pink_wisteria_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_stairs": {
+    "block_id": "natures_spirit:fir_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:imperial_succulent": {
+    "block_id": "natures_spirit:imperial_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_door": {
+    "block_id": "natures_spirit:redwood_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:foxglove": {
+    "block_id": "natures_spirit:foxglove",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_yellow_wildflower": {
+    "block_id": "natures_spirit:potted_yellow_wildflower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_trapdoor": {
+    "block_id": "natures_spirit:ghaf_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin_stairs": {
+    "block_id": "natures_spirit:white_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_trapdoor": {
+    "block_id": "natures_spirit:paper_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin_slab": {
+    "block_id": "natures_spirit:white_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_melic_grass": {
+    "block_id": "natures_spirit:tall_melic_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_wall_hanging_sign": {
+    "block_id": "natures_spirit:aspen_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_oat_grass": {
+    "block_id": "natures_spirit:potted_oat_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_ghaf_sapling": {
+    "block_id": "natures_spirit:potted_ghaf_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_fence_gate": {
+    "block_id": "natures_spirit:sugi_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_sign": {
+    "block_id": "natures_spirit:joshua_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_marigold": {
+    "block_id": "natures_spirit:potted_marigold",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_chalk": {
+    "block_id": "natures_spirit:blue_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_pressure_plate": {
+    "block_id": "natures_spirit:coconut_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_trapdoor": {
+    "block_id": "natures_spirit:redwood_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_paper_lantern": {
+    "block_id": "natures_spirit:white_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cut_pink_sandstone_slab": {
+    "block_id": "natures_spirit:cut_pink_sandstone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_wall_hanging_sign": {
+    "block_id": "natures_spirit:willow_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_sapling": {
+    "block_id": "natures_spirit:mahogany_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin_stairs": {
+    "block_id": "natures_spirit:red_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_log": {
+    "block_id": "natures_spirit:fir_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_wall_hanging_sign": {
+    "block_id": "natures_spirit:maple_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cut_pink_sandstone": {
+    "block_id": "natures_spirit:cut_pink_sandstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_aspen_sapling": {
+    "block_id": "natures_spirit:potted_aspen_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_vines": {
+    "block_id": "natures_spirit:willow_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_fence_gate": {
+    "block_id": "natures_spirit:redwood_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_sign": {
+    "block_id": "natures_spirit:cypress_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_leaves": {
+    "block_id": "natures_spirit:cedar_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_sapling": {
+    "block_id": "natures_spirit:olive_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:xeric_thatch_carpet": {
+    "block_id": "natures_spirit:xeric_thatch_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_leaves": {
+    "block_id": "natures_spirit:cypress_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin_slab": {
+    "block_id": "natures_spirit:lime_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin_brick_slab": {
+    "block_id": "natures_spirit:gray_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_trapdoor": {
+    "block_id": "natures_spirit:aspen_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_stairs": {
+    "block_id": "natures_spirit:chert_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin_slab": {
+    "block_id": "natures_spirit:purple_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_leaves": {
+    "block_id": "natures_spirit:aspen_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:frosty_fir_leaves": {
+    "block_id": "natures_spirit:frosty_fir_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:small_calcite_bud": {
+    "block_id": "natures_spirit:small_calcite_bud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_cobbled_travertine": {
+    "block_id": "natures_spirit:mossy_cobbled_travertine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_paper_lantern": {
+    "block_id": "natures_spirit:lime_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_sapling": {
+    "block_id": "natures_spirit:aspen_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_trapdoor": {
+    "block_id": "natures_spirit:coconut_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin_slab": {
+    "block_id": "natures_spirit:brown_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_door": {
+    "block_id": "natures_spirit:paper_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_wisteria_log": {
+    "block_id": "natures_spirit:stripped_wisteria_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_chalk_stairs": {
+    "block_id": "natures_spirit:brown_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin_brick_slab": {
+    "block_id": "natures_spirit:blue_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_chalk": {
+    "block_id": "natures_spirit:cyan_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin": {
+    "block_id": "natures_spirit:blue_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blooming_paper_panel": {
+    "block_id": "natures_spirit:blooming_paper_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_stairs": {
+    "block_id": "natures_spirit:maple_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_chalk": {
+    "block_id": "natures_spirit:black_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_chert_slab": {
+    "block_id": "natures_spirit:polished_chert_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_planks": {
+    "block_id": "natures_spirit:sugi_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_cedar_wood": {
+    "block_id": "natures_spirit:stripped_cedar_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cheese_block": {
+    "block_id": "natures_spirit:cheese_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_cobbled_travertine_wall": {
+    "block_id": "natures_spirit:mossy_cobbled_travertine_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_copper_ore": {
+    "block_id": "natures_spirit:chert_copper_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin_stairs": {
+    "block_id": "natures_spirit:light_blue_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_iris": {
+    "block_id": "natures_spirit:blue_iris",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_hanging_sign": {
+    "block_id": "natures_spirit:maple_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_button": {
+    "block_id": "natures_spirit:joshua_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_blue_iris": {
+    "block_id": "natures_spirit:potted_blue_iris",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_bulbs": {
+    "block_id": "natures_spirit:blue_bulbs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin": {
+    "block_id": "natures_spirit:white_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_paper_lantern": {
+    "block_id": "natures_spirit:magenta_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_wall_hanging_sign": {
+    "block_id": "natures_spirit:redwood_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_leaves": {
+    "block_id": "natures_spirit:olive_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:red_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_sapling": {
+    "block_id": "natures_spirit:willow_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_trapdoor": {
+    "block_id": "natures_spirit:olive_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:drowsy_wall_succulent": {
+    "block_id": "natures_spirit:drowsy_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_heather": {
+    "block_id": "natures_spirit:white_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:part_purple_wisteria_leaves": {
+    "block_id": "natures_spirit:part_purple_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin": {
+    "block_id": "natures_spirit:magenta_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:shiitake_mushroom_block": {
+    "block_id": "natures_spirit:shiitake_mushroom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_frigid_grass": {
+    "block_id": "natures_spirit:potted_frigid_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_button": {
+    "block_id": "natures_spirit:mahogany_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sage_succulent": {
+    "block_id": "natures_spirit:sage_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:helvola": {
+    "block_id": "natures_spirit:helvola",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_mosaic_slab": {
+    "block_id": "natures_spirit:sugi_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_sign": {
+    "block_id": "natures_spirit:fir_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin_brick_stairs": {
+    "block_id": "natures_spirit:kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin": {
+    "block_id": "natures_spirit:green_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_thatch_slab": {
+    "block_id": "natures_spirit:coconut_thatch_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_planks": {
+    "block_id": "natures_spirit:aspen_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_wall_sign": {
+    "block_id": "natures_spirit:joshua_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_yellow_maple_sapling": {
+    "block_id": "natures_spirit:potted_yellow_maple_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_button": {
+    "block_id": "natures_spirit:ghaf_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_willow_log": {
+    "block_id": "natures_spirit:stripped_willow_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_tile_stairs": {
+    "block_id": "natures_spirit:chert_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_brick_stairs": {
+    "block_id": "natures_spirit:chert_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_slab": {
+    "block_id": "natures_spirit:maple_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_door": {
+    "block_id": "natures_spirit:olive_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_mosaic_stairs": {
+    "block_id": "natures_spirit:coconut_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_redwood_sapling": {
+    "block_id": "natures_spirit:potted_redwood_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_sapling": {
+    "block_id": "natures_spirit:cypress_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_fence": {
+    "block_id": "natures_spirit:olive_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_fence_gate": {
+    "block_id": "natures_spirit:wisteria_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin_brick_slab": {
+    "block_id": "natures_spirit:orange_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_sign": {
+    "block_id": "natures_spirit:mahogany_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin_bricks": {
+    "block_id": "natures_spirit:purple_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin_bricks": {
+    "block_id": "natures_spirit:brown_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_wisteria_vines_plant": {
+    "block_id": "natures_spirit:purple_wisteria_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ruby_blossoms": {
+    "block_id": "natures_spirit:ruby_blossoms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_trapdoor": {
+    "block_id": "natures_spirit:willow_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lush_fern": {
+    "block_id": "natures_spirit:lush_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lotus_flower": {
+    "block_id": "natures_spirit:lotus_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_wood": {
+    "block_id": "natures_spirit:larch_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_maple_log": {
+    "block_id": "natures_spirit:stripped_maple_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_sign": {
+    "block_id": "natures_spirit:cedar_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_chalk_slab": {
+    "block_id": "natures_spirit:orange_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_fence": {
+    "block_id": "natures_spirit:palo_verde_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_pressure_plate": {
+    "block_id": "natures_spirit:maple_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_chalk_stairs": {
+    "block_id": "natures_spirit:cyan_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tiger_lily": {
+    "block_id": "natures_spirit:tiger_lily",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin": {
+    "block_id": "natures_spirit:yellow_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin_bricks": {
+    "block_id": "natures_spirit:gray_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_ornate_succulent": {
+    "block_id": "natures_spirit:potted_ornate_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin_slab": {
+    "block_id": "natures_spirit:kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_chalk_stairs": {
+    "block_id": "natures_spirit:magenta_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_planks": {
+    "block_id": "natures_spirit:palo_verde_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_ruby_blossoms": {
+    "block_id": "natures_spirit:potted_ruby_blossoms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_aspen_log": {
+    "block_id": "natures_spirit:stripped_aspen_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_wood": {
+    "block_id": "natures_spirit:ghaf_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_joshua_log": {
+    "block_id": "natures_spirit:stripped_joshua_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin_bricks": {
+    "block_id": "natures_spirit:orange_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_stairs": {
+    "block_id": "natures_spirit:aspen_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_sign": {
+    "block_id": "natures_spirit:ghaf_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_hanging_sign": {
+    "block_id": "natures_spirit:saxaul_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:anemone": {
+    "block_id": "natures_spirit:anemone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_door": {
+    "block_id": "natures_spirit:aspen_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_slab": {
+    "block_id": "natures_spirit:joshua_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_fence_gate": {
+    "block_id": "natures_spirit:joshua_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_stairs": {
+    "block_id": "natures_spirit:redwood_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_stairs": {
+    "block_id": "natures_spirit:saxaul_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_paper_lantern": {
+    "block_id": "natures_spirit:light_blue_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_chalk": {
+    "block_id": "natures_spirit:pink_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_door": {
+    "block_id": "natures_spirit:coconut_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:oat_grass": {
+    "block_id": "natures_spirit:oat_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin_slab": {
+    "block_id": "natures_spirit:blue_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_planks": {
+    "block_id": "natures_spirit:fir_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_fence_gate": {
+    "block_id": "natures_spirit:saxaul_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_aureate_succulent": {
+    "block_id": "natures_spirit:potted_aureate_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_log": {
+    "block_id": "natures_spirit:sugi_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_hanging_sign": {
+    "block_id": "natures_spirit:palo_verde_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin": {
+    "block_id": "natures_spirit:black_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_wall_sign": {
+    "block_id": "natures_spirit:larch_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_wisteria_vines_plant": {
+    "block_id": "natures_spirit:blue_wisteria_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_redwood_log": {
+    "block_id": "natures_spirit:stripped_redwood_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_kaolin_brick_slab": {
+    "block_id": "natures_spirit:white_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_fir_sapling": {
+    "block_id": "natures_spirit:potted_fir_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_mosaic_stairs": {
+    "block_id": "natures_spirit:joshua_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin_brick_slab": {
+    "block_id": "natures_spirit:light_blue_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_white_heather": {
+    "block_id": "natures_spirit:potted_white_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_wall_sign": {
+    "block_id": "natures_spirit:fir_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_bricks": {
+    "block_id": "natures_spirit:travertine_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_wisteria_vines": {
+    "block_id": "natures_spirit:white_wisteria_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_sprout": {
+    "block_id": "natures_spirit:coconut_sprout",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_slab": {
+    "block_id": "natures_spirit:larch_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_tile_slab": {
+    "block_id": "natures_spirit:chert_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_planks": {
+    "block_id": "natures_spirit:olive_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:frigid_grass": {
+    "block_id": "natures_spirit:frigid_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_fence_gate": {
+    "block_id": "natures_spirit:coconut_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin_stairs": {
+    "block_id": "natures_spirit:lime_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sandy_soil": {
+    "block_id": "natures_spirit:sandy_soil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_sage_succulent": {
+    "block_id": "natures_spirit:potted_sage_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:regal_succulent": {
+    "block_id": "natures_spirit:regal_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_brick_stairs": {
+    "block_id": "natures_spirit:travertine_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin": {
+    "block_id": "natures_spirit:red_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_wisteria_vines": {
+    "block_id": "natures_spirit:blue_wisteria_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_pressure_plate": {
+    "block_id": "natures_spirit:palo_verde_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_chert_stairs": {
+    "block_id": "natures_spirit:polished_chert_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_button": {
+    "block_id": "natures_spirit:cedar_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_wisteria_leaves": {
+    "block_id": "natures_spirit:blue_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_door": {
+    "block_id": "natures_spirit:wisteria_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:frosty_redwood_leaves": {
+    "block_id": "natures_spirit:frosty_redwood_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin_bricks": {
+    "block_id": "natures_spirit:pink_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_sign": {
+    "block_id": "natures_spirit:willow_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin": {
+    "block_id": "natures_spirit:light_blue_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_iris": {
+    "block_id": "natures_spirit:black_iris",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_sedge_grass": {
+    "block_id": "natures_spirit:potted_sedge_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_brick_slab": {
+    "block_id": "natures_spirit:travertine_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_heather": {
+    "block_id": "natures_spirit:purple_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_wisteria_leaves": {
+    "block_id": "natures_spirit:pink_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_chalk_stairs": {
+    "block_id": "natures_spirit:red_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_hanging_sign": {
+    "block_id": "natures_spirit:sugi_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_wood": {
+    "block_id": "natures_spirit:willow_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_sugi_wood": {
+    "block_id": "natures_spirit:stripped_sugi_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_sign": {
+    "block_id": "natures_spirit:redwood_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_heather": {
+    "block_id": "natures_spirit:red_heather",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_button": {
+    "block_id": "natures_spirit:willow_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_thatch_carpet": {
+    "block_id": "natures_spirit:coconut_thatch_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_button": {
+    "block_id": "natures_spirit:cypress_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin_stairs": {
+    "block_id": "natures_spirit:kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_chert_wall": {
+    "block_id": "natures_spirit:polished_chert_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_redwood_wood": {
+    "block_id": "natures_spirit:stripped_redwood_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_chalk_slab": {
+    "block_id": "natures_spirit:cyan_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_cobbled_travertine_slab": {
+    "block_id": "natures_spirit:mossy_cobbled_travertine_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin_slab": {
+    "block_id": "natures_spirit:light_blue_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_wisteria_leaves": {
+    "block_id": "natures_spirit:purple_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_leaves": {
+    "block_id": "natures_spirit:fir_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_maple_leaves": {
+    "block_id": "natures_spirit:red_maple_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_door": {
+    "block_id": "natures_spirit:palo_verde_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_lantern": {
+    "block_id": "natures_spirit:paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin_bricks": {
+    "block_id": "natures_spirit:cyan_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin_stairs": {
+    "block_id": "natures_spirit:magenta_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_log": {
+    "block_id": "natures_spirit:ghaf_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cobbled_travertine_slab": {
+    "block_id": "natures_spirit:cobbled_travertine_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_mahogany_sapling": {
+    "block_id": "natures_spirit:potted_mahogany_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_wood": {
+    "block_id": "natures_spirit:mahogany_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:framed_paper_trapdoor": {
+    "block_id": "natures_spirit:framed_paper_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:xeric_thatch_stairs": {
+    "block_id": "natures_spirit:xeric_thatch_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:milk_cauldron": {
+    "block_id": "natures_spirit:milk_cauldron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_mosaic_slab": {
+    "block_id": "natures_spirit:wisteria_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin_brick_slab": {
+    "block_id": "natures_spirit:kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gardenia": {
+    "block_id": "natures_spirit:gardenia",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_wood": {
+    "block_id": "natures_spirit:cedar_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_sapling": {
+    "block_id": "natures_spirit:ghaf_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_chalk_slab": {
+    "block_id": "natures_spirit:gray_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:lime_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_chalk_slab": {
+    "block_id": "natures_spirit:pink_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:azolla": {
+    "block_id": "natures_spirit:azolla",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_wall_sign": {
+    "block_id": "natures_spirit:cypress_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_brick_slab": {
+    "block_id": "natures_spirit:chert_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_wall_sign": {
+    "block_id": "natures_spirit:maple_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_log": {
+    "block_id": "natures_spirit:wisteria_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_fence": {
+    "block_id": "natures_spirit:wisteria_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_palo_verde_sapling": {
+    "block_id": "natures_spirit:potted_palo_verde_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_travertine": {
+    "block_id": "natures_spirit:polished_travertine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_olive_log": {
+    "block_id": "natures_spirit:stripped_olive_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_wall_sign": {
+    "block_id": "natures_spirit:mahogany_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_leaves": {
+    "block_id": "natures_spirit:palo_verde_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_mosaic": {
+    "block_id": "natures_spirit:joshua_mosaic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_bearberries": {
+    "block_id": "natures_spirit:red_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_sign": {
+    "block_id": "natures_spirit:saxaul_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin_stairs": {
+    "block_id": "natures_spirit:yellow_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_slab": {
+    "block_id": "natures_spirit:sugi_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_door": {
+    "block_id": "natures_spirit:cypress_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_sapling": {
+    "block_id": "natures_spirit:redwood_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_sign": {
+    "block_id": "natures_spirit:maple_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_wall_hanging_sign": {
+    "block_id": "natures_spirit:mahogany_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_foamy_succulent": {
+    "block_id": "natures_spirit:potted_foamy_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_chalk": {
+    "block_id": "natures_spirit:brown_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_fence": {
+    "block_id": "natures_spirit:mahogany_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_cobbled_travertine_stairs": {
+    "block_id": "natures_spirit:mossy_cobbled_travertine_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cobbled_travertine": {
+    "block_id": "natures_spirit:cobbled_travertine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_wisteria_vines": {
+    "block_id": "natures_spirit:pink_wisteria_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_larch_wood": {
+    "block_id": "natures_spirit:stripped_larch_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_mosaic": {
+    "block_id": "natures_spirit:coconut_mosaic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_log": {
+    "block_id": "natures_spirit:joshua_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_stairs": {
+    "block_id": "natures_spirit:larch_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_fence": {
+    "block_id": "natures_spirit:fir_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin_stairs": {
+    "block_id": "natures_spirit:green_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:imperial_wall_succulent": {
+    "block_id": "natures_spirit:imperial_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_block": {
+    "block_id": "natures_spirit:paper_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_log": {
+    "block_id": "natures_spirit:coconut_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_fence_gate": {
+    "block_id": "natures_spirit:palo_verde_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_protea": {
+    "block_id": "natures_spirit:potted_protea",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_wall_hanging_sign": {
+    "block_id": "natures_spirit:coconut_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:xeric_thatch": {
+    "block_id": "natures_spirit:xeric_thatch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_log": {
+    "block_id": "natures_spirit:redwood_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_sapling": {
+    "block_id": "natures_spirit:sugi_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_chalk": {
+    "block_id": "natures_spirit:green_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_hanging_sign": {
+    "block_id": "natures_spirit:ghaf_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_joshua_sapling": {
+    "block_id": "natures_spirit:potted_joshua_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_mosaic_slab": {
+    "block_id": "natures_spirit:mahogany_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut": {
+    "block_id": "natures_spirit:coconut",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sedge_grass": {
+    "block_id": "natures_spirit:sedge_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_travertine_brick_slab": {
+    "block_id": "natures_spirit:mossy_travertine_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_wall_hanging_sign": {
+    "block_id": "natures_spirit:joshua_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_aspen_wood": {
+    "block_id": "natures_spirit:stripped_aspen_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_stairs": {
+    "block_id": "natures_spirit:mahogany_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_beach_grass": {
+    "block_id": "natures_spirit:tall_beach_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aureate_wall_succulent": {
+    "block_id": "natures_spirit:aureate_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_chalk_slab": {
+    "block_id": "natures_spirit:brown_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:gray_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin_stairs": {
+    "block_id": "natures_spirit:light_gray_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_wall_hanging_sign": {
+    "block_id": "natures_spirit:ghaf_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:yellow_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cracked_chert_bricks": {
+    "block_id": "natures_spirit:cracked_chert_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert": {
+    "block_id": "natures_spirit:chert",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_wisteria_vines_plant": {
+    "block_id": "natures_spirit:white_wisteria_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_wood": {
+    "block_id": "natures_spirit:redwood_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_fir_log": {
+    "block_id": "natures_spirit:stripped_fir_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_hanging_sign": {
+    "block_id": "natures_spirit:cypress_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_fence": {
+    "block_id": "natures_spirit:cypress_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chiseled_chert": {
+    "block_id": "natures_spirit:chiseled_chert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_paper_lantern": {
+    "block_id": "natures_spirit:green_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_chalk_slab": {
+    "block_id": "natures_spirit:green_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_blue_wisteria_sapling": {
+    "block_id": "natures_spirit:potted_blue_wisteria_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_chalk": {
+    "block_id": "natures_spirit:purple_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_scorched_grass": {
+    "block_id": "natures_spirit:potted_scorched_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin": {
+    "block_id": "natures_spirit:light_gray_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:drowsy_succulent": {
+    "block_id": "natures_spirit:drowsy_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_wall_sign": {
+    "block_id": "natures_spirit:ghaf_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lotus_stem": {
+    "block_id": "natures_spirit:lotus_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:silverbush": {
+    "block_id": "natures_spirit:silverbush",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:smooth_pink_sandstone": {
+    "block_id": "natures_spirit:smooth_pink_sandstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_mosaic": {
+    "block_id": "natures_spirit:mahogany_mosaic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_sandstone": {
+    "block_id": "natures_spirit:pink_sandstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:snapdragon": {
+    "block_id": "natures_spirit:snapdragon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_stairs": {
+    "block_id": "natures_spirit:sugi_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_log": {
+    "block_id": "natures_spirit:maple_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:evergreen_thatch": {
+    "block_id": "natures_spirit:evergreen_thatch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_wisteria_wood": {
+    "block_id": "natures_spirit:stripped_wisteria_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_pressure_plate": {
+    "block_id": "natures_spirit:redwood_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_trapdoor": {
+    "block_id": "natures_spirit:fir_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_chalk_stairs": {
+    "block_id": "natures_spirit:white_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ornate_succulent": {
+    "block_id": "natures_spirit:ornate_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_wall_sign": {
+    "block_id": "natures_spirit:sugi_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_pressure_plate": {
+    "block_id": "natures_spirit:sugi_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:blue_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:kaolin_bricks": {
+    "block_id": "natures_spirit:kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_purple_bearberries": {
+    "block_id": "natures_spirit:potted_purple_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_door": {
+    "block_id": "natures_spirit:mahogany_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_mosaic_slab": {
+    "block_id": "natures_spirit:coconut_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_door": {
+    "block_id": "natures_spirit:cedar_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_mosaic_stairs": {
+    "block_id": "natures_spirit:sugi_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_gold_ore": {
+    "block_id": "natures_spirit:chert_gold_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:large_lush_fern": {
+    "block_id": "natures_spirit:large_lush_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine": {
+    "block_id": "natures_spirit:travertine",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_log": {
+    "block_id": "natures_spirit:willow_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_branch": {
+    "block_id": "natures_spirit:olive_branch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_mosaic": {
+    "block_id": "natures_spirit:wisteria_mosaic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_paper_lantern": {
+    "block_id": "natures_spirit:yellow_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_chalk": {
+    "block_id": "natures_spirit:gray_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:melic_grass": {
+    "block_id": "natures_spirit:melic_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_slab": {
+    "block_id": "natures_spirit:redwood_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_sign": {
+    "block_id": "natures_spirit:coconut_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_coconut_log": {
+    "block_id": "natures_spirit:stripped_coconut_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_slab": {
+    "block_id": "natures_spirit:olive_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_trapdoor": {
+    "block_id": "natures_spirit:sugi_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_wood": {
+    "block_id": "natures_spirit:maple_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_wisteria_vines_plant": {
+    "block_id": "natures_spirit:pink_wisteria_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_red_bearberries": {
+    "block_id": "natures_spirit:potted_red_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_wall_sign": {
+    "block_id": "natures_spirit:aspen_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_sign": {
+    "block_id": "natures_spirit:wisteria_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_chalk_slab": {
+    "block_id": "natures_spirit:blue_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_imperial_succulent": {
+    "block_id": "natures_spirit:potted_imperial_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_paper_lantern": {
+    "block_id": "natures_spirit:blue_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lavender": {
+    "block_id": "natures_spirit:lavender",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_mahogany_wood": {
+    "block_id": "natures_spirit:stripped_mahogany_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_trapdoor": {
+    "block_id": "natures_spirit:cypress_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_fence": {
+    "block_id": "natures_spirit:redwood_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin_bricks": {
+    "block_id": "natures_spirit:blue_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sage_wall_succulent": {
+    "block_id": "natures_spirit:sage_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:alluaudia": {
+    "block_id": "natures_spirit:alluaudia",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_alluaudia_bundle": {
+    "block_id": "natures_spirit:stripped_alluaudia_bundle",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_hanging_sign": {
+    "block_id": "natures_spirit:fir_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_sign": {
+    "block_id": "natures_spirit:aspen_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:flaxen_fern": {
+    "block_id": "natures_spirit:flaxen_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blooming_paper_trapdoor": {
+    "block_id": "natures_spirit:blooming_paper_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_hanging_sign": {
+    "block_id": "natures_spirit:redwood_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_stairs": {
+    "block_id": "natures_spirit:wisteria_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:part_blue_wisteria_leaves": {
+    "block_id": "natures_spirit:part_blue_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_pressure_plate": {
+    "block_id": "natures_spirit:willow_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_saxaul_sapling": {
+    "block_id": "natures_spirit:potted_saxaul_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin": {
+    "block_id": "natures_spirit:orange_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_hanging_sign": {
+    "block_id": "natures_spirit:cedar_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_trapdoor": {
+    "block_id": "natures_spirit:maple_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_leaves": {
+    "block_id": "natures_spirit:willow_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_pressure_plate": {
+    "block_id": "natures_spirit:cedar_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin": {
+    "block_id": "natures_spirit:cyan_kaolin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_hibiscus": {
+    "block_id": "natures_spirit:potted_hibiscus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_hanging_sign": {
+    "block_id": "natures_spirit:coconut_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_chalk": {
+    "block_id": "natures_spirit:yellow_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_leaves": {
+    "block_id": "natures_spirit:sugi_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pizza_block": {
+    "block_id": "natures_spirit:pizza_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_stairs": {
+    "block_id": "natures_spirit:coconut_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_black_iris": {
+    "block_id": "natures_spirit:potted_black_iris",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_wisteria_sapling": {
+    "block_id": "natures_spirit:purple_wisteria_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_aspen_leaves": {
+    "block_id": "natures_spirit:yellow_aspen_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_chalk_stairs": {
+    "block_id": "natures_spirit:blue_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chiseled_pink_sandstone": {
+    "block_id": "natures_spirit:chiseled_pink_sandstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_regal_succulent": {
+    "block_id": "natures_spirit:potted_regal_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_chalk": {
+    "block_id": "natures_spirit:light_gray_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:alluaudia_bundle": {
+    "block_id": "natures_spirit:alluaudia_bundle",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_paper_lantern": {
+    "block_id": "natures_spirit:light_gray_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cheese_cauldron": {
+    "block_id": "natures_spirit:cheese_cauldron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_wood": {
+    "block_id": "natures_spirit:sugi_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_planks": {
+    "block_id": "natures_spirit:saxaul_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin_slab": {
+    "block_id": "natures_spirit:red_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_maple_leaves": {
+    "block_id": "natures_spirit:yellow_maple_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin_slab": {
+    "block_id": "natures_spirit:black_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cobbled_travertine_stairs": {
+    "block_id": "natures_spirit:cobbled_travertine_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_planks": {
+    "block_id": "natures_spirit:redwood_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:begonia": {
+    "block_id": "natures_spirit:begonia",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_door": {
+    "block_id": "natures_spirit:saxaul_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin_brick_slab": {
+    "block_id": "natures_spirit:purple_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_paper_lantern": {
+    "block_id": "natures_spirit:red_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_maple_sapling": {
+    "block_id": "natures_spirit:red_maple_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_planks": {
+    "block_id": "natures_spirit:maple_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_chalk_slab": {
+    "block_id": "natures_spirit:black_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_orange_maple_sapling": {
+    "block_id": "natures_spirit:potted_orange_maple_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin_bricks": {
+    "block_id": "natures_spirit:green_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_chalk_stairs": {
+    "block_id": "natures_spirit:pink_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_tile_stairs": {
+    "block_id": "natures_spirit:travertine_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_scorched_grass": {
+    "block_id": "natures_spirit:tall_scorched_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_thatch_stairs": {
+    "block_id": "natures_spirit:coconut_thatch_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:framed_paper_door": {
+    "block_id": "natures_spirit:framed_paper_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blooming_paper_block": {
+    "block_id": "natures_spirit:blooming_paper_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_fir_wood": {
+    "block_id": "natures_spirit:stripped_fir_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_fence_gate": {
+    "block_id": "natures_spirit:cedar_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin_bricks": {
+    "block_id": "natures_spirit:yellow_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:bluebell": {
+    "block_id": "natures_spirit:bluebell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_sign": {
+    "block_id": "natures_spirit:larch_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_button": {
+    "block_id": "natures_spirit:fir_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_chalk_slab": {
+    "block_id": "natures_spirit:purple_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_cypress_sapling": {
+    "block_id": "natures_spirit:potted_cypress_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_pressure_plate": {
+    "block_id": "natures_spirit:cypress_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_diamond_ore": {
+    "block_id": "natures_spirit:chert_diamond_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_mosaic_slab": {
+    "block_id": "natures_spirit:joshua_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_log": {
+    "block_id": "natures_spirit:cedar_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_hanging_sign": {
+    "block_id": "natures_spirit:aspen_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_door": {
+    "block_id": "natures_spirit:ghaf_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_slab": {
+    "block_id": "natures_spirit:willow_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_fence": {
+    "block_id": "natures_spirit:larch_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_melic_grass": {
+    "block_id": "natures_spirit:potted_melic_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_polypore": {
+    "block_id": "natures_spirit:gray_polypore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_wood": {
+    "block_id": "natures_spirit:fir_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_fence": {
+    "block_id": "natures_spirit:coconut_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_trapdoor": {
+    "block_id": "natures_spirit:palo_verde_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_palo_verde_log": {
+    "block_id": "natures_spirit:stripped_palo_verde_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_wall_sign": {
+    "block_id": "natures_spirit:cedar_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_button": {
+    "block_id": "natures_spirit:larch_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin_bricks": {
+    "block_id": "natures_spirit:lime_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_pressure_plate": {
+    "block_id": "natures_spirit:wisteria_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_polypore_block": {
+    "block_id": "natures_spirit:gray_polypore_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_fence": {
+    "block_id": "natures_spirit:maple_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_leaves": {
+    "block_id": "natures_spirit:wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_wood": {
+    "block_id": "natures_spirit:aspen_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_leaves": {
+    "block_id": "natures_spirit:saxaul_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_wood": {
+    "block_id": "natures_spirit:coconut_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_travertine_wall": {
+    "block_id": "natures_spirit:polished_travertine_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_mosaic_stairs": {
+    "block_id": "natures_spirit:wisteria_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:magenta_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_hanging_sign": {
+    "block_id": "natures_spirit:wisteria_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_maple_leaves": {
+    "block_id": "natures_spirit:orange_maple_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_bluebell": {
+    "block_id": "natures_spirit:potted_bluebell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_fence_gate": {
+    "block_id": "natures_spirit:maple_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_saxaul_log": {
+    "block_id": "natures_spirit:stripped_saxaul_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_button": {
+    "block_id": "natures_spirit:sugi_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_tile_wall": {
+    "block_id": "natures_spirit:travertine_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_green_bearberries": {
+    "block_id": "natures_spirit:potted_green_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_kaolin_stairs": {
+    "block_id": "natures_spirit:orange_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_door": {
+    "block_id": "natures_spirit:maple_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_log": {
+    "block_id": "natures_spirit:olive_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:part_pink_wisteria_leaves": {
+    "block_id": "natures_spirit:part_pink_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_planks": {
+    "block_id": "natures_spirit:larch_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_chalk_slab": {
+    "block_id": "natures_spirit:magenta_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_log": {
+    "block_id": "natures_spirit:palo_verde_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blue_kaolin_stairs": {
+    "block_id": "natures_spirit:blue_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_chalk": {
+    "block_id": "natures_spirit:white_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_maple_sapling": {
+    "block_id": "natures_spirit:orange_maple_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:blooming_paper_door": {
+    "block_id": "natures_spirit:blooming_paper_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_lush_fern": {
+    "block_id": "natures_spirit:potted_lush_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_chalk_slab": {
+    "block_id": "natures_spirit:yellow_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_pressure_plate": {
+    "block_id": "natures_spirit:saxaul_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_pressure_plate": {
+    "block_id": "natures_spirit:olive_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin_brick_slab": {
+    "block_id": "natures_spirit:magenta_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_wall_hanging_sign": {
+    "block_id": "natures_spirit:paper_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_stairs": {
+    "block_id": "natures_spirit:travertine_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_chalk_stairs": {
+    "block_id": "natures_spirit:yellow_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:tall_frigid_grass": {
+    "block_id": "natures_spirit:tall_frigid_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_fence_gate": {
+    "block_id": "natures_spirit:willow_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_wood": {
+    "block_id": "natures_spirit:wisteria_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin_brick_slab": {
+    "block_id": "natures_spirit:red_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_kaolin_brick_slab": {
+    "block_id": "natures_spirit:lime_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_coconut_wood": {
+    "block_id": "natures_spirit:stripped_coconut_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_hanging_sign": {
+    "block_id": "natures_spirit:olive_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_wall_hanging_sign": {
+    "block_id": "natures_spirit:sugi_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chiseled_travertine": {
+    "block_id": "natures_spirit:chiseled_travertine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_kaolin_brick_slab": {
+    "block_id": "natures_spirit:pink_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_sapling": {
+    "block_id": "natures_spirit:joshua_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_paper_lantern": {
+    "block_id": "natures_spirit:black_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_pressure_plate": {
+    "block_id": "natures_spirit:ghaf_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_leaves": {
+    "block_id": "natures_spirit:coconut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:white_wisteria_leaves": {
+    "block_id": "natures_spirit:white_wisteria_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_sapling": {
+    "block_id": "natures_spirit:saxaul_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_pressure_plate": {
+    "block_id": "natures_spirit:larch_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_door": {
+    "block_id": "natures_spirit:willow_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_emerald_ore": {
+    "block_id": "natures_spirit:chert_emerald_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_pressure_plate": {
+    "block_id": "natures_spirit:fir_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_fence": {
+    "block_id": "natures_spirit:cedar_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:large_flaxen_fern": {
+    "block_id": "natures_spirit:large_flaxen_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_purple_wisteria_sapling": {
+    "block_id": "natures_spirit:potted_purple_wisteria_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_chalk_stairs": {
+    "block_id": "natures_spirit:black_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_paper_lantern": {
+    "block_id": "natures_spirit:cyan_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:black_kaolin_bricks": {
+    "block_id": "natures_spirit:black_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_wall_hanging_sign": {
+    "block_id": "natures_spirit:wisteria_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_chalk_stairs": {
+    "block_id": "natures_spirit:purple_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_sand": {
+    "block_id": "natures_spirit:pink_sand",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:red_kaolin_bricks": {
+    "block_id": "natures_spirit:red_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_drowsy_succulent": {
+    "block_id": "natures_spirit:potted_drowsy_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_sapling": {
+    "block_id": "natures_spirit:larch_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_sugi_log": {
+    "block_id": "natures_spirit:stripped_sugi_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin_bricks": {
+    "block_id": "natures_spirit:magenta_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:polished_travertine_stairs": {
+    "block_id": "natures_spirit:polished_travertine_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_planks": {
+    "block_id": "natures_spirit:joshua_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_trapdoor": {
+    "block_id": "natures_spirit:saxaul_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_flaxen_fern": {
+    "block_id": "natures_spirit:potted_flaxen_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:light_blue_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin_slab": {
+    "block_id": "natures_spirit:light_gray_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_fence_gate": {
+    "block_id": "natures_spirit:fir_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_leaves": {
+    "block_id": "natures_spirit:mahogany_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_kaolin_slab": {
+    "block_id": "natures_spirit:magenta_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_pressure_plate": {
+    "block_id": "natures_spirit:mahogany_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:evergreen_thatch_slab": {
+    "block_id": "natures_spirit:evergreen_thatch_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_sandstone_slab": {
+    "block_id": "natures_spirit:pink_sandstone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin_stairs": {
+    "block_id": "natures_spirit:cyan_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_fence": {
+    "block_id": "natures_spirit:joshua_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_mahogany_log": {
+    "block_id": "natures_spirit:stripped_mahogany_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_fence_gate": {
+    "block_id": "natures_spirit:larch_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_slab": {
+    "block_id": "natures_spirit:palo_verde_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_planks": {
+    "block_id": "natures_spirit:cypress_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:regal_wall_succulent": {
+    "block_id": "natures_spirit:regal_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ornate_wall_succulent": {
+    "block_id": "natures_spirit:ornate_wall_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:palo_verde_sapling": {
+    "block_id": "natures_spirit:palo_verde_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_larch_sapling": {
+    "block_id": "natures_spirit:potted_larch_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_sign": {
+    "block_id": "natures_spirit:sugi_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mossy_travertine_brick_wall": {
+    "block_id": "natures_spirit:mossy_travertine_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:travertine_slab": {
+    "block_id": "natures_spirit:travertine_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_wall_sign": {
+    "block_id": "natures_spirit:saxaul_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_planks": {
+    "block_id": "natures_spirit:cedar_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin_brick_slab": {
+    "block_id": "natures_spirit:green_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_joshua_bundle": {
+    "block_id": "natures_spirit:stripped_joshua_bundle",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:sugi_mosaic": {
+    "block_id": "natures_spirit:sugi_mosaic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_planks": {
+    "block_id": "natures_spirit:coconut_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:magenta_chalk": {
+    "block_id": "natures_spirit:magenta_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_slab": {
+    "block_id": "natures_spirit:fir_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_button": {
+    "block_id": "natures_spirit:olive_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_sugi_sapling": {
+    "block_id": "natures_spirit:potted_sugi_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin_brick_slab": {
+    "block_id": "natures_spirit:yellow_kaolin_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cattail": {
+    "block_id": "natures_spirit:cattail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_paper_lantern": {
+    "block_id": "natures_spirit:orange_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:framed_paper_panel": {
+    "block_id": "natures_spirit:framed_paper_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_wisteria_vines": {
+    "block_id": "natures_spirit:purple_wisteria_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_paper_lantern": {
+    "block_id": "natures_spirit:pink_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_fence": {
+    "block_id": "natures_spirit:aspen_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:large_calcite_bud": {
+    "block_id": "natures_spirit:large_calcite_bud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_kaolin_slab": {
+    "block_id": "natures_spirit:yellow_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_log": {
+    "block_id": "natures_spirit:mahogany_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:evergreen_thatch_stairs": {
+    "block_id": "natures_spirit:evergreen_thatch_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_palo_verde_wood": {
+    "block_id": "natures_spirit:stripped_palo_verde_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_kaolin_bricks": {
+    "block_id": "natures_spirit:light_blue_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_vines_plant": {
+    "block_id": "natures_spirit:willow_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_bearberries": {
+    "block_id": "natures_spirit:green_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:redwood_button": {
+    "block_id": "natures_spirit:redwood_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_wall_sign": {
+    "block_id": "natures_spirit:paper_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_stairs": {
+    "block_id": "natures_spirit:cypress_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_willow_wood": {
+    "block_id": "natures_spirit:stripped_willow_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_alluaudia": {
+    "block_id": "natures_spirit:stripped_alluaudia",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:coconut_wall_sign": {
+    "block_id": "natures_spirit:coconut_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_ghaf_log": {
+    "block_id": "natures_spirit:stripped_ghaf_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:carnation": {
+    "block_id": "natures_spirit:carnation",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:ghaf_planks": {
+    "block_id": "natures_spirit:ghaf_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:paper_hanging_sign": {
+    "block_id": "natures_spirit:paper_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:fir_sapling": {
+    "block_id": "natures_spirit:fir_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_slab": {
+    "block_id": "natures_spirit:cypress_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_log": {
+    "block_id": "natures_spirit:larch_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:chert_redstone_ore": {
+    "block_id": "natures_spirit:chert_redstone_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:olive_wood": {
+    "block_id": "natures_spirit:olive_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin_bricks": {
+    "block_id": "natures_spirit:light_gray_kaolin_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_trapdoor": {
+    "block_id": "natures_spirit:larch_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_trapdoor": {
+    "block_id": "natures_spirit:mahogany_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:aspen_button": {
+    "block_id": "natures_spirit:aspen_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cedar_stairs": {
+    "block_id": "natures_spirit:cedar_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:light_gray_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:orange_chalk": {
+    "block_id": "natures_spirit:orange_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:foamy_succulent": {
+    "block_id": "natures_spirit:foamy_succulent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_mosaic_stairs": {
+    "block_id": "natures_spirit:mahogany_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:hibiscus": {
+    "block_id": "natures_spirit:hibiscus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_trapdoor": {
+    "block_id": "natures_spirit:wisteria_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:pink_wisteria_sapling": {
+    "block_id": "natures_spirit:pink_wisteria_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:saxaul_wall_hanging_sign": {
+    "block_id": "natures_spirit:saxaul_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_kaolin_stairs": {
+    "block_id": "natures_spirit:purple_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:joshua_door": {
+    "block_id": "natures_spirit:joshua_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_maple_wood": {
+    "block_id": "natures_spirit:stripped_maple_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin_stairs": {
+    "block_id": "natures_spirit:gray_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_blue_chalk": {
+    "block_id": "natures_spirit:light_blue_chalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_kaolin_slab": {
+    "block_id": "natures_spirit:gray_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_dwarf_blossoms": {
+    "block_id": "natures_spirit:potted_dwarf_blossoms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_paper_lantern": {
+    "block_id": "natures_spirit:purple_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_kaolin_stairs": {
+    "block_id": "natures_spirit:brown_kaolin_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:smooth_pink_sandstone_stairs": {
+    "block_id": "natures_spirit:smooth_pink_sandstone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_planks": {
+    "block_id": "natures_spirit:wisteria_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:maple_button": {
+    "block_id": "natures_spirit:maple_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:potted_red_maple_sapling": {
+    "block_id": "natures_spirit:potted_red_maple_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cypress_wall_hanging_sign": {
+    "block_id": "natures_spirit:cypress_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:light_gray_chalk_slab": {
+    "block_id": "natures_spirit:light_gray_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:mahogany_planks": {
+    "block_id": "natures_spirit:mahogany_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:brown_paper_lantern": {
+    "block_id": "natures_spirit:brown_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_leaves": {
+    "block_id": "natures_spirit:larch_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:lime_chalk_slab": {
+    "block_id": "natures_spirit:lime_chalk_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:wisteria_wall_sign": {
+    "block_id": "natures_spirit:wisteria_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:cyan_kaolin_slab": {
+    "block_id": "natures_spirit:cyan_kaolin_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:scorched_grass": {
+    "block_id": "natures_spirit:scorched_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_paper_lantern": {
+    "block_id": "natures_spirit:gray_paper_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:willow_stairs": {
+    "block_id": "natures_spirit:willow_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:yellow_wildflower": {
+    "block_id": "natures_spirit:yellow_wildflower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:green_kaolin_brick_stairs": {
+    "block_id": "natures_spirit:green_kaolin_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:purple_bearberries": {
+    "block_id": "natures_spirit:purple_bearberries",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:gray_chalk_stairs": {
+    "block_id": "natures_spirit:gray_chalk_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:larch_door": {
+    "block_id": "natures_spirit:larch_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "natures_spirit:stripped_saxaul_wood": {
+    "block_id": "natures_spirit:stripped_saxaul_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

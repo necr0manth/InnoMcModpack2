@@ -1,0 +1,794 @@
+{
+  "darkerdepths:petrified_pressure_plate": {
+    "block_id": "darkerdepths:petrified_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_slab": {
+    "block_id": "darkerdepths:grimestone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:geyser": {
+    "block_id": "darkerdepths:geyser",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:arid_deepslate": {
+    "block_id": "darkerdepths:arid_deepslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom_block": {
+    "block_id": "darkerdepths:glowshroom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:mossy_sprouts": {
+    "block_id": "darkerdepths:mossy_sprouts",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_duskrock": {
+    "block_id": "darkerdepths:polished_duskrock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:porous_petrified_log": {
+    "block_id": "darkerdepths:porous_petrified_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone": {
+    "block_id": "darkerdepths:grimestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_bricks_stairs": {
+    "block_id": "darkerdepths:grimestone_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_button": {
+    "block_id": "darkerdepths:petrified_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_stairs": {
+    "block_id": "darkerdepths:petrified_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_bricks_vertical_slab": {
+    "block_id": "darkerdepths:darkslate_bricks_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_stairs": {
+    "block_id": "darkerdepths:aridrock_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:chiseled_darkslate_bricks": {
+    "block_id": "darkerdepths:chiseled_darkslate_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_bricks": {
+    "block_id": "darkerdepths:darkslate_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_grimestone_stairs": {
+    "block_id": "darkerdepths:polished_grimestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_bricks_slab": {
+    "block_id": "darkerdepths:darkslate_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_duskrock_vertical_slab": {
+    "block_id": "darkerdepths:polished_duskrock_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_wall": {
+    "block_id": "darkerdepths:aridrock_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom_stem": {
+    "block_id": "darkerdepths:glowshroom_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_bricks_wall": {
+    "block_id": "darkerdepths:aridrock_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:cracked_aridrock_bricks": {
+    "block_id": "darkerdepths:cracked_aridrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom_lamp": {
+    "block_id": "darkerdepths:glowshroom_lamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_grimestone": {
+    "block_id": "darkerdepths:polished_grimestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_log": {
+    "block_id": "darkerdepths:petrified_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_roots_plant": {
+    "block_id": "darkerdepths:petrified_roots_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate": {
+    "block_id": "darkerdepths:darkslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:ash_block": {
+    "block_id": "darkerdepths:ash_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_slab": {
+    "block_id": "darkerdepths:duskrock_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_vertical_slab": {
+    "block_id": "darkerdepths:darkslate_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:chiseled_grimestone_bricks": {
+    "block_id": "darkerdepths:chiseled_grimestone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:scorched_remains_block": {
+    "block_id": "darkerdepths:scorched_remains_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_door": {
+    "block_id": "darkerdepths:petrified_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_vertical_slab": {
+    "block_id": "darkerdepths:grimestone_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:amber_cluster": {
+    "block_id": "darkerdepths:amber_cluster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_duskrock_slab": {
+    "block_id": "darkerdepths:polished_duskrock_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:skull_wall": {
+    "block_id": "darkerdepths:skull_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_slab": {
+    "block_id": "darkerdepths:petrified_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_bricks": {
+    "block_id": "darkerdepths:grimestone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_pillar": {
+    "block_id": "darkerdepths:grimestone_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_duskrock_stairs": {
+    "block_id": "darkerdepths:polished_duskrock_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom_lantern": {
+    "block_id": "darkerdepths:glowshroom_lantern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_aridrock_vertical_slab": {
+    "block_id": "darkerdepths:polished_aridrock_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:living_crystal": {
+    "block_id": "darkerdepths:living_crystal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_bookshelf": {
+    "block_id": "darkerdepths:petrified_bookshelf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_trapdoor": {
+    "block_id": "darkerdepths:petrified_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_stairs": {
+    "block_id": "darkerdepths:grimestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_bricks_stairs": {
+    "block_id": "darkerdepths:aridrock_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowspurs": {
+    "block_id": "darkerdepths:glowspurs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_aridrock": {
+    "block_id": "darkerdepths:polished_aridrock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_fence": {
+    "block_id": "darkerdepths:petrified_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_bricks_wall": {
+    "block_id": "darkerdepths:grimestone_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock": {
+    "block_id": "darkerdepths:duskrock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_darkslate_vertical_slab": {
+    "block_id": "darkerdepths:polished_darkslate_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:scorched_remains": {
+    "block_id": "darkerdepths:scorched_remains",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:death_anchor": {
+    "block_id": "darkerdepths:death_anchor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:stone_melon": {
+    "block_id": "darkerdepths:stone_melon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_bricks_stairs": {
+    "block_id": "darkerdepths:darkslate_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_bricks": {
+    "block_id": "darkerdepths:aridrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:forsaken_bronze_block": {
+    "block_id": "darkerdepths:forsaken_bronze_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_hanging_sign": {
+    "block_id": "darkerdepths:petrified_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_bricks_vertical_slab": {
+    "block_id": "darkerdepths:grimestone_bricks_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:potted_glowshroom": {
+    "block_id": "darkerdepths:potted_glowshroom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:void_soul_jar": {
+    "block_id": "darkerdepths:void_soul_jar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:paranoia_altar": {
+    "block_id": "darkerdepths:paranoia_altar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glimmering_vine_plant": {
+    "block_id": "darkerdepths:glimmering_vine_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:cracked_grimestone_bricks": {
+    "block_id": "darkerdepths:cracked_grimestone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_wall": {
+    "block_id": "darkerdepths:grimestone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:trimmed_petrified_planks": {
+    "block_id": "darkerdepths:trimmed_petrified_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_bricks_wall": {
+    "block_id": "darkerdepths:duskrock_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:amber_block": {
+    "block_id": "darkerdepths:amber_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock": {
+    "block_id": "darkerdepths:aridrock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_darkslate_stairs": {
+    "block_id": "darkerdepths:polished_darkslate_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_wall": {
+    "block_id": "darkerdepths:darkslate_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom": {
+    "block_id": "darkerdepths:glowshroom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:scorcher_light_block": {
+    "block_id": "darkerdepths:scorcher_light_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:wall_void_soul_torch": {
+    "block_id": "darkerdepths:wall_void_soul_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:stripped_petrified_wood": {
+    "block_id": "darkerdepths:stripped_petrified_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_bricks_vertical_slab": {
+    "block_id": "darkerdepths:aridrock_bricks_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_pillar": {
+    "block_id": "darkerdepths:aridrock_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_bricks_stairs": {
+    "block_id": "darkerdepths:duskrock_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_boards": {
+    "block_id": "darkerdepths:petrified_boards",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:vertical_petrified_planks": {
+    "block_id": "darkerdepths:vertical_petrified_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:chiseled_duskrock_bricks": {
+    "block_id": "darkerdepths:chiseled_duskrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_post": {
+    "block_id": "darkerdepths:petrified_post",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_vertical_slab": {
+    "block_id": "darkerdepths:aridrock_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_bricks_wall": {
+    "block_id": "darkerdepths:darkslate_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_vertical_slab": {
+    "block_id": "darkerdepths:petrified_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:chiseled_aridrock_bricks": {
+    "block_id": "darkerdepths:chiseled_aridrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_slab": {
+    "block_id": "darkerdepths:aridrock_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_roots": {
+    "block_id": "darkerdepths:petrified_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:aridrock_bricks_slab": {
+    "block_id": "darkerdepths:aridrock_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:stripped_petrified_post": {
+    "block_id": "darkerdepths:stripped_petrified_post",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:tomb": {
+    "block_id": "darkerdepths:tomb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:stripped_petrified_log": {
+    "block_id": "darkerdepths:stripped_petrified_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:cracked_darkslate_bricks": {
+    "block_id": "darkerdepths:cracked_darkslate_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_darkslate": {
+    "block_id": "darkerdepths:polished_darkslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_wood": {
+    "block_id": "darkerdepths:petrified_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:void_soul_torch": {
+    "block_id": "darkerdepths:void_soul_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:cracked_duskrock_bricks": {
+    "block_id": "darkerdepths:cracked_duskrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_wall_sign": {
+    "block_id": "darkerdepths:petrified_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_fence_gate": {
+    "block_id": "darkerdepths:petrified_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:crystal_melon": {
+    "block_id": "darkerdepths:crystal_melon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:mossy_grimestone": {
+    "block_id": "darkerdepths:mossy_grimestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_sign": {
+    "block_id": "darkerdepths:petrified_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_bricks": {
+    "block_id": "darkerdepths:duskrock_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_aridrock_stairs": {
+    "block_id": "darkerdepths:polished_aridrock_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glimmering_vines": {
+    "block_id": "darkerdepths:glimmering_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_pillar": {
+    "block_id": "darkerdepths:duskrock_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_grimestone_slab": {
+    "block_id": "darkerdepths:polished_grimestone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:rope": {
+    "block_id": "darkerdepths:rope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_wall": {
+    "block_id": "darkerdepths:duskrock_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_darkslate_slab": {
+    "block_id": "darkerdepths:polished_darkslate_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:mob_placer": {
+    "block_id": "darkerdepths:mob_placer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:grimestone_bricks_slab": {
+    "block_id": "darkerdepths:grimestone_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_stairs": {
+    "block_id": "darkerdepths:darkslate_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_bricks_vertical_slab": {
+    "block_id": "darkerdepths:duskrock_bricks_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_stairs": {
+    "block_id": "darkerdepths:duskrock_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_bricks_slab": {
+    "block_id": "darkerdepths:duskrock_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:ash": {
+    "block_id": "darkerdepths:ash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_planks": {
+    "block_id": "darkerdepths:petrified_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_pillar": {
+    "block_id": "darkerdepths:darkslate_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:duskrock_vertical_slab": {
+    "block_id": "darkerdepths:duskrock_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:magma_pad": {
+    "block_id": "darkerdepths:magma_pad",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:darkslate_slab": {
+    "block_id": "darkerdepths:darkslate_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_grimestone_vertical_slab": {
+    "block_id": "darkerdepths:polished_grimestone_vertical_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:petrified_wall_hanging_sign": {
+    "block_id": "darkerdepths:petrified_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:dead_living_crystal": {
+    "block_id": "darkerdepths:dead_living_crystal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:dry_sprouts": {
+    "block_id": "darkerdepths:dry_sprouts",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:glowshroom_heart": {
+    "block_id": "darkerdepths:glowshroom_heart",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "darkerdepths:polished_aridrock_slab": {
+    "block_id": "darkerdepths:polished_aridrock_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

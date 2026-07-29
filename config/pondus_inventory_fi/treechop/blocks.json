@@ -1,0 +1,8 @@
+{
+  "treechop:chopped_log": {
+    "block_id": "treechop:chopped_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

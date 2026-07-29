@@ -1,0 +1,1220 @@
+{
+  "cbc_at:built_up_nethersteel_silencer": {
+    "block_id": "cbc_at:built_up_nethersteel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:vert_twin_autocannon_barrel_mould": {
+    "block_id": "cbc_at:vert_twin_autocannon_barrel_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:smoke_cartridge": {
+    "block_id": "cbc_at:smoke_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_twin_autocannon_silencer": {
+    "block_id": "cbc_at:steel_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_rocket_pod_breech": {
+    "block_id": "cbc_at:steel_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_muzzle_brake": {
+    "block_id": "cbc_at:unbored_cast_iron_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_bronze_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_muzzle_brake_mould": {
+    "block_id": "cbc_at:heavy_autocannon_muzzle_brake_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:rocket_pod_breech_mould": {
+    "block_id": "cbc_at:rocket_pod_breech_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_twin_autocannon_barrel": {
+    "block_id": "cbc_at:steel_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_twin_autocannon_barrel": {
+    "block_id": "cbc_at:bronze_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:vert_twin_autocannon_silencer_mould": {
+    "block_id": "cbc_at:vert_twin_autocannon_silencer_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:smoke_caseless": {
+    "block_id": "cbc_at:smoke_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_qfbreech_mould": {
+    "block_id": "cbc_at:heavy_autocannon_qfbreech_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:cast_iron_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:nethersteel_fume_extractor": {
+    "block_id": "cbc_at:nethersteel_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_barrel_mould": {
+    "block_id": "cbc_at:heavy_autocannon_barrel_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_bronze_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_silencer": {
+    "block_id": "cbc_at:unbored_cast_iron_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_twin_autocannon_silencer": {
+    "block_id": "cbc_at:bronze_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:cast_iron_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:rifled_barrel_cast_mould": {
+    "block_id": "cbc_at:rifled_barrel_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:nethersteel_muzzle_brake": {
+    "block_id": "cbc_at:nethersteel_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_breech_mould": {
+    "block_id": "cbc_at:heavy_autocannon_breech_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:cast_iron_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:twin_autocannon_barrel_mould": {
+    "block_id": "cbc_at:twin_autocannon_barrel_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_cast_iron_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_bronze_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_silencer_mould": {
+    "block_id": "cbc_at:heavy_autocannon_silencer_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:bronze_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_bronze_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:vert_twin_autocannon_breech_mould": {
+    "block_id": "cbc_at:vert_twin_autocannon_breech_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:steel_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:twin_autocannon_breech_mould": {
+    "block_id": "cbc_at:twin_autocannon_breech_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:silencer_cast_mould": {
+    "block_id": "cbc_at:silencer_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_rocket_pod_breech": {
+    "block_id": "cbc_at:cast_iron_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:cast_iron_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:bronze_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:nethersteel_rifled_barrel": {
+    "block_id": "cbc_at:nethersteel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:steel_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_steel_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:steel_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_fume_extractor": {
+    "block_id": "cbc_at:bronze_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_silencer": {
+    "block_id": "cbc_at:unbored_bronze_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:solid_cartridge": {
+    "block_id": "cbc_at:solid_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:steel_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_breech": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:grapeshot_cartridge": {
+    "block_id": "cbc_at:grapeshot_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cluster_cartridge": {
+    "block_id": "cbc_at:cluster_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_fume_extractor": {
+    "block_id": "cbc_at:unbored_bronze_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:steel_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_nethersteel_muzzle_brake": {
+    "block_id": "cbc_at:unbored_nethersteel_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:autocannon_muzzle_brake_mould": {
+    "block_id": "cbc_at:autocannon_muzzle_brake_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:steel_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_breech": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_silencer": {
+    "block_id": "cbc_at:unbored_steel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:fluid_shell_caseless": {
+    "block_id": "cbc_at:fluid_shell_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_autocannon_silencer": {
+    "block_id": "cbc_at:steel_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_cast_iron_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_silencer": {
+    "block_id": "cbc_at:cast_iron_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_fume_extractor": {
+    "block_id": "cbc_at:steel_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_rifled_barrel": {
+    "block_id": "cbc_at:bronze_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_breech": {
+    "block_id": "cbc_at:steel_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_bronze_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:twin_autocannon_recoil_spring_mould": {
+    "block_id": "cbc_at:twin_autocannon_recoil_spring_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_rifled_barrel": {
+    "block_id": "cbc_at:unbored_steel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:cast_iron_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_autocannon_silencer": {
+    "block_id": "cbc_at:cast_iron_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_silencer": {
+    "block_id": "cbc_at:bronze_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:bronze_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_rifled_barrel": {
+    "block_id": "cbc_at:cast_iron_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_muzzle_brake": {
+    "block_id": "cbc_at:cast_iron_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_cast_iron_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_steel_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:armor_piercing_shell_cartridge": {
+    "block_id": "cbc_at:armor_piercing_shell_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:shrapnel_cartridge": {
+    "block_id": "cbc_at:shrapnel_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_cast_iron_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_bronze_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_bronze_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:wrought_iron_medium_rocket_rail_breech": {
+    "block_id": "cbc_at:wrought_iron_medium_rocket_rail_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_steel_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:cast_iron_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:steel_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:creative_heavy_autocannon_ammo_box": {
+    "block_id": "cbc_at:creative_heavy_autocannon_ammo_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:grapeshot_caseless": {
+    "block_id": "cbc_at:grapeshot_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:vert_twin_autocannon_muzzle_brake_mould": {
+    "block_id": "cbc_at:vert_twin_autocannon_muzzle_brake_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_breech": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_silencer": {
+    "block_id": "cbc_at:steel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_ammo_box": {
+    "block_id": "cbc_at:heavy_autocannon_ammo_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_steel_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:armor_piercing_cartridge": {
+    "block_id": "cbc_at:armor_piercing_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:steel_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:steel_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_rocket_pod_rail": {
+    "block_id": "cbc_at:unbored_steel_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:built_up_nethersteel_rifled_barrel": {
+    "block_id": "cbc_at:built_up_nethersteel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_steel_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:fluid_shell_cartridge": {
+    "block_id": "cbc_at:fluid_shell_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:wrought_iron_medium_rocket_rail": {
+    "block_id": "cbc_at:wrought_iron_medium_rocket_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cluster_caseless": {
+    "block_id": "cbc_at:cluster_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_muzzle_brake": {
+    "block_id": "cbc_at:bronze_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:vert_twin_autocannon_recoil_spring_mould": {
+    "block_id": "cbc_at:vert_twin_autocannon_recoil_spring_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:built_up_steel_silencer": {
+    "block_id": "cbc_at:built_up_steel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_rocket_pod_breech": {
+    "block_id": "cbc_at:bronze_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_steel_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_steel_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:autocannon_silencer_mould": {
+    "block_id": "cbc_at:autocannon_silencer_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_fume_extractor": {
+    "block_id": "cbc_at:cast_iron_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_rocket_pod_breech": {
+    "block_id": "cbc_at:unbored_steel_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_rocket_pod_rail": {
+    "block_id": "cbc_at:unbored_cast_iron_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_rocket_pod_rail": {
+    "block_id": "cbc_at:unbored_bronze_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_cast_iron_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_rocket_pod_breech": {
+    "block_id": "cbc_at:unbored_bronze_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_autocannon_silencer": {
+    "block_id": "cbc_at:bronze_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_fume_extractor": {
+    "block_id": "cbc_at:unbored_cast_iron_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_cast_iron_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_bronze_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:heavy_autocannon_recoil_spring_mould": {
+    "block_id": "cbc_at:heavy_autocannon_recoil_spring_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_rocket_pod_rail": {
+    "block_id": "cbc_at:steel_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_rocket_pod_breech": {
+    "block_id": "cbc_at:unbored_cast_iron_rocket_pod_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:cast_iron_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:bronze_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_breech": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_nethersteel_silencer": {
+    "block_id": "cbc_at:unbored_nethersteel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_steel_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_cast_iron_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:shrapnel_caseless": {
+    "block_id": "cbc_at:shrapnel_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_muzzle_brake": {
+    "block_id": "cbc_at:steel_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:twin_autocannon_silencer_mould": {
+    "block_id": "cbc_at:twin_autocannon_silencer_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_twin_autocannon_barrel": {
+    "block_id": "cbc_at:cast_iron_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_twin_autocannon_breech": {
+    "block_id": "cbc_at:bronze_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_bronze_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:bronze_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:muzzle_brake_cast_mould": {
+    "block_id": "cbc_at:muzzle_brake_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_rifled_barrel": {
+    "block_id": "cbc_at:unbored_bronze_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_cast_iron_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:high_explosive_caseless": {
+    "block_id": "cbc_at:high_explosive_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:steel_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:nethersteel_silencer": {
+    "block_id": "cbc_at:nethersteel_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:cast_iron_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:solid_caseless": {
+    "block_id": "cbc_at:solid_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_nethersteel_fume_extractor": {
+    "block_id": "cbc_at:unbored_nethersteel_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:steel_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_steel_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:bronze_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_cast_iron_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_bronze_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_qfbreech": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_qfbreech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_rocket_pod_rail": {
+    "block_id": "cbc_at:bronze_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_rifled_barrel": {
+    "block_id": "cbc_at:unbored_cast_iron_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_muzzle_brake": {
+    "block_id": "cbc_at:unbored_bronze_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_vert_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_steel_vert_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:bronze_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:fume_extractor_cast_mould": {
+    "block_id": "cbc_at:fume_extractor_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_bronze_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_twin_autocannon_breech": {
+    "block_id": "cbc_at:steel_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:twin_autocannon_muzzle_brake_mould": {
+    "block_id": "cbc_at:twin_autocannon_muzzle_brake_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_breech": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_vert_twin_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_cast_iron_vert_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_heavy_autocannon_silencer": {
+    "block_id": "cbc_at:unbored_cast_iron_heavy_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:rocket_pod_rail_mould": {
+    "block_id": "cbc_at:rocket_pod_rail_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cluster": {
+    "block_id": "cbc_at:cluster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:armor_piercing_caseless": {
+    "block_id": "cbc_at:armor_piercing_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_twin_autocannon_breech": {
+    "block_id": "cbc_at:cast_iron_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:steel_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:bronze_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_heavy_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_bronze_heavy_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_twin_autocannon_silencer": {
+    "block_id": "cbc_at:cast_iron_twin_autocannon_silencer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:built_up_steel_rifled_barrel": {
+    "block_id": "cbc_at:built_up_steel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_rocket_pod_rail": {
+    "block_id": "cbc_at:cast_iron_rocket_pod_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:cast_iron_heavy_autocannon_recoil_spring": {
+    "block_id": "cbc_at:cast_iron_heavy_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:unbored_cast_iron_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_steel_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:armor_piercing_shell_caseless": {
+    "block_id": "cbc_at:armor_piercing_shell_caseless",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_heavy_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:steel_heavy_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_vert_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_steel_vert_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_nethersteel_rifled_barrel": {
+    "block_id": "cbc_at:unbored_nethersteel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_muzzle_brake": {
+    "block_id": "cbc_at:unbored_steel_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:high_explosive_cartridge": {
+    "block_id": "cbc_at:high_explosive_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_vert_twin_autocannon_muzzle_brake": {
+    "block_id": "cbc_at:unbored_steel_vert_twin_autocannon_muzzle_brake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:steel_rifled_barrel": {
+    "block_id": "cbc_at:steel_rifled_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_cast_iron_twin_autocannon_recoil_spring": {
+    "block_id": "cbc_at:unbored_cast_iron_twin_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:bronze_vert_twin_autocannon_barrel": {
+    "block_id": "cbc_at:bronze_vert_twin_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_bronze_twin_autocannon_breech": {
+    "block_id": "cbc_at:unbored_bronze_twin_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "cbc_at:unbored_steel_fume_extractor": {
+    "block_id": "cbc_at:unbored_steel_fume_extractor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

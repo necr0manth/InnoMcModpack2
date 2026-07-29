@@ -1,0 +1,14 @@
+{
+  "create_aeronautics_automated_logistics:airship_station": {
+    "block_id": "create_aeronautics_automated_logistics:airship_station",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_aeronautics_automated_logistics:ship_transponder": {
+    "block_id": "create_aeronautics_automated_logistics:ship_transponder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

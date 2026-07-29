@@ -1,0 +1,26 @@
+{
+  "create_lnl:contraption_lift": {
+    "block_id": "create_lnl:contraption_lift",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_lnl:thruster": {
+    "block_id": "create_lnl:thruster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_lnl:thruster_structure": {
+    "block_id": "create_lnl:thruster_structure",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_lnl:wheel": {
+    "block_id": "create_lnl:wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

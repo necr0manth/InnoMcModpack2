@@ -1,0 +1,122 @@
+{
+  "createaddition:rolling_mill": {
+    "block_id": "createaddition:rolling_mill",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:seed_oil": {
+    "block_id": "createaddition:seed_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:large_connector": {
+    "block_id": "createaddition:large_connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:barbed_wire": {
+    "block_id": "createaddition:barbed_wire",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:electric_motor": {
+    "block_id": "createaddition:electric_motor",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:bioethanol": {
+    "block_id": "createaddition:bioethanol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:modular_accumulator": {
+    "block_id": "createaddition:modular_accumulator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:honey_cake": {
+    "block_id": "createaddition:honey_cake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:electrum_block": {
+    "block_id": "createaddition:electrum_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:portable_energy_interface": {
+    "block_id": "createaddition:portable_energy_interface",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:tesla_coil": {
+    "block_id": "createaddition:tesla_coil",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:liquid_blaze_burner": {
+    "block_id": "createaddition:liquid_blaze_burner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:digital_adapter": {
+    "block_id": "createaddition:digital_adapter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:small_light_connector": {
+    "block_id": "createaddition:small_light_connector",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:biomass_pellet_block": {
+    "block_id": "createaddition:biomass_pellet_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:redstone_relay": {
+    "block_id": "createaddition:redstone_relay",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:creative_energy": {
+    "block_id": "createaddition:creative_energy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:connector": {
+    "block_id": "createaddition:connector",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:alternator": {
+    "block_id": "createaddition:alternator",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaddition:chocolate_cake": {
+    "block_id": "createaddition:chocolate_cake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,3548 @@
+{
+  "dndecor:gray_small_deepslate_tiles": {
+    "block_id": "dndecor:gray_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_stairs": {
+    "block_id": "dndecor:cut_weathered_limestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_gabbro_brick_stairs": {
+    "block_id": "dndecor:small_gabbro_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_cogwheel": {
+    "block_id": "dndecor:pink_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_dash_bolt": {
+    "block_id": "dndecor:industrial_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_flat_bolt": {
+    "block_id": "dndecor:zinc_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_cross_bolt": {
+    "block_id": "dndecor:andesite_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_large_cogwheel": {
+    "block_id": "dndecor:white_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_light_blue_container": {
+    "block_id": "dndecor:solid_light_blue_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_flywheel": {
+    "block_id": "dndecor:purple_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blackstone_pillar": {
+    "block_id": "dndecor:blackstone_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_sheet_metal": {
+    "block_id": "dndecor:industrial_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_dark_metal_plating": {
+    "block_id": "dndecor:pink_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_deepslate_tiles": {
+    "block_id": "dndecor:small_deepslate_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_dark_metal_block": {
+    "block_id": "dndecor:green_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dripstone_millstone": {
+    "block_id": "dndecor:dripstone_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_dark_metal_plating": {
+    "block_id": "dndecor:gray_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_dolomite_brick_wall": {
+    "block_id": "dndecor:small_dolomite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_large_cogwheel": {
+    "block_id": "dndecor:blue_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:amethyst_millstone": {
+    "block_id": "dndecor:amethyst_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_packed_mud_brick_stairs": {
+    "block_id": "dndecor:small_packed_mud_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_dash_bolt": {
+    "block_id": "dndecor:copper_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_dolomite_brick_stairs": {
+    "block_id": "dndecor:small_dolomite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_gabbro_brick_wall": {
+    "block_id": "dndecor:small_gabbro_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_weathered_limestone_brick_wall": {
+    "block_id": "dndecor:small_weathered_limestone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_stone_metal": {
+    "block_id": "dndecor:magenta_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_dot_bolt": {
+    "block_id": "dndecor:iron_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:oxidized_copper_floor": {
+    "block_id": "dndecor:oxidized_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_dark_metal_plating": {
+    "block_id": "dndecor:light_blue_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_bricks": {
+    "block_id": "dndecor:cut_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_stone_metal": {
+    "block_id": "dndecor:white_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_gabbro_stairs": {
+    "block_id": "dndecor:polished_cut_gabbro_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_stone_brick_wall": {
+    "block_id": "dndecor:small_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_stone": {
+    "block_id": "dndecor:layered_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_amethyst_brick_wall": {
+    "block_id": "dndecor:small_amethyst_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:stone_pillar": {
+    "block_id": "dndecor:stone_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_industrial_cogwheel": {
+    "block_id": "dndecor:black_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_wall": {
+    "block_id": "dndecor:cut_blackstone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_dark_metal_plating": {
+    "block_id": "dndecor:yellow_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_frontlight": {
+    "block_id": "dndecor:copper_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:tuff_crushing_wheel": {
+    "block_id": "dndecor:tuff_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_netherrack": {
+    "block_id": "dndecor:layered_netherrack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_wall": {
+    "block_id": "dndecor:cut_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_velvet_block": {
+    "block_id": "dndecor:orange_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_industrial_cogwheel": {
+    "block_id": "dndecor:yellow_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_stone_metal": {
+    "block_id": "dndecor:cyan_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_container": {
+    "block_id": "dndecor:magenta_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_dark_metal_block": {
+    "block_id": "dndecor:pink_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gabbro_pillar": {
+    "block_id": "dndecor:gabbro_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:weathered_limestone_millstone": {
+    "block_id": "dndecor:weathered_limestone_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_sheet_metal": {
+    "block_id": "dndecor:light_blue_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_brick_slab": {
+    "block_id": "dndecor:cut_netherrack_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_brick_slab": {
+    "block_id": "dndecor:cut_stone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_dark_metal_block": {
+    "block_id": "dndecor:purple_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_stone_brick_stairs": {
+    "block_id": "dndecor:small_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_small_deepslate_tiles": {
+    "block_id": "dndecor:magenta_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_stairs": {
+    "block_id": "dndecor:cut_gabbro_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_industrial_cogwheel": {
+    "block_id": "dndecor:large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_container": {
+    "block_id": "dndecor:black_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_wall": {
+    "block_id": "dndecor:cut_basalt_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_container": {
+    "block_id": "dndecor:blue_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_brick_slab": {
+    "block_id": "dndecor:cut_weathered_limestone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:tuff_millstone": {
+    "block_id": "dndecor:tuff_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_brown_container": {
+    "block_id": "dndecor:solid_brown_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_large_cogwheel": {
+    "block_id": "dndecor:orange_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_blackstone_brick_slab": {
+    "block_id": "dndecor:small_blackstone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_cogwheel": {
+    "block_id": "dndecor:purple_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_industrial_cogwheel": {
+    "block_id": "dndecor:cyan_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_netherrack_brick_wall": {
+    "block_id": "dndecor:small_netherrack_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_large_cogwheel": {
+    "block_id": "dndecor:red_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_flywheel": {
+    "block_id": "dndecor:black_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_dot_bolt": {
+    "block_id": "dndecor:andesite_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_display_board": {
+    "block_id": "dndecor:white_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_stairs": {
+    "block_id": "dndecor:cut_netherrack_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_large_fan": {
+    "block_id": "dndecor:light_blue_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:crimsite_millstone": {
+    "block_id": "dndecor:crimsite_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_dark_metal_plating": {
+    "block_id": "dndecor:brown_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_small_deepslate_tiles": {
+    "block_id": "dndecor:orange_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_display_board": {
+    "block_id": "dndecor:pink_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_sheet_metal": {
+    "block_id": "dndecor:orange_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_bricks": {
+    "block_id": "dndecor:cut_blackstone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_brick_stairs": {
+    "block_id": "dndecor:cut_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack": {
+    "block_id": "dndecor:cut_netherrack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_cross_bolt": {
+    "block_id": "dndecor:zinc_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_cross_bolt": {
+    "block_id": "dndecor:netherite_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_bricks": {
+    "block_id": "dndecor:zinc_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_gabbro": {
+    "block_id": "dndecor:polished_cut_gabbro",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_catwalk": {
+    "block_id": "dndecor:netherite_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_basalt_stairs": {
+    "block_id": "dndecor:polished_cut_basalt_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_packed_mud_wall": {
+    "block_id": "dndecor:polished_cut_packed_mud_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_large_metal_girder": {
+    "block_id": "dndecor:magenta_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_industrial_cogwheel": {
+    "block_id": "dndecor:green_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_cross_bolt": {
+    "block_id": "dndecor:brass_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_display_board": {
+    "block_id": "dndecor:red_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_basalt_brick_wall": {
+    "block_id": "dndecor:small_basalt_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_container": {
+    "block_id": "dndecor:pink_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_cogwheel": {
+    "block_id": "dndecor:orange_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_blackstone_wall": {
+    "block_id": "dndecor:polished_cut_blackstone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_large_fan": {
+    "block_id": "dndecor:green_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_display_board": {
+    "block_id": "dndecor:black_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:breaker_switch": {
+    "block_id": "dndecor:breaker_switch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:scoria_crushing_wheel": {
+    "block_id": "dndecor:scoria_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_large_industrial_cogwheel": {
+    "block_id": "dndecor:pink_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_small_deepslate_tiles": {
+    "block_id": "dndecor:brown_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_orange_container": {
+    "block_id": "dndecor:solid_orange_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_red_container": {
+    "block_id": "dndecor:solid_red_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_cogwheel": {
+    "block_id": "dndecor:black_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_bricks": {
+    "block_id": "dndecor:cut_gabbro_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_dolomite": {
+    "block_id": "dndecor:polished_cut_dolomite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_velvet_block": {
+    "block_id": "dndecor:white_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:basalt_pillar": {
+    "block_id": "dndecor:basalt_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_sheet_metal": {
+    "block_id": "dndecor:gold_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_brick_stairs": {
+    "block_id": "dndecor:cut_blackstone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_packed_mud_bricks": {
+    "block_id": "dndecor:small_packed_mud_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dolomite_crushing_wheel": {
+    "block_id": "dndecor:dolomite_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_large_industrial_cogwheel": {
+    "block_id": "dndecor:purple_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_netherrack_brick_stairs": {
+    "block_id": "dndecor:small_netherrack_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_floor": {
+    "block_id": "dndecor:copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_flywheel": {
+    "block_id": "dndecor:orange_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_netherrack_slab": {
+    "block_id": "dndecor:polished_cut_netherrack_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone": {
+    "block_id": "dndecor:cut_weathered_limestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_stone_metal": {
+    "block_id": "dndecor:light_gray_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_flywheel": {
+    "block_id": "dndecor:magenta_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_small_deepslate_tiles": {
+    "block_id": "dndecor:lime_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_large_industrial_cogwheel": {
+    "block_id": "dndecor:white_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_frontlight": {
+    "block_id": "dndecor:gold_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_boiler": {
+    "block_id": "dndecor:copper_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dolomite_millstone": {
+    "block_id": "dndecor:dolomite_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_brick_stairs": {
+    "block_id": "dndecor:dark_metal_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_sheet_metal": {
+    "block_id": "dndecor:light_gray_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_boiler": {
+    "block_id": "dndecor:gold_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_catwalk": {
+    "block_id": "dndecor:brass_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_flat_bolt": {
+    "block_id": "dndecor:andesite_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_brick_wall": {
+    "block_id": "dndecor:cut_blackstone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dripstone_crushing_wheel": {
+    "block_id": "dndecor:dripstone_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_brick_slab": {
+    "block_id": "dndecor:cut_gabbro_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_blackstone_brick_stairs": {
+    "block_id": "dndecor:small_blackstone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_large_fan": {
+    "block_id": "dndecor:gray_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_gabbro": {
+    "block_id": "dndecor:layered_gabbro",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_lamp": {
+    "block_id": "dndecor:iron_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_large_cogwheel": {
+    "block_id": "dndecor:yellow_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_boiler": {
+    "block_id": "dndecor:andesite_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_wall": {
+    "block_id": "dndecor:cut_packed_mud_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_sheet_metal": {
+    "block_id": "dndecor:iron_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherrack_millstone": {
+    "block_id": "dndecor:netherrack_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_dash_bolt": {
+    "block_id": "dndecor:zinc_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_display_board": {
+    "block_id": "dndecor:light_blue_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_flywheel": {
+    "block_id": "dndecor:gray_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:asurine_crushing_wheel": {
+    "block_id": "dndecor:asurine_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:metal_support": {
+    "block_id": "dndecor:metal_support",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_brick_stairs": {
+    "block_id": "dndecor:cut_netherrack_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_industrial_cogwheel": {
+    "block_id": "dndecor:gray_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_stairs": {
+    "block_id": "dndecor:cut_packed_mud_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite": {
+    "block_id": "dndecor:cut_dolomite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_cogwheel": {
+    "block_id": "dndecor:yellow_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_container": {
+    "block_id": "dndecor:orange_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_slab": {
+    "block_id": "dndecor:cut_amethyst_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_basalt_brick_slab": {
+    "block_id": "dndecor:small_basalt_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_large_fan": {
+    "block_id": "dndecor:yellow_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_display_board": {
+    "block_id": "dndecor:magenta_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_large_cogwheel": {
+    "block_id": "dndecor:gray_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_basalt_slab": {
+    "block_id": "dndecor:polished_cut_basalt_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_dark_metal_cogwheel": {
+    "block_id": "dndecor:large_dark_metal_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_cogwheel": {
+    "block_id": "dndecor:industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:amethyst_crushing_wheel": {
+    "block_id": "dndecor:amethyst_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_dark_metal_block": {
+    "block_id": "dndecor:gray_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_brick_slab": {
+    "block_id": "dndecor:cut_packed_mud_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_frontlight": {
+    "block_id": "dndecor:zinc_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blackstone_millstone": {
+    "block_id": "dndecor:blackstone_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_dark_metal_plating": {
+    "block_id": "dndecor:white_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_flat_bolt": {
+    "block_id": "dndecor:gold_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:veridium_millstone": {
+    "block_id": "dndecor:veridium_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gabbro_millstone": {
+    "block_id": "dndecor:gabbro_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_brick_slab": {
+    "block_id": "dndecor:cut_basalt_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_large_industrial_cogwheel": {
+    "block_id": "dndecor:light_gray_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_boiler": {
+    "block_id": "dndecor:zinc_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:limestone_millstone": {
+    "block_id": "dndecor:limestone_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_stone_slab": {
+    "block_id": "dndecor:polished_cut_stone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_small_deepslate_tiles": {
+    "block_id": "dndecor:blue_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_dark_metal_plating": {
+    "block_id": "dndecor:orange_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_flywheel": {
+    "block_id": "dndecor:white_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_cogwheel": {
+    "block_id": "dndecor:magenta_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_small_deepslate_tiles": {
+    "block_id": "dndecor:white_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_dark_metal_block": {
+    "block_id": "dndecor:white_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_blackstone_stairs": {
+    "block_id": "dndecor:polished_cut_blackstone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_industrial_cogwheel": {
+    "block_id": "dndecor:brown_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_andesite_chain": {
+    "block_id": "dndecor:large_andesite_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_amethyst_slab": {
+    "block_id": "dndecor:polished_cut_amethyst_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_dark_metal_plating": {
+    "block_id": "dndecor:purple_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_gold_chain": {
+    "block_id": "dndecor:large_gold_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone": {
+    "block_id": "dndecor:cut_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_stone_metal": {
+    "block_id": "dndecor:lime_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_velvet_block": {
+    "block_id": "dndecor:red_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_cogwheel": {
+    "block_id": "dndecor:light_gray_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_boiler": {
+    "block_id": "dndecor:brass_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_small_deepslate_tiles": {
+    "block_id": "dndecor:yellow_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_large_fan": {
+    "block_id": "dndecor:white_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_cross_bolt": {
+    "block_id": "dndecor:copper_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_container": {
+    "block_id": "dndecor:light_blue_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_sheet_metal": {
+    "block_id": "dndecor:cyan_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_large_industrial_cogwheel": {
+    "block_id": "dndecor:magenta_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_dark_metal_block": {
+    "block_id": "dndecor:lime_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud": {
+    "block_id": "dndecor:cut_packed_mud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_cogwheel": {
+    "block_id": "dndecor:lime_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_large_fan": {
+    "block_id": "dndecor:orange_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_flywheel": {
+    "block_id": "dndecor:red_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_velvet_block": {
+    "block_id": "dndecor:gray_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_large_industrial_cogwheel": {
+    "block_id": "dndecor:lime_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:packed_mud_millstone": {
+    "block_id": "dndecor:packed_mud_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_brick_stairs": {
+    "block_id": "dndecor:cut_weathered_limestone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_cogwheel": {
+    "block_id": "dndecor:dark_metal_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_catwalk": {
+    "block_id": "dndecor:industrial_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:basalt_millstone": {
+    "block_id": "dndecor:basalt_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_large_cogwheel": {
+    "block_id": "dndecor:brown_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_amethyst_stairs": {
+    "block_id": "dndecor:polished_cut_amethyst_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_pink_container": {
+    "block_id": "dndecor:solid_pink_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_packed_mud_brick_slab": {
+    "block_id": "dndecor:small_packed_mud_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_lamp": {
+    "block_id": "dndecor:gold_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_large_industrial_cogwheel": {
+    "block_id": "dndecor:blue_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_sheet_metal": {
+    "block_id": "dndecor:gray_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:stone_crushing_wheel": {
+    "block_id": "dndecor:stone_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_wall": {
+    "block_id": "dndecor:cut_dolomite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_plating_block": {
+    "block_id": "dndecor:industrial_plating_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dolomite_pillar": {
+    "block_id": "dndecor:dolomite_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_brass_chain": {
+    "block_id": "dndecor:large_brass_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_large_metal_girder": {
+    "block_id": "dndecor:white_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:boiler_structure": {
+    "block_id": "dndecor:boiler_structure",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_large_metal_girder": {
+    "block_id": "dndecor:light_gray_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone": {
+    "block_id": "dndecor:cut_blackstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt": {
+    "block_id": "dndecor:cut_basalt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_dolomite_brick_slab": {
+    "block_id": "dndecor:small_dolomite_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:beam": {
+    "block_id": "dndecor:beam",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_stone_metal": {
+    "block_id": "dndecor:red_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_large_cogwheel": {
+    "block_id": "dndecor:purple_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_large_metal_girder": {
+    "block_id": "dndecor:blue_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:weathered_limestone_crushing_wheel": {
+    "block_id": "dndecor:weathered_limestone_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_large_industrial_cogwheel": {
+    "block_id": "dndecor:red_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_sheet_metal": {
+    "block_id": "dndecor:blue_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_dark_metal_plating": {
+    "block_id": "dndecor:light_gray_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_velvet_block": {
+    "block_id": "dndecor:green_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_sheet_metal": {
+    "block_id": "dndecor:brown_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_packed_mud": {
+    "block_id": "dndecor:polished_cut_packed_mud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_dark_metal_block": {
+    "block_id": "dndecor:orange_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:stone_metal": {
+    "block_id": "dndecor:stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_industrial_cogwheel": {
+    "block_id": "dndecor:light_blue_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_velvet_block": {
+    "block_id": "dndecor:yellow_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_flywheel": {
+    "block_id": "dndecor:yellow_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_frontlight": {
+    "block_id": "dndecor:andesite_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_dark_metal_block": {
+    "block_id": "dndecor:cyan_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_display_board": {
+    "block_id": "dndecor:lime_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_stairs": {
+    "block_id": "dndecor:cut_blackstone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_white_container": {
+    "block_id": "dndecor:solid_white_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_gabbro_slab": {
+    "block_id": "dndecor:polished_cut_gabbro_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_slab": {
+    "block_id": "dndecor:cut_stone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_amethyst": {
+    "block_id": "dndecor:polished_cut_amethyst",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_boiler": {
+    "block_id": "dndecor:netherite_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_basalt_brick_stairs": {
+    "block_id": "dndecor:small_basalt_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_dark_metal_block": {
+    "block_id": "dndecor:blue_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_flywheel": {
+    "block_id": "dndecor:pink_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_weathered_limestone_brick_stairs": {
+    "block_id": "dndecor:small_weathered_limestone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_dark_metal_plating": {
+    "block_id": "dndecor:black_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_large_metal_girder": {
+    "block_id": "dndecor:purple_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_blackstone": {
+    "block_id": "dndecor:polished_cut_blackstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_lamp": {
+    "block_id": "dndecor:industrial_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_container": {
+    "block_id": "dndecor:lime_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_display_board": {
+    "block_id": "dndecor:gray_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_stone_metal": {
+    "block_id": "dndecor:green_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_zinc_chain": {
+    "block_id": "dndecor:large_zinc_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:diagonal_girder": {
+    "block_id": "dndecor:diagonal_girder",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_magenta_container": {
+    "block_id": "dndecor:solid_magenta_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_slab": {
+    "block_id": "dndecor:cut_blackstone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_netherite_chain": {
+    "block_id": "dndecor:large_netherite_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_flywheel": {
+    "block_id": "dndecor:green_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_fan": {
+    "block_id": "dndecor:large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_sheet_metal": {
+    "block_id": "dndecor:zinc_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_display_board": {
+    "block_id": "dndecor:light_gray_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_lamp": {
+    "block_id": "dndecor:zinc_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_stone_metal": {
+    "block_id": "dndecor:purple_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_bricks": {
+    "block_id": "dndecor:dark_metal_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_dark_metal_block": {
+    "block_id": "dndecor:red_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_cogwheel": {
+    "block_id": "dndecor:green_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_large_cogwheel": {
+    "block_id": "dndecor:magenta_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_wall": {
+    "block_id": "dndecor:cut_weathered_limestone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_lamp": {
+    "block_id": "dndecor:brass_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_dark_metal_block": {
+    "block_id": "dndecor:brown_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:waxed_oxidized_copper_floor": {
+    "block_id": "dndecor:waxed_oxidized_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_large_cogwheel": {
+    "block_id": "dndecor:cyan_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_cogwheel": {
+    "block_id": "dndecor:white_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_industrial_cogwheel": {
+    "block_id": "dndecor:lime_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_velvet_block": {
+    "block_id": "dndecor:light_blue_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_flywheel": {
+    "block_id": "dndecor:lime_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:ornate_grate": {
+    "block_id": "dndecor:ornate_grate",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_large_fan": {
+    "block_id": "dndecor:light_gray_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_floor": {
+    "block_id": "dndecor:brass_floor",
+    "base_mass": "2.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_brick_stairs": {
+    "block_id": "dndecor:cut_gabbro_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_flywheel": {
+    "block_id": "dndecor:light_gray_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_dark_metal_plating": {
+    "block_id": "dndecor:blue_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_amethyst": {
+    "block_id": "dndecor:layered_amethyst",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_slab": {
+    "block_id": "dndecor:cut_basalt_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_stairs": {
+    "block_id": "dndecor:cut_basalt_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:calcite_millstone": {
+    "block_id": "dndecor:calcite_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_large_metal_girder": {
+    "block_id": "dndecor:black_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_brick_wall": {
+    "block_id": "dndecor:cut_amethyst_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_container": {
+    "block_id": "dndecor:green_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_iron_chain": {
+    "block_id": "dndecor:large_iron_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:ochrum_millstone": {
+    "block_id": "dndecor:ochrum_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_large_industrial_cogwheel": {
+    "block_id": "dndecor:black_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_container": {
+    "block_id": "dndecor:gray_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_netherrack_brick_slab": {
+    "block_id": "dndecor:small_netherrack_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_dolomite_bricks": {
+    "block_id": "dndecor:small_dolomite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_weathered_limestone_bricks": {
+    "block_id": "dndecor:small_weathered_limestone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:scorchia_millstone": {
+    "block_id": "dndecor:scorchia_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_weathered_limestone": {
+    "block_id": "dndecor:layered_weathered_limestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_black_container": {
+    "block_id": "dndecor:solid_black_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_cross_bolt": {
+    "block_id": "dndecor:iron_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_large_metal_girder": {
+    "block_id": "dndecor:yellow_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_large_metal_girder": {
+    "block_id": "dndecor:gray_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_blackstone_brick_wall": {
+    "block_id": "dndecor:small_blackstone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_floor": {
+    "block_id": "dndecor:netherite_floor",
+    "base_mass": "1.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_lamp": {
+    "block_id": "dndecor:copper_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_stone_metal": {
+    "block_id": "dndecor:gray_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_amethyst_bricks": {
+    "block_id": "dndecor:small_amethyst_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_dark_metal_block": {
+    "block_id": "dndecor:yellow_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:waxed_weathered_copper_floor": {
+    "block_id": "dndecor:waxed_weathered_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:stepped_lever": {
+    "block_id": "dndecor:stepped_lever",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_gabbro_wall": {
+    "block_id": "dndecor:polished_cut_gabbro_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_dot_bolt": {
+    "block_id": "dndecor:copper_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_slab": {
+    "block_id": "dndecor:cut_gabbro_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_catwalk": {
+    "block_id": "dndecor:zinc_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_frontlight": {
+    "block_id": "dndecor:netherite_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_stone_metal": {
+    "block_id": "dndecor:pink_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_dark_metal_block": {
+    "block_id": "dndecor:magenta_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_packed_mud_stairs": {
+    "block_id": "dndecor:polished_cut_packed_mud_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_container": {
+    "block_id": "dndecor:brown_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_blackstone_brick_slab": {
+    "block_id": "dndecor:cut_blackstone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_velvet_block": {
+    "block_id": "dndecor:brown_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_blackstone_slab": {
+    "block_id": "dndecor:polished_cut_blackstone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_stairs": {
+    "block_id": "dndecor:cut_dolomite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_floor": {
+    "block_id": "dndecor:gold_floor",
+    "base_mass": "2.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:waxed_copper_floor": {
+    "block_id": "dndecor:waxed_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherrack_crushing_wheel": {
+    "block_id": "dndecor:netherrack_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_sheet_metal": {
+    "block_id": "dndecor:yellow_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_sheet_metal": {
+    "block_id": "dndecor:lime_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_catwalk": {
+    "block_id": "dndecor:gold_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:asurine_millstone": {
+    "block_id": "dndecor:asurine_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_display_board": {
+    "block_id": "dndecor:yellow_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_large_industrial_cogwheel": {
+    "block_id": "dndecor:brown_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_boiler": {
+    "block_id": "dndecor:industrial_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_large_fan": {
+    "block_id": "dndecor:black_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_dark_metal_plating": {
+    "block_id": "dndecor:cyan_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_dash_bolt": {
+    "block_id": "dndecor:gold_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_blackstone": {
+    "block_id": "dndecor:layered_blackstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_cogwheel": {
+    "block_id": "dndecor:light_blue_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_flywheel": {
+    "block_id": "dndecor:light_blue_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:ornate_iron_glass": {
+    "block_id": "dndecor:ornate_iron_glass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:deepslate_crushing_wheel": {
+    "block_id": "dndecor:deepslate_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_stone_stairs": {
+    "block_id": "dndecor:polished_cut_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_basalt_bricks": {
+    "block_id": "dndecor:small_basalt_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_velvet_block": {
+    "block_id": "dndecor:purple_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_weathered_limestone_slab": {
+    "block_id": "dndecor:polished_cut_weathered_limestone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_brick_stairs": {
+    "block_id": "dndecor:cut_dolomite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_stone_metal": {
+    "block_id": "dndecor:black_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_small_deepslate_tiles": {
+    "block_id": "dndecor:green_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_velvet_block": {
+    "block_id": "dndecor:cyan_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_large_fan": {
+    "block_id": "dndecor:magenta_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst": {
+    "block_id": "dndecor:cut_amethyst",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_stone_bricks": {
+    "block_id": "dndecor:small_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_brick_wall": {
+    "block_id": "dndecor:cut_gabbro_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:limestone_crushing_wheel": {
+    "block_id": "dndecor:limestone_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:weathered_copper_floor": {
+    "block_id": "dndecor:weathered_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_large_metal_girder": {
+    "block_id": "dndecor:light_blue_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_slab": {
+    "block_id": "dndecor:cut_packed_mud_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_dolomite_stairs": {
+    "block_id": "dndecor:polished_cut_dolomite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_amethyst_brick_slab": {
+    "block_id": "dndecor:small_amethyst_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_cyan_container": {
+    "block_id": "dndecor:solid_cyan_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_block_stairs": {
+    "block_id": "dndecor:dark_metal_block_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_container": {
+    "block_id": "dndecor:cyan_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_small_deepslate_tiles": {
+    "block_id": "dndecor:red_small_deepslate_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_industrial_cogwheel": {
+    "block_id": "dndecor:red_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_dark_metal_plating": {
+    "block_id": "dndecor:magenta_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_floor": {
+    "block_id": "dndecor:iron_floor",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:basalt_crushing_wheel": {
+    "block_id": "dndecor:basalt_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_large_cogwheel": {
+    "block_id": "dndecor:lime_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_brick_stairs": {
+    "block_id": "dndecor:cut_amethyst_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_light_gray_container": {
+    "block_id": "dndecor:solid_light_gray_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_netherrack": {
+    "block_id": "dndecor:polished_cut_netherrack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:packed_mud_pillar": {
+    "block_id": "dndecor:packed_mud_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_large_industrial_cogwheel": {
+    "block_id": "dndecor:light_blue_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_large_fan": {
+    "block_id": "dndecor:lime_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_blue_container": {
+    "block_id": "dndecor:solid_blue_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:weathered_limestone": {
+    "block_id": "dndecor:weathered_limestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:exposed_copper_floor": {
+    "block_id": "dndecor:exposed_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_dot_bolt": {
+    "block_id": "dndecor:zinc_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_industrial_cogwheel": {
+    "block_id": "dndecor:pink_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_basalt": {
+    "block_id": "dndecor:layered_basalt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_gabbro_brick_slab": {
+    "block_id": "dndecor:small_gabbro_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_weathered_limestone_brick_slab": {
+    "block_id": "dndecor:small_weathered_limestone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:diorite_millstone": {
+    "block_id": "dndecor:diorite_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gabbro_crushing_wheel": {
+    "block_id": "dndecor:gabbro_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_cogwheel": {
+    "block_id": "dndecor:gray_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_netherrack_wall": {
+    "block_id": "dndecor:polished_cut_netherrack_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_basalt_wall": {
+    "block_id": "dndecor:polished_cut_basalt_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_dolomite_slab": {
+    "block_id": "dndecor:polished_cut_dolomite_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_large_metal_girder": {
+    "block_id": "dndecor:brown_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_brick_wall": {
+    "block_id": "dndecor:cut_basalt_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_wall": {
+    "block_id": "dndecor:cut_netherrack_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_stone_metal": {
+    "block_id": "dndecor:orange_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_stone_wall": {
+    "block_id": "dndecor:polished_cut_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_cross_bolt": {
+    "block_id": "dndecor:gold_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_brick_wall": {
+    "block_id": "dndecor:cut_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_brick_wall": {
+    "block_id": "dndecor:cut_netherrack_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_brick_wall": {
+    "block_id": "dndecor:cut_dolomite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_blackstone_bricks": {
+    "block_id": "dndecor:small_blackstone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_cogwheel": {
+    "block_id": "dndecor:cyan_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_dark_metal_block": {
+    "block_id": "dndecor:black_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_industrial_cogwheel": {
+    "block_id": "dndecor:purple_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_dash_bolt": {
+    "block_id": "dndecor:andesite_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_bricks": {
+    "block_id": "dndecor:cut_packed_mud_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:waxed_exposed_copper_floor": {
+    "block_id": "dndecor:waxed_exposed_copper_floor",
+    "base_mass": "2.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_flywheel": {
+    "block_id": "dndecor:cyan_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:text_plate": {
+    "block_id": "dndecor:text_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_dolomite": {
+    "block_id": "dndecor:layered_dolomite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_container": {
+    "block_id": "dndecor:red_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_dash_bolt": {
+    "block_id": "dndecor:brass_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_stairs": {
+    "block_id": "dndecor:cut_amethyst_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_cogwheel": {
+    "block_id": "dndecor:red_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_bricks": {
+    "block_id": "dndecor:cut_basalt_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_amethyst_wall": {
+    "block_id": "dndecor:polished_cut_amethyst_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_block": {
+    "block_id": "dndecor:dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_brick_wall": {
+    "block_id": "dndecor:cut_weathered_limestone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_sheet_metal": {
+    "block_id": "dndecor:copper_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_large_fan": {
+    "block_id": "dndecor:purple_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_display_board": {
+    "block_id": "dndecor:blue_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_packed_mud_slab": {
+    "block_id": "dndecor:polished_cut_packed_mud_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_large_metal_girder": {
+    "block_id": "dndecor:orange_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_flat_bolt": {
+    "block_id": "dndecor:brass_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_cogwheel": {
+    "block_id": "dndecor:brown_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_small_deepslate_tiles": {
+    "block_id": "dndecor:purple_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_packed_mud_brick_wall": {
+    "block_id": "dndecor:small_packed_mud_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_brick_slab": {
+    "block_id": "dndecor:dark_metal_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_weathered_limestone_stairs": {
+    "block_id": "dndecor:polished_cut_weathered_limestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_flat_bolt": {
+    "block_id": "dndecor:industrial_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:weathered_limestone_pillar": {
+    "block_id": "dndecor:weathered_limestone_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_industrial_cogwheel": {
+    "block_id": "dndecor:blue_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_sheet_metal": {
+    "block_id": "dndecor:brass_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_bricks": {
+    "block_id": "dndecor:cut_amethyst_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherrack_pillar": {
+    "block_id": "dndecor:netherrack_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_gray_container": {
+    "block_id": "dndecor:solid_gray_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_dolomite_wall": {
+    "block_id": "dndecor:polished_cut_dolomite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_container": {
+    "block_id": "dndecor:light_gray_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_stone_metal": {
+    "block_id": "dndecor:yellow_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:container": {
+    "block_id": "dndecor:container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_dark_metal_block": {
+    "block_id": "dndecor:light_gray_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_catwalk": {
+    "block_id": "dndecor:copper_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_purple_container": {
+    "block_id": "dndecor:solid_purple_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gold_dot_bolt": {
+    "block_id": "dndecor:gold_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_bricks": {
+    "block_id": "dndecor:cut_dolomite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_large_cogwheel": {
+    "block_id": "dndecor:pink_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:packed_mud_crushing_wheel": {
+    "block_id": "dndecor:packed_mud_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_container": {
+    "block_id": "dndecor:white_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_block_slab": {
+    "block_id": "dndecor:dark_metal_block_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:scoria_millstone": {
+    "block_id": "dndecor:scoria_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:belt": {
+    "block_id": "dndecor:belt",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_sheet_metal": {
+    "block_id": "dndecor:magenta_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_industrial_cogwheel": {
+    "block_id": "dndecor:orange_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_container": {
+    "block_id": "dndecor:yellow_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_velvet_block": {
+    "block_id": "dndecor:pink_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_slab": {
+    "block_id": "dndecor:cut_netherrack_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:copper_flat_bolt": {
+    "block_id": "dndecor:copper_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:ochrum_crushing_wheel": {
+    "block_id": "dndecor:ochrum_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:layered_packed_mud": {
+    "block_id": "dndecor:layered_packed_mud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_frontlight": {
+    "block_id": "dndecor:brass_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_sheet_metal": {
+    "block_id": "dndecor:white_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_small_deepslate_tiles": {
+    "block_id": "dndecor:cyan_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_stone_stairs": {
+    "block_id": "dndecor:cut_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_netherrack_bricks": {
+    "block_id": "dndecor:small_netherrack_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_catwalk": {
+    "block_id": "dndecor:iron_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_floor": {
+    "block_id": "dndecor:zinc_floor",
+    "base_mass": "1.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_large_fan": {
+    "block_id": "dndecor:red_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gray_large_industrial_cogwheel": {
+    "block_id": "dndecor:gray_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_lime_container": {
+    "block_id": "dndecor:solid_lime_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:amethyst_pillar": {
+    "block_id": "dndecor:amethyst_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_flywheel": {
+    "block_id": "dndecor:brown_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_basalt": {
+    "block_id": "dndecor:polished_cut_basalt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_sheet_metal": {
+    "block_id": "dndecor:black_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_cogwheel": {
+    "block_id": "dndecor:blue_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:crimsite_crushing_wheel": {
+    "block_id": "dndecor:crimsite_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_display_board": {
+    "block_id": "dndecor:brown_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_cross_bolt": {
+    "block_id": "dndecor:industrial_cross_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_display_board": {
+    "block_id": "dndecor:purple_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_small_deepslate_tiles": {
+    "block_id": "dndecor:black_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_brick_slab": {
+    "block_id": "dndecor:cut_dolomite_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_dark_metal_block": {
+    "block_id": "dndecor:light_blue_dark_metal_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_weathered_limestone": {
+    "block_id": "dndecor:polished_cut_weathered_limestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:diorite_crushing_wheel": {
+    "block_id": "dndecor:diorite_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_basalt_brick_stairs": {
+    "block_id": "dndecor:cut_basalt_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_sheet_metal": {
+    "block_id": "dndecor:pink_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_bricks": {
+    "block_id": "dndecor:cut_weathered_limestone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_dash_bolt": {
+    "block_id": "dndecor:netherite_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:scorchia_crushing_wheel": {
+    "block_id": "dndecor:scorchia_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_netherrack_bricks": {
+    "block_id": "dndecor:cut_netherrack_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_frontlight": {
+    "block_id": "dndecor:iron_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_brick_slab": {
+    "block_id": "dndecor:cut_amethyst_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_stone_metal": {
+    "block_id": "dndecor:brown_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_frontlight": {
+    "block_id": "dndecor:industrial_frontlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_sheet_metal": {
+    "block_id": "dndecor:andesite_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_dot_bolt": {
+    "block_id": "dndecor:industrial_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_catwalk": {
+    "block_id": "dndecor:andesite_catwalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_display_board": {
+    "block_id": "dndecor:cyan_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_velvet_block": {
+    "block_id": "dndecor:lime_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_large_cogwheel": {
+    "block_id": "dndecor:green_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_stone_metal": {
+    "block_id": "dndecor:light_blue_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_velvet_block": {
+    "block_id": "dndecor:magenta_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:stone_millstone": {
+    "block_id": "dndecor:stone_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:granite_crushing_wheel": {
+    "block_id": "dndecor:granite_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_velvet_block": {
+    "block_id": "dndecor:light_gray_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_dark_metal_plating": {
+    "block_id": "dndecor:green_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_lamp": {
+    "block_id": "dndecor:netherite_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_copper_chain": {
+    "block_id": "dndecor:large_copper_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_sheet_metal": {
+    "block_id": "dndecor:red_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_velvet_block": {
+    "block_id": "dndecor:black_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_large_metal_girder": {
+    "block_id": "dndecor:lime_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_green_container": {
+    "block_id": "dndecor:solid_green_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_large_fan": {
+    "block_id": "dndecor:pink_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:diagonal_metal_support": {
+    "block_id": "dndecor:diagonal_metal_support",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_industrial_cogwheel": {
+    "block_id": "dndecor:light_gray_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:ornate_iron_glass_pane": {
+    "block_id": "dndecor:ornate_iron_glass_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_large_industrial_cogwheel": {
+    "block_id": "dndecor:cyan_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blackstone_crushing_wheel": {
+    "block_id": "dndecor:blackstone_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:black_large_cogwheel": {
+    "block_id": "dndecor:black_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_large_metal_girder": {
+    "block_id": "dndecor:green_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:solid_yellow_container": {
+    "block_id": "dndecor:solid_yellow_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_large_cogwheel": {
+    "block_id": "dndecor:light_blue_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_stone_metal": {
+    "block_id": "dndecor:blue_stone_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_large_metal_girder": {
+    "block_id": "dndecor:red_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_large_fan": {
+    "block_id": "dndecor:blue_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_small_deepslate_tiles": {
+    "block_id": "dndecor:pink_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_flat_bolt": {
+    "block_id": "dndecor:netherite_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_small_deepslate_tiles": {
+    "block_id": "dndecor:light_gray_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_large_industrial_cogwheel": {
+    "block_id": "dndecor:green_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_gray_large_cogwheel": {
+    "block_id": "dndecor:light_gray_large_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brass_dot_bolt": {
+    "block_id": "dndecor:brass_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_weathered_limestone_slab": {
+    "block_id": "dndecor:cut_weathered_limestone_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:light_blue_small_deepslate_tiles": {
+    "block_id": "dndecor:light_blue_small_deepslate_tiles",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_metal_girder": {
+    "block_id": "dndecor:large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_floor": {
+    "block_id": "dndecor:andesite_floor",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_container": {
+    "block_id": "dndecor:purple_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_flywheel": {
+    "block_id": "dndecor:blue_flywheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_stone": {
+    "block_id": "dndecor:polished_cut_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_dot_bolt": {
+    "block_id": "dndecor:netherite_dot_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_amethyst_wall": {
+    "block_id": "dndecor:cut_amethyst_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_stone_brick_slab": {
+    "block_id": "dndecor:small_stone_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:white_industrial_cogwheel": {
+    "block_id": "dndecor:white_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:granite_millstone": {
+    "block_id": "dndecor:granite_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_netherrack_stairs": {
+    "block_id": "dndecor:polished_cut_netherrack_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:lime_dark_metal_plating": {
+    "block_id": "dndecor:lime_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro_wall": {
+    "block_id": "dndecor:cut_gabbro_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_brick_wall": {
+    "block_id": "dndecor:cut_packed_mud_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:brown_large_fan": {
+    "block_id": "dndecor:brown_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:magenta_industrial_cogwheel": {
+    "block_id": "dndecor:magenta_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:purple_sheet_metal": {
+    "block_id": "dndecor:purple_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_gabbro": {
+    "block_id": "dndecor:cut_gabbro",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_sheet_metal": {
+    "block_id": "dndecor:green_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:andesite_lamp": {
+    "block_id": "dndecor:andesite_lamp",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:green_display_board": {
+    "block_id": "dndecor:green_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:large_industrial_chain": {
+    "block_id": "dndecor:large_industrial_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:gabbro": {
+    "block_id": "dndecor:gabbro",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_large_fan": {
+    "block_id": "dndecor:cyan_large_fan",
+    "base_mass": "0.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dolomite": {
+    "block_id": "dndecor:dolomite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_packed_mud_brick_stairs": {
+    "block_id": "dndecor:cut_packed_mud_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cyan_large_metal_girder": {
+    "block_id": "dndecor:cyan_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:veridium_crushing_wheel": {
+    "block_id": "dndecor:veridium_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:industrial_floor": {
+    "block_id": "dndecor:industrial_floor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:calcite_crushing_wheel": {
+    "block_id": "dndecor:calcite_crushing_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_large_industrial_cogwheel": {
+    "block_id": "dndecor:orange_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:netherite_sheet_metal": {
+    "block_id": "dndecor:netherite_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_amethyst_brick_stairs": {
+    "block_id": "dndecor:small_amethyst_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:cut_dolomite_slab": {
+    "block_id": "dndecor:cut_dolomite_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:orange_display_board": {
+    "block_id": "dndecor:orange_display_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:red_dark_metal_plating": {
+    "block_id": "dndecor:red_dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:pink_large_metal_girder": {
+    "block_id": "dndecor:pink_large_metal_girder",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:polished_cut_weathered_limestone_wall": {
+    "block_id": "dndecor:polished_cut_weathered_limestone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:zinc_checker_tiles": {
+    "block_id": "dndecor:zinc_checker_tiles",
+    "base_mass": "1.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_dash_bolt": {
+    "block_id": "dndecor:iron_dash_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:yellow_large_industrial_cogwheel": {
+    "block_id": "dndecor:yellow_large_industrial_cogwheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:small_gabbro_bricks": {
+    "block_id": "dndecor:small_gabbro_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_flat_bolt": {
+    "block_id": "dndecor:iron_flat_bolt",
+    "base_mass": "0.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:blue_velvet_block": {
+    "block_id": "dndecor:blue_velvet_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:deepslate_millstone": {
+    "block_id": "dndecor:deepslate_millstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:iron_boiler": {
+    "block_id": "dndecor:iron_boiler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "dndecor:dark_metal_plating": {
+    "block_id": "dndecor:dark_metal_plating",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

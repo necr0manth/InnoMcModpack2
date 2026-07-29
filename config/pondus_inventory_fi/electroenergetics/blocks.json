@@ -1,0 +1,578 @@
+{
+  "electroenergetics:capacitor": {
+    "block_id": "electroenergetics:capacitor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:redstone_variac": {
+    "block_id": "electroenergetics:redstone_variac",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:broken_fuse": {
+    "block_id": "electroenergetics:broken_fuse",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:creative_battery": {
+    "block_id": "electroenergetics:creative_battery",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:orange_electrical_panel": {
+    "block_id": "electroenergetics:orange_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:yellow_electrical_panel": {
+    "block_id": "electroenergetics:yellow_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:cyan_electric_motor": {
+    "block_id": "electroenergetics:cyan_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:light_gray_electrical_panel": {
+    "block_id": "electroenergetics:light_gray_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:bulb": {
+    "block_id": "electroenergetics:bulb",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:emergency_stop_button": {
+    "block_id": "electroenergetics:emergency_stop_button",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:inductor": {
+    "block_id": "electroenergetics:inductor",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:magnet": {
+    "block_id": "electroenergetics:magnet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:double_connector": {
+    "block_id": "electroenergetics:double_connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:three_phase_alternator_brushes": {
+    "block_id": "electroenergetics:three_phase_alternator_brushes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:light_gray_electric_motor": {
+    "block_id": "electroenergetics:light_gray_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:variac": {
+    "block_id": "electroenergetics:variac",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:green_electrical_panel": {
+    "block_id": "electroenergetics:green_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:light_blue_electric_motor": {
+    "block_id": "electroenergetics:light_blue_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:plant_oil": {
+    "block_id": "electroenergetics:plant_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:triple_connector": {
+    "block_id": "electroenergetics:triple_connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:rail_contact_shoe": {
+    "block_id": "electroenergetics:rail_contact_shoe",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:relay": {
+    "block_id": "electroenergetics:relay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:pantograph": {
+    "block_id": "electroenergetics:pantograph",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:grounding_sign": {
+    "block_id": "electroenergetics:grounding_sign",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:transformer_oil": {
+    "block_id": "electroenergetics:transformer_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:energy_meter": {
+    "block_id": "electroenergetics:energy_meter",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:buzzer": {
+    "block_id": "electroenergetics:buzzer",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:pink_electrical_panel": {
+    "block_id": "electroenergetics:pink_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:green_electric_motor": {
+    "block_id": "electroenergetics:green_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:black_electric_motor": {
+    "block_id": "electroenergetics:black_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:fuse": {
+    "block_id": "electroenergetics:fuse",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:black_electrical_panel": {
+    "block_id": "electroenergetics:black_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:catenary_holder": {
+    "block_id": "electroenergetics:catenary_holder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:white_electric_motor": {
+    "block_id": "electroenergetics:white_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:voltage_regulator": {
+    "block_id": "electroenergetics:voltage_regulator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:blue_electric_motor": {
+    "block_id": "electroenergetics:blue_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:converter": {
+    "block_id": "electroenergetics:converter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:frequency_meter": {
+    "block_id": "electroenergetics:frequency_meter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:brown_electrical_panel": {
+    "block_id": "electroenergetics:brown_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:cyan_electrical_panel": {
+    "block_id": "electroenergetics:cyan_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:magenta_electric_motor": {
+    "block_id": "electroenergetics:magenta_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:synchroscope": {
+    "block_id": "electroenergetics:synchroscope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:pole_mount": {
+    "block_id": "electroenergetics:pole_mount",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:gray_electrical_panel": {
+    "block_id": "electroenergetics:gray_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:indicator_bulb": {
+    "block_id": "electroenergetics:indicator_bulb",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:white_electrical_panel": {
+    "block_id": "electroenergetics:white_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:purple_electric_motor": {
+    "block_id": "electroenergetics:purple_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:yellow_electric_motor": {
+    "block_id": "electroenergetics:yellow_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:orange_electric_motor": {
+    "block_id": "electroenergetics:orange_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:transformer_core": {
+    "block_id": "electroenergetics:transformer_core",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:blue_electrical_panel": {
+    "block_id": "electroenergetics:blue_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:stator": {
+    "block_id": "electroenergetics:stator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:accumulator": {
+    "block_id": "electroenergetics:accumulator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:insulator": {
+    "block_id": "electroenergetics:insulator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:transformer": {
+    "block_id": "electroenergetics:transformer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:ground_rod": {
+    "block_id": "electroenergetics:ground_rod",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:connector": {
+    "block_id": "electroenergetics:connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:high_voltage_switch": {
+    "block_id": "electroenergetics:high_voltage_switch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:tri_polar_energy_meter": {
+    "block_id": "electroenergetics:tri_polar_energy_meter",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:electric_pump": {
+    "block_id": "electroenergetics:electric_pump",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:redstone_relay": {
+    "block_id": "electroenergetics:redstone_relay",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:brown_electric_motor": {
+    "block_id": "electroenergetics:brown_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:cut_off_switch": {
+    "block_id": "electroenergetics:cut_off_switch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:diode": {
+    "block_id": "electroenergetics:diode",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:light_blue_electrical_panel": {
+    "block_id": "electroenergetics:light_blue_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:ammeter": {
+    "block_id": "electroenergetics:ammeter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:radiator_panel": {
+    "block_id": "electroenergetics:radiator_panel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:potentiometer": {
+    "block_id": "electroenergetics:potentiometer",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:red_electrical_panel": {
+    "block_id": "electroenergetics:red_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:double_switch": {
+    "block_id": "electroenergetics:double_switch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:momentary_switch": {
+    "block_id": "electroenergetics:momentary_switch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:creative_resistor": {
+    "block_id": "electroenergetics:creative_resistor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:current_transformer": {
+    "block_id": "electroenergetics:current_transformer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:fuse_holder": {
+    "block_id": "electroenergetics:fuse_holder",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:electrical_panel": {
+    "block_id": "electroenergetics:electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:gray_electric_motor": {
+    "block_id": "electroenergetics:gray_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:quad_connector": {
+    "block_id": "electroenergetics:quad_connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:redstone_potentiometer": {
+    "block_id": "electroenergetics:redstone_potentiometer",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:duplex_wire_termination": {
+    "block_id": "electroenergetics:duplex_wire_termination",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:voltmeter": {
+    "block_id": "electroenergetics:voltmeter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:lime_electric_motor": {
+    "block_id": "electroenergetics:lime_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:lime_electrical_panel": {
+    "block_id": "electroenergetics:lime_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:red_electric_motor": {
+    "block_id": "electroenergetics:red_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:sulfur_hexafluoride_breaker": {
+    "block_id": "electroenergetics:sulfur_hexafluoride_breaker",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:alternator_rotor": {
+    "block_id": "electroenergetics:alternator_rotor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:magenta_electrical_panel": {
+    "block_id": "electroenergetics:magenta_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:broken_bulb": {
+    "block_id": "electroenergetics:broken_bulb",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:pink_electric_motor": {
+    "block_id": "electroenergetics:pink_electric_motor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:high_voltage_sign": {
+    "block_id": "electroenergetics:high_voltage_sign",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:resistor": {
+    "block_id": "electroenergetics:resistor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:resistive_heater": {
+    "block_id": "electroenergetics:resistive_heater",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:electric_shock_sign": {
+    "block_id": "electroenergetics:electric_shock_sign",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:concrete_pole": {
+    "block_id": "electroenergetics:concrete_pole",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:high_voltage_capacitor": {
+    "block_id": "electroenergetics:high_voltage_capacitor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:purple_electrical_panel": {
+    "block_id": "electroenergetics:purple_electrical_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "electroenergetics:alternator_brushes": {
+    "block_id": "electroenergetics:alternator_brushes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

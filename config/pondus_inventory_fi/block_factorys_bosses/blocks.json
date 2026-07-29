@@ -1,0 +1,254 @@
+{
+  "block_factorys_bosses:vase": {
+    "block_id": "block_factorys_bosses:vase",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:bone_remains": {
+    "block_id": "block_factorys_bosses:bone_remains",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:cannonball": {
+    "block_id": "block_factorys_bosses:cannonball",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_wet": {
+    "block_id": "block_factorys_bosses:big_oak_planks_wet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:candles": {
+    "block_id": "block_factorys_bosses:candles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:kraken_spawner": {
+    "block_id": "block_factorys_bosses:kraken_spawner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_cracked": {
+    "block_id": "block_factorys_bosses:big_oak_planks_cracked",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:coin_pile": {
+    "block_id": "block_factorys_bosses:coin_pile",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:ship_steering_wheel": {
+    "block_id": "block_factorys_bosses:ship_steering_wheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_variation": {
+    "block_id": "block_factorys_bosses:big_oak_planks_variation",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:guardrail": {
+    "block_id": "block_factorys_bosses:guardrail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:guardrail_diagonal": {
+    "block_id": "block_factorys_bosses:guardrail_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_straight": {
+    "block_id": "block_factorys_bosses:big_oak_planks_straight",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:ship_lantern": {
+    "block_id": "block_factorys_bosses:ship_lantern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:dragon_skull": {
+    "block_id": "block_factorys_bosses:dragon_skull",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:net": {
+    "block_id": "block_factorys_bosses:net",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:bone_remains_legs": {
+    "block_id": "block_factorys_bosses:bone_remains_legs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:plank": {
+    "block_id": "block_factorys_bosses:plank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:underworld_tall_candles": {
+    "block_id": "block_factorys_bosses:underworld_tall_candles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:underworld_arena_door": {
+    "block_id": "block_factorys_bosses:underworld_arena_door",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_wet_straight": {
+    "block_id": "block_factorys_bosses:big_oak_planks_wet_straight",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:rusty_prison_door": {
+    "block_id": "block_factorys_bosses:rusty_prison_door",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:underwold_candles": {
+    "block_id": "block_factorys_bosses:underwold_candles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:bone_remains_rib_cage": {
+    "block_id": "block_factorys_bosses:bone_remains_rib_cage",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_broken": {
+    "block_id": "block_factorys_bosses:big_oak_planks_broken",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_wet_cracked": {
+    "block_id": "block_factorys_bosses:big_oak_planks_wet_cracked",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:tall_vase": {
+    "block_id": "block_factorys_bosses:tall_vase",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:tall_candles": {
+    "block_id": "block_factorys_bosses:tall_candles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:under_world_tall_candle_cross": {
+    "block_id": "block_factorys_bosses:under_world_tall_candle_cross",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_chain": {
+    "block_id": "block_factorys_bosses:big_chain",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:prison_door": {
+    "block_id": "block_factorys_bosses:prison_door",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:boss_spawner": {
+    "block_id": "block_factorys_bosses:boss_spawner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:wall_torch": {
+    "block_id": "block_factorys_bosses:wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:rope_roll": {
+    "block_id": "block_factorys_bosses:rope_roll",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:underwold_wall_torch": {
+    "block_id": "block_factorys_bosses:underwold_wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks": {
+    "block_id": "block_factorys_bosses:big_oak_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_wet_variation": {
+    "block_id": "block_factorys_bosses:big_oak_planks_wet_variation",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:ice_block_particules": {
+    "block_id": "block_factorys_bosses:ice_block_particules",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:big_oak_planks_wet_broken": {
+    "block_id": "block_factorys_bosses:big_oak_planks_wet_broken",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:tall_candles_cross": {
+    "block_id": "block_factorys_bosses:tall_candles_cross",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:dragon_banner": {
+    "block_id": "block_factorys_bosses:dragon_banner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "block_factorys_bosses:corpse": {
+    "block_id": "block_factorys_bosses:corpse",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "aeronautics:yellow_envelope": {
+    "block_id": "aeronautics:yellow_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:brown_envelope_encased_shaft": {
+    "block_id": "aeronautics:brown_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:mounted_potato_cannon": {
+    "block_id": "aeronautics:mounted_potato_cannon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:yellow_envelope_encased_shaft": {
+    "block_id": "aeronautics:yellow_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:light_gray_envelope_encased_shaft": {
+    "block_id": "aeronautics:light_gray_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:pearlescent_levitite": {
+    "block_id": "aeronautics:pearlescent_levitite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:levitite_blend": {
+    "block_id": "aeronautics:levitite_blend",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:magenta_envelope": {
+    "block_id": "aeronautics:magenta_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:cyan_envelope_encased_shaft": {
+    "block_id": "aeronautics:cyan_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:pink_envelope": {
+    "block_id": "aeronautics:pink_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:red_envelope_encased_shaft": {
+    "block_id": "aeronautics:red_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:purple_envelope": {
+    "block_id": "aeronautics:purple_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:adjustable_burner": {
+    "block_id": "aeronautics:adjustable_burner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:andesite_propeller": {
+    "block_id": "aeronautics:andesite_propeller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:black_envelope": {
+    "block_id": "aeronautics:black_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:white_envelope_encased_shaft": {
+    "block_id": "aeronautics:white_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:white_envelope": {
+    "block_id": "aeronautics:white_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:red_envelope": {
+    "block_id": "aeronautics:red_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:green_envelope_encased_shaft": {
+    "block_id": "aeronautics:green_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:magenta_envelope_encased_shaft": {
+    "block_id": "aeronautics:magenta_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:light_blue_envelope": {
+    "block_id": "aeronautics:light_blue_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:lime_envelope_encased_shaft": {
+    "block_id": "aeronautics:lime_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:blue_envelope_encased_shaft": {
+    "block_id": "aeronautics:blue_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:orange_envelope": {
+    "block_id": "aeronautics:orange_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:blue_envelope": {
+    "block_id": "aeronautics:blue_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:gray_envelope": {
+    "block_id": "aeronautics:gray_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:steam_vent": {
+    "block_id": "aeronautics:steam_vent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:purple_envelope_encased_shaft": {
+    "block_id": "aeronautics:purple_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:black_envelope_encased_shaft": {
+    "block_id": "aeronautics:black_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:pink_envelope_encased_shaft": {
+    "block_id": "aeronautics:pink_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:gray_envelope_encased_shaft": {
+    "block_id": "aeronautics:gray_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:lime_envelope": {
+    "block_id": "aeronautics:lime_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:gyroscopic_propeller_bearing": {
+    "block_id": "aeronautics:gyroscopic_propeller_bearing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:green_envelope": {
+    "block_id": "aeronautics:green_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:brown_envelope": {
+    "block_id": "aeronautics:brown_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:light_blue_envelope_encased_shaft": {
+    "block_id": "aeronautics:light_blue_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:levitite": {
+    "block_id": "aeronautics:levitite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:smart_propeller": {
+    "block_id": "aeronautics:smart_propeller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:orange_envelope_encased_shaft": {
+    "block_id": "aeronautics:orange_envelope_encased_shaft",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:propeller_bearing": {
+    "block_id": "aeronautics:propeller_bearing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:wooden_propeller": {
+    "block_id": "aeronautics:wooden_propeller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:light_gray_envelope": {
+    "block_id": "aeronautics:light_gray_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeronautics:cyan_envelope": {
+    "block_id": "aeronautics:cyan_envelope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "hybrid-aquatic:lophelia_coral": {
+    "block_id": "hybrid-aquatic:lophelia_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tube_worm": {
+    "block_id": "hybrid-aquatic:tube_worm",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:water_lettuce": {
+    "block_id": "hybrid-aquatic:water_lettuce",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_button": {
+    "block_id": "hybrid-aquatic:driftwood_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_lophelia_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_lophelia_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:lophelia_coral_fan": {
+    "block_id": "hybrid-aquatic:lophelia_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:button_coral_block": {
+    "block_id": "hybrid-aquatic:button_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:giant_green_anemone": {
+    "block_id": "hybrid-aquatic:giant_green_anemone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:bull_kelp": {
+    "block_id": "hybrid-aquatic:bull_kelp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tall_red_algae": {
+    "block_id": "hybrid-aquatic:tall_red_algae",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_sun_coral": {
+    "block_id": "hybrid-aquatic:dead_sun_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:button_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:button_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_sun_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_sun_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_button_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_button_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:leaf_coral_block": {
+    "block_id": "hybrid-aquatic:leaf_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:glowslime_block": {
+    "block_id": "hybrid-aquatic:glowslime_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:glowstick": {
+    "block_id": "hybrid-aquatic:glowstick",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sun_coral_fan": {
+    "block_id": "hybrid-aquatic:sun_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_stairs": {
+    "block_id": "hybrid-aquatic:driftwood_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:acacia_crate": {
+    "block_id": "hybrid-aquatic:acacia_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tiger_shark_plushie": {
+    "block_id": "hybrid-aquatic:tiger_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:jungle_crate": {
+    "block_id": "hybrid-aquatic:jungle_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:lophelia_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:lophelia_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:wall_glowstick": {
+    "block_id": "hybrid-aquatic:wall_glowstick",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tube_sponge": {
+    "block_id": "hybrid-aquatic:tube_sponge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:hydrothermal_vent_shaft": {
+    "block_id": "hybrid-aquatic:hydrothermal_vent_shaft",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_planks": {
+    "block_id": "hybrid-aquatic:driftwood_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:thresher_shark_plushie": {
+    "block_id": "hybrid-aquatic:thresher_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:black_pearl_block": {
+    "block_id": "hybrid-aquatic:black_pearl_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:rose_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:rose_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:hybrid_crate": {
+    "block_id": "hybrid-aquatic:hybrid_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:stripped_driftwood_log": {
+    "block_id": "hybrid-aquatic:stripped_driftwood_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:bull_shark_plushie": {
+    "block_id": "hybrid-aquatic:bull_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_leaf_coral_block": {
+    "block_id": "hybrid-aquatic:dead_leaf_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_pressure_plate": {
+    "block_id": "hybrid-aquatic:driftwood_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_rose_coral": {
+    "block_id": "hybrid-aquatic:dead_rose_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:lophelia_coral_block": {
+    "block_id": "hybrid-aquatic:lophelia_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dark_oak_crate": {
+    "block_id": "hybrid-aquatic:dark_oak_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:rose_coral": {
+    "block_id": "hybrid-aquatic:rose_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_button_coral": {
+    "block_id": "hybrid-aquatic:dead_button_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:basking_shark_plushie": {
+    "block_id": "hybrid-aquatic:basking_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:leaf_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:leaf_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:thorn_coral": {
+    "block_id": "hybrid-aquatic:thorn_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_sun_coral_block": {
+    "block_id": "hybrid-aquatic:dead_sun_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:jungle_lily_pad": {
+    "block_id": "hybrid-aquatic:jungle_lily_pad",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:hammerhead_shark_plushie": {
+    "block_id": "hybrid-aquatic:hammerhead_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:oak_crate": {
+    "block_id": "hybrid-aquatic:oak_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:birch_crate": {
+    "block_id": "hybrid-aquatic:birch_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_leaf_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_leaf_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_slab": {
+    "block_id": "hybrid-aquatic:driftwood_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sun_coral": {
+    "block_id": "hybrid-aquatic:sun_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_button_coral_block": {
+    "block_id": "hybrid-aquatic:dead_button_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sun_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:sun_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:leaf_coral_fan": {
+    "block_id": "hybrid-aquatic:leaf_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:rose_coral_block": {
+    "block_id": "hybrid-aquatic:rose_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:crab_pot": {
+    "block_id": "hybrid-aquatic:crab_pot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_fence": {
+    "block_id": "hybrid-aquatic:driftwood_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_rose_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_rose_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:bull_kelp_plant": {
+    "block_id": "hybrid-aquatic:bull_kelp_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:buoy": {
+    "block_id": "hybrid-aquatic:buoy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:mangrove_crate": {
+    "block_id": "hybrid-aquatic:mangrove_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_thorn_coral": {
+    "block_id": "hybrid-aquatic:dead_thorn_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:frilled_shark_plushie": {
+    "block_id": "hybrid-aquatic:frilled_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:thorn_coral_fan": {
+    "block_id": "hybrid-aquatic:thorn_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_thorn_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_thorn_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_fence_gate": {
+    "block_id": "hybrid-aquatic:driftwood_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sea_lettuce": {
+    "block_id": "hybrid-aquatic:sea_lettuce",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_rose_coral_block": {
+    "block_id": "hybrid-aquatic:dead_rose_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sun_coral_block": {
+    "block_id": "hybrid-aquatic:sun_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_leaf_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_leaf_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:cherry_crate": {
+    "block_id": "hybrid-aquatic:cherry_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_thorn_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_thorn_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:glowing_plankton": {
+    "block_id": "hybrid-aquatic:glowing_plankton",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:spruce_crate": {
+    "block_id": "hybrid-aquatic:spruce_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:thorn_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:thorn_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:button_coral": {
+    "block_id": "hybrid-aquatic:button_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:strawberry_anemone": {
+    "block_id": "hybrid-aquatic:strawberry_anemone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:message_in_a_bottle": {
+    "block_id": "hybrid-aquatic:message_in_a_bottle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sargassum": {
+    "block_id": "hybrid-aquatic:sargassum",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:leaf_coral": {
+    "block_id": "hybrid-aquatic:leaf_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_sun_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_sun_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:raft": {
+    "block_id": "hybrid-aquatic:raft",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:anemone": {
+    "block_id": "hybrid-aquatic:anemone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:cattail": {
+    "block_id": "hybrid-aquatic:cattail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:pearl_block": {
+    "block_id": "hybrid-aquatic:pearl_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dunegrass": {
+    "block_id": "hybrid-aquatic:dunegrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:great_white_shark_plushie": {
+    "block_id": "hybrid-aquatic:great_white_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:bamboo_crate": {
+    "block_id": "hybrid-aquatic:bamboo_crate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tall_dunegrass": {
+    "block_id": "hybrid-aquatic:tall_dunegrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:rose_coral_fan": {
+    "block_id": "hybrid-aquatic:rose_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_leaf_coral": {
+    "block_id": "hybrid-aquatic:dead_leaf_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:thorn_coral_block": {
+    "block_id": "hybrid-aquatic:thorn_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_lophelia_coral_block": {
+    "block_id": "hybrid-aquatic:dead_lophelia_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:button_coral_fan": {
+    "block_id": "hybrid-aquatic:button_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_wood": {
+    "block_id": "hybrid-aquatic:driftwood_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:red_algae": {
+    "block_id": "hybrid-aquatic:red_algae",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_thorn_coral_block": {
+    "block_id": "hybrid-aquatic:dead_thorn_coral_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_rose_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_rose_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_lophelia_coral_fan": {
+    "block_id": "hybrid-aquatic:dead_lophelia_coral_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:floating_sargassum": {
+    "block_id": "hybrid-aquatic:floating_sargassum",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_trapdoor": {
+    "block_id": "hybrid-aquatic:driftwood_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:whale_shark_plushie": {
+    "block_id": "hybrid-aquatic:whale_shark_plushie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_button_coral_wall_fan": {
+    "block_id": "hybrid-aquatic:dead_button_coral_wall_fan",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_door": {
+    "block_id": "hybrid-aquatic:driftwood_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:stripped_driftwood_wood": {
+    "block_id": "hybrid-aquatic:stripped_driftwood_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:sargassum_plant": {
+    "block_id": "hybrid-aquatic:sargassum_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:driftwood_log": {
+    "block_id": "hybrid-aquatic:driftwood_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:tall_sea_lettuce": {
+    "block_id": "hybrid-aquatic:tall_sea_lettuce",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:giant_clam": {
+    "block_id": "hybrid-aquatic:giant_clam",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "hybrid-aquatic:dead_lophelia_coral": {
+    "block_id": "hybrid-aquatic:dead_lophelia_coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

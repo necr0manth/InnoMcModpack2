@@ -1,0 +1,15 @@
+{
+	separationInfluence: 0.6,
+	separationRange: 2.5,
+	separationAngle: 70.0,
+	alignmentInfluence: 0.4,
+	alignmentAngle: 100.0,
+	cohesionInfluence: 0.4,
+	cohesionAngle: 70.0,
+	minSpeed: 0.2,
+	maxSpeed: 0.3,
+	randomness: 0.005,
+	includeDefaultFish: true,
+	includedEntities: [],
+	excludeEntities: []
+}

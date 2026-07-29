@@ -1,0 +1,278 @@
+{
+  "copycats:copycat_iron_door": {
+    "block_id": "copycats:copycat_iron_door",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_cogwheel": {
+    "block_id": "copycats:copycat_cogwheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_sliding_door": {
+    "block_id": "copycats:copycat_sliding_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_slope": {
+    "block_id": "copycats:copycat_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_pane": {
+    "block_id": "copycats:copycat_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_stairs": {
+    "block_id": "copycats:copycat_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_slope_layer": {
+    "block_id": "copycats:copycat_slope_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_vertical_slice": {
+    "block_id": "copycats:copycat_vertical_slice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_vertical_step": {
+    "block_id": "copycats:copycat_vertical_step",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_fence": {
+    "block_id": "copycats:copycat_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_stone_pressure_plate": {
+    "block_id": "copycats:copycat_stone_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_glass_fluid_pipe": {
+    "block_id": "copycats:copycat_glass_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_stacked_half_layer": {
+    "block_id": "copycats:copycat_stacked_half_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_vertical_half_layer": {
+    "block_id": "copycats:copycat_vertical_half_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_shaft": {
+    "block_id": "copycats:copycat_shaft",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_beam": {
+    "block_id": "copycats:copycat_beam",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:wrapped_copycat": {
+    "block_id": "copycats:wrapped_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_door": {
+    "block_id": "copycats:copycat_door",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_heavy_weighted_pressure_plate": {
+    "block_id": "copycats:copycat_heavy_weighted_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_board": {
+    "block_id": "copycats:copycat_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_large_cogwheel": {
+    "block_id": "copycats:copycat_large_cogwheel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_folding_door": {
+    "block_id": "copycats:copycat_folding_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_wall": {
+    "block_id": "copycats:copycat_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_half_panel": {
+    "block_id": "copycats:copycat_half_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_byte_panel": {
+    "block_id": "copycats:copycat_byte_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_vertical_slope": {
+    "block_id": "copycats:copycat_vertical_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_fence_gate": {
+    "block_id": "copycats:copycat_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_vertical_stairs": {
+    "block_id": "copycats:copycat_vertical_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_half_layer": {
+    "block_id": "copycats:copycat_half_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_corner_slice": {
+    "block_id": "copycats:copycat_corner_slice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_byte": {
+    "block_id": "copycats:copycat_byte",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_slice": {
+    "block_id": "copycats:copycat_slice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_trapdoor": {
+    "block_id": "copycats:copycat_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_slab": {
+    "block_id": "copycats:copycat_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_base": {
+    "block_id": "copycats:copycat_base",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_block": {
+    "block_id": "copycats:copycat_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_light_weighted_pressure_plate": {
+    "block_id": "copycats:copycat_light_weighted_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_layer": {
+    "block_id": "copycats:copycat_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_wooden_pressure_plate": {
+    "block_id": "copycats:copycat_wooden_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_stone_button": {
+    "block_id": "copycats:copycat_stone_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_wooden_button": {
+    "block_id": "copycats:copycat_wooden_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_ghost_block": {
+    "block_id": "copycats:copycat_ghost_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_iron_trapdoor": {
+    "block_id": "copycats:copycat_iron_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_flat_pane": {
+    "block_id": "copycats:copycat_flat_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_ladder": {
+    "block_id": "copycats:copycat_ladder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "copycats:copycat_fluid_pipe": {
+    "block_id": "copycats:copycat_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

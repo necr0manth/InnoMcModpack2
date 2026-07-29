@@ -1,0 +1,2324 @@
+{
+  "s_a_b:lightbluesteelblock": {
+    "block_id": "s_a_b:lightbluesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrasstaiga": {
+    "block_id": "s_a_b:steelblockgrasstaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:one": {
+    "block_id": "s_a_b:one",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockhazard": {
+    "block_id": "s_a_b:lightsteelblockhazard",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:pp": {
+    "block_id": "s_a_b:pp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblocklightsky": {
+    "block_id": "s_a_b:hardsteelblocklightsky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassch": {
+    "block_id": "s_a_b:brassch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yellowhardsteelblock": {
+    "block_id": "s_a_b:yellowhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasscc": {
+    "block_id": "s_a_b:brasscc",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:myag": {
+    "block_id": "s_a_b:myag",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockslate": {
+    "block_id": "s_a_b:lightsteelblockslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockbrightred": {
+    "block_id": "s_a_b:steelblockbrightred",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:pinklightsteelblock": {
+    "block_id": "s_a_b:pinklightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:exclamation": {
+    "block_id": "s_a_b:exclamation",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblock": {
+    "block_id": "s_a_b:doublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrass": {
+    "block_id": "s_a_b:doublesteelblockgrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:magentalightsteelblock": {
+    "block_id": "s_a_b:magentalightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:whitestar": {
+    "block_id": "s_a_b:whitestar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:two": {
+    "block_id": "s_a_b:two",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockdeepslate": {
+    "block_id": "s_a_b:doublesteelblockdeepslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassdd": {
+    "block_id": "s_a_b:brassdd",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:magentahardsteelblock": {
+    "block_id": "s_a_b:magentahardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cardboard": {
+    "block_id": "s_a_b:cardboard",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamosnow": {
+    "block_id": "s_a_b:doublesteelblockcamosnow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamojungle": {
+    "block_id": "s_a_b:doublesteelblockcamojungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:olivedoublesteel": {
+    "block_id": "s_a_b:olivedoublesteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:sh": {
+    "block_id": "s_a_b:sh",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:zero": {
+    "block_id": "s_a_b:zero",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamotaiga": {
+    "block_id": "s_a_b:lightsteelcamotaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:wardenlightsteelblock": {
+    "block_id": "s_a_b:wardenlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamosky": {
+    "block_id": "s_a_b:steelblockcamosky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:macraggebluehardsteelblock": {
+    "block_id": "s_a_b:macraggebluehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrasstaiga": {
+    "block_id": "s_a_b:doublesteelblockgrasstaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:question": {
+    "block_id": "s_a_b:question",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:graylightsteelblock": {
+    "block_id": "s_a_b:graylightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrasstaiga": {
+    "block_id": "s_a_b:lightsteelblockgrasstaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassff": {
+    "block_id": "s_a_b:brassff",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamosky": {
+    "block_id": "s_a_b:doublesteelblockcamosky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:five": {
+    "block_id": "s_a_b:five",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:profiledsheeting": {
+    "block_id": "s_a_b:profiledsheeting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:purpledoublesteelblock": {
+    "block_id": "s_a_b:purpledoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockusagrey": {
+    "block_id": "s_a_b:hardsteelblockusagrey",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamotaiga": {
+    "block_id": "s_a_b:steelblockcamotaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doubledot": {
+    "block_id": "s_a_b:doubledot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ll": {
+    "block_id": "s_a_b:ll",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockslate": {
+    "block_id": "s_a_b:hardsteelblockslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockshipbottom": {
+    "block_id": "s_a_b:hardsteelblockshipbottom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:graysteelblock": {
+    "block_id": "s_a_b:graysteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassgg": {
+    "block_id": "s_a_b:brassgg",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrassbadlands": {
+    "block_id": "s_a_b:lightsteelblockgrassbadlands",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:greensteelblock": {
+    "block_id": "s_a_b:greensteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamomesa": {
+    "block_id": "s_a_b:doublesteelblockcamomesa",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:limelightsteelblock": {
+    "block_id": "s_a_b:limelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcolored_32": {
+    "block_id": "s_a_b:steelblockcolored_32",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:blacklightsteelblock": {
+    "block_id": "s_a_b:blacklightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcolored_33": {
+    "block_id": "s_a_b:steelblockcolored_33",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:redlightsteelblock": {
+    "block_id": "s_a_b:redlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:n": {
+    "block_id": "s_a_b:n",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:o": {
+    "block_id": "s_a_b:o",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcolored_31": {
+    "block_id": "s_a_b:steelblockcolored_31",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightbluedoublesteelblock": {
+    "block_id": "s_a_b:lightbluedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:p": {
+    "block_id": "s_a_b:p",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:q": {
+    "block_id": "s_a_b:q",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamoswamp": {
+    "block_id": "s_a_b:doublesteelblockcamoswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:j": {
+    "block_id": "s_a_b:j",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:k": {
+    "block_id": "s_a_b:k",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:l": {
+    "block_id": "s_a_b:l",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:m": {
+    "block_id": "s_a_b:m",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:f": {
+    "block_id": "s_a_b:f",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:g": {
+    "block_id": "s_a_b:g",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:h": {
+    "block_id": "s_a_b:h",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:i": {
+    "block_id": "s_a_b:i",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:b": {
+    "block_id": "s_a_b:b",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassdot": {
+    "block_id": "s_a_b:brassdot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:c": {
+    "block_id": "s_a_b:c",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrassswamp": {
+    "block_id": "s_a_b:steelblockgrassswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:d": {
+    "block_id": "s_a_b:d",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:e": {
+    "block_id": "s_a_b:e",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightbluelightsteelblock": {
+    "block_id": "s_a_b:lightbluelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:z": {
+    "block_id": "s_a_b:z",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcolored_29": {
+    "block_id": "s_a_b:steelblockcolored_29",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:v": {
+    "block_id": "s_a_b:v",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:puritysealsolo": {
+    "block_id": "s_a_b:puritysealsolo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:w": {
+    "block_id": "s_a_b:w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:x": {
+    "block_id": "s_a_b:x",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:y": {
+    "block_id": "s_a_b:y",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrassjungle": {
+    "block_id": "s_a_b:steelblockgrassjungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockpanzergrau": {
+    "block_id": "s_a_b:hardsteelblockpanzergrau",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:r": {
+    "block_id": "s_a_b:r",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:s": {
+    "block_id": "s_a_b:s",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:t": {
+    "block_id": "s_a_b:t",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:u": {
+    "block_id": "s_a_b:u",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamojungle": {
+    "block_id": "s_a_b:steelblockcamojungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcolored_33": {
+    "block_id": "s_a_b:lightsteelblockcolored_33",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bluedoublesteelblock": {
+    "block_id": "s_a_b:bluedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcolored_32": {
+    "block_id": "s_a_b:lightsteelblockcolored_32",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassquestion": {
+    "block_id": "s_a_b:brassquestion",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcolored_31": {
+    "block_id": "s_a_b:lightsteelblockcolored_31",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassii": {
+    "block_id": "s_a_b:brassii",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblock": {
+    "block_id": "s_a_b:lightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrassbadlands": {
+    "block_id": "s_a_b:hardsteelblockgrassbadlands",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:coloniallightsteelblock": {
+    "block_id": "s_a_b:coloniallightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgelb": {
+    "block_id": "s_a_b:steelblockgelb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockluftwaffeyellow": {
+    "block_id": "s_a_b:doublesteelblockluftwaffeyellow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcolored_29": {
+    "block_id": "s_a_b:lightsteelblockcolored_29",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamomesa": {
+    "block_id": "s_a_b:lightsteelcamomesa",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yellowsteelblock": {
+    "block_id": "s_a_b:yellowsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamoswamp": {
+    "block_id": "s_a_b:lightsteelcamoswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcamosky": {
+    "block_id": "s_a_b:lightsteelblockcamosky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrassswamp": {
+    "block_id": "s_a_b:lightsteelblockgrassswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblock_4bo": {
+    "block_id": "s_a_b:steelblock_4bo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:pinkhardsteelblock": {
+    "block_id": "s_a_b:pinkhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:limedoublesteelblock": {
+    "block_id": "s_a_b:limedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:redhardsteelblock": {
+    "block_id": "s_a_b:redhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrasssvanna": {
+    "block_id": "s_a_b:doublesteelblockgrasssvanna",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ya": {
+    "block_id": "s_a_b:ya",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasso": {
+    "block_id": "s_a_b:brasso",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:rainbowsteel": {
+    "block_id": "s_a_b:rainbowsteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassp": {
+    "block_id": "s_a_b:brassp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamotaiga": {
+    "block_id": "s_a_b:doublesteelblockcamotaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassq": {
+    "block_id": "s_a_b:brassq",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:colonialhardsteelblock": {
+    "block_id": "s_a_b:colonialhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassr": {
+    "block_id": "s_a_b:brassr",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasss": {
+    "block_id": "s_a_b:brasss",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasst": {
+    "block_id": "s_a_b:brasst",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassu": {
+    "block_id": "s_a_b:brassu",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yi": {
+    "block_id": "s_a_b:yi",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:orangesteelblock": {
+    "block_id": "s_a_b:orangesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassv": {
+    "block_id": "s_a_b:brassv",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassw": {
+    "block_id": "s_a_b:brassw",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassx": {
+    "block_id": "s_a_b:brassx",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassy": {
+    "block_id": "s_a_b:brassy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yu": {
+    "block_id": "s_a_b:yu",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassz": {
+    "block_id": "s_a_b:brassz",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassa": {
+    "block_id": "s_a_b:brassa",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassultramar": {
+    "block_id": "s_a_b:brassultramar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassb": {
+    "block_id": "s_a_b:brassb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassc": {
+    "block_id": "s_a_b:brassc",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockrotbraun": {
+    "block_id": "s_a_b:steelblockrotbraun",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassd": {
+    "block_id": "s_a_b:brassd",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasse": {
+    "block_id": "s_a_b:brasse",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassf": {
+    "block_id": "s_a_b:brassf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassg": {
+    "block_id": "s_a_b:brassg",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassh": {
+    "block_id": "s_a_b:brassh",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassi": {
+    "block_id": "s_a_b:brassi",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassj": {
+    "block_id": "s_a_b:brassj",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassk": {
+    "block_id": "s_a_b:brassk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassl": {
+    "block_id": "s_a_b:brassl",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassm": {
+    "block_id": "s_a_b:brassm",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassn": {
+    "block_id": "s_a_b:brassn",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:zh": {
+    "block_id": "s_a_b:zh",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcolored_33": {
+    "block_id": "s_a_b:hardsteelblockcolored_33",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockspruceleaves": {
+    "block_id": "s_a_b:lightsteelblockspruceleaves",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcolored_31": {
+    "block_id": "s_a_b:hardsteelblockcolored_31",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcolored_32": {
+    "block_id": "s_a_b:hardsteelblockcolored_32",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:femboysign": {
+    "block_id": "s_a_b:femboysign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrassjungle": {
+    "block_id": "s_a_b:hardsteelblockgrassjungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcoloredparade": {
+    "block_id": "s_a_b:doublesteelblockcoloredparade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:zz": {
+    "block_id": "s_a_b:zz",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:equality": {
+    "block_id": "s_a_b:equality",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelgrasssnowy": {
+    "block_id": "s_a_b:doublesteelgrasssnowy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:greenhardsteelblock": {
+    "block_id": "s_a_b:greenhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yellowdoublesteelblock": {
+    "block_id": "s_a_b:yellowdoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrass": {
+    "block_id": "s_a_b:lightsteelblockgrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:puritysealtrio": {
+    "block_id": "s_a_b:puritysealtrio",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrasssvanna": {
+    "block_id": "s_a_b:steelblockgrasssvanna",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockstone": {
+    "block_id": "s_a_b:lightsteelblockstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:grayhardsteelblock": {
+    "block_id": "s_a_b:grayhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasscomma": {
+    "block_id": "s_a_b:brasscomma",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:minus": {
+    "block_id": "s_a_b:minus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamoreddesert": {
+    "block_id": "s_a_b:doublesteelblockcamoreddesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockhazard": {
+    "block_id": "s_a_b:steelblockhazard",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamoswamp": {
+    "block_id": "s_a_b:steelblockcamoswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_9": {
+    "block_id": "s_a_b:brass_9",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_8": {
+    "block_id": "s_a_b:brass_8",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_7": {
+    "block_id": "s_a_b:brass_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_6": {
+    "block_id": "s_a_b:brass_6",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_5": {
+    "block_id": "s_a_b:brass_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_4": {
+    "block_id": "s_a_b:brass_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_3": {
+    "block_id": "s_a_b:brass_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_2": {
+    "block_id": "s_a_b:brass_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_1": {
+    "block_id": "s_a_b:brass_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cyandoublesteelblock": {
+    "block_id": "s_a_b:cyandoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brass_0": {
+    "block_id": "s_a_b:brass_0",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockusagrey": {
+    "block_id": "s_a_b:lightsteelblockusagrey",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockhazard": {
+    "block_id": "s_a_b:doublesteelblockhazard",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockbrightred": {
+    "block_id": "s_a_b:doublesteelblockbrightred",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:whitehardsteelblock": {
+    "block_id": "s_a_b:whitehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockpodzol": {
+    "block_id": "s_a_b:hardsteelblockpodzol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:redsteelblock": {
+    "block_id": "s_a_b:redsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:reddoublesteelblock": {
+    "block_id": "s_a_b:reddoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:olivehardsteel": {
+    "block_id": "s_a_b:olivehardsteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcoloredparade": {
+    "block_id": "s_a_b:hardsteelblockcoloredparade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:eight": {
+    "block_id": "s_a_b:eight",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockspruceleaves": {
+    "block_id": "s_a_b:hardsteelblockspruceleaves",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:blackhardsteelblock": {
+    "block_id": "s_a_b:blackhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelgrasssnowy": {
+    "block_id": "s_a_b:lightsteelgrasssnowy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:uu": {
+    "block_id": "s_a_b:uu",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockamt_7": {
+    "block_id": "s_a_b:hardsteelblockamt_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcamoreddesert": {
+    "block_id": "s_a_b:lightsteelblockcamoreddesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockshipbottom": {
+    "block_id": "s_a_b:doublesteelblockshipbottom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblocklightsky": {
+    "block_id": "s_a_b:steelblocklightsky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassae": {
+    "block_id": "s_a_b:brassae",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamoplains": {
+    "block_id": "s_a_b:steelblockcamoplains",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:orangelightsteelblock": {
+    "block_id": "s_a_b:orangelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:sandbag": {
+    "block_id": "s_a_b:sandbag",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcolored_33": {
+    "block_id": "s_a_b:doublesteelblockcolored_33",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:limehardsteelblock": {
+    "block_id": "s_a_b:limehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcolored_31": {
+    "block_id": "s_a_b:doublesteelblockcolored_31",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcolored_32": {
+    "block_id": "s_a_b:doublesteelblockcolored_32",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:magentasteelblock": {
+    "block_id": "s_a_b:magentasteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockdeepslate": {
+    "block_id": "s_a_b:lightsteelblockdeepslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:tverd": {
+    "block_id": "s_a_b:tverd",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockusagrey": {
+    "block_id": "s_a_b:steelblockusagrey",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassbb": {
+    "block_id": "s_a_b:brassbb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcolored_29": {
+    "block_id": "s_a_b:doublesteelblockcolored_29",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockusagrey": {
+    "block_id": "s_a_b:doublesteelblockusagrey",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockmycelium": {
+    "block_id": "s_a_b:steelblockmycelium",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasstverdii": {
+    "block_id": "s_a_b:brasstverdii",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamoreddesert": {
+    "block_id": "s_a_b:hardsteelblockcamoreddesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockpanzergrau": {
+    "block_id": "s_a_b:steelblockpanzergrau",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamosnow": {
+    "block_id": "s_a_b:steelblockcamosnow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockshipbottom": {
+    "block_id": "s_a_b:steelblockshipbottom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:wardensteelblock": {
+    "block_id": "s_a_b:wardensteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bluesteelblock": {
+    "block_id": "s_a_b:bluesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:pinksteelblock": {
+    "block_id": "s_a_b:pinksteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:blackdoublesteelblock": {
+    "block_id": "s_a_b:blackdoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:macraggebluedoublesteelblock": {
+    "block_id": "s_a_b:macraggebluedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgelb": {
+    "block_id": "s_a_b:hardsteelblockgelb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasssh": {
+    "block_id": "s_a_b:brasssh",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockmycelium": {
+    "block_id": "s_a_b:lightsteelblockmycelium",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:wardenhardsteelblock": {
+    "block_id": "s_a_b:wardenhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrassjungle": {
+    "block_id": "s_a_b:lightsteelblockgrassjungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockluftwaffeyellow": {
+    "block_id": "s_a_b:steelblockluftwaffeyellow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:nickelalloysteel": {
+    "block_id": "s_a_b:nickelalloysteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblock_4bo": {
+    "block_id": "s_a_b:hardsteelblock_4bo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cyanhardsteelblock": {
+    "block_id": "s_a_b:cyanhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockpodzol": {
+    "block_id": "s_a_b:steelblockpodzol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:comma": {
+    "block_id": "s_a_b:comma",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelgrasssnowy": {
+    "block_id": "s_a_b:hardsteelgrasssnowy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:whitelightsteelblock": {
+    "block_id": "s_a_b:whitelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamodesert": {
+    "block_id": "s_a_b:steelblockcamodesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:limesteelblock": {
+    "block_id": "s_a_b:limesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassexclamation": {
+    "block_id": "s_a_b:brassexclamation",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockdeepslate": {
+    "block_id": "s_a_b:hardsteelblockdeepslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockamt_7": {
+    "block_id": "s_a_b:doublesteelblockamt_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamoswamp": {
+    "block_id": "s_a_b:hardsteelblockcamoswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bb": {
+    "block_id": "s_a_b:bb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ultramar": {
+    "block_id": "s_a_b:ultramar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:sha": {
+    "block_id": "s_a_b:sha",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassuu": {
+    "block_id": "s_a_b:brassuu",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:seven": {
+    "block_id": "s_a_b:seven",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassminus": {
+    "block_id": "s_a_b:brassminus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamojungle": {
+    "block_id": "s_a_b:hardsteelblockcamojungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockrotbraun": {
+    "block_id": "s_a_b:hardsteelblockrotbraun",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:redstar": {
+    "block_id": "s_a_b:redstar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockstone": {
+    "block_id": "s_a_b:doublesteelblockstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ch": {
+    "block_id": "s_a_b:ch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cc": {
+    "block_id": "s_a_b:cc",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockstone": {
+    "block_id": "s_a_b:steelblockstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:nine": {
+    "block_id": "s_a_b:nine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcoloredparade": {
+    "block_id": "s_a_b:lightsteelblockcoloredparade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockamt_7": {
+    "block_id": "s_a_b:steelblockamt_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:magentadoublesteelblock": {
+    "block_id": "s_a_b:magentadoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockdirt": {
+    "block_id": "s_a_b:lightsteelblockdirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgrasssvanna": {
+    "block_id": "s_a_b:lightsteelblockgrasssvanna",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockbrightred": {
+    "block_id": "s_a_b:lightsteelblockbrightred",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:six": {
+    "block_id": "s_a_b:six",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:rustedsteelblock": {
+    "block_id": "s_a_b:rustedsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockpodzol": {
+    "block_id": "s_a_b:doublesteelblockpodzol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:olivelightsteel": {
+    "block_id": "s_a_b:olivelightsteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassplus": {
+    "block_id": "s_a_b:brassplus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamoplains": {
+    "block_id": "s_a_b:doublesteelblockcamoplains",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:purplelightsteelblock": {
+    "block_id": "s_a_b:purplelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockspruceleaves": {
+    "block_id": "s_a_b:doublesteelblockspruceleaves",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockdeepslate": {
+    "block_id": "s_a_b:steelblockdeepslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassyi": {
+    "block_id": "s_a_b:brassyi",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightgraydoublesteelblock": {
+    "block_id": "s_a_b:lightgraydoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockdirt": {
+    "block_id": "s_a_b:doublesteelblockdirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockshipbottom": {
+    "block_id": "s_a_b:lightsteelblockshipbottom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamomesa": {
+    "block_id": "s_a_b:steelblockcamomesa",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassya": {
+    "block_id": "s_a_b:brassya",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightgraysteelblock": {
+    "block_id": "s_a_b:lightgraysteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:orange": {
+    "block_id": "s_a_b:orange",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamoforest": {
+    "block_id": "s_a_b:steelblockcamoforest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bluehardsteelblock": {
+    "block_id": "s_a_b:bluehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasszh": {
+    "block_id": "s_a_b:brasszh",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcolored_29": {
+    "block_id": "s_a_b:hardsteelblockcolored_29",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblock": {
+    "block_id": "s_a_b:hardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:graydoublesteelblock": {
+    "block_id": "s_a_b:graydoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassyu": {
+    "block_id": "s_a_b:brassyu",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:copmositearmor": {
+    "block_id": "s_a_b:copmositearmor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brownhardsteelblock": {
+    "block_id": "s_a_b:brownhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblock": {
+    "block_id": "s_a_b:steelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockpanzergrau": {
+    "block_id": "s_a_b:lightsteelblockpanzergrau",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockrotbraun": {
+    "block_id": "s_a_b:lightsteelblockrotbraun",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:whitesteelblock": {
+    "block_id": "s_a_b:whitesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrassswamp": {
+    "block_id": "s_a_b:hardsteelblockgrassswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockmycelium": {
+    "block_id": "s_a_b:hardsteelblockmycelium",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasszz": {
+    "block_id": "s_a_b:brasszz",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brownlightsteelblock": {
+    "block_id": "s_a_b:brownlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblocklightsky": {
+    "block_id": "s_a_b:doublesteelblocklightsky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:blacksteelblock": {
+    "block_id": "s_a_b:blacksteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasssha": {
+    "block_id": "s_a_b:brasssha",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcamoreddesert": {
+    "block_id": "s_a_b:steelblockcamoreddesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockspruceleaves": {
+    "block_id": "s_a_b:steelblockspruceleaves",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockpodzol": {
+    "block_id": "s_a_b:lightsteelblockpodzol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cyanlightsteelblock": {
+    "block_id": "s_a_b:cyanlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassmyagkii": {
+    "block_id": "s_a_b:brassmyagkii",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:dot": {
+    "block_id": "s_a_b:dot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bluelightsteelblock": {
+    "block_id": "s_a_b:bluelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:cyansteelblock": {
+    "block_id": "s_a_b:cyansteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:macraggebluelightsteelblock": {
+    "block_id": "s_a_b:macraggebluelightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ii": {
+    "block_id": "s_a_b:ii",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgelb": {
+    "block_id": "s_a_b:doublesteelblockgelb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:orangedoublesteelblock": {
+    "block_id": "s_a_b:orangedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockrotbraun": {
+    "block_id": "s_a_b:doublesteelblockrotbraun",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassll": {
+    "block_id": "s_a_b:brassll",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockgelb": {
+    "block_id": "s_a_b:lightsteelblockgelb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamotaiga": {
+    "block_id": "s_a_b:hardsteelblockcamotaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockamt_7": {
+    "block_id": "s_a_b:lightsteelblockamt_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblock_4bo": {
+    "block_id": "s_a_b:lightsteelblock_4bo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:browndoublesteelblock": {
+    "block_id": "s_a_b:browndoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:colonialsteelblock": {
+    "block_id": "s_a_b:colonialsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrassbadlands": {
+    "block_id": "s_a_b:steelblockgrassbadlands",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamosnow": {
+    "block_id": "s_a_b:hardsteelblockcamosnow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightgrayhardsteelblock": {
+    "block_id": "s_a_b:lightgrayhardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamojungle": {
+    "block_id": "s_a_b:lightsteelcamojungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamosnow": {
+    "block_id": "s_a_b:lightsteelcamosnow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelgrasssnowy": {
+    "block_id": "s_a_b:steelgrasssnowy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassdoubledot": {
+    "block_id": "s_a_b:brassdoubledot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockstone": {
+    "block_id": "s_a_b:hardsteelblockstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockslate": {
+    "block_id": "s_a_b:steelblockslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamodesert": {
+    "block_id": "s_a_b:hardsteelblockcamodesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:plus": {
+    "block_id": "s_a_b:plus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamoforest": {
+    "block_id": "s_a_b:hardsteelblockcamoforest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:yellowlightsteelblock": {
+    "block_id": "s_a_b:yellowlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockbrightred": {
+    "block_id": "s_a_b:hardsteelblockbrightred",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrasssvanna": {
+    "block_id": "s_a_b:hardsteelblockgrasssvanna",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:wardendoublesteelblock": {
+    "block_id": "s_a_b:wardendoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrassbadlands": {
+    "block_id": "s_a_b:doublesteelblockgrassbadlands",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamoforest": {
+    "block_id": "s_a_b:doublesteelblockcamoforest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockcamodesert": {
+    "block_id": "s_a_b:doublesteelblockcamodesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:dd": {
+    "block_id": "s_a_b:dd",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockhazard": {
+    "block_id": "s_a_b:hardsteelblockhazard",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:pinkdoublesteelblock": {
+    "block_id": "s_a_b:pinkdoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamosky": {
+    "block_id": "s_a_b:hardsteelblockcamosky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:greendoublesteelblock": {
+    "block_id": "s_a_b:greendoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockcamoplains": {
+    "block_id": "s_a_b:lightsteelblockcamoplains",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brownsteelblock": {
+    "block_id": "s_a_b:brownsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrasstaiga": {
+    "block_id": "s_a_b:hardsteelblockgrasstaiga",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightbluehardsteelblock": {
+    "block_id": "s_a_b:lightbluehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrassjungle": {
+    "block_id": "s_a_b:doublesteelblockgrassjungle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockcoloredparade": {
+    "block_id": "s_a_b:steelblockcoloredparade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamomesa": {
+    "block_id": "s_a_b:hardsteelblockcamomesa",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockslate": {
+    "block_id": "s_a_b:doublesteelblockslate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockcamoplains": {
+    "block_id": "s_a_b:hardsteelblockcamoplains",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockluftwaffeyellow": {
+    "block_id": "s_a_b:hardsteelblockluftwaffeyellow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brasspp": {
+    "block_id": "s_a_b:brasspp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockdirt": {
+    "block_id": "s_a_b:steelblockdirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblockluftwaffeyellow": {
+    "block_id": "s_a_b:lightsteelblockluftwaffeyellow",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:purplehardsteelblock": {
+    "block_id": "s_a_b:purplehardsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:macraggebluesteelblock": {
+    "block_id": "s_a_b:macraggebluesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockgrass": {
+    "block_id": "s_a_b:hardsteelblockgrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamoforest": {
+    "block_id": "s_a_b:lightsteelcamoforest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:purplesteelblock": {
+    "block_id": "s_a_b:purplesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelblocklightsky": {
+    "block_id": "s_a_b:lightsteelblocklightsky",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:ff": {
+    "block_id": "s_a_b:ff",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:brassequality": {
+    "block_id": "s_a_b:brassequality",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightsteelcamodesert": {
+    "block_id": "s_a_b:lightsteelcamodesert",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockgrassswamp": {
+    "block_id": "s_a_b:doublesteelblockgrassswamp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:puritysealduo": {
+    "block_id": "s_a_b:puritysealduo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockmycelium": {
+    "block_id": "s_a_b:doublesteelblockmycelium",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:olivesteelblock": {
+    "block_id": "s_a_b:olivesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:bundeswehrcross": {
+    "block_id": "s_a_b:bundeswehrcross",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:gg": {
+    "block_id": "s_a_b:gg",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:whitedoublesteelblock": {
+    "block_id": "s_a_b:whitedoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:four": {
+    "block_id": "s_a_b:four",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblockpanzergrau": {
+    "block_id": "s_a_b:doublesteelblockpanzergrau",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:greenlightsteelblock": {
+    "block_id": "s_a_b:greenlightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:doublesteelblock_4bo": {
+    "block_id": "s_a_b:doublesteelblock_4bo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:steelblockgrass": {
+    "block_id": "s_a_b:steelblockgrass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:hardsteelblockdirt": {
+    "block_id": "s_a_b:hardsteelblockdirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:colonialsign": {
+    "block_id": "s_a_b:colonialsign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:three": {
+    "block_id": "s_a_b:three",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:lightgraylightsteelblock": {
+    "block_id": "s_a_b:lightgraylightsteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "s_a_b:colonialdoublesteelblock": {
+    "block_id": "s_a_b:colonialdoublesteelblock",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

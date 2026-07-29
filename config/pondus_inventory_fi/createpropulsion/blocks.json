@@ -1,0 +1,182 @@
+{
+  "createpropulsion:liquid_burner": {
+    "block_id": "createpropulsion:liquid_burner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:tempered_wing": {
+    "block_id": "createpropulsion:tempered_wing",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:turpentine": {
+    "block_id": "createpropulsion:turpentine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:vector_thruster": {
+    "block_id": "createpropulsion:vector_thruster",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:cable_relay": {
+    "block_id": "createpropulsion:cable_relay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:cable_hub": {
+    "block_id": "createpropulsion:cable_hub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:platinum_casing": {
+    "block_id": "createpropulsion:platinum_casing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:redstone_converter": {
+    "block_id": "createpropulsion:redstone_converter",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:solid_burner": {
+    "block_id": "createpropulsion:solid_burner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:creative_vector_thruster": {
+    "block_id": "createpropulsion:creative_vector_thruster",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:coral_generator": {
+    "block_id": "createpropulsion:coral_generator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:tilt_adapter": {
+    "block_id": "createpropulsion:tilt_adapter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:ion_thruster": {
+    "block_id": "createpropulsion:ion_thruster",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:platinum_block": {
+    "block_id": "createpropulsion:platinum_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:copycat_wing": {
+    "block_id": "createpropulsion:copycat_wing",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:stirling_engine": {
+    "block_id": "createpropulsion:stirling_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:oxidizer": {
+    "block_id": "createpropulsion:oxidizer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:raw_platinum_block": {
+    "block_id": "createpropulsion:raw_platinum_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:coral": {
+    "block_id": "createpropulsion:coral",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:wing": {
+    "block_id": "createpropulsion:wing",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:cable": {
+    "block_id": "createpropulsion:cable",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:creative_thruster": {
+    "block_id": "createpropulsion:creative_thruster",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:platinum_fluid_tank": {
+    "block_id": "createpropulsion:platinum_fluid_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:liquid_vector_thruster": {
+    "block_id": "createpropulsion:liquid_vector_thruster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:redstone_transmission": {
+    "block_id": "createpropulsion:redstone_transmission",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:copycat_wing_12": {
+    "block_id": "createpropulsion:copycat_wing_12",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:deepslate_platinum_ore": {
+    "block_id": "createpropulsion:deepslate_platinum_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:copycat_wing_8": {
+    "block_id": "createpropulsion:copycat_wing_8",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:platinum_ore": {
+    "block_id": "createpropulsion:platinum_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createpropulsion:thruster": {
+    "block_id": "createpropulsion:thruster",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

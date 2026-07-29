@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Arthur",
+    "color": "#34a4eb",
+    "banners": [
+      { "file": "Create1.png", "v": 1 },
+      { "file": "aeroworks1.png", "v": 1 },
+      { "file": "buzzybees1.png", "v": 1 }
+    ]
+  },
+  {
+    "name": "The Tophatted Dolphin",
+    "color": "#30FF4B",
+    "banners": [
+      { "file": "bnbBuilding1.png", "v": 1 },
+      { "file": "Escalated1.png", "v": 1 },
+      { "file": "CreatePrisim1.png", "v": 1 },
+      { "file": "Encased1.png", "v": 1 },
+      { "file": "Createbuildingblock1.png", "v": 1 },
+      { "file": "EnchantmentIndustry1.png", "v": 1 },
+      { "file": "EnchantmentIndustry2.png", "v": 1 },
+      { "file": "Diesel1.png", "v": 1 },
+      { "file": "SNR_locometal1.png", "v": 1 },
+      { "file": "solarpowered1.png", "v": 1 },
+      { "file": "designNdecor1.png", "v": 1 },
+      { "file": "cbc1.png", "v": 1 },
+      { "file": "ElectroEnergistics1.png", "v": 1 },
+      { "file": "hypertubes1.png", "v": 1 },
+      { "file": "SNR_tracks1.png", "v": 1 },
+      { "file": "BlazeBurnerFuels1.png", "v": 1 },
+      { "file": "Radars1.png", "v": 1 }
+    ]
+  },
+  {
+    "name": "rafael_x2",
+    "color": "#7f3fd9",
+    "banners": [
+      {"file": "powergrid1.png", "v": 1 },
+      {"file": "optics1.png", "v": 1 }
+    ]
+  }
+]

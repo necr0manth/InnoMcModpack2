@@ -1,0 +1,38 @@
+{
+  "sable_pallets:highpallet": {
+    "block_id": "sable_pallets:highpallet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sable_pallets:full_pallet": {
+    "block_id": "sable_pallets:full_pallet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sable_pallets:fork_top": {
+    "block_id": "sable_pallets:fork_top",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sable_pallets:fork": {
+    "block_id": "sable_pallets:fork",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sable_pallets:fork_bottom": {
+    "block_id": "sable_pallets:fork_bottom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sable_pallets:pallet": {
+    "block_id": "sable_pallets:pallet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

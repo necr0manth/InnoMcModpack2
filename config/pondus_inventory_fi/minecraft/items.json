@@ -1,0 +1,2102 @@
+{
+  "minecraft:cod_bucket": {
+    "item_id": "minecraft:cod_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:burn_pottery_sherd": {
+    "item_id": "minecraft:burn_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:iron_leggings": {
+    "item_id": "minecraft:iron_leggings",
+    "mass": "5.2",
+    "per_stack": true
+  },
+  "minecraft:name_tag": {
+    "item_id": "minecraft:name_tag",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:ghast_spawn_egg": {
+    "item_id": "minecraft:ghast_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:scrape_pottery_sherd": {
+    "item_id": "minecraft:scrape_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:archer_pottery_sherd": {
+    "item_id": "minecraft:archer_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:pig_spawn_egg": {
+    "item_id": "minecraft:pig_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:compass": {
+    "item_id": "minecraft:compass",
+    "mass": "0.8667",
+    "per_stack": true
+  },
+  "minecraft:chainmail_helmet": {
+    "item_id": "minecraft:chainmail_helmet",
+    "mass": "2.6",
+    "per_stack": true
+  },
+  "minecraft:flower_banner_pattern": {
+    "item_id": "minecraft:flower_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:golden_horse_armor": {
+    "item_id": "minecraft:golden_horse_armor",
+    "mass": "128.67",
+    "per_stack": true
+  },
+  "minecraft:golden_hoe": {
+    "item_id": "minecraft:golden_hoe",
+    "mass": "4.36",
+    "per_stack": true
+  },
+  "minecraft:stone_shovel": {
+    "item_id": "minecraft:stone_shovel",
+    "mass": "1.75",
+    "per_stack": true
+  },
+  "minecraft:beetroot": {
+    "item_id": "minecraft:beetroot",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:chainmail_leggings": {
+    "item_id": "minecraft:chainmail_leggings",
+    "mass": "4.33",
+    "per_stack": true
+  },
+  "minecraft:cow_spawn_egg": {
+    "item_id": "minecraft:cow_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:saddle": {
+    "item_id": "minecraft:saddle",
+    "mass": "3.1",
+    "per_stack": true
+  },
+  "minecraft:friend_pottery_sherd": {
+    "item_id": "minecraft:friend_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:apple": {
+    "item_id": "minecraft:apple",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:zoglin_spawn_egg": {
+    "item_id": "minecraft:zoglin_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_precipice": {
+    "item_id": "minecraft:music_disc_precipice",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:blue_dye": {
+    "item_id": "minecraft:blue_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:bamboo_raft": {
+    "item_id": "minecraft:bamboo_raft",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:skull_banner_pattern": {
+    "item_id": "minecraft:skull_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cooked_chicken": {
+    "item_id": "minecraft:cooked_chicken",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:melon_seeds": {
+    "item_id": "minecraft:melon_seeds",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:endermite_spawn_egg": {
+    "item_id": "minecraft:endermite_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:polar_bear_spawn_egg": {
+    "item_id": "minecraft:polar_bear_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_otherside": {
+    "item_id": "minecraft:music_disc_otherside",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:leather_leggings": {
+    "item_id": "minecraft:leather_leggings",
+    "mass": "0.8",
+    "per_stack": true
+  },
+  "minecraft:iron_sword": {
+    "item_id": "minecraft:iron_sword",
+    "mass": "1.8",
+    "per_stack": true
+  },
+  "minecraft:filled_map": {
+    "item_id": "minecraft:filled_map",
+    "mass": "0.005",
+    "per_stack": true
+  },
+  "minecraft:golden_carrot": {
+    "item_id": "minecraft:golden_carrot",
+    "mass": "2.1445",
+    "per_stack": true
+  },
+  "minecraft:firework_star": {
+    "item_id": "minecraft:firework_star",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:brush": {
+    "item_id": "minecraft:brush",
+    "mass": "0.867",
+    "per_stack": true
+  },
+  "minecraft:armadillo_scute": {
+    "item_id": "minecraft:armadillo_scute",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:quartz": {
+    "item_id": "minecraft:quartz",
+    "mass": "0.2889",
+    "per_stack": true
+  },
+  "minecraft:written_book": {
+    "item_id": "minecraft:written_book",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:honey_bottle": {
+    "item_id": "minecraft:honey_bottle",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:golden_shovel": {
+    "item_id": "minecraft:golden_shovel",
+    "mass": "2.29",
+    "per_stack": true
+  },
+  "minecraft:sweet_berries": {
+    "item_id": "minecraft:sweet_berries",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:rabbit_stew": {
+    "item_id": "minecraft:rabbit_stew",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:tipped_arrow": {
+    "item_id": "minecraft:tipped_arrow",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:ghast_tear": {
+    "item_id": "minecraft:ghast_tear",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:pumpkin_seeds": {
+    "item_id": "minecraft:pumpkin_seeds",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:white_dye": {
+    "item_id": "minecraft:white_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:squid_spawn_egg": {
+    "item_id": "minecraft:squid_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:tropical_fish_bucket": {
+    "item_id": "minecraft:tropical_fish_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:golden_apple": {
+    "item_id": "minecraft:golden_apple",
+    "mass": "17.2",
+    "per_stack": true
+  },
+  "minecraft:cooked_mutton": {
+    "item_id": "minecraft:cooked_mutton",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:netherite_hoe": {
+    "item_id": "minecraft:netherite_hoe",
+    "mass": "3.511",
+    "per_stack": true
+  },
+  "minecraft:chainmail_chestplate": {
+    "item_id": "minecraft:chainmail_chestplate",
+    "mass": "6.93",
+    "per_stack": true
+  },
+  "minecraft:cyan_dye": {
+    "item_id": "minecraft:cyan_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:blaze_powder": {
+    "item_id": "minecraft:blaze_powder",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:blade_pottery_sherd": {
+    "item_id": "minecraft:blade_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:golden_boots": {
+    "item_id": "minecraft:golden_boots",
+    "mass": "8.58",
+    "per_stack": true
+  },
+  "minecraft:magenta_dye": {
+    "item_id": "minecraft:magenta_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:birch_chest_boat": {
+    "item_id": "minecraft:birch_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:iron_horse_armor": {
+    "item_id": "minecraft:iron_horse_armor",
+    "mass": "52.0",
+    "per_stack": true
+  },
+  "minecraft:arrow": {
+    "item_id": "minecraft:arrow",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:chest_minecart": {
+    "item_id": "minecraft:chest_minecart",
+    "mass": "9.13",
+    "per_stack": true
+  },
+  "minecraft:oak_chest_boat": {
+    "item_id": "minecraft:oak_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:wooden_hoe": {
+    "item_id": "minecraft:wooden_hoe",
+    "mass": "0.45",
+    "per_stack": true
+  },
+  "minecraft:light_blue_dye": {
+    "item_id": "minecraft:light_blue_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:bogged_spawn_egg": {
+    "item_id": "minecraft:bogged_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:iron_axe": {
+    "item_id": "minecraft:iron_axe",
+    "mass": "2.75",
+    "per_stack": true
+  },
+  "minecraft:warden_spawn_egg": {
+    "item_id": "minecraft:warden_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:stone_sword": {
+    "item_id": "minecraft:stone_sword",
+    "mass": "1.89",
+    "per_stack": true
+  },
+  "minecraft:netherite_boots": {
+    "item_id": "minecraft:netherite_boots",
+    "mass": "4.556",
+    "per_stack": true
+  },
+  "minecraft:netherite_leggings": {
+    "item_id": "minecraft:netherite_leggings",
+    "mass": "4.167",
+    "per_stack": true
+  },
+  "minecraft:magma_cream": {
+    "item_id": "minecraft:magma_cream",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:sheaf_pottery_sherd": {
+    "item_id": "minecraft:sheaf_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:lime_dye": {
+    "item_id": "minecraft:lime_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:bolt_armor_trim_smithing_template": {
+    "item_id": "minecraft:bolt_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:coal": {
+    "item_id": "minecraft:coal",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:zombie_villager_spawn_egg": {
+    "item_id": "minecraft:zombie_villager_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:red_dye": {
+    "item_id": "minecraft:red_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:leather_chestplate": {
+    "item_id": "minecraft:leather_chestplate",
+    "mass": "0.7",
+    "per_stack": true
+  },
+  "minecraft:knowledge_book": {
+    "item_id": "minecraft:knowledge_book",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:stray_spawn_egg": {
+    "item_id": "minecraft:stray_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:witch_spawn_egg": {
+    "item_id": "minecraft:witch_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:armor_stand": {
+    "item_id": "minecraft:armor_stand",
+    "mass": "0.36",
+    "per_stack": true
+  },
+  "minecraft:green_dye": {
+    "item_id": "minecraft:green_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:popped_chorus_fruit": {
+    "item_id": "minecraft:popped_chorus_fruit",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:dark_oak_chest_boat": {
+    "item_id": "minecraft:dark_oak_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:golden_leggings": {
+    "item_id": "minecraft:golden_leggings",
+    "mass": "15.03",
+    "per_stack": true
+  },
+  "minecraft:evoker_spawn_egg": {
+    "item_id": "minecraft:evoker_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:disc_fragment_5": {
+    "item_id": "minecraft:disc_fragment_5",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:music_disc_pigstep": {
+    "item_id": "minecraft:music_disc_pigstep",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:pufferfish": {
+    "item_id": "minecraft:pufferfish",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:porkchop": {
+    "item_id": "minecraft:porkchop",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:stick": {
+    "item_id": "minecraft:stick",
+    "mass": "0.075",
+    "per_stack": true
+  },
+  "minecraft:wither_skeleton_spawn_egg": {
+    "item_id": "minecraft:wither_skeleton_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:vex_armor_trim_smithing_template": {
+    "item_id": "minecraft:vex_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:allay_spawn_egg": {
+    "item_id": "minecraft:allay_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:ink_sac": {
+    "item_id": "minecraft:ink_sac",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:orange_dye": {
+    "item_id": "minecraft:orange_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:ward_armor_trim_smithing_template": {
+    "item_id": "minecraft:ward_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:chicken": {
+    "item_id": "minecraft:chicken",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:pillager_spawn_egg": {
+    "item_id": "minecraft:pillager_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:salmon_bucket": {
+    "item_id": "minecraft:salmon_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:prismarine_crystals": {
+    "item_id": "minecraft:prismarine_crystals",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:pitcher_pod": {
+    "item_id": "minecraft:pitcher_pod",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:diamond_hoe": {
+    "item_id": "minecraft:diamond_hoe",
+    "mass": "1.27",
+    "per_stack": true
+  },
+  "minecraft:frog_spawn_egg": {
+    "item_id": "minecraft:frog_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cave_spider_spawn_egg": {
+    "item_id": "minecraft:cave_spider_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:jungle_boat": {
+    "item_id": "minecraft:jungle_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:black_dye": {
+    "item_id": "minecraft:black_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:snort_pottery_sherd": {
+    "item_id": "minecraft:snort_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:bone_meal": {
+    "item_id": "minecraft:bone_meal",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:trident": {
+    "item_id": "minecraft:trident",
+    "mass": "10.5",
+    "per_stack": true
+  },
+  "minecraft:golden_axe": {
+    "item_id": "minecraft:golden_axe",
+    "mass": "6.58",
+    "per_stack": true
+  },
+  "minecraft:prismarine_shard": {
+    "item_id": "minecraft:prismarine_shard",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:bundle": {
+    "item_id": "minecraft:bundle",
+    "mass": "0.002",
+    "per_stack": true
+  },
+  "minecraft:magma_cube_spawn_egg": {
+    "item_id": "minecraft:magma_cube_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cherry_chest_boat": {
+    "item_id": "minecraft:cherry_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:cooked_beef": {
+    "item_id": "minecraft:cooked_beef",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:nautilus_shell": {
+    "item_id": "minecraft:nautilus_shell",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:pufferfish_bucket": {
+    "item_id": "minecraft:pufferfish_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:item_frame": {
+    "item_id": "minecraft:item_frame",
+    "mass": "0.075",
+    "per_stack": true
+  },
+  "minecraft:silence_armor_trim_smithing_template": {
+    "item_id": "minecraft:silence_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:bat_spawn_egg": {
+    "item_id": "minecraft:bat_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:tropical_fish_spawn_egg": {
+    "item_id": "minecraft:tropical_fish_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:minecart": {
+    "item_id": "minecraft:minecart",
+    "mass": "4.33",
+    "per_stack": true
+  },
+  "minecraft:clay_ball": {
+    "item_id": "minecraft:clay_ball",
+    "mass": "0.2",
+    "per_stack": true
+  },
+  "minecraft:sugar": {
+    "item_id": "minecraft:sugar",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:spruce_boat": {
+    "item_id": "minecraft:spruce_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:trader_llama_spawn_egg": {
+    "item_id": "minecraft:trader_llama_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:glow_ink_sac": {
+    "item_id": "minecraft:glow_ink_sac",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:paper": {
+    "item_id": "minecraft:paper",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:spider_spawn_egg": {
+    "item_id": "minecraft:spider_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:guster_banner_pattern": {
+    "item_id": "minecraft:guster_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_strad": {
+    "item_id": "minecraft:music_disc_strad",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_creator": {
+    "item_id": "minecraft:music_disc_creator",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:piglin_banner_pattern": {
+    "item_id": "minecraft:piglin_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:vex_spawn_egg": {
+    "item_id": "minecraft:vex_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:golden_pickaxe": {
+    "item_id": "minecraft:golden_pickaxe",
+    "mass": "6.58",
+    "per_stack": true
+  },
+  "minecraft:eye_armor_trim_smithing_template": {
+    "item_id": "minecraft:eye_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:heart_pottery_sherd": {
+    "item_id": "minecraft:heart_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:wandering_trader_spawn_egg": {
+    "item_id": "minecraft:wandering_trader_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:rabbit_spawn_egg": {
+    "item_id": "minecraft:rabbit_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:wooden_shovel": {
+    "item_id": "minecraft:wooden_shovel",
+    "mass": "0.45",
+    "per_stack": true
+  },
+  "minecraft:hopper_minecart": {
+    "item_id": "minecraft:hopper_minecart",
+    "mass": "13.46",
+    "per_stack": true
+  },
+  "minecraft:music_disc_cat": {
+    "item_id": "minecraft:music_disc_cat",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:fire_charge": {
+    "item_id": "minecraft:fire_charge",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:flow_banner_pattern": {
+    "item_id": "minecraft:flow_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:wild_armor_trim_smithing_template": {
+    "item_id": "minecraft:wild_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:painting": {
+    "item_id": "minecraft:painting",
+    "mass": "0.002",
+    "per_stack": true
+  },
+  "minecraft:glistering_melon_slice": {
+    "item_id": "minecraft:glistering_melon_slice",
+    "mass": "2.1445",
+    "per_stack": true
+  },
+  "minecraft:brown_dye": {
+    "item_id": "minecraft:brown_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:copper_ingot": {
+    "item_id": "minecraft:copper_ingot",
+    "mass": "0.9956",
+    "per_stack": true
+  },
+  "minecraft:iron_ingot": {
+    "item_id": "minecraft:iron_ingot",
+    "mass": "0.8667",
+    "per_stack": true
+  },
+  "minecraft:tnt_minecart": {
+    "item_id": "minecraft:tnt_minecart",
+    "mass": "11.23",
+    "per_stack": true
+  },
+  "minecraft:wither_spawn_egg": {
+    "item_id": "minecraft:wither_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:rotten_flesh": {
+    "item_id": "minecraft:rotten_flesh",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:leather_horse_armor": {
+    "item_id": "minecraft:leather_horse_armor",
+    "mass": "2.4",
+    "per_stack": true
+  },
+  "minecraft:iron_hoe": {
+    "item_id": "minecraft:iron_hoe",
+    "mass": "1.79",
+    "per_stack": true
+  },
+  "minecraft:goat_horn": {
+    "item_id": "minecraft:goat_horn",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:guster_pottery_sherd": {
+    "item_id": "minecraft:guster_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:leather_boots": {
+    "item_id": "minecraft:leather_boots",
+    "mass": "0.2",
+    "per_stack": true
+  },
+  "minecraft:sniffer_spawn_egg": {
+    "item_id": "minecraft:sniffer_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:blaze_rod": {
+    "item_id": "minecraft:blaze_rod",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:beetroot_soup": {
+    "item_id": "minecraft:beetroot_soup",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:diamond_chestplate": {
+    "item_id": "minecraft:diamond_chestplate",
+    "mass": "3.11",
+    "per_stack": true
+  },
+  "minecraft:furnace_minecart": {
+    "item_id": "minecraft:furnace_minecart",
+    "mass": "25.13",
+    "per_stack": true
+  },
+  "minecraft:breeze_spawn_egg": {
+    "item_id": "minecraft:breeze_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:mojang_banner_pattern": {
+    "item_id": "minecraft:mojang_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:raiser_armor_trim_smithing_template": {
+    "item_id": "minecraft:raiser_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:echo_shard": {
+    "item_id": "minecraft:echo_shard",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:mangrove_chest_boat": {
+    "item_id": "minecraft:mangrove_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:tadpole_bucket": {
+    "item_id": "minecraft:tadpole_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:trial_key": {
+    "item_id": "minecraft:trial_key",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:piglin_spawn_egg": {
+    "item_id": "minecraft:piglin_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:shield": {
+    "item_id": "minecraft:shield",
+    "mass": "6.867",
+    "per_stack": true
+  },
+  "minecraft:shelter_pottery_sherd": {
+    "item_id": "minecraft:shelter_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:netherite_shovel": {
+    "item_id": "minecraft:netherite_shovel",
+    "mass": "3.511",
+    "per_stack": true
+  },
+  "minecraft:netherite_scrap": {
+    "item_id": "minecraft:netherite_scrap",
+    "mass": "4.0",
+    "per_stack": true
+  },
+  "minecraft:turtle_spawn_egg": {
+    "item_id": "minecraft:turtle_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:amethyst_shard": {
+    "item_id": "minecraft:amethyst_shard",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:potato": {
+    "item_id": "minecraft:potato",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:turtle_scute": {
+    "item_id": "minecraft:turtle_scute",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:mooshroom_spawn_egg": {
+    "item_id": "minecraft:mooshroom_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:phantom_membrane": {
+    "item_id": "minecraft:phantom_membrane",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:panda_spawn_egg": {
+    "item_id": "minecraft:panda_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:golden_sword": {
+    "item_id": "minecraft:golden_sword",
+    "mass": "4.36",
+    "per_stack": true
+  },
+  "minecraft:egg": {
+    "item_id": "minecraft:egg",
+    "mass": "0.0001",
+    "per_stack": true
+  },
+  "minecraft:splash_potion": {
+    "item_id": "minecraft:splash_potion",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:mourner_pottery_sherd": {
+    "item_id": "minecraft:mourner_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:fermented_spider_eye": {
+    "item_id": "minecraft:fermented_spider_eye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:diamond_helmet": {
+    "item_id": "minecraft:diamond_helmet",
+    "mass": "1.56",
+    "per_stack": true
+  },
+  "minecraft:stone_pickaxe": {
+    "item_id": "minecraft:stone_pickaxe",
+    "mass": "2.75",
+    "per_stack": true
+  },
+  "minecraft:silverfish_spawn_egg": {
+    "item_id": "minecraft:silverfish_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:enchanted_book": {
+    "item_id": "minecraft:enchanted_book",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:shaper_armor_trim_smithing_template": {
+    "item_id": "minecraft:shaper_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:torchflower_seeds": {
+    "item_id": "minecraft:torchflower_seeds",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:honeycomb": {
+    "item_id": "minecraft:honeycomb",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:music_disc_mellohi": {
+    "item_id": "minecraft:music_disc_mellohi",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cooked_rabbit": {
+    "item_id": "minecraft:cooked_rabbit",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:music_disc_11": {
+    "item_id": "minecraft:music_disc_11",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:spider_eye": {
+    "item_id": "minecraft:spider_eye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:tropical_fish": {
+    "item_id": "minecraft:tropical_fish",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:iron_pickaxe": {
+    "item_id": "minecraft:iron_pickaxe",
+    "mass": "2.72",
+    "per_stack": true
+  },
+  "minecraft:music_disc_13": {
+    "item_id": "minecraft:music_disc_13",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:pufferfish_spawn_egg": {
+    "item_id": "minecraft:pufferfish_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:gold_ingot": {
+    "item_id": "minecraft:gold_ingot",
+    "mass": "2.1444",
+    "per_stack": true
+  },
+  "minecraft:leather": {
+    "item_id": "minecraft:leather",
+    "mass": "0.1",
+    "per_stack": true
+  },
+  "minecraft:diamond_leggings": {
+    "item_id": "minecraft:diamond_leggings",
+    "mass": "2.72",
+    "per_stack": true
+  },
+  "minecraft:golden_chestplate": {
+    "item_id": "minecraft:golden_chestplate",
+    "mass": "17.16",
+    "per_stack": true
+  },
+  "minecraft:cookie": {
+    "item_id": "minecraft:cookie",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:parrot_spawn_egg": {
+    "item_id": "minecraft:parrot_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cooked_salmon": {
+    "item_id": "minecraft:cooked_salmon",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:zombie_spawn_egg": {
+    "item_id": "minecraft:zombie_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_stal": {
+    "item_id": "minecraft:music_disc_stal",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_chirp": {
+    "item_id": "minecraft:music_disc_chirp",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:redstone": {
+    "item_id": "minecraft:redstone",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:wheat_seeds": {
+    "item_id": "minecraft:wheat_seeds",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:end_crystal": {
+    "item_id": "minecraft:end_crystal",
+    "mass": "10.0",
+    "per_stack": true
+  },
+  "minecraft:wolf_spawn_egg": {
+    "item_id": "minecraft:wolf_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:shears": {
+    "item_id": "minecraft:shears",
+    "mass": "1.733",
+    "per_stack": true
+  },
+  "minecraft:experience_bottle": {
+    "item_id": "minecraft:experience_bottle",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:coast_armor_trim_smithing_template": {
+    "item_id": "minecraft:coast_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:rabbit_hide": {
+    "item_id": "minecraft:rabbit_hide",
+    "mass": "0.1",
+    "per_stack": true
+  },
+  "minecraft:powder_snow_bucket": {
+    "item_id": "minecraft:powder_snow_bucket",
+    "mass": "6.562",
+    "per_stack": true
+  },
+  "minecraft:explorer_pottery_sherd": {
+    "item_id": "minecraft:explorer_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:ender_eye": {
+    "item_id": "minecraft:ender_eye",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:gray_dye": {
+    "item_id": "minecraft:gray_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:cocoa_beans": {
+    "item_id": "minecraft:cocoa_beans",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:raw_gold": {
+    "item_id": "minecraft:raw_gold",
+    "mass": "0.8889",
+    "per_stack": true
+  },
+  "minecraft:zombified_piglin_spawn_egg": {
+    "item_id": "minecraft:zombified_piglin_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:iron_nugget": {
+    "item_id": "minecraft:iron_nugget",
+    "mass": "0.0963",
+    "per_stack": true
+  },
+  "minecraft:skeleton_horse_spawn_egg": {
+    "item_id": "minecraft:skeleton_horse_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:recovery_compass": {
+    "item_id": "minecraft:recovery_compass",
+    "mass": "0.867",
+    "per_stack": true
+  },
+  "minecraft:heart_of_the_sea": {
+    "item_id": "minecraft:heart_of_the_sea",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:beef": {
+    "item_id": "minecraft:beef",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:sentry_armor_trim_smithing_template": {
+    "item_id": "minecraft:sentry_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:snout_armor_trim_smithing_template": {
+    "item_id": "minecraft:snout_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:brewer_pottery_sherd": {
+    "item_id": "minecraft:brewer_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:suspicious_stew": {
+    "item_id": "minecraft:suspicious_stew",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:diamond_pickaxe": {
+    "item_id": "minecraft:diamond_pickaxe",
+    "mass": "1.29",
+    "per_stack": true
+  },
+  "minecraft:sheep_spawn_egg": {
+    "item_id": "minecraft:sheep_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:netherite_upgrade_smithing_template": {
+    "item_id": "minecraft:netherite_upgrade_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_ward": {
+    "item_id": "minecraft:music_disc_ward",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:mushroom_stew": {
+    "item_id": "minecraft:mushroom_stew",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:spire_armor_trim_smithing_template": {
+    "item_id": "minecraft:spire_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:globe_banner_pattern": {
+    "item_id": "minecraft:globe_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:netherite_pickaxe": {
+    "item_id": "minecraft:netherite_pickaxe",
+    "mass": "3.511",
+    "per_stack": true
+  },
+  "minecraft:carrot_on_a_stick": {
+    "item_id": "minecraft:carrot_on_a_stick",
+    "mass": "0.925",
+    "per_stack": true
+  },
+  "minecraft:slime_spawn_egg": {
+    "item_id": "minecraft:slime_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:netherite_ingot": {
+    "item_id": "minecraft:netherite_ingot",
+    "mass": "8.0",
+    "per_stack": true
+  },
+  "minecraft:ocelot_spawn_egg": {
+    "item_id": "minecraft:ocelot_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:vindicator_spawn_egg": {
+    "item_id": "minecraft:vindicator_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:ominous_bottle": {
+    "item_id": "minecraft:ominous_bottle",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:mangrove_boat": {
+    "item_id": "minecraft:mangrove_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:camel_spawn_egg": {
+    "item_id": "minecraft:camel_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:glow_item_frame": {
+    "item_id": "minecraft:glow_item_frame",
+    "mass": "0.075",
+    "per_stack": true
+  },
+  "minecraft:wooden_pickaxe": {
+    "item_id": "minecraft:wooden_pickaxe",
+    "mass": "0.45",
+    "per_stack": true
+  },
+  "minecraft:lava_bucket": {
+    "item_id": "minecraft:lava_bucket",
+    "mass": "9.162",
+    "per_stack": true
+  },
+  "minecraft:music_disc_mall": {
+    "item_id": "minecraft:music_disc_mall",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:wind_charge": {
+    "item_id": "minecraft:wind_charge",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:gunpowder": {
+    "item_id": "minecraft:gunpowder",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:dragon_breath": {
+    "item_id": "minecraft:dragon_breath",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:snow_golem_spawn_egg": {
+    "item_id": "minecraft:snow_golem_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:elytra": {
+    "item_id": "minecraft:elytra",
+    "mass": "0.5",
+    "per_stack": true
+  },
+  "minecraft:iron_boots": {
+    "item_id": "minecraft:iron_boots",
+    "mass": "3.467",
+    "per_stack": true
+  },
+  "minecraft:axolotl_spawn_egg": {
+    "item_id": "minecraft:axolotl_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:skeleton_spawn_egg": {
+    "item_id": "minecraft:skeleton_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:bowl": {
+    "item_id": "minecraft:bowl",
+    "mass": "0.15",
+    "per_stack": true
+  },
+  "minecraft:wayfinder_armor_trim_smithing_template": {
+    "item_id": "minecraft:wayfinder_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:netherite_helmet": {
+    "item_id": "minecraft:netherite_helmet",
+    "mass": "2.334",
+    "per_stack": true
+  },
+  "minecraft:drowned_spawn_egg": {
+    "item_id": "minecraft:drowned_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:milk_bucket": {
+    "item_id": "minecraft:milk_bucket",
+    "mass": "7.062",
+    "per_stack": true
+  },
+  "minecraft:music_disc_creator_music_box": {
+    "item_id": "minecraft:music_disc_creator_music_box",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:feather": {
+    "item_id": "minecraft:feather",
+    "mass": "0.0001",
+    "per_stack": true
+  },
+  "minecraft:glass_bottle": {
+    "item_id": "minecraft:glass_bottle",
+    "mass": "0.5",
+    "per_stack": true
+  },
+  "minecraft:dolphin_spawn_egg": {
+    "item_id": "minecraft:dolphin_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:ender_pearl": {
+    "item_id": "minecraft:ender_pearl",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:mace": {
+    "item_id": "minecraft:mace",
+    "mass": "10.5",
+    "per_stack": true
+  },
+  "minecraft:rib_armor_trim_smithing_template": {
+    "item_id": "minecraft:rib_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:diamond_shovel": {
+    "item_id": "minecraft:diamond_shovel",
+    "mass": "0.99",
+    "per_stack": true
+  },
+  "minecraft:leather_helmet": {
+    "item_id": "minecraft:leather_helmet",
+    "mass": "0.3",
+    "per_stack": true
+  },
+  "minecraft:music_disc_far": {
+    "item_id": "minecraft:music_disc_far",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:donkey_spawn_egg": {
+    "item_id": "minecraft:donkey_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:dune_armor_trim_smithing_template": {
+    "item_id": "minecraft:dune_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:string": {
+    "item_id": "minecraft:string",
+    "mass": "0.0001",
+    "per_stack": true
+  },
+  "minecraft:rabbit_foot": {
+    "item_id": "minecraft:rabbit_foot",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:arms_up_pottery_sherd": {
+    "item_id": "minecraft:arms_up_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:purple_dye": {
+    "item_id": "minecraft:purple_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:gold_nugget": {
+    "item_id": "minecraft:gold_nugget",
+    "mass": "0.2383",
+    "per_stack": true
+  },
+  "minecraft:diamond": {
+    "item_id": "minecraft:diamond",
+    "mass": "0.3889",
+    "per_stack": true
+  },
+  "minecraft:diamond_sword": {
+    "item_id": "minecraft:diamond_sword",
+    "mass": "0.83",
+    "per_stack": true
+  },
+  "minecraft:diamond_axe": {
+    "item_id": "minecraft:diamond_axe",
+    "mass": "1.27",
+    "per_stack": true
+  },
+  "minecraft:iron_helmet": {
+    "item_id": "minecraft:iron_helmet",
+    "mass": "4.333",
+    "per_stack": true
+  },
+  "minecraft:birch_boat": {
+    "item_id": "minecraft:birch_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:raw_copper": {
+    "item_id": "minecraft:raw_copper",
+    "mass": "0.5556",
+    "per_stack": true
+  },
+  "minecraft:music_disc_relic": {
+    "item_id": "minecraft:music_disc_relic",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:villager_spawn_egg": {
+    "item_id": "minecraft:villager_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:mutton": {
+    "item_id": "minecraft:mutton",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:stone_axe": {
+    "item_id": "minecraft:stone_axe",
+    "mass": "2.75",
+    "per_stack": true
+  },
+  "minecraft:debug_stick": {
+    "item_id": "minecraft:debug_stick",
+    "mass": "0.075",
+    "per_stack": true
+  },
+  "minecraft:armadillo_spawn_egg": {
+    "item_id": "minecraft:armadillo_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:raw_iron": {
+    "item_id": "minecraft:raw_iron",
+    "mass": "0.5556",
+    "per_stack": true
+  },
+  "minecraft:enderman_spawn_egg": {
+    "item_id": "minecraft:enderman_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:flint": {
+    "item_id": "minecraft:flint",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:heartbreak_pottery_sherd": {
+    "item_id": "minecraft:heartbreak_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:lead": {
+    "item_id": "minecraft:lead",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:firework_rocket": {
+    "item_id": "minecraft:firework_rocket",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:jungle_chest_boat": {
+    "item_id": "minecraft:jungle_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:chicken_spawn_egg": {
+    "item_id": "minecraft:chicken_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:shulker_spawn_egg": {
+    "item_id": "minecraft:shulker_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:bamboo_chest_raft": {
+    "item_id": "minecraft:bamboo_chest_raft",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:howl_pottery_sherd": {
+    "item_id": "minecraft:howl_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:spyglass": {
+    "item_id": "minecraft:spyglass",
+    "mass": "0.867",
+    "per_stack": true
+  },
+  "minecraft:ender_dragon_spawn_egg": {
+    "item_id": "minecraft:ender_dragon_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:shulker_shell": {
+    "item_id": "minecraft:shulker_shell",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:strider_spawn_egg": {
+    "item_id": "minecraft:strider_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:iron_chestplate": {
+    "item_id": "minecraft:iron_chestplate",
+    "mass": "6.933",
+    "per_stack": true
+  },
+  "minecraft:elder_guardian_spawn_egg": {
+    "item_id": "minecraft:elder_guardian_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:plenty_pottery_sherd": {
+    "item_id": "minecraft:plenty_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:acacia_boat": {
+    "item_id": "minecraft:acacia_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:netherite_chestplate": {
+    "item_id": "minecraft:netherite_chestplate",
+    "mass": "4.444",
+    "per_stack": true
+  },
+  "minecraft:emerald": {
+    "item_id": "minecraft:emerald",
+    "mass": "0.3",
+    "per_stack": true
+  },
+  "minecraft:bow": {
+    "item_id": "minecraft:bow",
+    "mass": "0.18",
+    "per_stack": true
+  },
+  "minecraft:nether_star": {
+    "item_id": "minecraft:nether_star",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:pumpkin_pie": {
+    "item_id": "minecraft:pumpkin_pie",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:warped_fungus_on_a_stick": {
+    "item_id": "minecraft:warped_fungus_on_a_stick",
+    "mass": "0.925",
+    "per_stack": true
+  },
+  "minecraft:slime_ball": {
+    "item_id": "minecraft:slime_ball",
+    "mass": "0.1111",
+    "per_stack": true
+  },
+  "minecraft:oak_boat": {
+    "item_id": "minecraft:oak_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:flint_and_steel": {
+    "item_id": "minecraft:flint_and_steel",
+    "mass": "0.867",
+    "per_stack": true
+  },
+  "minecraft:cooked_cod": {
+    "item_id": "minecraft:cooked_cod",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:glowstone_dust": {
+    "item_id": "minecraft:glowstone_dust",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:tadpole_spawn_egg": {
+    "item_id": "minecraft:tadpole_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:yellow_dye": {
+    "item_id": "minecraft:yellow_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:flow_pottery_sherd": {
+    "item_id": "minecraft:flow_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:music_disc_wait": {
+    "item_id": "minecraft:music_disc_wait",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:iron_shovel": {
+    "item_id": "minecraft:iron_shovel",
+    "mass": "0.99",
+    "per_stack": true
+  },
+  "minecraft:fishing_rod": {
+    "item_id": "minecraft:fishing_rod",
+    "mass": "0.09",
+    "per_stack": true
+  },
+  "minecraft:cat_spawn_egg": {
+    "item_id": "minecraft:cat_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:guardian_spawn_egg": {
+    "item_id": "minecraft:guardian_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:iron_golem_spawn_egg": {
+    "item_id": "minecraft:iron_golem_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:totem_of_undying": {
+    "item_id": "minecraft:totem_of_undying",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cod": {
+    "item_id": "minecraft:cod",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:pink_dye": {
+    "item_id": "minecraft:pink_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:glow_squid_spawn_egg": {
+    "item_id": "minecraft:glow_squid_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:phantom_spawn_egg": {
+    "item_id": "minecraft:phantom_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:hoglin_spawn_egg": {
+    "item_id": "minecraft:hoglin_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:enchanted_golden_apple": {
+    "item_id": "minecraft:enchanted_golden_apple",
+    "mass": "154.4",
+    "per_stack": true
+  },
+  "minecraft:netherite_axe": {
+    "item_id": "minecraft:netherite_axe",
+    "mass": "3.511",
+    "per_stack": true
+  },
+  "minecraft:brick": {
+    "item_id": "minecraft:brick",
+    "mass": "0.2111",
+    "per_stack": true
+  },
+  "minecraft:wooden_axe": {
+    "item_id": "minecraft:wooden_axe",
+    "mass": "0.45",
+    "per_stack": true
+  },
+  "minecraft:nether_brick": {
+    "item_id": "minecraft:nether_brick",
+    "mass": "0.2111",
+    "per_stack": true
+  },
+  "minecraft:salmon_spawn_egg": {
+    "item_id": "minecraft:salmon_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:creeper_spawn_egg": {
+    "item_id": "minecraft:creeper_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:turtle_helmet": {
+    "item_id": "minecraft:turtle_helmet",
+    "mass": "0.9",
+    "per_stack": true
+  },
+  "minecraft:dark_oak_boat": {
+    "item_id": "minecraft:dark_oak_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:flow_armor_trim_smithing_template": {
+    "item_id": "minecraft:flow_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:wooden_sword": {
+    "item_id": "minecraft:wooden_sword",
+    "mass": "0.45",
+    "per_stack": true
+  },
+  "minecraft:crossbow": {
+    "item_id": "minecraft:crossbow",
+    "mass": "0.2",
+    "per_stack": true
+  },
+  "minecraft:potion": {
+    "item_id": "minecraft:potion",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:husk_spawn_egg": {
+    "item_id": "minecraft:husk_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:music_disc_blocks": {
+    "item_id": "minecraft:music_disc_blocks",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:blaze_spawn_egg": {
+    "item_id": "minecraft:blaze_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:map": {
+    "item_id": "minecraft:map",
+    "mass": "0.005",
+    "per_stack": true
+  },
+  "minecraft:dried_kelp": {
+    "item_id": "minecraft:dried_kelp",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:salmon": {
+    "item_id": "minecraft:salmon",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:book": {
+    "item_id": "minecraft:book",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:angler_pottery_sherd": {
+    "item_id": "minecraft:angler_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:horse_spawn_egg": {
+    "item_id": "minecraft:horse_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:baked_potato": {
+    "item_id": "minecraft:baked_potato",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:chorus_fruit": {
+    "item_id": "minecraft:chorus_fruit",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:rabbit": {
+    "item_id": "minecraft:rabbit",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:cooked_porkchop": {
+    "item_id": "minecraft:cooked_porkchop",
+    "mass": "0.0003",
+    "per_stack": true
+  },
+  "minecraft:mule_spawn_egg": {
+    "item_id": "minecraft:mule_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:clock": {
+    "item_id": "minecraft:clock",
+    "mass": "0.867",
+    "per_stack": true
+  },
+  "minecraft:tide_armor_trim_smithing_template": {
+    "item_id": "minecraft:tide_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:skull_pottery_sherd": {
+    "item_id": "minecraft:skull_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:lapis_lazuli": {
+    "item_id": "minecraft:lapis_lazuli",
+    "mass": "0.3111",
+    "per_stack": true
+  },
+  "minecraft:bone": {
+    "item_id": "minecraft:bone",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:creeper_banner_pattern": {
+    "item_id": "minecraft:creeper_banner_pattern",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:lingering_potion": {
+    "item_id": "minecraft:lingering_potion",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:stone_hoe": {
+    "item_id": "minecraft:stone_hoe",
+    "mass": "1.79",
+    "per_stack": true
+  },
+  "minecraft:bucket": {
+    "item_id": "minecraft:bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:bread": {
+    "item_id": "minecraft:bread",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:ravager_spawn_egg": {
+    "item_id": "minecraft:ravager_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:danger_pottery_sherd": {
+    "item_id": "minecraft:danger_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:carrot": {
+    "item_id": "minecraft:carrot",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:goat_spawn_egg": {
+    "item_id": "minecraft:goat_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:command_block_minecart": {
+    "item_id": "minecraft:command_block_minecart",
+    "mass": "4.33",
+    "per_stack": true
+  },
+  "minecraft:diamond_boots": {
+    "item_id": "minecraft:diamond_boots",
+    "mass": "1.56",
+    "per_stack": true
+  },
+  "minecraft:diamond_horse_armor": {
+    "item_id": "minecraft:diamond_horse_armor",
+    "mass": "21.0",
+    "per_stack": true
+  },
+  "minecraft:wolf_armor": {
+    "item_id": "minecraft:wolf_armor",
+    "mass": "0.9",
+    "per_stack": true
+  },
+  "minecraft:zombie_horse_spawn_egg": {
+    "item_id": "minecraft:zombie_horse_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:bee_spawn_egg": {
+    "item_id": "minecraft:bee_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:acacia_chest_boat": {
+    "item_id": "minecraft:acacia_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:glow_berries": {
+    "item_id": "minecraft:glow_berries",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:music_disc_5": {
+    "item_id": "minecraft:music_disc_5",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:writable_book": {
+    "item_id": "minecraft:writable_book",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:cod_spawn_egg": {
+    "item_id": "minecraft:cod_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:golden_helmet": {
+    "item_id": "minecraft:golden_helmet",
+    "mass": "10.72",
+    "per_stack": true
+  },
+  "minecraft:snowball": {
+    "item_id": "minecraft:snowball",
+    "mass": "0.0556",
+    "per_stack": true
+  },
+  "minecraft:spectral_arrow": {
+    "item_id": "minecraft:spectral_arrow",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:llama_spawn_egg": {
+    "item_id": "minecraft:llama_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:chainmail_boots": {
+    "item_id": "minecraft:chainmail_boots",
+    "mass": "1.733",
+    "per_stack": true
+  },
+  "minecraft:fox_spawn_egg": {
+    "item_id": "minecraft:fox_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:piglin_brute_spawn_egg": {
+    "item_id": "minecraft:piglin_brute_spawn_egg",
+    "mass": "0.001",
+    "per_stack": true
+  },
+  "minecraft:breeze_rod": {
+    "item_id": "minecraft:breeze_rod",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:miner_pottery_sherd": {
+    "item_id": "minecraft:miner_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:water_bucket": {
+    "item_id": "minecraft:water_bucket",
+    "mass": "7.062",
+    "per_stack": true
+  },
+  "minecraft:ominous_trial_key": {
+    "item_id": "minecraft:ominous_trial_key",
+    "mass": "0.0005",
+    "per_stack": true
+  },
+  "minecraft:melon_slice": {
+    "item_id": "minecraft:melon_slice",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:cherry_boat": {
+    "item_id": "minecraft:cherry_boat",
+    "mass": "3.0",
+    "per_stack": true
+  },
+  "minecraft:spruce_chest_boat": {
+    "item_id": "minecraft:spruce_chest_boat",
+    "mass": "7.8",
+    "per_stack": true
+  },
+  "minecraft:poisonous_potato": {
+    "item_id": "minecraft:poisonous_potato",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:axolotl_bucket": {
+    "item_id": "minecraft:axolotl_bucket",
+    "mass": "6.062",
+    "per_stack": true
+  },
+  "minecraft:light_gray_dye": {
+    "item_id": "minecraft:light_gray_dye",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:charcoal": {
+    "item_id": "minecraft:charcoal",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:beetroot_seeds": {
+    "item_id": "minecraft:beetroot_seeds",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:prize_pottery_sherd": {
+    "item_id": "minecraft:prize_pottery_sherd",
+    "mass": "0.0002",
+    "per_stack": true
+  },
+  "minecraft:netherite_sword": {
+    "item_id": "minecraft:netherite_sword",
+    "mass": "3.511",
+    "per_stack": true
+  },
+  "minecraft:host_armor_trim_smithing_template": {
+    "item_id": "minecraft:host_armor_trim_smithing_template",
+    "mass": "0.001",
+    "per_stack": true
+  }
+}

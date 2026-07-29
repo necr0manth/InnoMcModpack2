@@ -1,0 +1,14 @@
+{
+  "simulatedextra:centered_wheel_mount": {
+    "block_id": "simulatedextra:centered_wheel_mount",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulatedextra:linking_redstone_link": {
+    "block_id": "simulatedextra:linking_redstone_link",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,21 @@
+#.
+#Server Config
+[server]
+	#.
+	#Makes the mod boring and not so cool
+	#(cus someone complained for uhh, unnatural stuff)
+	#(just figure it out why i made this as an option)
+	survivalFriendlyEnabled = false
+	#.
+	#Horse Abductor will dupe horses when moved
+	#(such as pistons, simulated contraptions, etc.)
+	horseDupeGlitchWorkingUnpatchedWowzersDangWutDaHailOmgNoWay = false
+
+	#.
+	#Crushing Wheels
+	[server.crushingWheels]
+		#.
+		#The amount of delayed ticks to detect horses to crush.
+		# Default: 5
+		# Range: 1 ~ 100
+		ticksPerHorseDetection = 5

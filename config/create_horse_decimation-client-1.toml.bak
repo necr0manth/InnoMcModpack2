@@ -1,0 +1,11 @@
+#.
+#Client Config
+[client]
+	#.
+	#Censors the word "horse" into "h*rse."
+	#This applies to almost EVERY possible rendering text of Minecraft.
+	#Restart for full effect!
+	censorHorseWord = true
+	#.
+	#Greet some special players through the splash screen on boot.
+	greetSpecialPlayersOnBoot = true

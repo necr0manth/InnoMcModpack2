@@ -1,0 +1,6 @@
+#Pondus Client Settings
+[client]
+	#Показывать массу предметов в подсказке (F3+H не требуется)
+	showMassInTooltip = true
+	#Показывать массу блока в подсказке, если предмет является блоком
+	showBlockMassInTooltip = true

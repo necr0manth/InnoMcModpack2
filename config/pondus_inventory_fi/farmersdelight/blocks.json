@@ -1,0 +1,794 @@
+{
+  "farmersdelight:blue_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:blue_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cyan_canvas_sign": {
+    "block_id": "farmersdelight:cyan_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:stuffed_pumpkin_block": {
+    "block_id": "farmersdelight:stuffed_pumpkin_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cyan_hanging_canvas_sign": {
+    "block_id": "farmersdelight:cyan_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:gray_hanging_canvas_sign": {
+    "block_id": "farmersdelight:gray_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:magenta_canvas_wall_sign": {
+    "block_id": "farmersdelight:magenta_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cooking_pot": {
+    "block_id": "farmersdelight:cooking_pot",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:gray_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:gray_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:onions": {
+    "block_id": "farmersdelight:onions",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:carrot_crate": {
+    "block_id": "farmersdelight:carrot_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rich_soil_farmland": {
+    "block_id": "farmersdelight:rich_soil_farmland",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_potatoes": {
+    "block_id": "farmersdelight:wild_potatoes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:shepherds_pie_block": {
+    "block_id": "farmersdelight:shepherds_pie_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:sweet_berry_cheesecake": {
+    "block_id": "farmersdelight:sweet_berry_cheesecake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:organic_compost": {
+    "block_id": "farmersdelight:organic_compost",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:gleaming_salad_block": {
+    "block_id": "farmersdelight:gleaming_salad_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_gray_hanging_canvas_sign": {
+    "block_id": "farmersdelight:light_gray_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:red_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:red_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:lime_hanging_canvas_sign": {
+    "block_id": "farmersdelight:lime_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:pink_hanging_canvas_sign": {
+    "block_id": "farmersdelight:pink_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:honey_glazed_ham_block": {
+    "block_id": "farmersdelight:honey_glazed_ham_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:lime_canvas_wall_sign": {
+    "block_id": "farmersdelight:lime_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:half_tatami_mat": {
+    "block_id": "farmersdelight:half_tatami_mat",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cyan_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:cyan_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:mangrove_cabinet": {
+    "block_id": "farmersdelight:mangrove_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:purple_canvas_sign": {
+    "block_id": "farmersdelight:purple_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:tomatoes": {
+    "block_id": "farmersdelight:tomatoes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rice": {
+    "block_id": "farmersdelight:rice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:tomato_crate": {
+    "block_id": "farmersdelight:tomato_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:red_mushroom_colony": {
+    "block_id": "farmersdelight:red_mushroom_colony",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rich_soil": {
+    "block_id": "farmersdelight:rich_soil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:purple_hanging_canvas_sign": {
+    "block_id": "farmersdelight:purple_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:orange_canvas_wall_sign": {
+    "block_id": "farmersdelight:orange_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:hanging_canvas_sign": {
+    "block_id": "farmersdelight:hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:potato_crate": {
+    "block_id": "farmersdelight:potato_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:brown_canvas_wall_sign": {
+    "block_id": "farmersdelight:brown_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cabbage_crate": {
+    "block_id": "farmersdelight:cabbage_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:canvas_sign": {
+    "block_id": "farmersdelight:canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:bamboo_basket": {
+    "block_id": "farmersdelight:bamboo_basket",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:green_canvas_wall_sign": {
+    "block_id": "farmersdelight:green_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rice_roll_medley_block": {
+    "block_id": "farmersdelight:rice_roll_medley_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:black_canvas_sign": {
+    "block_id": "farmersdelight:black_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:red_hanging_canvas_sign": {
+    "block_id": "farmersdelight:red_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:black_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:black_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:blue_hanging_canvas_sign": {
+    "block_id": "farmersdelight:blue_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:green_hanging_canvas_sign": {
+    "block_id": "farmersdelight:green_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:brown_mushroom_colony": {
+    "block_id": "farmersdelight:brown_mushroom_colony",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:gray_canvas_sign": {
+    "block_id": "farmersdelight:gray_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:brown_canvas_sign": {
+    "block_id": "farmersdelight:brown_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:acacia_cabinet": {
+    "block_id": "farmersdelight:acacia_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_beetroots": {
+    "block_id": "farmersdelight:wild_beetroots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:green_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:green_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:onion_crate": {
+    "block_id": "farmersdelight:onion_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wooden_basket": {
+    "block_id": "farmersdelight:wooden_basket",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:crimson_cabinet": {
+    "block_id": "farmersdelight:crimson_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_tomatoes": {
+    "block_id": "farmersdelight:wild_tomatoes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:black_canvas_wall_sign": {
+    "block_id": "farmersdelight:black_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:gray_canvas_wall_sign": {
+    "block_id": "farmersdelight:gray_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_carrots": {
+    "block_id": "farmersdelight:wild_carrots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:beetroot_crate": {
+    "block_id": "farmersdelight:beetroot_crate",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:brown_hanging_canvas_sign": {
+    "block_id": "farmersdelight:brown_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cyan_canvas_wall_sign": {
+    "block_id": "farmersdelight:cyan_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:yellow_canvas_sign": {
+    "block_id": "farmersdelight:yellow_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:blue_canvas_wall_sign": {
+    "block_id": "farmersdelight:blue_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:orange_canvas_sign": {
+    "block_id": "farmersdelight:orange_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_cabbages": {
+    "block_id": "farmersdelight:wild_cabbages",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_gray_canvas_sign": {
+    "block_id": "farmersdelight:light_gray_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:budding_tomatoes": {
+    "block_id": "farmersdelight:budding_tomatoes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:yellow_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:yellow_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:yellow_canvas_wall_sign": {
+    "block_id": "farmersdelight:yellow_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cutting_board": {
+    "block_id": "farmersdelight:cutting_board",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:lime_canvas_sign": {
+    "block_id": "farmersdelight:lime_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:bamboo_cabinet": {
+    "block_id": "farmersdelight:bamboo_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:magenta_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:magenta_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:roast_chicken_block": {
+    "block_id": "farmersdelight:roast_chicken_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:apple_pie": {
+    "block_id": "farmersdelight:apple_pie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cabbages": {
+    "block_id": "farmersdelight:cabbages",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:oak_cabinet": {
+    "block_id": "farmersdelight:oak_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:spruce_cabinet": {
+    "block_id": "farmersdelight:spruce_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_onions": {
+    "block_id": "farmersdelight:wild_onions",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:stove": {
+    "block_id": "farmersdelight:stove",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:full_tatami_mat": {
+    "block_id": "farmersdelight:full_tatami_mat",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:jungle_cabinet": {
+    "block_id": "farmersdelight:jungle_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:purple_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:purple_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:white_hanging_canvas_sign": {
+    "block_id": "farmersdelight:white_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_gray_canvas_wall_sign": {
+    "block_id": "farmersdelight:light_gray_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:cherry_cabinet": {
+    "block_id": "farmersdelight:cherry_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:chocolate_pie": {
+    "block_id": "farmersdelight:chocolate_pie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:white_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:white_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rope_fence_gate": {
+    "block_id": "farmersdelight:rope_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:pink_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:pink_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:canvas_rug": {
+    "block_id": "farmersdelight:canvas_rug",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:birch_cabinet": {
+    "block_id": "farmersdelight:birch_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:white_canvas_sign": {
+    "block_id": "farmersdelight:white_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:pink_canvas_sign": {
+    "block_id": "farmersdelight:pink_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rice_bale": {
+    "block_id": "farmersdelight:rice_bale",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rope_fence": {
+    "block_id": "farmersdelight:rope_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_blue_canvas_wall_sign": {
+    "block_id": "farmersdelight:light_blue_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:lime_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:lime_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:skillet": {
+    "block_id": "farmersdelight:skillet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:magenta_canvas_sign": {
+    "block_id": "farmersdelight:magenta_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:purple_canvas_wall_sign": {
+    "block_id": "farmersdelight:purple_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rope": {
+    "block_id": "farmersdelight:rope",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:black_hanging_canvas_sign": {
+    "block_id": "farmersdelight:black_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:magenta_hanging_canvas_sign": {
+    "block_id": "farmersdelight:magenta_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:pumpkin_pie": {
+    "block_id": "farmersdelight:pumpkin_pie",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:sandy_shrub": {
+    "block_id": "farmersdelight:sandy_shrub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:brown_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:brown_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:red_canvas_wall_sign": {
+    "block_id": "farmersdelight:red_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:orange_hanging_canvas_sign": {
+    "block_id": "farmersdelight:orange_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:tomatoes_on_rope": {
+    "block_id": "farmersdelight:tomatoes_on_rope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:blue_canvas_sign": {
+    "block_id": "farmersdelight:blue_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:warped_cabinet": {
+    "block_id": "farmersdelight:warped_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rice_panicles": {
+    "block_id": "farmersdelight:rice_panicles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:red_canvas_sign": {
+    "block_id": "farmersdelight:red_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_blue_hanging_canvas_sign": {
+    "block_id": "farmersdelight:light_blue_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:green_canvas_sign": {
+    "block_id": "farmersdelight:green_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:rice_bag": {
+    "block_id": "farmersdelight:rice_bag",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:pink_canvas_wall_sign": {
+    "block_id": "farmersdelight:pink_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:tatami": {
+    "block_id": "farmersdelight:tatami",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:white_canvas_wall_sign": {
+    "block_id": "farmersdelight:white_canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_gray_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:light_gray_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:orange_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:orange_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:safety_net": {
+    "block_id": "farmersdelight:safety_net",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_blue_wall_hanging_canvas_sign": {
+    "block_id": "farmersdelight:light_blue_wall_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:yellow_hanging_canvas_sign": {
+    "block_id": "farmersdelight:yellow_hanging_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:wild_rice": {
+    "block_id": "farmersdelight:wild_rice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:light_blue_canvas_sign": {
+    "block_id": "farmersdelight:light_blue_canvas_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:dark_oak_cabinet": {
+    "block_id": "farmersdelight:dark_oak_cabinet",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:straw_bale": {
+    "block_id": "farmersdelight:straw_bale",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "farmersdelight:canvas_wall_sign": {
+    "block_id": "farmersdelight:canvas_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

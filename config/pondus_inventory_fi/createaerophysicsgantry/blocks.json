@@ -1,0 +1,20 @@
+{
+  "createaerophysicsgantry:belt_wheel": {
+    "block_id": "createaerophysicsgantry:belt_wheel",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaerophysicsgantry:physics_gantry_shaft": {
+    "block_id": "createaerophysicsgantry:physics_gantry_shaft",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createaerophysicsgantry:physics_gantry_carriage": {
+    "block_id": "createaerophysicsgantry:physics_gantry_carriage",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

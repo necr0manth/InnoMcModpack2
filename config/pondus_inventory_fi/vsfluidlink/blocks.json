@@ -1,0 +1,74 @@
+{
+  "vsfluidlink:electric_wire_connector": {
+    "block_id": "vsfluidlink:electric_wire_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:hose_connector": {
+    "block_id": "vsfluidlink:hose_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:item_magnet_hose_connector": {
+    "block_id": "vsfluidlink:item_magnet_hose_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:item_hose_connector": {
+    "block_id": "vsfluidlink:item_hose_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:electric_magnet_wire_connector": {
+    "block_id": "vsfluidlink:electric_magnet_wire_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:hose_decoration": {
+    "block_id": "vsfluidlink:hose_decoration",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:small_hose_decoration": {
+    "block_id": "vsfluidlink:small_hose_decoration",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:small_magnet_hose_decoration": {
+    "block_id": "vsfluidlink:small_magnet_hose_decoration",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:magnet_hose_decoration": {
+    "block_id": "vsfluidlink:magnet_hose_decoration",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:magnet_chain_connector": {
+    "block_id": "vsfluidlink:magnet_chain_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:magnet_hose_connector": {
+    "block_id": "vsfluidlink:magnet_hose_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "vsfluidlink:chain_connector": {
+    "block_id": "vsfluidlink:chain_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

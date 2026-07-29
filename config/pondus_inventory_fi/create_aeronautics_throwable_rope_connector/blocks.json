@@ -1,0 +1,8 @@
+{
+  "create_aeronautics_throwable_rope_connector:mounted_rope_launcher": {
+    "block_id": "create_aeronautics_throwable_rope_connector:mounted_rope_launcher",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

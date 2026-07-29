@@ -1,0 +1,98 @@
+{
+  "computercraft:wired_modem_full": {
+    "block_id": "computercraft:wired_modem_full",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:monitor_normal": {
+    "block_id": "computercraft:monitor_normal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:monitor_advanced": {
+    "block_id": "computercraft:monitor_advanced",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:disk_drive": {
+    "block_id": "computercraft:disk_drive",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:turtle_advanced": {
+    "block_id": "computercraft:turtle_advanced",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:wireless_modem_normal": {
+    "block_id": "computercraft:wireless_modem_normal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:speaker": {
+    "block_id": "computercraft:speaker",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:turtle_normal": {
+    "block_id": "computercraft:turtle_normal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:computer_command": {
+    "block_id": "computercraft:computer_command",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:printer": {
+    "block_id": "computercraft:printer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:computer_normal": {
+    "block_id": "computercraft:computer_normal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:wireless_modem_advanced": {
+    "block_id": "computercraft:wireless_modem_advanced",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:redstone_relay": {
+    "block_id": "computercraft:redstone_relay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:cable": {
+    "block_id": "computercraft:cable",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:computer_advanced": {
+    "block_id": "computercraft:computer_advanced",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "computercraft:lectern": {
+    "block_id": "computercraft:lectern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

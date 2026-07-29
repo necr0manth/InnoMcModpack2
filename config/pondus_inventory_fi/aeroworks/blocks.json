@@ -1,0 +1,20 @@
+{
+  "aeroworks:gyroscope": {
+    "block_id": "aeroworks:gyroscope",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeroworks:stepper_servo": {
+    "block_id": "aeroworks:stepper_servo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aeroworks:mechanical_servo": {
+    "block_id": "aeroworks:mechanical_servo",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

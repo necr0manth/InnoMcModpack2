@@ -1,0 +1,1418 @@
+{
+  "framedblocks:framed_divided_slope": {
+    "block_id": "framedblocks:framed_divided_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inner_threeway_corner_slope_edge": {
+    "block_id": "framedblocks:framed_inner_threeway_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_half_stairs": {
+    "block_id": "framedblocks:framed_vertical_half_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_slab": {
+    "block_id": "framedblocks:framed_checkered_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_cube": {
+    "block_id": "framedblocks:framed_checkered_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_inner_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_stacked_inner_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_panel_segment": {
+    "block_id": "framedblocks:framed_checkered_panel_segment",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_sliced_sloped_stairs_slope": {
+    "block_id": "framedblocks:framed_vertical_sliced_sloped_stairs_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_half_slope": {
+    "block_id": "framedblocks:framed_half_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slab_corner": {
+    "block_id": "framedblocks:framed_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_extended_slope_panel": {
+    "block_id": "framedblocks:framed_extended_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_stairs": {
+    "block_id": "framedblocks:framed_double_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_glowing_item_frame": {
+    "block_id": "framedblocks:framed_glowing_item_frame",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_divided_stairs": {
+    "block_id": "framedblocks:framed_divided_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_cube": {
+    "block_id": "framedblocks:framed_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_half_stairs": {
+    "block_id": "framedblocks:framed_double_half_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_powered_rail_slope": {
+    "block_id": "framedblocks:framed_fancy_powered_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slab": {
+    "block_id": "framedblocks:framed_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_slab_segment": {
+    "block_id": "framedblocks:framed_checkered_slab_segment",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slope_panel": {
+    "block_id": "framedblocks:framed_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_layered_cube": {
+    "block_id": "framedblocks:framed_layered_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_elev_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_elev_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_inner_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_small_inner_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elev_double_inner_corner_slope_edge": {
+    "block_id": "framedblocks:framed_elev_double_inner_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_stacked_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_stacked_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_waterloggable_pressure_plate": {
+    "block_id": "framedblocks:framed_waterloggable_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sliced_stairs_panel": {
+    "block_id": "framedblocks:framed_sliced_stairs_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_inner_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_inner_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_waterloggable_iron_pressure_plate": {
+    "block_id": "framedblocks:framed_waterloggable_iron_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_panel": {
+    "block_id": "framedblocks:framed_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_stacked_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_stacked_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_double_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_double_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_divided_slab": {
+    "block_id": "framedblocks:framed_divided_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_inner_corner_slope_panel": {
+    "block_id": "framedblocks:framed_small_inner_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_detector_rail_slope": {
+    "block_id": "framedblocks:framed_detector_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_inner_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_large_inner_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_hanging_sign": {
+    "block_id": "framedblocks:framed_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_sloped_stairs": {
+    "block_id": "framedblocks:framed_vertical_sloped_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stairs": {
+    "block_id": "framedblocks:framed_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_sliced_stairs": {
+    "block_id": "framedblocks:framed_vertical_sliced_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_masonry_corner": {
+    "block_id": "framedblocks:framed_masonry_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stone_pressure_plate": {
+    "block_id": "framedblocks:framed_stone_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inv_double_slope_panel": {
+    "block_id": "framedblocks:framed_inv_double_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_slope": {
+    "block_id": "framedblocks:framed_double_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_redstone_wall_torch": {
+    "block_id": "framedblocks:framed_redstone_wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_inner_corner_slope_panel": {
+    "block_id": "framedblocks:framed_large_inner_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_lattice_block": {
+    "block_id": "framedblocks:framed_lattice_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slope_slab": {
+    "block_id": "framedblocks:framed_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_target": {
+    "block_id": "framedblocks:framed_target",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inv_double_corner_slope_panel": {
+    "block_id": "framedblocks:framed_inv_double_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elev_double_corner_slope_edge": {
+    "block_id": "framedblocks:framed_elev_double_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_soul_wall_torch": {
+    "block_id": "framedblocks:framed_soul_wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_ext_double_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_ext_double_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_split_pillar_socket": {
+    "block_id": "framedblocks:framed_split_pillar_socket",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pillar": {
+    "block_id": "framedblocks:framed_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_chiseled_bookshelf": {
+    "block_id": "framedblocks:framed_chiseled_bookshelf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_activator_rail_slope": {
+    "block_id": "framedblocks:framed_fancy_activator_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pyramid": {
+    "block_id": "framedblocks:framed_pyramid",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_sloped_double_stairs": {
+    "block_id": "framedblocks:framed_vertical_sloped_double_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_obsidian_pressure_plate": {
+    "block_id": "framedblocks:framed_obsidian_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_path": {
+    "block_id": "framedblocks:framed_path",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_redstone_block": {
+    "block_id": "framedblocks:framed_redstone_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_corner_strip": {
+    "block_id": "framedblocks:framed_corner_strip",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_elev_double_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_elev_double_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_slope_edge": {
+    "block_id": "framedblocks:framed_elevated_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_activator_rail": {
+    "block_id": "framedblocks:framed_fancy_activator_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_inner_double_sloped_prism": {
+    "block_id": "framedblocks:framed_elevated_inner_double_sloped_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sloped_prism": {
+    "block_id": "framedblocks:framed_sloped_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_corner_slope": {
+    "block_id": "framedblocks:framed_corner_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inv_double_slope_slab": {
+    "block_id": "framedblocks:framed_inv_double_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_ext_inner_double_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_ext_inner_double_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_corner": {
+    "block_id": "framedblocks:framed_double_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_detector_rail": {
+    "block_id": "framedblocks:framed_fancy_detector_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_rail_slope": {
+    "block_id": "framedblocks:framed_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pressure_plate": {
+    "block_id": "framedblocks:framed_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inner_threeway_corner": {
+    "block_id": "framedblocks:framed_inner_threeway_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_waterloggable_stone_pressure_plate": {
+    "block_id": "framedblocks:framed_waterloggable_stone_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_adj_double_copycat_slab": {
+    "block_id": "framedblocks:framed_adj_double_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_half_slope": {
+    "block_id": "framedblocks:framed_double_half_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_inner_sloped_prism": {
+    "block_id": "framedblocks:framed_elevated_inner_sloped_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_divided_stairs": {
+    "block_id": "framedblocks:framed_vertical_divided_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sign": {
+    "block_id": "framedblocks:framed_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_inner_double_corner_slope_panel": {
+    "block_id": "framedblocks:framed_ext_inner_double_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slope_edge": {
+    "block_id": "framedblocks:framed_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inner_corner_slope_edge": {
+    "block_id": "framedblocks:framed_inner_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_inner_double_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_ext_inner_double_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slab_edge": {
+    "block_id": "framedblocks:framed_slab_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_centered_slab": {
+    "block_id": "framedblocks:framed_centered_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_upper_pyramid_slab": {
+    "block_id": "framedblocks:framed_upper_pyramid_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sliced_sloped_stairs_slab": {
+    "block_id": "framedblocks:framed_sliced_sloped_stairs_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_double_slope_edge": {
+    "block_id": "framedblocks:framed_elevated_double_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_hopper": {
+    "block_id": "framedblocks:framed_hopper",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_wall": {
+    "block_id": "framedblocks:framed_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_inv_double_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_inv_double_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ladder": {
+    "block_id": "framedblocks:framed_ladder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_panel": {
+    "block_id": "framedblocks:framed_checkered_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_inv_double_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_inv_double_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_double_corner_slope_panel": {
+    "block_id": "framedblocks:framed_large_double_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_threeway_corner_pillar": {
+    "block_id": "framedblocks:framed_threeway_corner_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_stacked_inner_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_stacked_inner_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_inner_prism": {
+    "block_id": "framedblocks:framed_elevated_inner_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_lantern": {
+    "block_id": "framedblocks:framed_lantern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_soul_torch": {
+    "block_id": "framedblocks:framed_soul_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_prism_corner": {
+    "block_id": "framedblocks:framed_prism_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_wall_sign": {
+    "block_id": "framedblocks:framed_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_adj_double_copycat_panel": {
+    "block_id": "framedblocks:framed_adj_double_copycat_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sloped_stairs": {
+    "block_id": "framedblocks:framed_sloped_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_double_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_ext_double_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_inner_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_ext_inner_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_double_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_small_double_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_double_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_double_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_door": {
+    "block_id": "framedblocks:framed_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flower_pot": {
+    "block_id": "framedblocks:framed_flower_pot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_prism": {
+    "block_id": "framedblocks:framed_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_double_corner_slope_panel": {
+    "block_id": "framedblocks:framed_small_double_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_iron_pressure_plate": {
+    "block_id": "framedblocks:framed_iron_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_corner_slope_panel": {
+    "block_id": "framedblocks:framed_ext_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_iron_door": {
+    "block_id": "framedblocks:framed_iron_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_ext_inner_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_ext_inner_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_inner_corner_slope_panel": {
+    "block_id": "framedblocks:framed_stacked_inner_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_glowing_cube": {
+    "block_id": "framedblocks:framed_glowing_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_half_stairs": {
+    "block_id": "framedblocks:framed_half_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_lever": {
+    "block_id": "framedblocks:framed_lever",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stone_button": {
+    "block_id": "framedblocks:framed_stone_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_slab": {
+    "block_id": "framedblocks:framed_double_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_activator_rail_slope": {
+    "block_id": "framedblocks:framed_activator_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_waterloggable_gold_pressure_plate": {
+    "block_id": "framedblocks:framed_waterloggable_gold_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_soul_lantern": {
+    "block_id": "framedblocks:framed_soul_lantern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_lightning_rod": {
+    "block_id": "framedblocks:framed_lightning_rod",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_trapdoor": {
+    "block_id": "framedblocks:framed_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_collapsible_copycat_block": {
+    "block_id": "framedblocks:framed_collapsible_copycat_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_horizontal_pane": {
+    "block_id": "framedblocks:framed_horizontal_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_slope_panel": {
+    "block_id": "framedblocks:framed_double_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_threeway_corner_pillar": {
+    "block_id": "framedblocks:framed_double_threeway_corner_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framing_saw": {
+    "block_id": "framedblocks:framing_saw",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_masonry_corner_segment": {
+    "block_id": "framedblocks:framed_masonry_corner_segment",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_adj_double_panel": {
+    "block_id": "framedblocks:framed_adj_double_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_pyramid_slab": {
+    "block_id": "framedblocks:framed_stacked_pyramid_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_double_stairs": {
+    "block_id": "framedblocks:framed_vertical_double_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_button": {
+    "block_id": "framedblocks:framed_large_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_elev_inner_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_elev_inner_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_floor_board": {
+    "block_id": "framedblocks:framed_floor_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_ext_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_ext_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_adj_double_slab": {
+    "block_id": "framedblocks:framed_adj_double_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_double_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_large_double_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_divided_panel_horizontal": {
+    "block_id": "framedblocks:framed_divided_panel_horizontal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pane": {
+    "block_id": "framedblocks:framed_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_corner_slope_edge": {
+    "block_id": "framedblocks:framed_elevated_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sliced_stairs_slab": {
+    "block_id": "framedblocks:framed_sliced_stairs_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_rail": {
+    "block_id": "framedblocks:framed_fancy_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_wall_torch": {
+    "block_id": "framedblocks:framed_wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_powered_rail_slope": {
+    "block_id": "framedblocks:framed_powered_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sloped_double_stairs": {
+    "block_id": "framedblocks:framed_sloped_double_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_item_frame": {
+    "block_id": "framedblocks:framed_item_frame",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_double_slope_slab": {
+    "block_id": "framedblocks:framed_elevated_double_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_iron_trapdoor": {
+    "block_id": "framedblocks:framed_iron_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_gold_pressure_plate": {
+    "block_id": "framedblocks:framed_gold_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_panel": {
+    "block_id": "framedblocks:framed_double_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_slope_slab": {
+    "block_id": "framedblocks:framed_double_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_bookshelf": {
+    "block_id": "framedblocks:framed_bookshelf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_pyramid_slab": {
+    "block_id": "framedblocks:framed_elevated_pyramid_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_corner_pillar": {
+    "block_id": "framedblocks:framed_corner_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_double_half_stairs": {
+    "block_id": "framedblocks:framed_vertical_double_half_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_thick_lattice": {
+    "block_id": "framedblocks:framed_thick_lattice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_checkered_cube_segment": {
+    "block_id": "framedblocks:framed_checkered_cube_segment",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_corner_slope_edge": {
+    "block_id": "framedblocks:framed_stacked_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_slope_slab": {
+    "block_id": "framedblocks:framed_stacked_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fence": {
+    "block_id": "framedblocks:framed_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_slope_panel": {
+    "block_id": "framedblocks:framed_stacked_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_waterloggable_obsidian_pressure_plate": {
+    "block_id": "framedblocks:framed_waterloggable_obsidian_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_corner_slope_panel": {
+    "block_id": "framedblocks:framed_large_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_half_slope": {
+    "block_id": "framedblocks:framed_vertical_half_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_divided_panel_vertical": {
+    "block_id": "framedblocks:framed_divided_panel_vertical",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_threeway_corner": {
+    "block_id": "framedblocks:framed_double_threeway_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_sliced_sloped_stairs_panel": {
+    "block_id": "framedblocks:framed_vertical_sliced_sloped_stairs_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pyramid_slab": {
+    "block_id": "framedblocks:framed_pyramid_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_inner_corner_slope_panel": {
+    "block_id": "framedblocks:framed_ext_inner_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_corner_slope_edge": {
+    "block_id": "framedblocks:framed_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_centered_panel": {
+    "block_id": "framedblocks:framed_centered_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_threeway_corner": {
+    "block_id": "framedblocks:framed_threeway_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_redstone_torch": {
+    "block_id": "framedblocks:framed_redstone_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_compound_slope_panel": {
+    "block_id": "framedblocks:framed_compound_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_rail_slope": {
+    "block_id": "framedblocks:framed_fancy_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_double_half_slope": {
+    "block_id": "framedblocks:framed_vertical_double_half_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_corner_tube": {
+    "block_id": "framedblocks:framed_corner_tube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_inner_corner_slope_edge": {
+    "block_id": "framedblocks:framed_stacked_inner_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_gate": {
+    "block_id": "framedblocks:framed_gate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_corner_slope_panel": {
+    "block_id": "framedblocks:framed_stacked_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inv_double_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_inv_double_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_ext_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_corner_slope_panel": {
+    "block_id": "framedblocks:framed_small_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_detector_rail_slope": {
+    "block_id": "framedblocks:framed_fancy_detector_rail_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_tank": {
+    "block_id": "framedblocks:framed_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_double_prism_corner": {
+    "block_id": "framedblocks:framed_double_prism_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_slope": {
+    "block_id": "framedblocks:framed_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_button": {
+    "block_id": "framedblocks:framed_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_half_pillar": {
+    "block_id": "framedblocks:framed_half_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_vertical_stairs": {
+    "block_id": "framedblocks:framed_vertical_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_pillar_socket": {
+    "block_id": "framedblocks:framed_pillar_socket",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_bars": {
+    "block_id": "framedblocks:framed_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_stone_button": {
+    "block_id": "framedblocks:framed_large_stone_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_large_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_large_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_chain": {
+    "block_id": "framedblocks:framed_chain",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_elev_inner_double_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_elev_inner_double_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_small_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_small_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_secret_storage": {
+    "block_id": "framedblocks:framed_secret_storage",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inner_prism_corner": {
+    "block_id": "framedblocks:framed_inner_prism_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_inner_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_inner_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fancy_powered_rail": {
+    "block_id": "framedblocks:framed_fancy_powered_rail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_bouncy_cube": {
+    "block_id": "framedblocks:framed_bouncy_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_mini_cube": {
+    "block_id": "framedblocks:framed_mini_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_slope_slab_corner": {
+    "block_id": "framedblocks:framed_flat_slope_slab_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_iron_gate": {
+    "block_id": "framedblocks:framed_iron_gate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_ext_double_corner_slope_panel": {
+    "block_id": "framedblocks:framed_ext_double_corner_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_slope_edge": {
+    "block_id": "framedblocks:framed_stacked_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_compound_slope_slab": {
+    "block_id": "framedblocks:framed_compound_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_wall_board": {
+    "block_id": "framedblocks:framed_wall_board",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_one_way_window": {
+    "block_id": "framedblocks:framed_one_way_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_inner_corner_slope": {
+    "block_id": "framedblocks:framed_inner_corner_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_flat_stacked_inner_slope_panel_corner": {
+    "block_id": "framedblocks:framed_flat_stacked_inner_slope_panel_corner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_threeway_corner_slope_edge": {
+    "block_id": "framedblocks:framed_threeway_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_inner_double_prism": {
+    "block_id": "framedblocks:framed_elevated_inner_double_prism",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_chest": {
+    "block_id": "framedblocks:framed_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_wall_hanging_sign": {
+    "block_id": "framedblocks:framed_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_inner_corner_slope_edge": {
+    "block_id": "framedblocks:framed_elevated_inner_corner_slope_edge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_sliced_sloped_stairs_slope": {
+    "block_id": "framedblocks:framed_sliced_sloped_stairs_slope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_extended_double_slope_panel": {
+    "block_id": "framedblocks:framed_extended_double_slope_panel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_tube": {
+    "block_id": "framedblocks:framed_tube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_elevated_slope_slab": {
+    "block_id": "framedblocks:framed_elevated_slope_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_post": {
+    "block_id": "framedblocks:framed_post",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_torch": {
+    "block_id": "framedblocks:framed_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_fence_gate": {
+    "block_id": "framedblocks:framed_fence_gate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:powered_framing_saw": {
+    "block_id": "framedblocks:powered_framing_saw",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_collapsible_block": {
+    "block_id": "framedblocks:framed_collapsible_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "framedblocks:framed_stacked_corner_slope_panel_w": {
+    "block_id": "framedblocks:framed_stacked_corner_slope_panel_w",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

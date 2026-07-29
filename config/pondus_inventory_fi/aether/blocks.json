@@ -1,0 +1,788 @@
+{
+  "aether:trapped_angelic_stone": {
+    "block_id": "aether:trapped_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:crystal_fruit_leaves": {
+    "block_id": "aether:crystal_fruit_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_sentry_stone": {
+    "block_id": "aether:boss_doorway_sentry_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:icestone_slab": {
+    "block_id": "aether:icestone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_bricks": {
+    "block_id": "aether:holystone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:light_hellfire_stone": {
+    "block_id": "aether:light_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_planks": {
+    "block_id": "aether:skyroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_skyroot_sapling": {
+    "block_id": "aether:potted_skyroot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aether_dirt": {
+    "block_id": "aether:aether_dirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:golden_oak_sapling": {
+    "block_id": "aether:golden_oak_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:chest_mimic": {
+    "block_id": "aether:chest_mimic",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:freezer": {
+    "block_id": "aether:freezer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:golden_aercloud": {
+    "block_id": "aether:golden_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:quicksoil_glass": {
+    "block_id": "aether:quicksoil_glass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holiday_leaves": {
+    "block_id": "aether:holiday_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:berry_bush": {
+    "block_id": "aether:berry_bush",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_wall_hanging_sign": {
+    "block_id": "aether:skyroot_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_stairs": {
+    "block_id": "aether:holystone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:present": {
+    "block_id": "aether:present",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:berry_bush_stem": {
+    "block_id": "aether:berry_bush_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:icestone_stairs": {
+    "block_id": "aether:icestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:white_flower": {
+    "block_id": "aether:white_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_pressure_plate": {
+    "block_id": "aether:holystone_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_wood": {
+    "block_id": "aether:skyroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:enchanted_gravitite": {
+    "block_id": "aether:enchanted_gravitite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_pressure_plate": {
+    "block_id": "aether:skyroot_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_carved_stone": {
+    "block_id": "aether:locked_carved_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:purple_flower": {
+    "block_id": "aether:purple_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_slab": {
+    "block_id": "aether:holystone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_door": {
+    "block_id": "aether:skyroot_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:quicksoil_glass_pane": {
+    "block_id": "aether:quicksoil_glass_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_wall_sign": {
+    "block_id": "aether:skyroot_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:quicksoil": {
+    "block_id": "aether:quicksoil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_slab": {
+    "block_id": "aether:skyroot_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:pillar": {
+    "block_id": "aether:pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:carved_wall": {
+    "block_id": "aether:carved_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:ambrosium_ore": {
+    "block_id": "aether:ambrosium_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_wall": {
+    "block_id": "aether:holystone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_button": {
+    "block_id": "aether:skyroot_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:pillar_top": {
+    "block_id": "aether:pillar_top",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_berry_bush": {
+    "block_id": "aether:potted_berry_bush",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:light_angelic_stone": {
+    "block_id": "aether:light_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:frosted_ice": {
+    "block_id": "aether:frosted_ice",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:mossy_holystone_wall": {
+    "block_id": "aether:mossy_holystone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:altar": {
+    "block_id": "aether:altar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:angelic_stairs": {
+    "block_id": "aether:angelic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_light_hellfire_stone": {
+    "block_id": "aether:treasure_doorway_light_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_carved_stone": {
+    "block_id": "aether:treasure_doorway_carved_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:trapped_carved_stone": {
+    "block_id": "aether:trapped_carved_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_hellfire_stone": {
+    "block_id": "aether:treasure_doorway_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_angelic_stone": {
+    "block_id": "aether:locked_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_bed": {
+    "block_id": "aether:skyroot_bed",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_light_hellfire_stone": {
+    "block_id": "aether:locked_light_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:cold_aercloud": {
+    "block_id": "aether:cold_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_brick_stairs": {
+    "block_id": "aether:holystone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aerogel_slab": {
+    "block_id": "aether:aerogel_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:hellfire_slab": {
+    "block_id": "aether:hellfire_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_angelic_stone": {
+    "block_id": "aether:treasure_doorway_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:golden_oak_leaves": {
+    "block_id": "aether:golden_oak_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:angelic_slab": {
+    "block_id": "aether:angelic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:ambrosium_block": {
+    "block_id": "aether:ambrosium_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_leaves": {
+    "block_id": "aether:skyroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:angelic_stone": {
+    "block_id": "aether:angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:blue_aercloud": {
+    "block_id": "aether:blue_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:angelic_wall": {
+    "block_id": "aether:angelic_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:enchanted_aether_grass_block": {
+    "block_id": "aether:enchanted_aether_grass_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:golden_oak_wood": {
+    "block_id": "aether:golden_oak_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_purple_flower": {
+    "block_id": "aether:potted_purple_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:icestone_wall": {
+    "block_id": "aether:icestone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_hanging_sign": {
+    "block_id": "aether:skyroot_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:hellfire_stairs": {
+    "block_id": "aether:hellfire_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:carved_stairs": {
+    "block_id": "aether:carved_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_fence": {
+    "block_id": "aether:skyroot_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_golden_oak_sapling": {
+    "block_id": "aether:potted_golden_oak_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_brick_wall": {
+    "block_id": "aether:holystone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:carved_stone": {
+    "block_id": "aether:carved_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aether_farmland": {
+    "block_id": "aether:aether_farmland",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_sentry_stone": {
+    "block_id": "aether:locked_sentry_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:zanite_block": {
+    "block_id": "aether:zanite_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:hellfire_stone": {
+    "block_id": "aether:hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:icestone": {
+    "block_id": "aether:icestone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_log": {
+    "block_id": "aether:skyroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone": {
+    "block_id": "aether:holystone",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:sentry_stone": {
+    "block_id": "aether:sentry_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:sun_altar": {
+    "block_id": "aether:sun_altar",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_stairs": {
+    "block_id": "aether:skyroot_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_light_angelic_stone": {
+    "block_id": "aether:boss_doorway_light_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aether_portal": {
+    "block_id": "aether:aether_portal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_sentry_stone": {
+    "block_id": "aether:treasure_doorway_sentry_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:trapped_light_angelic_stone": {
+    "block_id": "aether:trapped_light_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aerogel": {
+    "block_id": "aether:aerogel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:unstable_obsidian": {
+    "block_id": "aether:unstable_obsidian",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_button": {
+    "block_id": "aether:holystone_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_fence_gate": {
+    "block_id": "aether:skyroot_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:trapped_light_hellfire_stone": {
+    "block_id": "aether:trapped_light_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:hellfire_wall": {
+    "block_id": "aether:hellfire_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_angelic_stone": {
+    "block_id": "aether:boss_doorway_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_sign": {
+    "block_id": "aether:skyroot_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:mossy_holystone_slab": {
+    "block_id": "aether:mossy_holystone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_carved_stone": {
+    "block_id": "aether:boss_doorway_carved_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:stripped_skyroot_wood": {
+    "block_id": "aether:stripped_skyroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:carved_slab": {
+    "block_id": "aether:carved_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:ambrosium_wall_torch": {
+    "block_id": "aether:ambrosium_wall_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:zanite_ore": {
+    "block_id": "aether:zanite_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:mossy_holystone": {
+    "block_id": "aether:mossy_holystone",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_bookshelf": {
+    "block_id": "aether:skyroot_bookshelf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_trapdoor": {
+    "block_id": "aether:skyroot_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:golden_oak_log": {
+    "block_id": "aether:golden_oak_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:stripped_skyroot_log": {
+    "block_id": "aether:stripped_skyroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_hellfire_stone": {
+    "block_id": "aether:boss_doorway_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aerogel_wall": {
+    "block_id": "aether:aerogel_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:skyroot_sapling": {
+    "block_id": "aether:skyroot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_white_flower": {
+    "block_id": "aether:potted_white_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aether_grass_block": {
+    "block_id": "aether:aether_grass_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:gravitite_ore": {
+    "block_id": "aether:gravitite_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_chest": {
+    "block_id": "aether:treasure_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:trapped_hellfire_stone": {
+    "block_id": "aether:trapped_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:ambrosium_torch": {
+    "block_id": "aether:ambrosium_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_light_angelic_stone": {
+    "block_id": "aether:locked_light_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:locked_hellfire_stone": {
+    "block_id": "aether:locked_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:potted_berry_bush_stem": {
+    "block_id": "aether:potted_berry_bush_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:holystone_brick_slab": {
+    "block_id": "aether:holystone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:crystal_leaves": {
+    "block_id": "aether:crystal_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aerogel_stairs": {
+    "block_id": "aether:aerogel_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:treasure_doorway_light_angelic_stone": {
+    "block_id": "aether:treasure_doorway_light_angelic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:decorated_holiday_leaves": {
+    "block_id": "aether:decorated_holiday_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:mossy_holystone_stairs": {
+    "block_id": "aether:mossy_holystone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:incubator": {
+    "block_id": "aether:incubator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:aether_dirt_path": {
+    "block_id": "aether:aether_dirt_path",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:boss_doorway_light_hellfire_stone": {
+    "block_id": "aether:boss_doorway_light_hellfire_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "aether:trapped_sentry_stone": {
+    "block_id": "aether:trapped_sentry_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

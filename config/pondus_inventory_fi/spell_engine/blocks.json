@@ -1,0 +1,8 @@
+{
+  "spell_engine:spell_binding": {
+    "block_id": "spell_engine:spell_binding",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

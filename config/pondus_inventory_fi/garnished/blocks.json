@@ -1,0 +1,4238 @@
+{
+  "garnished:cut_green_zultanite_stairs": {
+    "block_id": "garnished:cut_green_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_brick_wall": {
+    "block_id": "garnished:yellow_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:garnished_nut_block": {
+    "block_id": "garnished:garnished_nut_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_cyan_zultanite_brick_wall": {
+    "block_id": "garnished:small_cyan_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite": {
+    "block_id": "garnished:zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_lime_zultanite_stairs": {
+    "block_id": "garnished:cut_lime_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_yellow_zultanite_wall": {
+    "block_id": "garnished:cut_yellow_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_blue_zultanite_wall": {
+    "block_id": "garnished:polished_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chestnut_sapling": {
+    "block_id": "garnished:chestnut_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chestnut_leaves": {
+    "block_id": "garnished:chestnut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_red_zultanite_brick_wall": {
+    "block_id": "garnished:small_red_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_gray_zultanite_wall": {
+    "block_id": "garnished:polished_light_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_brick_stairs": {
+    "block_id": "garnished:unstable_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_mastic_block": {
+    "block_id": "garnished:orange_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_black_zultanite_brick_slab": {
+    "block_id": "garnished:small_black_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_blue_zultanite_brick_slab": {
+    "block_id": "garnished:small_light_blue_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_yellow_zultanite": {
+    "block_id": "garnished:smooth_yellow_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_brown_zultanite_brick_wall": {
+    "block_id": "garnished:small_brown_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_black_zultanite_bricks": {
+    "block_id": "garnished:chiseled_black_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_sign": {
+    "block_id": "garnished:sepia_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_cyan_zultanite_wall": {
+    "block_id": "garnished:smooth_cyan_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_mastic_block": {
+    "block_id": "garnished:pink_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_orange_zultanite": {
+    "block_id": "garnished:cut_orange_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_bricks": {
+    "block_id": "garnished:amber_remnant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_black_zultanite_stairs": {
+    "block_id": "garnished:polished_black_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_brick_slab": {
+    "block_id": "garnished:light_gray_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_carnotite_slab": {
+    "block_id": "garnished:cut_carnotite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_blue_zultanite_wall": {
+    "block_id": "garnished:smooth_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_blue_zultanite": {
+    "block_id": "garnished:smooth_light_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sugar_cube": {
+    "block_id": "garnished:sugar_cube",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:almond_sack": {
+    "block_id": "garnished:almond_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_dragon_stone_wall": {
+    "block_id": "garnished:cut_dragon_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_bricks": {
+    "block_id": "garnished:gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_lime_zultanite_slab": {
+    "block_id": "garnished:smooth_lime_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_wall": {
+    "block_id": "garnished:dragon_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_white_zultanite": {
+    "block_id": "garnished:cut_white_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_small_chorus_plant": {
+    "block_id": "garnished:potted_small_chorus_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_blue_zultanite_stairs": {
+    "block_id": "garnished:cut_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_wall": {
+    "block_id": "garnished:gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:stripped_sepia_stem": {
+    "block_id": "garnished:stripped_sepia_stem",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_slab": {
+    "block_id": "garnished:red_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_lime_zultanite_slab": {
+    "block_id": "garnished:polished_lime_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_yellow_zultanite_slab": {
+    "block_id": "garnished:smooth_yellow_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_yellow_zultanite_stairs": {
+    "block_id": "garnished:polished_yellow_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_dragon_stone": {
+    "block_id": "garnished:cut_dragon_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_cyan_zultanite_stairs": {
+    "block_id": "garnished:polished_cyan_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_stairs": {
+    "block_id": "garnished:unstable_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_wall": {
+    "block_id": "garnished:pink_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_carnotite_stairs": {
+    "block_id": "garnished:smooth_carnotite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_unstable_stone_slab": {
+    "block_id": "garnished:polished_unstable_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:hazelnut_sapling": {
+    "block_id": "garnished:hazelnut_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:walnut_leaves": {
+    "block_id": "garnished:walnut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_brick_wall": {
+    "block_id": "garnished:brown_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_dragon_stone_slab": {
+    "block_id": "garnished:polished_dragon_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_unstable_stone": {
+    "block_id": "garnished:cut_unstable_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_stairs": {
+    "block_id": "garnished:white_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_brick_stairs": {
+    "block_id": "garnished:dragon_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_pink_zultanite_brick_wall": {
+    "block_id": "garnished:small_pink_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_yellow_zultanite_stairs": {
+    "block_id": "garnished:cut_yellow_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_light_blue_zultanite_bricks": {
+    "block_id": "garnished:chiseled_light_blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_cyan_zultanite_brick_stairs": {
+    "block_id": "garnished:small_cyan_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_brick_slab": {
+    "block_id": "garnished:black_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_brick_stairs": {
+    "block_id": "garnished:amber_remnant_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_unstable_stone_slab": {
+    "block_id": "garnished:smooth_unstable_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_wall": {
+    "block_id": "garnished:carnotite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:vermilion_kelp": {
+    "block_id": "garnished:vermilion_kelp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_green_zultanite": {
+    "block_id": "garnished:smooth_green_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_black_zultanite_stairs": {
+    "block_id": "garnished:smooth_black_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_abyssal_stone_slab": {
+    "block_id": "garnished:cut_abyssal_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_purple_zultanite": {
+    "block_id": "garnished:smooth_purple_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_gray_zultanite_stairs": {
+    "block_id": "garnished:cut_light_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_gray_zultanite_brick_wall": {
+    "block_id": "garnished:small_light_gray_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cashew_leaves": {
+    "block_id": "garnished:cashew_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_brick_slab": {
+    "block_id": "garnished:magenta_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_cyan_zultanite_wall": {
+    "block_id": "garnished:polished_cyan_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_pressure_plate": {
+    "block_id": "garnished:sepia_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_yellow_zultanite_brick_slab": {
+    "block_id": "garnished:small_yellow_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_bricks": {
+    "block_id": "garnished:purple_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_wall": {
+    "block_id": "garnished:amber_remnant_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_ritualistic_stone_wall": {
+    "block_id": "garnished:smooth_ritualistic_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_dragon_stone_stairs": {
+    "block_id": "garnished:cut_dragon_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_brown_zultanite_brick_stairs": {
+    "block_id": "garnished:small_brown_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_window": {
+    "block_id": "garnished:sepia_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_slab": {
+    "block_id": "garnished:white_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_wall": {
+    "block_id": "garnished:purple_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_white_zultanite_brick_stairs": {
+    "block_id": "garnished:small_white_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_stairs": {
+    "block_id": "garnished:pink_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_gray_zultanite": {
+    "block_id": "garnished:polished_light_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_gray_zultanite": {
+    "block_id": "garnished:smooth_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:stripped_nut_wood": {
+    "block_id": "garnished:stripped_nut_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_brick_wall": {
+    "block_id": "garnished:lime_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polar_bear_hide_block": {
+    "block_id": "garnished:polar_bear_hide_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_brick_wall": {
+    "block_id": "garnished:light_blue_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_gray_zultanite_stairs": {
+    "block_id": "garnished:smooth_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_fence": {
+    "block_id": "garnished:nut_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_sepia_fungus": {
+    "block_id": "garnished:potted_sepia_fungus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_brown_zultanite_wall": {
+    "block_id": "garnished:smooth_brown_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_stairs": {
+    "block_id": "garnished:sepia_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_stairs": {
+    "block_id": "garnished:carnotite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_bricks": {
+    "block_id": "garnished:green_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_brown_zultanite": {
+    "block_id": "garnished:smooth_brown_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_unstable_stone_bricks": {
+    "block_id": "garnished:chiseled_unstable_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_zultanite_stairs": {
+    "block_id": "garnished:cut_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:packed_polar_bear_hide_block": {
+    "block_id": "garnished:packed_polar_bear_hide_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_stairs": {
+    "block_id": "garnished:cyan_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_abyssal_stone_brick_wall": {
+    "block_id": "garnished:small_abyssal_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_bricks": {
+    "block_id": "garnished:unstable_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_brick_stairs": {
+    "block_id": "garnished:light_gray_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_mastic_resin": {
+    "block_id": "garnished:pink_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_mastic_resin": {
+    "block_id": "garnished:orange_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_black_zultanite_wall": {
+    "block_id": "garnished:polished_black_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_gray_zultanite_slab": {
+    "block_id": "garnished:polished_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:solidified_garnish_bricks": {
+    "block_id": "garnished:solidified_garnish_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_brick_stairs": {
+    "block_id": "garnished:zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_magenta_zultanite_stairs": {
+    "block_id": "garnished:polished_magenta_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite": {
+    "block_id": "garnished:carnotite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:incandescent_lily": {
+    "block_id": "garnished:incandescent_lily",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sorrowful_lichen": {
+    "block_id": "garnished:sorrowful_lichen",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_dragon_stone_bricks": {
+    "block_id": "garnished:small_dragon_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_wall_hanging_sign": {
+    "block_id": "garnished:nut_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_brick_stairs": {
+    "block_id": "garnished:pink_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_gray_zultanite_slab": {
+    "block_id": "garnished:smooth_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_pink_zultanite": {
+    "block_id": "garnished:cut_pink_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_green_zultanite_slab": {
+    "block_id": "garnished:cut_green_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_ritualistic_stone_brick_wall": {
+    "block_id": "garnished:small_ritualistic_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_slab": {
+    "block_id": "garnished:brown_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_zultanite_brick_wall": {
+    "block_id": "garnished:small_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_mastic_block": {
+    "block_id": "garnished:lime_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_zultanite_bricks": {
+    "block_id": "garnished:small_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_orange_zultanite": {
+    "block_id": "garnished:polished_orange_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_carnotite_wall": {
+    "block_id": "garnished:smooth_carnotite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite": {
+    "block_id": "garnished:purple_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_red_zultanite_wall": {
+    "block_id": "garnished:cut_red_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_cyan_zultanite_slab": {
+    "block_id": "garnished:cut_cyan_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_purple_zultanite_brick_slab": {
+    "block_id": "garnished:small_purple_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pecan_sapling": {
+    "block_id": "garnished:pecan_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_gray_zultanite_brick_wall": {
+    "block_id": "garnished:small_gray_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_magenta_zultanite_bricks": {
+    "block_id": "garnished:small_magenta_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pistachio_sack": {
+    "block_id": "garnished:pistachio_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_wall": {
+    "block_id": "garnished:light_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_brick_slab": {
+    "block_id": "garnished:green_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_ritualistic_stone_wall": {
+    "block_id": "garnished:polished_ritualistic_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_bricks": {
+    "block_id": "garnished:orange_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_blue_zultanite_bricks": {
+    "block_id": "garnished:small_blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_dragon_stone": {
+    "block_id": "garnished:smooth_dragon_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_breath": {
+    "block_id": "garnished:dragon_breath",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_bricks": {
+    "block_id": "garnished:ritualistic_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cashew_mixture": {
+    "block_id": "garnished:cashew_mixture",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_white_zultanite_brick_wall": {
+    "block_id": "garnished:small_white_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_zultanite_wall": {
+    "block_id": "garnished:cut_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_blue_zultanite_slab": {
+    "block_id": "garnished:cut_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_white_zultanite_bricks": {
+    "block_id": "garnished:chiseled_white_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_zultanite": {
+    "block_id": "garnished:cut_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_brick_wall": {
+    "block_id": "garnished:zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_blue_zultanite": {
+    "block_id": "garnished:cut_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_brick_slab": {
+    "block_id": "garnished:pink_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:senile_bone_block": {
+    "block_id": "garnished:senile_bone_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite": {
+    "block_id": "garnished:red_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_blue_zultanite_slab": {
+    "block_id": "garnished:cut_light_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:walnut_sapling": {
+    "block_id": "garnished:walnut_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_mastic_block": {
+    "block_id": "garnished:black_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_magenta_zultanite": {
+    "block_id": "garnished:polished_magenta_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_unstable_stone_brick_slab": {
+    "block_id": "garnished:small_unstable_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_incandescent_lily": {
+    "block_id": "garnished:potted_incandescent_lily",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_gray_zultanite_stairs": {
+    "block_id": "garnished:smooth_light_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_brick_slab": {
+    "block_id": "garnished:dragon_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_blue_zultanite_wall": {
+    "block_id": "garnished:smooth_light_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_orange_zultanite_wall": {
+    "block_id": "garnished:polished_orange_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_wall": {
+    "block_id": "garnished:blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_stairs": {
+    "block_id": "garnished:black_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_orange_zultanite_wall": {
+    "block_id": "garnished:cut_orange_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_wall": {
+    "block_id": "garnished:cyan_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_stairs": {
+    "block_id": "garnished:light_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_unstable_stone_wall": {
+    "block_id": "garnished:cut_unstable_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_mastic_resin": {
+    "block_id": "garnished:lime_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_zultanite_slab": {
+    "block_id": "garnished:polished_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_yellow_zultanite_bricks": {
+    "block_id": "garnished:chiseled_yellow_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_wall_sign": {
+    "block_id": "garnished:sepia_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_black_zultanite_brick_stairs": {
+    "block_id": "garnished:small_black_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_mastic_block": {
+    "block_id": "garnished:light_blue_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_slab": {
+    "block_id": "garnished:magenta_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_black_zultanite_wall": {
+    "block_id": "garnished:cut_black_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_mastic_resin": {
+    "block_id": "garnished:white_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_brick_slab": {
+    "block_id": "garnished:amber_remnant_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_green_zultanite_wall": {
+    "block_id": "garnished:cut_green_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_magenta_zultanite_wall": {
+    "block_id": "garnished:polished_magenta_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_pink_zultanite_stairs": {
+    "block_id": "garnished:cut_pink_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_dragon_stone_bricks": {
+    "block_id": "garnished:chiseled_dragon_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite": {
+    "block_id": "garnished:blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_bricks": {
+    "block_id": "garnished:pink_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_purple_zultanite_wall": {
+    "block_id": "garnished:cut_purple_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_brown_zultanite": {
+    "block_id": "garnished:cut_brown_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_magenta_zultanite_brick_slab": {
+    "block_id": "garnished:small_magenta_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_mastic_resin": {
+    "block_id": "garnished:light_gray_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite": {
+    "block_id": "garnished:pink_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_cyan_zultanite": {
+    "block_id": "garnished:smooth_cyan_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_purple_zultanite_bricks": {
+    "block_id": "garnished:small_purple_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite": {
+    "block_id": "garnished:black_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_purple_zultanite_slab": {
+    "block_id": "garnished:smooth_purple_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_brick_slab": {
+    "block_id": "garnished:orange_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_green_zultanite_brick_slab": {
+    "block_id": "garnished:small_green_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_gray_zultanite": {
+    "block_id": "garnished:cut_light_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_brown_zultanite_slab": {
+    "block_id": "garnished:smooth_brown_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_gray_zultanite_wall": {
+    "block_id": "garnished:smooth_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_brick_stairs": {
+    "block_id": "garnished:green_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_abyssal_stone": {
+    "block_id": "garnished:cut_abyssal_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_orange_zultanite_brick_slab": {
+    "block_id": "garnished:small_orange_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_slab": {
+    "block_id": "garnished:lime_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_log": {
+    "block_id": "garnished:nut_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_carnotite_brick_slab": {
+    "block_id": "garnished:small_carnotite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_black_zultanite_slab": {
+    "block_id": "garnished:polished_black_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_soul_roots": {
+    "block_id": "garnished:potted_soul_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_lime_zultanite_wall": {
+    "block_id": "garnished:cut_lime_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_green_zultanite_slab": {
+    "block_id": "garnished:polished_green_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_gray_zultanite_wall": {
+    "block_id": "garnished:polished_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:vermilion_kelp_plant": {
+    "block_id": "garnished:vermilion_kelp_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_gray_zultanite_wall": {
+    "block_id": "garnished:smooth_light_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_brick_wall": {
+    "block_id": "garnished:white_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unassigned_nut_leaves": {
+    "block_id": "garnished:unassigned_nut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_orange_zultanite_brick_stairs": {
+    "block_id": "garnished:small_orange_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_brick_slab": {
+    "block_id": "garnished:gray_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_cyan_zultanite": {
+    "block_id": "garnished:cut_cyan_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_zultanite_stairs": {
+    "block_id": "garnished:polished_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_mastic_resin": {
+    "block_id": "garnished:blue_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_planks": {
+    "block_id": "garnished:nut_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_dragon_stone_wall": {
+    "block_id": "garnished:smooth_dragon_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone": {
+    "block_id": "garnished:ritualistic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_blue_zultanite_brick_stairs": {
+    "block_id": "garnished:small_light_blue_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pecan_sack": {
+    "block_id": "garnished:pecan_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_purple_zultanite_slab": {
+    "block_id": "garnished:polished_purple_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_lime_zultanite_brick_wall": {
+    "block_id": "garnished:small_lime_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_stairs": {
+    "block_id": "garnished:purple_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_brick_stairs": {
+    "block_id": "garnished:gray_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:hazelnut_leaves": {
+    "block_id": "garnished:hazelnut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_unstable_stone_stairs": {
+    "block_id": "garnished:cut_unstable_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_bricks": {
+    "block_id": "garnished:white_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_brick_wall": {
+    "block_id": "garnished:red_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ender_jelly_block": {
+    "block_id": "garnished:ender_jelly_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_dragon_stone_stairs": {
+    "block_id": "garnished:polished_dragon_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:aureate_shrub": {
+    "block_id": "garnished:aureate_shrub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_yellow_zultanite_stairs": {
+    "block_id": "garnished:smooth_yellow_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_yellow_zultanite_wall": {
+    "block_id": "garnished:polished_yellow_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_unstable_stone_stairs": {
+    "block_id": "garnished:smooth_unstable_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:apple_cider": {
+    "block_id": "garnished:apple_cider",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_dragon_stone": {
+    "block_id": "garnished:polished_dragon_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_bricks": {
+    "block_id": "garnished:zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite": {
+    "block_id": "garnished:lime_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_aureate_shrub": {
+    "block_id": "garnished:potted_aureate_shrub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_wall": {
+    "block_id": "garnished:black_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_wall": {
+    "block_id": "garnished:light_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_leaves": {
+    "block_id": "garnished:nut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_gray_zultanite_brick_slab": {
+    "block_id": "garnished:small_gray_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dried_dulse_kelp_block": {
+    "block_id": "garnished:dried_dulse_kelp_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_door": {
+    "block_id": "garnished:nut_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_abyssal_stone_slab": {
+    "block_id": "garnished:smooth_abyssal_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_zultanite_stairs": {
+    "block_id": "garnished:smooth_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_carnotite_brick_stairs": {
+    "block_id": "garnished:small_carnotite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_trapdoor": {
+    "block_id": "garnished:sepia_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_green_zultanite_wall": {
+    "block_id": "garnished:smooth_green_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_ritualistic_stone_bricks": {
+    "block_id": "garnished:small_ritualistic_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_black_zultanite": {
+    "block_id": "garnished:cut_black_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_lime_zultanite_wall": {
+    "block_id": "garnished:polished_lime_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_white_zultanite_slab": {
+    "block_id": "garnished:smooth_white_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_stairs": {
+    "block_id": "garnished:orange_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_pressure_plate": {
+    "block_id": "garnished:nut_pressure_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ungarnished_nut_block": {
+    "block_id": "garnished:ungarnished_nut_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cashew_sapling": {
+    "block_id": "garnished:cashew_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_brick_stairs": {
+    "block_id": "garnished:magenta_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_red_zultanite_slab": {
+    "block_id": "garnished:smooth_red_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chestnut_sack": {
+    "block_id": "garnished:chestnut_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_brick_slab": {
+    "block_id": "garnished:abyssal_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_slab": {
+    "block_id": "garnished:unstable_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_brown_zultanite_slab": {
+    "block_id": "garnished:cut_brown_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_dragon_stone_brick_wall": {
+    "block_id": "garnished:small_dragon_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_dragon_stone_slab": {
+    "block_id": "garnished:cut_dragon_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_orange_zultanite_bricks": {
+    "block_id": "garnished:small_orange_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_ritualistic_stone_stairs": {
+    "block_id": "garnished:polished_ritualistic_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_lime_zultanite_wall": {
+    "block_id": "garnished:smooth_lime_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_gray_zultanite_slab": {
+    "block_id": "garnished:polished_light_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_brick_slab": {
+    "block_id": "garnished:yellow_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_bricks": {
+    "block_id": "garnished:red_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_slab": {
+    "block_id": "garnished:gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_fungus_colony": {
+    "block_id": "garnished:sepia_fungus_colony",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_yellow_zultanite_slab": {
+    "block_id": "garnished:cut_yellow_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_blue_zultanite_slab": {
+    "block_id": "garnished:polished_light_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_wall": {
+    "block_id": "garnished:zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:stripped_sepia_hyphae": {
+    "block_id": "garnished:stripped_sepia_hyphae",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_bricks": {
+    "block_id": "garnished:magenta_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_pink_zultanite_slab": {
+    "block_id": "garnished:smooth_pink_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_gray_zultanite_slab": {
+    "block_id": "garnished:cut_light_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_gray_zultanite": {
+    "block_id": "garnished:smooth_light_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_white_zultanite": {
+    "block_id": "garnished:polished_white_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_slab": {
+    "block_id": "garnished:green_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite": {
+    "block_id": "garnished:yellow_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_abyssal_stone_stairs": {
+    "block_id": "garnished:polished_abyssal_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_magenta_zultanite_slab": {
+    "block_id": "garnished:cut_magenta_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_gray_zultanite_brick_stairs": {
+    "block_id": "garnished:small_gray_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_bricks": {
+    "block_id": "garnished:cyan_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:voltaic_sea_grass": {
+    "block_id": "garnished:voltaic_sea_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_orange_zultanite_stairs": {
+    "block_id": "garnished:cut_orange_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_brick_wall": {
+    "block_id": "garnished:blue_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_magenta_zultanite_stairs": {
+    "block_id": "garnished:smooth_magenta_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_cyan_zultanite_stairs": {
+    "block_id": "garnished:cut_cyan_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_pink_zultanite_wall": {
+    "block_id": "garnished:cut_pink_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_brick_stairs": {
+    "block_id": "garnished:ritualistic_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_pink_zultanite_slab": {
+    "block_id": "garnished:polished_pink_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:peanut_leaves": {
+    "block_id": "garnished:peanut_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_carnotite_wall": {
+    "block_id": "garnished:polished_carnotite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_wall": {
+    "block_id": "garnished:ritualistic_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_blue_zultanite_brick_wall": {
+    "block_id": "garnished:small_blue_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite": {
+    "block_id": "garnished:white_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_unstable_stone_wall": {
+    "block_id": "garnished:smooth_unstable_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_fence_gate": {
+    "block_id": "garnished:sepia_fence_gate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_red_zultanite_stairs": {
+    "block_id": "garnished:polished_red_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:hazelnut_sack": {
+    "block_id": "garnished:hazelnut_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_black_zultanite_bricks": {
+    "block_id": "garnished:small_black_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_red_zultanite_bricks": {
+    "block_id": "garnished:small_red_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_unstable_stone_wall": {
+    "block_id": "garnished:polished_unstable_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:garnish_compound_block": {
+    "block_id": "garnished:garnish_compound_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_mastic_block": {
+    "block_id": "garnished:brown_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_slab": {
+    "block_id": "garnished:amber_remnant_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_magenta_zultanite_slab": {
+    "block_id": "garnished:smooth_magenta_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_lime_zultanite": {
+    "block_id": "garnished:polished_lime_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_blue_zultanite_bricks": {
+    "block_id": "garnished:small_light_blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:bok_choy_plant": {
+    "block_id": "garnished:bok_choy_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_bricks": {
+    "block_id": "garnished:light_gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_black_zultanite": {
+    "block_id": "garnished:smooth_black_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_abyssal_stone_slab": {
+    "block_id": "garnished:polished_abyssal_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_wall": {
+    "block_id": "garnished:yellow_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_mastic_resin": {
+    "block_id": "garnished:cyan_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_mastic_block": {
+    "block_id": "garnished:yellow_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_brick_slab": {
+    "block_id": "garnished:carnotite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_brick_stairs": {
+    "block_id": "garnished:orange_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_slab": {
+    "block_id": "garnished:nut_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_fence_gate": {
+    "block_id": "garnished:nut_fence_gate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_blue_zultanite_stairs": {
+    "block_id": "garnished:polished_light_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_wall_hanging_sign": {
+    "block_id": "garnished:sepia_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_carnotite_bricks": {
+    "block_id": "garnished:chiseled_carnotite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_red_zultanite_slab": {
+    "block_id": "garnished:polished_red_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_brick_stairs": {
+    "block_id": "garnished:black_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_stairs": {
+    "block_id": "garnished:amber_remnant_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_bricks": {
+    "block_id": "garnished:light_blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_abyssal_stone": {
+    "block_id": "garnished:smooth_abyssal_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_white_zultanite_wall": {
+    "block_id": "garnished:polished_white_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_gray_zultanite": {
+    "block_id": "garnished:polished_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_gray_zultanite_bricks": {
+    "block_id": "garnished:small_light_gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_pansophical_daisy": {
+    "block_id": "garnished:potted_pansophical_daisy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_gray_zultanite_stairs": {
+    "block_id": "garnished:polished_light_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_white_zultanite_stairs": {
+    "block_id": "garnished:polished_white_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_slab": {
+    "block_id": "garnished:orange_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_unstable_stone": {
+    "block_id": "garnished:smooth_unstable_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_unstable_stone_brick_stairs": {
+    "block_id": "garnished:small_unstable_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_planks": {
+    "block_id": "garnished:sepia_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_bricks": {
+    "block_id": "garnished:lime_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_white_zultanite_slab": {
+    "block_id": "garnished:cut_white_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_hanging_sign": {
+    "block_id": "garnished:nut_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_yellow_zultanite": {
+    "block_id": "garnished:cut_yellow_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_cyan_zultanite_stairs": {
+    "block_id": "garnished:smooth_cyan_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_orange_zultanite": {
+    "block_id": "garnished:smooth_orange_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_brick_slab": {
+    "block_id": "garnished:ritualistic_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_door": {
+    "block_id": "garnished:sepia_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_unstable_stone_slab": {
+    "block_id": "garnished:cut_unstable_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_lime_zultanite_bricks": {
+    "block_id": "garnished:chiseled_lime_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_green_zultanite_stairs": {
+    "block_id": "garnished:smooth_green_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_brick_slab": {
+    "block_id": "garnished:lime_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:numbing_parchment_carpet": {
+    "block_id": "garnished:numbing_parchment_carpet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_carnotite": {
+    "block_id": "garnished:smooth_carnotite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_stairs": {
+    "block_id": "garnished:zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_bricks": {
+    "block_id": "garnished:yellow_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_ritualistic_stone_wall": {
+    "block_id": "garnished:cut_ritualistic_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:garnish": {
+    "block_id": "garnished:garnish",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_red_zultanite_bricks": {
+    "block_id": "garnished:chiseled_red_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_orange_zultanite_wall": {
+    "block_id": "garnished:smooth_orange_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_mastic_resin": {
+    "block_id": "garnished:yellow_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_purple_zultanite_stairs": {
+    "block_id": "garnished:cut_purple_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_bricks": {
+    "block_id": "garnished:abyssal_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_pink_zultanite": {
+    "block_id": "garnished:smooth_pink_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_abyssal_stone_brick_slab": {
+    "block_id": "garnished:small_abyssal_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_bricks": {
+    "block_id": "garnished:blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_brick_slab": {
+    "block_id": "garnished:unstable_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_slab": {
+    "block_id": "garnished:abyssal_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_brick_stairs": {
+    "block_id": "garnished:red_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone": {
+    "block_id": "garnished:dragon_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_carnotite_bricks": {
+    "block_id": "garnished:small_carnotite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_gray_zultanite_brick_slab": {
+    "block_id": "garnished:small_light_gray_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_mastic_block": {
+    "block_id": "garnished:magenta_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_slab": {
+    "block_id": "garnished:ritualistic_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pistachio_leaves": {
+    "block_id": "garnished:pistachio_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_white_zultanite_brick_slab": {
+    "block_id": "garnished:small_white_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_window_pane": {
+    "block_id": "garnished:sepia_window_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_slab": {
+    "block_id": "garnished:zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_pink_zultanite_bricks": {
+    "block_id": "garnished:small_pink_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_ritualistic_stone_bricks": {
+    "block_id": "garnished:chiseled_ritualistic_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_mastic_resin": {
+    "block_id": "garnished:magenta_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_dragon_stone_brick_stairs": {
+    "block_id": "garnished:small_dragon_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_brick_stairs": {
+    "block_id": "garnished:abyssal_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_gray_zultanite_stairs": {
+    "block_id": "garnished:cut_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_brick_slab": {
+    "block_id": "garnished:light_blue_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_chorus_plant": {
+    "block_id": "garnished:small_chorus_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_slab": {
+    "block_id": "garnished:light_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_lime_zultanite": {
+    "block_id": "garnished:smooth_lime_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_abyssal_stone_stairs": {
+    "block_id": "garnished:smooth_abyssal_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_brown_zultanite_bricks": {
+    "block_id": "garnished:chiseled_brown_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_ritualistic_stone_stairs": {
+    "block_id": "garnished:cut_ritualistic_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_black_zultanite_stairs": {
+    "block_id": "garnished:cut_black_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:soul_roots": {
+    "block_id": "garnished:soul_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_green_zultanite_bricks": {
+    "block_id": "garnished:chiseled_green_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_ritualistic_stone_slab": {
+    "block_id": "garnished:polished_ritualistic_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_slab": {
+    "block_id": "garnished:cyan_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_green_zultanite_stairs": {
+    "block_id": "garnished:polished_green_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_yellow_zultanite": {
+    "block_id": "garnished:polished_yellow_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_zultanite_bricks": {
+    "block_id": "garnished:chiseled_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_carnotite_slab": {
+    "block_id": "garnished:polished_carnotite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_zultanite": {
+    "block_id": "garnished:smooth_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_red_zultanite_slab": {
+    "block_id": "garnished:cut_red_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_abyssal_stone_bricks": {
+    "block_id": "garnished:small_abyssal_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_green_zultanite_brick_stairs": {
+    "block_id": "garnished:small_green_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_blue_zultanite_wall": {
+    "block_id": "garnished:cut_light_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_purple_zultanite_stairs": {
+    "block_id": "garnished:smooth_purple_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_button": {
+    "block_id": "garnished:sepia_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_brick_wall": {
+    "block_id": "garnished:cyan_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cashew_sack": {
+    "block_id": "garnished:cashew_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_mastic_resin": {
+    "block_id": "garnished:red_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_brick_wall": {
+    "block_id": "garnished:dragon_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite": {
+    "block_id": "garnished:cyan_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_slab": {
+    "block_id": "garnished:blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_unstable_stone_bricks": {
+    "block_id": "garnished:small_unstable_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_white_zultanite_slab": {
+    "block_id": "garnished:polished_white_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_orange_zultanite_slab": {
+    "block_id": "garnished:polished_orange_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_blue_zultanite": {
+    "block_id": "garnished:polished_light_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_wood": {
+    "block_id": "garnished:nut_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_blue_zultanite_stairs": {
+    "block_id": "garnished:cut_light_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_brick_stairs": {
+    "block_id": "garnished:cyan_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_blue_zultanite": {
+    "block_id": "garnished:smooth_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_mastic_block": {
+    "block_id": "garnished:blue_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_black_zultanite_brick_wall": {
+    "block_id": "garnished:small_black_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_brown_zultanite_stairs": {
+    "block_id": "garnished:polished_brown_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_blue_zultanite_wall": {
+    "block_id": "garnished:cut_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:zultanite_brick_slab": {
+    "block_id": "garnished:zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_ritualistic_stone": {
+    "block_id": "garnished:smooth_ritualistic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_brick_wall": {
+    "block_id": "garnished:carnotite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_brick_wall": {
+    "block_id": "garnished:pink_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sweet_tea": {
+    "block_id": "garnished:sweet_tea",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_purple_zultanite": {
+    "block_id": "garnished:cut_purple_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_zultanite_wall": {
+    "block_id": "garnished:smooth_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:anniversary_cake": {
+    "block_id": "garnished:anniversary_cake",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_cyan_zultanite_wall": {
+    "block_id": "garnished:cut_cyan_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_black_zultanite_wall": {
+    "block_id": "garnished:smooth_black_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_stairs": {
+    "block_id": "garnished:magenta_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_pink_zultanite_stairs": {
+    "block_id": "garnished:smooth_pink_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_lime_zultanite_stairs": {
+    "block_id": "garnished:smooth_lime_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_magenta_zultanite_brick_wall": {
+    "block_id": "garnished:small_magenta_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_blue_zultanite": {
+    "block_id": "garnished:cut_light_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_abyssal_stone_brick_stairs": {
+    "block_id": "garnished:small_abyssal_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_hanging_sign": {
+    "block_id": "garnished:sepia_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_unstable_stone_brick_wall": {
+    "block_id": "garnished:small_unstable_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_red_zultanite_brick_slab": {
+    "block_id": "garnished:small_red_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_red_zultanite_brick_stairs": {
+    "block_id": "garnished:small_red_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_white_zultanite": {
+    "block_id": "garnished:smooth_white_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_brick_wall": {
+    "block_id": "garnished:gray_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_mastic_resin": {
+    "block_id": "garnished:purple_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite": {
+    "block_id": "garnished:orange_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_dragon_stone_stairs": {
+    "block_id": "garnished:smooth_dragon_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_magenta_zultanite_bricks": {
+    "block_id": "garnished:chiseled_magenta_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:numbing_parchment_block": {
+    "block_id": "garnished:numbing_parchment_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_magenta_zultanite": {
+    "block_id": "garnished:smooth_magenta_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_purple_zultanite_wall": {
+    "block_id": "garnished:smooth_purple_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_zultanite_wall": {
+    "block_id": "garnished:polished_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_purple_zultanite": {
+    "block_id": "garnished:polished_purple_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite": {
+    "block_id": "garnished:gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_carnotite": {
+    "block_id": "garnished:polished_carnotite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_unstable_stone": {
+    "block_id": "garnished:polished_unstable_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_brick_wall": {
+    "block_id": "garnished:green_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_pink_zultanite_brick_stairs": {
+    "block_id": "garnished:small_pink_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pink_zultanite_slab": {
+    "block_id": "garnished:pink_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_blue_zultanite_stairs": {
+    "block_id": "garnished:smooth_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_red_zultanite": {
+    "block_id": "garnished:cut_red_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_stairs": {
+    "block_id": "garnished:red_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_gray_zultanite_wall": {
+    "block_id": "garnished:cut_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_green_zultanite_bricks": {
+    "block_id": "garnished:small_green_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pistachio_sapling": {
+    "block_id": "garnished:pistachio_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_mastic_block": {
+    "block_id": "garnished:red_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_carnotite_slab": {
+    "block_id": "garnished:smooth_carnotite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_brown_zultanite_wall": {
+    "block_id": "garnished:polished_brown_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_orange_zultanite_stairs": {
+    "block_id": "garnished:polished_orange_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone": {
+    "block_id": "garnished:unstable_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_carnotite_brick_wall": {
+    "block_id": "garnished:small_carnotite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_light_gray_zultanite_bricks": {
+    "block_id": "garnished:chiseled_light_gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_blue_zultanite_brick_wall": {
+    "block_id": "garnished:small_light_blue_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:mastic_resin": {
+    "block_id": "garnished:mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_brown_zultanite_brick_slab": {
+    "block_id": "garnished:small_brown_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_slab": {
+    "block_id": "garnished:dragon_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_brick_wall": {
+    "block_id": "garnished:amber_remnant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_mastic_resin": {
+    "block_id": "garnished:green_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_brick_wall": {
+    "block_id": "garnished:black_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_zultanite_brick_stairs": {
+    "block_id": "garnished:small_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_wall": {
+    "block_id": "garnished:white_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:potted_barren_roots": {
+    "block_id": "garnished:potted_barren_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_stairs": {
+    "block_id": "garnished:blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_black_zultanite": {
+    "block_id": "garnished:polished_black_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_brick_slab": {
+    "block_id": "garnished:purple_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_slab": {
+    "block_id": "garnished:light_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_slab": {
+    "block_id": "garnished:purple_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_stairs": {
+    "block_id": "garnished:light_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_zultanite_brick_slab": {
+    "block_id": "garnished:small_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_window_pane": {
+    "block_id": "garnished:nut_window_pane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:macadamia_leaves": {
+    "block_id": "garnished:macadamia_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_blue_zultanite": {
+    "block_id": "garnished:polished_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_ritualistic_stone_brick_slab": {
+    "block_id": "garnished:small_ritualistic_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_abyssal_stone_wall": {
+    "block_id": "garnished:cut_abyssal_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_brick_slab": {
+    "block_id": "garnished:brown_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_mastic_resin": {
+    "block_id": "garnished:black_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_carnotite_stairs": {
+    "block_id": "garnished:cut_carnotite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_pink_zultanite_brick_slab": {
+    "block_id": "garnished:small_pink_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_slab": {
+    "block_id": "garnished:black_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_gray_zultanite_bricks": {
+    "block_id": "garnished:small_gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dried_vermilion_kelp_block": {
+    "block_id": "garnished:dried_vermilion_kelp_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_cyan_zultanite_bricks": {
+    "block_id": "garnished:small_cyan_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_mastic_block": {
+    "block_id": "garnished:purple_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_carnotite_stairs": {
+    "block_id": "garnished:polished_carnotite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_trapdoor": {
+    "block_id": "garnished:nut_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_stem": {
+    "block_id": "garnished:sepia_stem",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_mastic_block": {
+    "block_id": "garnished:gray_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_brown_zultanite_bricks": {
+    "block_id": "garnished:small_brown_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_mastic_block": {
+    "block_id": "garnished:green_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_ritualistic_stone_stairs": {
+    "block_id": "garnished:smooth_ritualistic_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_red_zultanite": {
+    "block_id": "garnished:polished_red_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_stairs": {
+    "block_id": "garnished:abyssal_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:macadamia_sapling": {
+    "block_id": "garnished:macadamia_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_mastic_resin": {
+    "block_id": "garnished:gray_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_mastic_block": {
+    "block_id": "garnished:light_gray_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_purple_zultanite_stairs": {
+    "block_id": "garnished:polished_purple_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_blue_zultanite_stairs": {
+    "block_id": "garnished:smooth_light_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_cyan_zultanite": {
+    "block_id": "garnished:polished_cyan_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_pink_zultanite": {
+    "block_id": "garnished:polished_pink_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:peanut_sapling": {
+    "block_id": "garnished:peanut_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_bricks": {
+    "block_id": "garnished:brown_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite_brick_stairs": {
+    "block_id": "garnished:light_blue_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_light_gray_zultanite_brick_stairs": {
+    "block_id": "garnished:small_light_gray_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_pink_zultanite_wall": {
+    "block_id": "garnished:polished_pink_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_brown_zultanite_wall": {
+    "block_id": "garnished:cut_brown_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_brick_wall": {
+    "block_id": "garnished:abyssal_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_orange_zultanite_slab": {
+    "block_id": "garnished:cut_orange_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_orange_zultanite_stairs": {
+    "block_id": "garnished:smooth_orange_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_light_blue_zultanite_wall": {
+    "block_id": "garnished:polished_light_blue_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_abyssal_stone_wall": {
+    "block_id": "garnished:smooth_abyssal_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:amber_remnant_block": {
+    "block_id": "garnished:amber_remnant_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_black_zultanite_slab": {
+    "block_id": "garnished:smooth_black_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:mulch_block": {
+    "block_id": "garnished:mulch_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_pink_zultanite_wall": {
+    "block_id": "garnished:smooth_pink_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_magenta_zultanite": {
+    "block_id": "garnished:cut_magenta_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_bricks": {
+    "block_id": "garnished:dragon_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:gray_zultanite_stairs": {
+    "block_id": "garnished:gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:macadamia_sack": {
+    "block_id": "garnished:macadamia_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_brick_stairs": {
+    "block_id": "garnished:white_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_white_zultanite_wall": {
+    "block_id": "garnished:smooth_white_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_brown_zultanite_slab": {
+    "block_id": "garnished:polished_brown_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_pink_zultanite_bricks": {
+    "block_id": "garnished:chiseled_pink_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_gray_zultanite_slab": {
+    "block_id": "garnished:cut_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_green_zultanite_slab": {
+    "block_id": "garnished:smooth_green_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_brick_stairs": {
+    "block_id": "garnished:blue_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_yellow_zultanite_bricks": {
+    "block_id": "garnished:small_yellow_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_dragon_stone_brick_slab": {
+    "block_id": "garnished:small_dragon_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_red_zultanite_wall": {
+    "block_id": "garnished:smooth_red_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_blue_zultanite_brick_stairs": {
+    "block_id": "garnished:small_blue_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_white_zultanite_stairs": {
+    "block_id": "garnished:cut_white_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_window": {
+    "block_id": "garnished:nut_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_wall": {
+    "block_id": "garnished:brown_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_pink_zultanite_slab": {
+    "block_id": "garnished:cut_pink_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite": {
+    "block_id": "garnished:light_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_green_zultanite": {
+    "block_id": "garnished:polished_green_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_lime_zultanite_bricks": {
+    "block_id": "garnished:small_lime_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_ritualistic_stone": {
+    "block_id": "garnished:cut_ritualistic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_white_zultanite_stairs": {
+    "block_id": "garnished:smooth_white_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite": {
+    "block_id": "garnished:magenta_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_unstable_stone_stairs": {
+    "block_id": "garnished:polished_unstable_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_red_zultanite_wall": {
+    "block_id": "garnished:polished_red_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:mastic_block": {
+    "block_id": "garnished:mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_blue_zultanite_stairs": {
+    "block_id": "garnished:polished_blue_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_white_zultanite_bricks": {
+    "block_id": "garnished:small_white_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dulse_kelp": {
+    "block_id": "garnished:dulse_kelp",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_hyphae": {
+    "block_id": "garnished:sepia_hyphae",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite": {
+    "block_id": "garnished:brown_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_light_gray_zultanite_wall": {
+    "block_id": "garnished:cut_light_gray_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_wall": {
+    "block_id": "garnished:green_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_blue_zultanite_brick_slab": {
+    "block_id": "garnished:small_blue_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_green_zultanite_brick_wall": {
+    "block_id": "garnished:small_green_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_zultanite": {
+    "block_id": "garnished:light_blue_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:walnut_sack": {
+    "block_id": "garnished:walnut_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_yellow_zultanite_brick_stairs": {
+    "block_id": "garnished:small_yellow_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_purple_zultanite_brick_wall": {
+    "block_id": "garnished:small_purple_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_blue_mastic_resin": {
+    "block_id": "garnished:light_blue_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_mastic_block": {
+    "block_id": "garnished:white_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_orange_zultanite_brick_wall": {
+    "block_id": "garnished:small_orange_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_stairs": {
+    "block_id": "garnished:lime_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_magenta_zultanite_wall": {
+    "block_id": "garnished:cut_magenta_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_blue_zultanite_slab": {
+    "block_id": "garnished:smooth_light_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:solidified_garnish": {
+    "block_id": "garnished:solidified_garnish",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_plant": {
+    "block_id": "garnished:nut_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_abyssal_stone_wall": {
+    "block_id": "garnished:polished_abyssal_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_wall": {
+    "block_id": "garnished:orange_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_green_zultanite": {
+    "block_id": "garnished:cut_green_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_zultanite_slab": {
+    "block_id": "garnished:cut_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_brick_wall": {
+    "block_id": "garnished:purple_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_brown_zultanite": {
+    "block_id": "garnished:polished_brown_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_magenta_zultanite_wall": {
+    "block_id": "garnished:smooth_magenta_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_abyssal_stone": {
+    "block_id": "garnished:polished_abyssal_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_slab": {
+    "block_id": "garnished:yellow_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_stairs": {
+    "block_id": "garnished:yellow_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:purple_zultanite_brick_stairs": {
+    "block_id": "garnished:purple_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_wall": {
+    "block_id": "garnished:unstable_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone": {
+    "block_id": "garnished:abyssal_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_wart_block": {
+    "block_id": "garnished:sepia_wart_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_brick_stairs": {
+    "block_id": "garnished:brown_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_magenta_zultanite_stairs": {
+    "block_id": "garnished:cut_magenta_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_magenta_zultanite_brick_stairs": {
+    "block_id": "garnished:small_magenta_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_yellow_zultanite_wall": {
+    "block_id": "garnished:smooth_yellow_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_button": {
+    "block_id": "garnished:nut_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:peanut_sack": {
+    "block_id": "garnished:peanut_sack",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_brown_zultanite_stairs": {
+    "block_id": "garnished:cut_brown_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:light_gray_zultanite_brick_wall": {
+    "block_id": "garnished:light_gray_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_ritualistic_stone_slab": {
+    "block_id": "garnished:cut_ritualistic_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_carnotite_wall": {
+    "block_id": "garnished:cut_carnotite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_cyan_zultanite_slab": {
+    "block_id": "garnished:smooth_cyan_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_orange_zultanite_slab": {
+    "block_id": "garnished:smooth_orange_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:white_zultanite_brick_slab": {
+    "block_id": "garnished:white_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:yellow_zultanite_brick_stairs": {
+    "block_id": "garnished:yellow_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_red_zultanite": {
+    "block_id": "garnished:smooth_red_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_sign": {
+    "block_id": "garnished:nut_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_pink_zultanite_stairs": {
+    "block_id": "garnished:polished_pink_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_ritualistic_stone_brick_stairs": {
+    "block_id": "garnished:small_ritualistic_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_lime_zultanite": {
+    "block_id": "garnished:cut_lime_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite": {
+    "block_id": "garnished:green_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_purple_zultanite_slab": {
+    "block_id": "garnished:cut_purple_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_magenta_zultanite_slab": {
+    "block_id": "garnished:polished_magenta_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_abyssal_stone_bricks": {
+    "block_id": "garnished:chiseled_abyssal_stone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_ritualistic_stone_slab": {
+    "block_id": "garnished:smooth_ritualistic_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_brick_stairs": {
+    "block_id": "garnished:carnotite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_brick_wall": {
+    "block_id": "garnished:ritualistic_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_slab": {
+    "block_id": "garnished:sepia_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_lime_zultanite_slab": {
+    "block_id": "garnished:cut_lime_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_fungus": {
+    "block_id": "garnished:sepia_fungus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_green_zultanite_wall": {
+    "block_id": "garnished:polished_green_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:sepia_fence": {
+    "block_id": "garnished:sepia_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_light_gray_zultanite_slab": {
+    "block_id": "garnished:smooth_light_gray_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_red_zultanite_stairs": {
+    "block_id": "garnished:smooth_red_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pecan_leaves": {
+    "block_id": "garnished:pecan_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:green_zultanite_stairs": {
+    "block_id": "garnished:green_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ethereal_compound_block": {
+    "block_id": "garnished:ethereal_compound_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_purple_zultanite_brick_stairs": {
+    "block_id": "garnished:small_purple_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_orange_zultanite_bricks": {
+    "block_id": "garnished:chiseled_orange_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_cyan_zultanite_brick_slab": {
+    "block_id": "garnished:small_cyan_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:orange_zultanite_brick_wall": {
+    "block_id": "garnished:orange_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:unstable_stone_brick_wall": {
+    "block_id": "garnished:unstable_stone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:abyssal_stone_wall": {
+    "block_id": "garnished:abyssal_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_wall": {
+    "block_id": "garnished:magenta_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_bricks": {
+    "block_id": "garnished:carnotite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_black_zultanite_slab": {
+    "block_id": "garnished:cut_black_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_brown_zultanite_stairs": {
+    "block_id": "garnished:smooth_brown_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:peanut_oil": {
+    "block_id": "garnished:peanut_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:almond_leaves": {
+    "block_id": "garnished:almond_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_gray_zultanite_stairs": {
+    "block_id": "garnished:polished_gray_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_wall": {
+    "block_id": "garnished:lime_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_carnotite": {
+    "block_id": "garnished:cut_carnotite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_wall": {
+    "block_id": "garnished:red_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_purple_zultanite_bricks": {
+    "block_id": "garnished:chiseled_purple_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dulse_kelp_plant": {
+    "block_id": "garnished:dulse_kelp_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_gray_zultanite": {
+    "block_id": "garnished:cut_gray_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_lime_zultanite_brick_slab": {
+    "block_id": "garnished:small_lime_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:barren_roots": {
+    "block_id": "garnished:barren_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:ritualistic_stone_stairs": {
+    "block_id": "garnished:ritualistic_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:black_zultanite_bricks": {
+    "block_id": "garnished:black_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:dragon_stone_stairs": {
+    "block_id": "garnished:dragon_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:magenta_zultanite_brick_wall": {
+    "block_id": "garnished:magenta_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_dragon_stone_slab": {
+    "block_id": "garnished:smooth_dragon_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_abyssal_stone_stairs": {
+    "block_id": "garnished:cut_abyssal_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:pansophical_daisy": {
+    "block_id": "garnished:pansophical_daisy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_dragon_stone_wall": {
+    "block_id": "garnished:polished_dragon_stone_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_zultanite": {
+    "block_id": "garnished:polished_zultanite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_yellow_zultanite_slab": {
+    "block_id": "garnished:polished_yellow_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_zultanite_brick_slab": {
+    "block_id": "garnished:cyan_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_cyan_zultanite_bricks": {
+    "block_id": "garnished:chiseled_cyan_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_purple_zultanite_wall": {
+    "block_id": "garnished:polished_purple_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:blue_zultanite_brick_slab": {
+    "block_id": "garnished:blue_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:carnotite_slab": {
+    "block_id": "garnished:carnotite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_zultanite_stairs": {
+    "block_id": "garnished:brown_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_gray_zultanite_bricks": {
+    "block_id": "garnished:chiseled_gray_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_ritualistic_stone": {
+    "block_id": "garnished:polished_ritualistic_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_lime_zultanite_brick_stairs": {
+    "block_id": "garnished:small_lime_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_zultanite_slab": {
+    "block_id": "garnished:smooth_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_lime_zultanite_stairs": {
+    "block_id": "garnished:polished_lime_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_red_zultanite_stairs": {
+    "block_id": "garnished:cut_red_zultanite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:smooth_blue_zultanite_slab": {
+    "block_id": "garnished:smooth_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_stairs": {
+    "block_id": "garnished:nut_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_blue_zultanite_slab": {
+    "block_id": "garnished:polished_blue_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:almond_sapling": {
+    "block_id": "garnished:almond_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:red_zultanite_brick_slab": {
+    "block_id": "garnished:red_zultanite_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cut_white_zultanite_wall": {
+    "block_id": "garnished:cut_white_zultanite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:polished_cyan_zultanite_slab": {
+    "block_id": "garnished:polished_cyan_zultanite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:nut_wall_sign": {
+    "block_id": "garnished:nut_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:small_yellow_zultanite_brick_wall": {
+    "block_id": "garnished:small_yellow_zultanite_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:cyan_mastic_block": {
+    "block_id": "garnished:cyan_mastic_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:brown_mastic_resin": {
+    "block_id": "garnished:brown_mastic_resin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:lime_zultanite_brick_stairs": {
+    "block_id": "garnished:lime_zultanite_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:chiseled_blue_zultanite_bricks": {
+    "block_id": "garnished:chiseled_blue_zultanite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "garnished:stripped_nut_log": {
+    "block_id": "garnished:stripped_nut_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

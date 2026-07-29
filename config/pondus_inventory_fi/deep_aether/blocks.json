@@ -1,0 +1,1808 @@
+{
+  "deep_aether:conberry_sign": {
+    "block_id": "deep_aether:conberry_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:enchanted_blossom": {
+    "block_id": "deep_aether:enchanted_blossom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_log": {
+    "block_id": "deep_aether:conberry_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:pink_aercloud_mushroom_block": {
+    "block_id": "deep_aether:pink_aercloud_mushroom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_tall_aerlavender": {
+    "block_id": "deep_aether:potted_tall_aerlavender",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_wall": {
+    "block_id": "deep_aether:sunroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_door": {
+    "block_id": "deep_aether:conberry_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_vines_plant": {
+    "block_id": "deep_aether:golden_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:lightcap_mushroom_block": {
+    "block_id": "deep_aether:lightcap_mushroom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_mud_bricks_wall": {
+    "block_id": "deep_aether:aether_mud_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_wall": {
+    "block_id": "deep_aether:cruderoot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_sign": {
+    "block_id": "deep_aether:sunroot_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_sapling": {
+    "block_id": "deep_aether:yagroot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_tile_slab": {
+    "block_id": "deep_aether:holystone_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_roseroot_log_wall": {
+    "block_id": "deep_aether:stripped_roseroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_door": {
+    "block_id": "deep_aether:sunroot_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_wall": {
+    "block_id": "deep_aether:conberry_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_pillar_down": {
+    "block_id": "deep_aether:holystone_pillar_down",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cobbled_aseterite_stairs": {
+    "block_id": "deep_aether:cobbled_aseterite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_button": {
+    "block_id": "deep_aether:roseroot_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_yagroot_wall": {
+    "block_id": "deep_aether:stripped_yagroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_hanger": {
+    "block_id": "deep_aether:sunroot_hanger",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_leaves": {
+    "block_id": "deep_aether:conberry_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_sunroot_log_wall": {
+    "block_id": "deep_aether:stripped_sunroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:trapped_light_nimbus_pillar": {
+    "block_id": "deep_aether:trapped_light_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_tiles": {
+    "block_id": "deep_aether:mossy_holystone_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_stairs": {
+    "block_id": "deep_aether:aseterite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_tile_stairs": {
+    "block_id": "deep_aether:blightmoss_holystone_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_tile_stairs": {
+    "block_id": "deep_aether:mossy_holystone_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_slab": {
+    "block_id": "deep_aether:aseterite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:clorite_slab": {
+    "block_id": "deep_aether:clorite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_sunroot_sapling": {
+    "block_id": "deep_aether:potted_sunroot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_leaves": {
+    "block_id": "deep_aether:yagroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:pink_aercloud_mushrooms": {
+    "block_id": "deep_aether:pink_aercloud_mushrooms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:nimbus_pillar": {
+    "block_id": "deep_aether:nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:trapped_light_nimbus_stone": {
+    "block_id": "deep_aether:trapped_light_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aercloud_roots": {
+    "block_id": "deep_aether:aercloud_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_bricks": {
+    "block_id": "deep_aether:mossy_holystone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:rain_aercloud": {
+    "block_id": "deep_aether:rain_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_sapling": {
+    "block_id": "deep_aether:roseroot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:chiseled_holystone": {
+    "block_id": "deep_aether:chiseled_holystone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_button": {
+    "block_id": "deep_aether:sunroot_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_pillar_up": {
+    "block_id": "deep_aether:holystone_pillar_up",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:green_squash": {
+    "block_id": "deep_aether:green_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_yagroot_log": {
+    "block_id": "deep_aether:stripped_yagroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_roseroot_log": {
+    "block_id": "deep_aether:stripped_roseroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_brick_slab": {
+    "block_id": "deep_aether:blightmoss_holystone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_blue_roseroot_sapling": {
+    "block_id": "deep_aether:potted_blue_roseroot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cobbled_aseterite_slab": {
+    "block_id": "deep_aether:cobbled_aseterite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_planks": {
+    "block_id": "deep_aether:roseroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_door": {
+    "block_id": "deep_aether:cruderoot_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:locked_light_nimbus_pillar": {
+    "block_id": "deep_aether:locked_light_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_wood": {
+    "block_id": "deep_aether:yagroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_stairs": {
+    "block_id": "deep_aether:sunroot_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:locked_skyroot_planks": {
+    "block_id": "deep_aether:locked_skyroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_enchanted_blossom": {
+    "block_id": "deep_aether:potted_enchanted_blossom",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_leaves": {
+    "block_id": "deep_aether:cruderoot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_aerlavender": {
+    "block_id": "deep_aether:potted_aerlavender",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_brick_wall": {
+    "block_id": "deep_aether:mossy_holystone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_tile_stairs": {
+    "block_id": "deep_aether:gilded_holystone_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:raw_clorite_wall": {
+    "block_id": "deep_aether:raw_clorite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_aseterite_stairs": {
+    "block_id": "deep_aether:polished_aseterite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_tiles": {
+    "block_id": "deep_aether:gilded_holystone_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_roots": {
+    "block_id": "deep_aether:yagroot_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:clorite_pillar": {
+    "block_id": "deep_aether:clorite_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_mud_bricks": {
+    "block_id": "deep_aether:aether_mud_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_planks": {
+    "block_id": "deep_aether:cruderoot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite": {
+    "block_id": "deep_aether:aseterite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_sign": {
+    "block_id": "deep_aether:cruderoot_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_tile_wall": {
+    "block_id": "deep_aether:holystone_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_wall_sign": {
+    "block_id": "deep_aether:conberry_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:skyjade_ore": {
+    "block_id": "deep_aether:skyjade_ore",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:nimbus_wall": {
+    "block_id": "deep_aether:nimbus_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:zephyr_totem": {
+    "block_id": "deep_aether:zephyr_totem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_planks": {
+    "block_id": "deep_aether:sunroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sterling_aercloud": {
+    "block_id": "deep_aether:sterling_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_tile_wall": {
+    "block_id": "deep_aether:blightmoss_holystone_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_flower": {
+    "block_id": "deep_aether:golden_flower",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_slab": {
+    "block_id": "deep_aether:conberry_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_brick_stairs": {
+    "block_id": "deep_aether:gilded_holystone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:nimbus_stone": {
+    "block_id": "deep_aether:nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aerlavender": {
+    "block_id": "deep_aether:aerlavender",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_fence_gate": {
+    "block_id": "deep_aether:sunroot_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:treasure_doorway_light_nimbus_stone": {
+    "block_id": "deep_aether:treasure_doorway_light_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_slab": {
+    "block_id": "deep_aether:sunroot_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_pressure_plate": {
+    "block_id": "deep_aether:roseroot_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_sapling": {
+    "block_id": "deep_aether:conberry_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_aerlavender": {
+    "block_id": "deep_aether:tall_aerlavender",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_cruderoot_log": {
+    "block_id": "deep_aether:stripped_cruderoot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_coarse_dirt": {
+    "block_id": "deep_aether:aether_coarse_dirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:highstone": {
+    "block_id": "deep_aether:highstone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_wood": {
+    "block_id": "deep_aether:roseroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_mud_bricks_slab": {
+    "block_id": "deep_aether:aether_mud_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_aspess": {
+    "block_id": "deep_aether:golden_aspess",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:attached_squash_stem": {
+    "block_id": "deep_aether:attached_squash_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:chromatic_aercloud": {
+    "block_id": "deep_aether:chromatic_aercloud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_conberry_wood": {
+    "block_id": "deep_aether:stripped_conberry_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:raw_clorite_stairs": {
+    "block_id": "deep_aether:raw_clorite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:clorite_stairs": {
+    "block_id": "deep_aether:clorite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blue_squash": {
+    "block_id": "deep_aether:blue_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:medium_golden_grass": {
+    "block_id": "deep_aether:medium_golden_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_log_wall": {
+    "block_id": "deep_aether:cruderoot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_brick_stairs": {
+    "block_id": "deep_aether:mossy_holystone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_bricks_slab": {
+    "block_id": "deep_aether:aseterite_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_log_wall": {
+    "block_id": "deep_aether:sunroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:trapped_nimbus_stone": {
+    "block_id": "deep_aether:trapped_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_planks": {
+    "block_id": "deep_aether:conberry_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:nimbus_stairs": {
+    "block_id": "deep_aether:nimbus_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aercloud_grass_block": {
+    "block_id": "deep_aether:aercloud_grass_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_bricks_stairs": {
+    "block_id": "deep_aether:aseterite_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_conberry_log_wall": {
+    "block_id": "deep_aether:stripped_conberry_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:treasure_doorway_nimbus_stone": {
+    "block_id": "deep_aether:treasure_doorway_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_wall_sign": {
+    "block_id": "deep_aether:roseroot_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_aseterite": {
+    "block_id": "deep_aether:polished_aseterite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_trapdoor": {
+    "block_id": "deep_aether:roseroot_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_fence": {
+    "block_id": "deep_aether:yagroot_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cobbled_aseterite_wall": {
+    "block_id": "deep_aether:cobbled_aseterite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:lightcap_mushrooms": {
+    "block_id": "deep_aether:lightcap_mushrooms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_log_wall": {
+    "block_id": "deep_aether:conberry_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:big_holystone_bricks": {
+    "block_id": "deep_aether:big_holystone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_fence_gate": {
+    "block_id": "deep_aether:conberry_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sky_tulips": {
+    "block_id": "deep_aether:sky_tulips",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_wall_hanging_sign": {
+    "block_id": "deep_aether:conberry_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_log": {
+    "block_id": "deep_aether:sunroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_cruderoot_wall": {
+    "block_id": "deep_aether:stripped_cruderoot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blue_roseroot_sapling": {
+    "block_id": "deep_aether:blue_roseroot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_mud": {
+    "block_id": "deep_aether:aether_mud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:raw_clorite_slab": {
+    "block_id": "deep_aether:raw_clorite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:light_nimbus_pillar": {
+    "block_id": "deep_aether:light_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_bricks_wall": {
+    "block_id": "deep_aether:aseterite_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:squall_block": {
+    "block_id": "deep_aether:squall_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_slab": {
+    "block_id": "deep_aether:roseroot_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:purple_squash": {
+    "block_id": "deep_aether:purple_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_brick_wall": {
+    "block_id": "deep_aether:gilded_holystone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_alien_plant": {
+    "block_id": "deep_aether:tall_alien_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_fence_gate": {
+    "block_id": "deep_aether:cruderoot_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_sunroot_wood": {
+    "block_id": "deep_aether:stripped_sunroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_clorite_slab": {
+    "block_id": "deep_aether:polished_clorite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aersmog": {
+    "block_id": "deep_aether:aersmog",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_tile_slab": {
+    "block_id": "deep_aether:blightmoss_holystone_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_cattails": {
+    "block_id": "deep_aether:aether_cattails",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_wall_hanging_sign": {
+    "block_id": "deep_aether:sunroot_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_slab": {
+    "block_id": "deep_aether:yagroot_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:moa_totem": {
+    "block_id": "deep_aether:moa_totem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_echaisy": {
+    "block_id": "deep_aether:potted_echaisy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_hanging_sign": {
+    "block_id": "deep_aether:sunroot_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:rotten_roseroot_log": {
+    "block_id": "deep_aether:rotten_roseroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_leaves": {
+    "block_id": "deep_aether:sunroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_conberry_sapling": {
+    "block_id": "deep_aether:potted_conberry_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_clorite_wall": {
+    "block_id": "deep_aether:polished_clorite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:ambrosium_tiki_torch": {
+    "block_id": "deep_aether:ambrosium_tiki_torch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:skyjade_chain": {
+    "block_id": "deep_aether:skyjade_chain",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_trapdoor": {
+    "block_id": "deep_aether:yagroot_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_log_wall": {
+    "block_id": "deep_aether:yagroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_sunroot_wall": {
+    "block_id": "deep_aether:stripped_sunroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_fence": {
+    "block_id": "deep_aether:conberry_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_hanging_sign": {
+    "block_id": "deep_aether:yagroot_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_golden_aspess": {
+    "block_id": "deep_aether:potted_golden_aspess",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:carved_blue_squash": {
+    "block_id": "deep_aether:carved_blue_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_wall": {
+    "block_id": "deep_aether:yagroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:clorite": {
+    "block_id": "deep_aether:clorite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_door": {
+    "block_id": "deep_aether:yagroot_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aerwhale_totem": {
+    "block_id": "deep_aether:aerwhale_totem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_pillar": {
+    "block_id": "deep_aether:holystone_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:trapped_skyroot_planks": {
+    "block_id": "deep_aether:trapped_skyroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_aseterite_wall": {
+    "block_id": "deep_aether:polished_aseterite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:treasure_doorway_light_nimbus_pillar": {
+    "block_id": "deep_aether:treasure_doorway_light_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aerglow_blossom_block": {
+    "block_id": "deep_aether:aerglow_blossom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_wood": {
+    "block_id": "deep_aether:sunroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_bricks": {
+    "block_id": "deep_aether:gilded_holystone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:flowering_roseroot_leaves": {
+    "block_id": "deep_aether:flowering_roseroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_aether_cattails": {
+    "block_id": "deep_aether:potted_aether_cattails",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:poison": {
+    "block_id": "deep_aether:poison",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_stairs": {
+    "block_id": "deep_aether:yagroot_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_tile_stairs": {
+    "block_id": "deep_aether:holystone_tile_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_fence_gate": {
+    "block_id": "deep_aether:roseroot_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blue_roseroot_leaves": {
+    "block_id": "deep_aether:blue_roseroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_wall_sign": {
+    "block_id": "deep_aether:sunroot_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_radiant_orchid": {
+    "block_id": "deep_aether:potted_radiant_orchid",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_fence_gate": {
+    "block_id": "deep_aether:yagroot_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cloudbloom_carpet": {
+    "block_id": "deep_aether:cloudbloom_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_conberry_log": {
+    "block_id": "deep_aether:stripped_conberry_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:iaspove": {
+    "block_id": "deep_aether:iaspove",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:echaisy": {
+    "block_id": "deep_aether:echaisy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_log_wall": {
+    "block_id": "deep_aether:roseroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_clorite_stairs": {
+    "block_id": "deep_aether:polished_clorite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_mud_bricks_stairs": {
+    "block_id": "deep_aether:aether_mud_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_bricks": {
+    "block_id": "deep_aether:aseterite_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_heights_dirt_path": {
+    "block_id": "deep_aether:golden_heights_dirt_path",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_golden_grass": {
+    "block_id": "deep_aether:tall_golden_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_feather_grass": {
+    "block_id": "deep_aether:tall_feather_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stratus_block": {
+    "block_id": "deep_aether:stratus_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:muddy_yagroot_roots": {
+    "block_id": "deep_aether:muddy_yagroot_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:boss_doorway_light_nimbus_stone": {
+    "block_id": "deep_aether:boss_doorway_light_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:boss_doorway_nimbus_pillar": {
+    "block_id": "deep_aether:boss_doorway_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_pressure_plate": {
+    "block_id": "deep_aether:yagroot_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_glowing_grass": {
+    "block_id": "deep_aether:tall_glowing_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aercloud_root_carpet": {
+    "block_id": "deep_aether:aercloud_root_carpet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:big_holystone_bricks_wall": {
+    "block_id": "deep_aether:big_holystone_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_fence": {
+    "block_id": "deep_aether:roseroot_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:light_nimbus_stone": {
+    "block_id": "deep_aether:light_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_stairs": {
+    "block_id": "deep_aether:conberry_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_roseroot_wood": {
+    "block_id": "deep_aether:stripped_roseroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_wall_hanging_sign": {
+    "block_id": "deep_aether:roseroot_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:carved_green_squash": {
+    "block_id": "deep_aether:carved_green_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_moss_block": {
+    "block_id": "deep_aether:aether_moss_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_log": {
+    "block_id": "deep_aether:roseroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_leaves": {
+    "block_id": "deep_aether:roseroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:glowing_spores": {
+    "block_id": "deep_aether:glowing_spores",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_brick_slab": {
+    "block_id": "deep_aether:gilded_holystone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_pressure_plate": {
+    "block_id": "deep_aether:cruderoot_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_yagroot_wood": {
+    "block_id": "deep_aether:stripped_yagroot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_heights_grass_block": {
+    "block_id": "deep_aether:golden_heights_grass_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cobbled_aseterite": {
+    "block_id": "deep_aether:cobbled_aseterite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_sign": {
+    "block_id": "deep_aether:roseroot_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_yagroot_sapling": {
+    "block_id": "deep_aether:potted_yagroot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_wood": {
+    "block_id": "deep_aether:cruderoot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aether_moss_carpet": {
+    "block_id": "deep_aether:aether_moss_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_vine": {
+    "block_id": "deep_aether:yagroot_vine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_wall_sign": {
+    "block_id": "deep_aether:cruderoot_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_wall": {
+    "block_id": "deep_aether:roseroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_sapling": {
+    "block_id": "deep_aether:cruderoot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:boss_doorway_nimbus_stone": {
+    "block_id": "deep_aether:boss_doorway_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_iaspove": {
+    "block_id": "deep_aether:potted_iaspove",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:packed_aether_mud": {
+    "block_id": "deep_aether:packed_aether_mud",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:trapped_nimbus_pillar": {
+    "block_id": "deep_aether:trapped_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_hanging_sign": {
+    "block_id": "deep_aether:conberry_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_sign": {
+    "block_id": "deep_aether:yagroot_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_wood": {
+    "block_id": "deep_aether:conberry_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_wall_hanging_sign": {
+    "block_id": "deep_aether:yagroot_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_sunroot_log": {
+    "block_id": "deep_aether:stripped_sunroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:squash_stem": {
+    "block_id": "deep_aether:squash_stem",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_fence": {
+    "block_id": "deep_aether:cruderoot_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_trapdoor": {
+    "block_id": "deep_aether:cruderoot_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_planks": {
+    "block_id": "deep_aether:yagroot_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_sky_tulips": {
+    "block_id": "deep_aether:potted_sky_tulips",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mini_golden_grass": {
+    "block_id": "deep_aether:mini_golden_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:boss_doorway_light_nimbus_pillar": {
+    "block_id": "deep_aether:boss_doorway_light_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_trapdoor": {
+    "block_id": "deep_aether:sunroot_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blue_aercloud_mushrooms": {
+    "block_id": "deep_aether:blue_aercloud_mushrooms",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_pressure_plate": {
+    "block_id": "deep_aether:sunroot_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_tile_wall": {
+    "block_id": "deep_aether:mossy_holystone_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_yagroot_log_wall": {
+    "block_id": "deep_aether:stripped_yagroot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blue_aercloud_mushroom_block": {
+    "block_id": "deep_aether:blue_aercloud_mushroom_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:treasure_doorway_nimbus_pillar": {
+    "block_id": "deep_aether:treasure_doorway_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_brick_slab": {
+    "block_id": "deep_aether:mossy_holystone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_door": {
+    "block_id": "deep_aether:roseroot_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_button": {
+    "block_id": "deep_aether:conberry_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:clorite_wall": {
+    "block_id": "deep_aether:clorite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_bricks": {
+    "block_id": "deep_aether:blightmoss_holystone_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:golden_vines": {
+    "block_id": "deep_aether:golden_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:short_golden_grass": {
+    "block_id": "deep_aether:short_golden_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:raw_clorite": {
+    "block_id": "deep_aether:raw_clorite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_tile_slab": {
+    "block_id": "deep_aether:gilded_holystone_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:virulent_quicksand": {
+    "block_id": "deep_aether:virulent_quicksand",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_tiles": {
+    "block_id": "deep_aether:blightmoss_holystone_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:skyjade_lantern": {
+    "block_id": "deep_aether:skyjade_lantern",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_button": {
+    "block_id": "deep_aether:yagroot_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_cruderoot_wood": {
+    "block_id": "deep_aether:stripped_cruderoot_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_hanging_sign": {
+    "block_id": "deep_aether:roseroot_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:locked_light_nimbus_stone": {
+    "block_id": "deep_aether:locked_light_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_wall_sign": {
+    "block_id": "deep_aether:yagroot_wall_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:holystone_tiles": {
+    "block_id": "deep_aether:holystone_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_roseroot_sapling": {
+    "block_id": "deep_aether:potted_roseroot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:radiant_orchid": {
+    "block_id": "deep_aether:radiant_orchid",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:locked_nimbus_stone": {
+    "block_id": "deep_aether:locked_nimbus_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:aseterite_wall": {
+    "block_id": "deep_aether:aseterite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:carved_purple_squash": {
+    "block_id": "deep_aether:carved_purple_squash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_roseroot_wall": {
+    "block_id": "deep_aether:stripped_roseroot_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_brick_stairs": {
+    "block_id": "deep_aether:blightmoss_holystone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_cruderoot_log_wall": {
+    "block_id": "deep_aether:stripped_cruderoot_log_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_clorite": {
+    "block_id": "deep_aether:polished_clorite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:feather_grass": {
+    "block_id": "deep_aether:feather_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_log": {
+    "block_id": "deep_aether:cruderoot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_trapdoor": {
+    "block_id": "deep_aether:conberry_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:roseroot_stairs": {
+    "block_id": "deep_aether:roseroot_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_hanging_sign": {
+    "block_id": "deep_aether:cruderoot_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:blightmoss_holystone_brick_wall": {
+    "block_id": "deep_aether:blightmoss_holystone_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_sapling": {
+    "block_id": "deep_aether:sunroot_sapling",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:tall_aether_cattails": {
+    "block_id": "deep_aether:tall_aether_cattails",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:potted_cruderoot_sapling": {
+    "block_id": "deep_aether:potted_cruderoot_sapling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:sunroot_fence": {
+    "block_id": "deep_aether:sunroot_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:glowing_vine": {
+    "block_id": "deep_aether:glowing_vine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:flowering_blue_roseroot_leaves": {
+    "block_id": "deep_aether:flowering_blue_roseroot_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_wall_hanging_sign": {
+    "block_id": "deep_aether:cruderoot_wall_hanging_sign",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:combiner": {
+    "block_id": "deep_aether:combiner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:gilded_holystone_tile_wall": {
+    "block_id": "deep_aether:gilded_holystone_tile_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:stripped_conberry_wall": {
+    "block_id": "deep_aether:stripped_conberry_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:skyjade_block": {
+    "block_id": "deep_aether:skyjade_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:polished_aseterite_slab": {
+    "block_id": "deep_aether:polished_aseterite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:mossy_holystone_tile_slab": {
+    "block_id": "deep_aether:mossy_holystone_tile_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:nimbus_slab": {
+    "block_id": "deep_aether:nimbus_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:big_holystone_bricks_slab": {
+    "block_id": "deep_aether:big_holystone_bricks_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:yagroot_log": {
+    "block_id": "deep_aether:yagroot_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:poison_cauldron": {
+    "block_id": "deep_aether:poison_cauldron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_slab": {
+    "block_id": "deep_aether:cruderoot_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:big_holystone_bricks_stairs": {
+    "block_id": "deep_aether:big_holystone_bricks_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_button": {
+    "block_id": "deep_aether:cruderoot_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:locked_nimbus_pillar": {
+    "block_id": "deep_aether:locked_nimbus_pillar",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:cruderoot_stairs": {
+    "block_id": "deep_aether:cruderoot_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "deep_aether:conberry_pressure_plate": {
+    "block_id": "deep_aether:conberry_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

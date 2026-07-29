@@ -1,0 +1,3 @@
+[tooltip]
+	#When wearing Create: Aeronautics aviator goggles, block item tooltips show Sable and True Impact material data.
+	enableGogglesBlockTooltip = true

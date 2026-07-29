@@ -1,0 +1,20 @@
+{
+  "drivebywire:backup_block": {
+    "block_id": "drivebywire:backup_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "drivebywire:controller_hub": {
+    "block_id": "drivebywire:controller_hub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "drivebywire:tweaked_controller_hub": {
+    "block_id": "drivebywire:tweaked_controller_hub",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

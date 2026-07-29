@@ -1,0 +1,13 @@
+{
+  "enableImprovedBedRainSkip": true,
+  "enableRainShouldExtinguishCampfires": true,
+  "campfireRainLookupMinTickRange": 40,
+  "campfireRainLookupMaxTickRange": 120,
+  "enableCampfireFireSpread": true,
+  "campfireSpreadLookupMinTickRange": 160,
+  "campfireSpreadLookupMaxTickRange": 600,
+  "enableCropRainBoost": true,
+  "cropRainBoostMultiplier": 20,
+  "enableFireSpreadingArrows": true,
+  "enableCustom": true
+}

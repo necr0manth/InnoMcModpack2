@@ -1,0 +1,2330 @@
+{
+  "burnt:smoldering_dark_oak_trapdoor": {
+    "block_id": "burnt:smoldering_dark_oak_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_stripped_wood": {
+    "block_id": "burnt:sooty_dark_oak_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stripped_broken_burnt_log_2": {
+    "block_id": "burnt:stripped_broken_burnt_log_2",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_stone_brick_wall": {
+    "block_id": "burnt:sooty_mossy_stone_brick_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_slab": {
+    "block_id": "burnt:sooty_mangrove_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_brick_slab": {
+    "block_id": "burnt:sooty_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_planks": {
+    "block_id": "burnt:sooty_jungle_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_spruce_log": {
+    "block_id": "burnt:sooty_stripped_spruce_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_wheat": {
+    "block_id": "burnt:smoldering_wheat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_farmland": {
+    "block_id": "burnt:burnt_farmland",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_fence": {
+    "block_id": "burnt:ember_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_small_log": {
+    "block_id": "burnt:sooty_small_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_cave_vines_plant": {
+    "block_id": "burnt:burnt_cave_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_stone_bricks": {
+    "block_id": "burnt:sooty_mossy_stone_bricks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stripped_burnt_wood": {
+    "block_id": "burnt:stripped_burnt_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:white_flag": {
+    "block_id": "burnt:white_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_birch_trapdoor": {
+    "block_id": "burnt:smoldering_birch_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_wool": {
+    "block_id": "burnt:burnt_wool",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_trapdoor": {
+    "block_id": "burnt:smoldering_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_wood": {
+    "block_id": "burnt:burnt_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_diorite_slab": {
+    "block_id": "burnt:sooty_diorite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_stalk": {
+    "block_id": "burnt:smoldering_bamboo_stalk",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_light_blue_terracotta": {
+    "block_id": "burnt:cracked_light_blue_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_fence_gate": {
+    "block_id": "burnt:blazing_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_stripped_wood": {
+    "block_id": "burnt:sooty_jungle_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_purple_terracotta": {
+    "block_id": "burnt:cracked_purple_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_slab": {
+    "block_id": "burnt:sooty_spruce_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_slab": {
+    "block_id": "burnt:sooty_jungle_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_acacia_trapdoor": {
+    "block_id": "burnt:burnt_acacia_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_planks": {
+    "block_id": "burnt:burnt_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_slab": {
+    "block_id": "burnt:sooty_birch_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire": {
+    "block_id": "burnt:wood_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:yellow_flag": {
+    "block_id": "burnt:yellow_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_stairs": {
+    "block_id": "burnt:blazing_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_birch_trapdoor": {
+    "block_id": "burnt:burnt_birch_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cherry_trapdoor": {
+    "block_id": "burnt:smoldering_cherry_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:pirate_flag": {
+    "block_id": "burnt:pirate_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_brick_slab": {
+    "block_id": "burnt:sooty_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_sail_frame": {
+    "block_id": "burnt:smoldering_sail_frame",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_trapdoor": {
+    "block_id": "burnt:smoldering_bamboo_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_cactus": {
+    "block_id": "burnt:burnt_cactus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_log": {
+    "block_id": "burnt:burnt_bamboo_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_mangrove_roots": {
+    "block_id": "burnt:burnt_mangrove_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_stairs": {
+    "block_id": "burnt:smoldering_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:grass_flames": {
+    "block_id": "burnt:grass_flames",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_mangrove_door": {
+    "block_id": "burnt:burnt_mangrove_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_dark_oak_leaves": {
+    "block_id": "burnt:smoldering_dark_oak_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_high_grass": {
+    "block_id": "burnt:burnt_high_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_mosaic_stairs": {
+    "block_id": "burnt:smoldering_bamboo_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_fence_gate": {
+    "block_id": "burnt:sooty_oak_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_stalk": {
+    "block_id": "burnt:burnt_bamboo_stalk",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_spruce_trapdoor": {
+    "block_id": "burnt:smoldering_spruce_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cobblestone_stairs": {
+    "block_id": "burnt:sooty_cobblestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_pumpkin": {
+    "block_id": "burnt:burnt_pumpkin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_fern": {
+    "block_id": "burnt:burnt_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cherry_door": {
+    "block_id": "burnt:smoldering_cherry_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_acacia_leaves": {
+    "block_id": "burnt:smoldering_acacia_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_stairs": {
+    "block_id": "burnt:sooty_acacia_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_fence": {
+    "block_id": "burnt:blazing_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_campfire": {
+    "block_id": "burnt:ember_campfire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_mangrove_leaves": {
+    "block_id": "burnt:smoldering_mangrove_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_pressure_plate": {
+    "block_id": "burnt:burnt_bamboo_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_coal": {
+    "block_id": "burnt:smoldering_coal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_birch_door": {
+    "block_id": "burnt:burnt_birch_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:magenta_flag": {
+    "block_id": "burnt:magenta_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_cobblestone_slab": {
+    "block_id": "burnt:sooty_mossy_cobblestone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_jack_o_lantern": {
+    "block_id": "burnt:burnt_jack_o_lantern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_carrots": {
+    "block_id": "burnt:smoldering_carrots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_fence_gate": {
+    "block_id": "burnt:sooty_dark_oak_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cooked_red_mushroom_block": {
+    "block_id": "burnt:cooked_red_mushroom_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_brown_terracotta": {
+    "block_id": "burnt:cracked_brown_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_azalea": {
+    "block_id": "burnt:burnt_azalea",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_stairs": {
+    "block_id": "burnt:smoldering_bamboo_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blast_leaves": {
+    "block_id": "burnt:blast_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire": {
+    "block_id": "burnt:copper_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_fencegate": {
+    "block_id": "burnt:burnt_fencegate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_green_terracotta": {
+    "block_id": "burnt:cracked_green_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fire_barrel_blast_block": {
+    "block_id": "burnt:fire_barrel_blast_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_cobblestone": {
+    "block_id": "burnt:sooty_mossy_cobblestone",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_red_terracotta": {
+    "block_id": "burnt:cracked_red_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:broken_burnt_log": {
+    "block_id": "burnt:broken_burnt_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:light_grey_flag": {
+    "block_id": "burnt:light_grey_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_symmetric_sail": {
+    "block_id": "burnt:smoldering_symmetric_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_hay": {
+    "block_id": "burnt:burnt_hay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_mosaic_slab": {
+    "block_id": "burnt:burnt_bamboo_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_high_grass": {
+    "block_id": "burnt:smoldering_high_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_brick_wall": {
+    "block_id": "burnt:sooty_stone_brick_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_stripped_wood": {
+    "block_id": "burnt:sooty_mangrove_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_moss_carpet": {
+    "block_id": "burnt:smoldering_moss_carpet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_ladder": {
+    "block_id": "burnt:burnt_ladder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_brick_stairs": {
+    "block_id": "burnt:sooty_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:orange_flag": {
+    "block_id": "burnt:orange_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_sail": {
+    "block_id": "burnt:smoldering_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_stairs": {
+    "block_id": "burnt:sooty_birch_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fire_barrel_active": {
+    "block_id": "burnt:fire_barrel_active",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_andesite_wall": {
+    "block_id": "burnt:sooty_andesite_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_spruce_door": {
+    "block_id": "burnt:smoldering_spruce_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_mangrove_door": {
+    "block_id": "burnt:smoldering_mangrove_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_planks": {
+    "block_id": "burnt:sooty_cherry_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_slab": {
+    "block_id": "burnt:ember_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mud_brick_slab": {
+    "block_id": "burnt:sooty_mud_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_fence_gate": {
+    "block_id": "burnt:sooty_mangrove_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_vine": {
+    "block_id": "burnt:burnt_vine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_orange_terracotta": {
+    "block_id": "burnt:cracked_orange_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_log": {
+    "block_id": "burnt:sooty_jungle_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_log": {
+    "block_id": "burnt:sooty_mangrove_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_melon": {
+    "block_id": "burnt:burnt_melon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_fence": {
+    "block_id": "burnt:sooty_dark_oak_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_door": {
+    "block_id": "burnt:burnt_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_slab": {
+    "block_id": "burnt:burnt_bamboo_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoke_detector": {
+    "block_id": "burnt:smoke_detector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_mangrove_trapdoor": {
+    "block_id": "burnt:smoldering_mangrove_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_wood": {
+    "block_id": "burnt:sooty_oak_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_slab": {
+    "block_id": "burnt:smoldering_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_cave_vines": {
+    "block_id": "burnt:burnt_cave_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_fence": {
+    "block_id": "burnt:burnt_bamboo_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_fence": {
+    "block_id": "burnt:burnt_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_moss": {
+    "block_id": "burnt:burnt_moss",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_stairs": {
+    "block_id": "burnt:burnt_bamboo_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_jungle_trapdoor": {
+    "block_id": "burnt:burnt_jungle_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_button": {
+    "block_id": "burnt:burnt_bamboo_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:green_flag": {
+    "block_id": "burnt:green_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_diorite_stairs": {
+    "block_id": "burnt:sooty_diorite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_fencegate": {
+    "block_id": "burnt:smoldering_fencegate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_wood": {
+    "block_id": "burnt:sooty_cherry_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bookshelf": {
+    "block_id": "burnt:burnt_bookshelf",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_wood": {
+    "block_id": "burnt:sooty_dark_oak_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_planks": {
+    "block_id": "burnt:sooty_oak_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stripped_broken_burnt_log": {
+    "block_id": "burnt:stripped_broken_burnt_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_jungle_log": {
+    "block_id": "burnt:sooty_stripped_jungle_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_grass_start": {
+    "block_id": "burnt:smoldering_grass_start",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_leaves": {
+    "block_id": "burnt:smoldering_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_stairs": {
+    "block_id": "burnt:ember_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_stairs": {
+    "block_id": "burnt:sooty_stone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_cherry_log": {
+    "block_id": "burnt:sooty_stripped_cherry_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_granite_wall": {
+    "block_id": "burnt:sooty_granite_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_wood": {
+    "block_id": "burnt:blazing_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_mangrove_trapdoor": {
+    "block_id": "burnt:burnt_mangrove_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_wood": {
+    "block_id": "burnt:sooty_acacia_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_spruce_door": {
+    "block_id": "burnt:burnt_spruce_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_stairs": {
+    "block_id": "burnt:sooty_mangrove_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_door": {
+    "block_id": "burnt:smoldering_bamboo_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_planks": {
+    "block_id": "burnt:sooty_dark_oak_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_stripped_wood": {
+    "block_id": "burnt:smoldering_stripped_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_bricks": {
+    "block_id": "burnt:sooty_bricks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_campfire": {
+    "block_id": "burnt:smoldering_campfire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_leaves_5": {
+    "block_id": "burnt:smoldering_leaves_5",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_log": {
+    "block_id": "burnt:sooty_acacia_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_jungle_door": {
+    "block_id": "burnt:burnt_jungle_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cactus": {
+    "block_id": "burnt:smoldering_cactus",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_leaves_2": {
+    "block_id": "burnt:smoldering_leaves_2",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_leaves_4": {
+    "block_id": "burnt:smoldering_leaves_4",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_leaves_3": {
+    "block_id": "burnt:smoldering_leaves_3",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_slab": {
+    "block_id": "burnt:burnt_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_fence": {
+    "block_id": "burnt:sooty_oak_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_moss_carpet": {
+    "block_id": "burnt:burnt_moss_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:lime_flag": {
+    "block_id": "burnt:lime_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_jungle_door": {
+    "block_id": "burnt:smoldering_jungle_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_azalea": {
+    "block_id": "burnt:smoldering_azalea",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:grey_flag": {
+    "block_id": "burnt:grey_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_sugar_cane": {
+    "block_id": "burnt:burnt_sugar_cane",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_path": {
+    "block_id": "burnt:burnt_path",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_mosaic_stairs": {
+    "block_id": "burnt:burnt_bamboo_mosaic_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_andesite_stairs": {
+    "block_id": "burnt:sooty_andesite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:light_blue_flag": {
+    "block_id": "burnt:light_blue_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_fencegate": {
+    "block_id": "burnt:burnt_bamboo_fencegate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_stone_brick_stairs": {
+    "block_id": "burnt:sooty_mossy_stone_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_yellow_terracotta": {
+    "block_id": "burnt:cracked_yellow_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_lime_terracotta": {
+    "block_id": "burnt:cracked_lime_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_stairs": {
+    "block_id": "burnt:burnt_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_fence_gate": {
+    "block_id": "burnt:sooty_cherry_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_grey_terracotta": {
+    "block_id": "burnt:cracked_grey_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:semi_burnt_dirt": {
+    "block_id": "burnt:semi_burnt_dirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_log": {
+    "block_id": "burnt:burnt_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_button": {
+    "block_id": "burnt:burnt_button",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_dark_oak_log": {
+    "block_id": "burnt:smoldering_dark_oak_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_farmland_moist": {
+    "block_id": "burnt:burnt_farmland_moist",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_stripped_log": {
+    "block_id": "burnt:smoldering_stripped_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:tall_grass_fire": {
+    "block_id": "burnt:tall_grass_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_granite": {
+    "block_id": "burnt:sooty_granite",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_stripped_wood": {
+    "block_id": "burnt:sooty_birch_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_black_terracotta": {
+    "block_id": "burnt:cracked_black_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_crops": {
+    "block_id": "burnt:burnt_crops",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_sail": {
+    "block_id": "burnt:burnt_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_log": {
+    "block_id": "burnt:sooty_spruce_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_fence": {
+    "block_id": "burnt:sooty_acacia_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_birch_leaves": {
+    "block_id": "burnt:smoldering_birch_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blue_flag": {
+    "block_id": "burnt:blue_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_cyan_terracotta": {
+    "block_id": "burnt:cracked_cyan_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_envelope": {
+    "block_id": "burnt:smoldering_envelope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_oak_log": {
+    "block_id": "burnt:sooty_stripped_oak_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_crops": {
+    "block_id": "burnt:smoldering_crops",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_pink_terracotta": {
+    "block_id": "burnt:cracked_pink_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:small_burnt_log": {
+    "block_id": "burnt:small_burnt_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_planks": {
+    "block_id": "burnt:ember_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_wood": {
+    "block_id": "burnt:sooty_birch_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_dark_oak_door": {
+    "block_id": "burnt:smoldering_dark_oak_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_planks": {
+    "block_id": "burnt:sooty_spruce_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_oak_trapdoor": {
+    "block_id": "burnt:burnt_oak_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_light_grey_terracotta": {
+    "block_id": "burnt:cracked_light_grey_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_birch_log": {
+    "block_id": "burnt:sooty_stripped_birch_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_fence": {
+    "block_id": "burnt:smoldering_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_slab": {
+    "block_id": "burnt:sooty_acacia_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_oak_door": {
+    "block_id": "burnt:burnt_oak_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_acacia_log": {
+    "block_id": "burnt:sooty_stripped_acacia_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_slab": {
+    "block_id": "burnt:sooty_stone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_cobblestone_stairs": {
+    "block_id": "burnt:sooty_mossy_cobblestone_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_slab": {
+    "block_id": "burnt:smoldering_bamboo_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_planks": {
+    "block_id": "burnt:sooty_acacia_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_mosaic_planks": {
+    "block_id": "burnt:smoldering_bamboo_mosaic_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:purple_flag": {
+    "block_id": "burnt:purple_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_3": {
+    "block_id": "burnt:wood_fire_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_2": {
+    "block_id": "burnt:wood_fire_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_stairs": {
+    "block_id": "burnt:sooty_dark_oak_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_9": {
+    "block_id": "burnt:wood_fire_9",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_forest_block": {
+    "block_id": "burnt:burnt_forest_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_8": {
+    "block_id": "burnt:wood_fire_8",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone": {
+    "block_id": "burnt:sooty_stone",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_5": {
+    "block_id": "burnt:wood_fire_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_4": {
+    "block_id": "burnt:wood_fire_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_7": {
+    "block_id": "burnt:wood_fire_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wood_fire_6": {
+    "block_id": "burnt:wood_fire_6",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_fern": {
+    "block_id": "burnt:smoldering_fern",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stone_bricks": {
+    "block_id": "burnt:sooty_stone_bricks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:pink_flag": {
+    "block_id": "burnt:pink_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_planks": {
+    "block_id": "burnt:smoldering_bamboo_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_oak_leaves": {
+    "block_id": "burnt:smoldering_oak_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_block": {
+    "block_id": "burnt:smoldering_bamboo_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_mosaic_planks": {
+    "block_id": "burnt:burnt_bamboo_mosaic_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_trapdoor": {
+    "block_id": "burnt:burnt_bamboo_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mud_bricks": {
+    "block_id": "burnt:sooty_mud_bricks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cooked_mushroom_stem": {
+    "block_id": "burnt:cooked_mushroom_stem",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_beetroot": {
+    "block_id": "burnt:smoldering_beetroot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracket_magenta_terracotta": {
+    "block_id": "burnt:cracket_magenta_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_fence": {
+    "block_id": "burnt:sooty_jungle_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cave_vines_plant": {
+    "block_id": "burnt:smoldering_cave_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stripped_ember_log": {
+    "block_id": "burnt:stripped_ember_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_fence": {
+    "block_id": "burnt:sooty_birch_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_stripped_wood": {
+    "block_id": "burnt:sooty_spruce_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_log": {
+    "block_id": "burnt:sooty_birch_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_fence": {
+    "block_id": "burnt:sooty_cherry_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_wood": {
+    "block_id": "burnt:ember_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_bookshelf": {
+    "block_id": "burnt:sooty_bookshelf",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_acacia_trapdoor": {
+    "block_id": "burnt:smoldering_acacia_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_fence": {
+    "block_id": "burnt:smoldering_bamboo_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_block": {
+    "block_id": "burnt:burnt_bamboo_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_forest": {
+    "block_id": "burnt:burnt_forest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_stairs": {
+    "block_id": "burnt:sooty_jungle_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_stripped_wood": {
+    "block_id": "burnt:sooty_acacia_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_envelope": {
+    "block_id": "burnt:burnt_envelope",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_fence_gate": {
+    "block_id": "burnt:ember_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cobblestone_wall": {
+    "block_id": "burnt:sooty_cobblestone_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:tall_grass_burnt": {
+    "block_id": "burnt:tall_grass_burnt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:broken_blazing_log_2": {
+    "block_id": "burnt:broken_blazing_log_2",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:creeking_burnt_log": {
+    "block_id": "burnt:creeking_burnt_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_andesite_slab": {
+    "block_id": "burnt:sooty_andesite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_carved_pumpkin": {
+    "block_id": "burnt:burnt_carved_pumpkin",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_grassy_earthen_clay": {
+    "block_id": "burnt:burnt_grassy_earthen_clay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_log": {
+    "block_id": "burnt:sooty_dark_oak_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_wood": {
+    "block_id": "burnt:sooty_mangrove_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_acacia_door": {
+    "block_id": "burnt:smoldering_acacia_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:small_smoldering_log": {
+    "block_id": "burnt:small_smoldering_log",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_barrel": {
+    "block_id": "burnt:burnt_barrel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_carpet": {
+    "block_id": "burnt:smoldering_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_fence_gate": {
+    "block_id": "burnt:sooty_birch_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_wood": {
+    "block_id": "burnt:sooty_spruce_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_door": {
+    "block_id": "burnt:burnt_bamboo_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cave_vines": {
+    "block_id": "burnt:smoldering_cave_vines",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_cherry_trapdoor": {
+    "block_id": "burnt:burnt_cherry_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_log": {
+    "block_id": "burnt:sooty_cherry_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_diorite_wall": {
+    "block_id": "burnt:sooty_diorite_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fire_set_block": {
+    "block_id": "burnt:fire_set_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_moss": {
+    "block_id": "burnt:smoldering_moss",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_door": {
+    "block_id": "burnt:smoldering_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cobweb": {
+    "block_id": "burnt:smoldering_cobweb",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_wood": {
+    "block_id": "burnt:sooty_jungle_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:double_tall_grass_fire": {
+    "block_id": "burnt:double_tall_grass_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_stripped_wood": {
+    "block_id": "burnt:sooty_cherry_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_jungle_trapdoor": {
+    "block_id": "burnt:smoldering_jungle_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_planks": {
+    "block_id": "burnt:blazing_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fragile_magma": {
+    "block_id": "burnt:fragile_magma",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_stripped_wood": {
+    "block_id": "burnt:sooty_oak_stripped_wood",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_slab": {
+    "block_id": "burnt:sooty_cherry_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_dark_oak_wood": {
+    "block_id": "burnt:smoldering_dark_oak_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:black_flag": {
+    "block_id": "burnt:black_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_mangrove_log": {
+    "block_id": "burnt:sooty_stripped_mangrove_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_planks": {
+    "block_id": "burnt:smoldering_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_slab": {
+    "block_id": "burnt:blazing_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_andesite": {
+    "block_id": "burnt:sooty_andesite",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:falling_burnt_slab": {
+    "block_id": "burnt:falling_burnt_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_planks": {
+    "block_id": "burnt:sooty_mangrove_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:ember_log": {
+    "block_id": "burnt:ember_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_stairs": {
+    "block_id": "burnt:sooty_oak_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_dark_oak_trapdoor": {
+    "block_id": "burnt:burnt_dark_oak_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_stripped_dark_oak_log": {
+    "block_id": "burnt:sooty_stripped_dark_oak_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_brick_stairs": {
+    "block_id": "burnt:sooty_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:brown_flag": {
+    "block_id": "burnt:brown_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cobblestone_slab": {
+    "block_id": "burnt:sooty_cobblestone_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_chiseled_stone_bricks": {
+    "block_id": "burnt:sooty_chiseled_stone_bricks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fallen_burnt_slab": {
+    "block_id": "burnt:fallen_burnt_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_jungle_fence_gate": {
+    "block_id": "burnt:sooty_jungle_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cooked_brown_mushroom_block": {
+    "block_id": "burnt:cooked_brown_mushroom_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_ivy": {
+    "block_id": "burnt:burnt_ivy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_log": {
+    "block_id": "burnt:sooty_oak_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:fire_barrel": {
+    "block_id": "burnt:fire_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mud_brick_wall": {
+    "block_id": "burnt:sooty_mud_brick_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_campfire": {
+    "block_id": "burnt:burnt_campfire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_jungle_leaves": {
+    "block_id": "burnt:smoldering_jungle_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_mangrove_roots": {
+    "block_id": "burnt:smoldering_mangrove_roots",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stairs_fire": {
+    "block_id": "burnt:stairs_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_potatoes": {
+    "block_id": "burnt:smoldering_potatoes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_white_terracotta": {
+    "block_id": "burnt:cracked_white_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_leaves": {
+    "block_id": "burnt:burnt_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_fence": {
+    "block_id": "burnt:sooty_spruce_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_cobblestone_wall": {
+    "block_id": "burnt:sooty_mossy_cobblestone_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_grassy_sandy_d_irt": {
+    "block_id": "burnt:burnt_grassy_sandy_d_irt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_dirt": {
+    "block_id": "burnt:burnt_dirt",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_hay": {
+    "block_id": "burnt:smoldering_hay",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_birch_door": {
+    "block_id": "burnt:smoldering_birch_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_granite_slab": {
+    "block_id": "burnt:sooty_granite_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:double_fallen_burnt_slab": {
+    "block_id": "burnt:double_fallen_burnt_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_stairs": {
+    "block_id": "burnt:sooty_spruce_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_oak_door": {
+    "block_id": "burnt:smoldering_oak_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burning_cave_vines_plant": {
+    "block_id": "burnt:burning_cave_vines_plant",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cobblestone": {
+    "block_id": "burnt:sooty_cobblestone",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stripped_burnt_log": {
+    "block_id": "burnt:stripped_burnt_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_spruce_fence_gate": {
+    "block_id": "burnt:sooty_spruce_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_blue_terracotta": {
+    "block_id": "burnt:cracked_blue_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mangrove_fence": {
+    "block_id": "burnt:sooty_mangrove_fence",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_log_3": {
+    "block_id": "burnt:smoldering_log_3",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_granite_stairs": {
+    "block_id": "burnt:sooty_granite_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:splash": {
+    "block_id": "burnt:splash",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_log_2": {
+    "block_id": "burnt:smoldering_log_2",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_flesh_block": {
+    "block_id": "burnt:burnt_flesh_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_grass": {
+    "block_id": "burnt:smoldering_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_spruce_trapdoor": {
+    "block_id": "burnt:burnt_spruce_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_planks_4": {
+    "block_id": "burnt:smoldering_planks_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_planks_3": {
+    "block_id": "burnt:smoldering_planks_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_acacia_fence_gate": {
+    "block_id": "burnt:sooty_acacia_fence_gate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_6": {
+    "block_id": "burnt:copper_fire_6",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:rainbow_flag": {
+    "block_id": "burnt:rainbow_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_planks_2": {
+    "block_id": "burnt:smoldering_planks_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_7": {
+    "block_id": "burnt:copper_fire_7",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_4": {
+    "block_id": "burnt:copper_fire_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_5": {
+    "block_id": "burnt:copper_fire_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:blazing_log": {
+    "block_id": "burnt:blazing_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_2": {
+    "block_id": "burnt:copper_fire_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:copper_fire_3": {
+    "block_id": "burnt:copper_fire_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_brick_wall": {
+    "block_id": "burnt:sooty_brick_wall",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_mosaic_slab": {
+    "block_id": "burnt:smoldering_bamboo_mosaic_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_cherry_stairs": {
+    "block_id": "burnt:sooty_cherry_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_scaffolding": {
+    "block_id": "burnt:burnt_scaffolding",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cracked_terracotta": {
+    "block_id": "burnt:cracked_terracotta",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:red_flag": {
+    "block_id": "burnt:red_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_acacia_door": {
+    "block_id": "burnt:burnt_acacia_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_trapdoor": {
+    "block_id": "burnt:burnt_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_pressure_plate": {
+    "block_id": "burnt:burnt_pressure_plate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_dark_oak_door": {
+    "block_id": "burnt:burnt_dark_oak_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_log": {
+    "block_id": "burnt:smoldering_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_birch_planks": {
+    "block_id": "burnt:sooty_birch_planks",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_symmetric_sail": {
+    "block_id": "burnt:burnt_symmetric_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:tall_flames": {
+    "block_id": "burnt:tall_flames",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_cherry_leaves": {
+    "block_id": "burnt:smoldering_cherry_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:charred_mycelium": {
+    "block_id": "burnt:charred_mycelium",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:broken_blazing_log": {
+    "block_id": "burnt:broken_blazing_log",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_oak_slab": {
+    "block_id": "burnt:sooty_oak_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_wood": {
+    "block_id": "burnt:smoldering_wood",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_bamboo_planks": {
+    "block_id": "burnt:burnt_bamboo_planks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_bamboo_fencegate": {
+    "block_id": "burnt:smoldering_bamboo_fencegate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_wool": {
+    "block_id": "burnt:smoldering_wool",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_spruce_leaves": {
+    "block_id": "burnt:smoldering_spruce_leaves",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:smoldering_oak_trapdoor": {
+    "block_id": "burnt:smoldering_oak_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_diorite": {
+    "block_id": "burnt:sooty_diorite",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:cyan_flag": {
+    "block_id": "burnt:cyan_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:recovering_grass": {
+    "block_id": "burnt:recovering_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_cherry_door": {
+    "block_id": "burnt:burnt_cherry_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_carpet": {
+    "block_id": "burnt:burnt_carpet",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stairs_fire_2": {
+    "block_id": "burnt:stairs_fire_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stairs_fire_4": {
+    "block_id": "burnt:stairs_fire_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stairs_fire_3": {
+    "block_id": "burnt:stairs_fire_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:stairs_fire_5": {
+    "block_id": "burnt:stairs_fire_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:firestarter": {
+    "block_id": "burnt:firestarter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:soot_block": {
+    "block_id": "burnt:soot_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_dark_oak_slab": {
+    "block_id": "burnt:sooty_dark_oak_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:wind_flag": {
+    "block_id": "burnt:wind_flag",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mud_brick_stairs": {
+    "block_id": "burnt:sooty_mud_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:burnt_grass": {
+    "block_id": "burnt:burnt_grass",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "burnt:sooty_mossy_stone_brick_slab": {
+    "block_id": "burnt:sooty_mossy_stone_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

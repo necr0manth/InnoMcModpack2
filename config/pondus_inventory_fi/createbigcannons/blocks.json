@@ -1,0 +1,836 @@
+{
+  "createbigcannons:unbored_cast_iron_autocannon_breech": {
+    "block_id": "createbigcannons:unbored_cast_iron_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_steel_screw_breech": {
+    "block_id": "createbigcannons:incomplete_steel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:unbored_bronze_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:medium_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:medium_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_autocannon_barrel": {
+    "block_id": "createbigcannons:cast_iron_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_steel_autocannon_barrel": {
+    "block_id": "createbigcannons:unbored_steel_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bag_of_grapeshot": {
+    "block_id": "createbigcannons:bag_of_grapeshot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:wrought_iron_cannon_end": {
+    "block_id": "createbigcannons:wrought_iron_cannon_end",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_bronze_sliding_breech": {
+    "block_id": "createbigcannons:incomplete_bronze_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:molten_cast_iron": {
+    "block_id": "createbigcannons:molten_cast_iron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:solid_shot": {
+    "block_id": "createbigcannons:solid_shot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_autocannon_breech": {
+    "block_id": "createbigcannons:steel_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_mount_extension": {
+    "block_id": "createbigcannons:cannon_mount_extension",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_cannon_chamber": {
+    "block_id": "createbigcannons:bronze_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_builder_head": {
+    "block_id": "createbigcannons:cannon_builder_head",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_cast_iron_sliding_breech": {
+    "block_id": "createbigcannons:unbored_cast_iron_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:smoke_shell": {
+    "block_id": "createbigcannons:smoke_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_steel_sliding_breech": {
+    "block_id": "createbigcannons:incomplete_steel_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:large_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:large_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:large_cast_mould": {
+    "block_id": "createbigcannons:large_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:nethersteel_cannon_chamber": {
+    "block_id": "createbigcannons:nethersteel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_small_cast_mould": {
+    "block_id": "createbigcannons:very_small_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_small_steel_cannon_layer": {
+    "block_id": "createbigcannons:very_small_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:autocannon_barrel_cast_mould": {
+    "block_id": "createbigcannons:autocannon_barrel_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:autocannon_ammo_container": {
+    "block_id": "createbigcannons:autocannon_ammo_container",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:built_up_steel_cannon_chamber": {
+    "block_id": "createbigcannons:built_up_steel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:steel_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_drill_bit": {
+    "block_id": "createbigcannons:cannon_drill_bit",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_steel_screw_breech": {
+    "block_id": "createbigcannons:unbored_steel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_screw_breech": {
+    "block_id": "createbigcannons:steel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:molten_nethersteel": {
+    "block_id": "createbigcannons:molten_nethersteel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_steel_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:unbored_steel_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:nethersteel_screw_breech": {
+    "block_id": "createbigcannons:nethersteel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_steel_autocannon_breech": {
+    "block_id": "createbigcannons:unbored_steel_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_large_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:very_large_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:ap_shell": {
+    "block_id": "createbigcannons:ap_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:sliding_breech_cast_mould": {
+    "block_id": "createbigcannons:sliding_breech_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:nethersteel_block": {
+    "block_id": "createbigcannons:nethersteel_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_autocannon_barrel": {
+    "block_id": "createbigcannons:steel_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:drop_mortar_shell": {
+    "block_id": "createbigcannons:drop_mortar_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:traffic_cone": {
+    "block_id": "createbigcannons:traffic_cone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_sliding_breech": {
+    "block_id": "createbigcannons:steel_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:ap_shot": {
+    "block_id": "createbigcannons:ap_shot",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:finished_cannon_cast": {
+    "block_id": "createbigcannons:finished_cannon_cast",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_cannon_chamber": {
+    "block_id": "createbigcannons:cast_iron_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_cannon_barrel": {
+    "block_id": "createbigcannons:bronze_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:thick_steel_cannon_chamber": {
+    "block_id": "createbigcannons:thick_steel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_medium_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_medium_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_steel_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:incomplete_steel_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_cast_iron_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:unbored_cast_iron_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_builder": {
+    "block_id": "createbigcannons:cannon_builder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_cannon_chamber": {
+    "block_id": "createbigcannons:unbored_bronze_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:wrought_iron_cannon_chamber": {
+    "block_id": "createbigcannons:wrought_iron_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_large_cast_mould": {
+    "block_id": "createbigcannons:very_large_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:log_cannon_chamber": {
+    "block_id": "createbigcannons:log_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_very_small_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_very_small_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:wrought_iron_drop_mortar_end": {
+    "block_id": "createbigcannons:wrought_iron_drop_mortar_end",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:mortar_stone": {
+    "block_id": "createbigcannons:mortar_stone",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_autocannon_barrel": {
+    "block_id": "createbigcannons:unbored_bronze_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:small_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:small_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_large_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_large_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:creative_autocannon_ammo_container": {
+    "block_id": "createbigcannons:creative_autocannon_ammo_container",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_very_large_steel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_very_large_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_drill": {
+    "block_id": "createbigcannons:cannon_drill",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:built_up_cannon": {
+    "block_id": "createbigcannons:built_up_cannon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_autocannon_breech": {
+    "block_id": "createbigcannons:bronze_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_large_steel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_large_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_quickfiring_breech": {
+    "block_id": "createbigcannons:cast_iron_quickfiring_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_medium_steel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_medium_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:thick_nethersteel_cannon_chamber": {
+    "block_id": "createbigcannons:thick_nethersteel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_cannon_chamber": {
+    "block_id": "createbigcannons:steel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_very_large_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_very_large_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:shrapnel_shell": {
+    "block_id": "createbigcannons:shrapnel_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:built_up_nethersteel_cannon_chamber": {
+    "block_id": "createbigcannons:built_up_nethersteel_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_sliding_breech": {
+    "block_id": "createbigcannons:unbored_bronze_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:cast_iron_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:mortar_stone_projectile": {
+    "block_id": "createbigcannons:mortar_stone_projectile",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_cannon_barrel": {
+    "block_id": "createbigcannons:steel_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:screw_breech_cast_mould": {
+    "block_id": "createbigcannons:screw_breech_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:log_cannon_end": {
+    "block_id": "createbigcannons:log_cannon_end",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:nethersteel_cannon_barrel": {
+    "block_id": "createbigcannons:nethersteel_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_carriage": {
+    "block_id": "createbigcannons:cannon_carriage",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_nethersteel_screw_breech": {
+    "block_id": "createbigcannons:unbored_nethersteel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_steel_sliding_breech": {
+    "block_id": "createbigcannons:unbored_steel_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:powder_charge": {
+    "block_id": "createbigcannons:powder_charge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_small_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:very_small_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:bronze_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:very_large_steel_cannon_layer": {
+    "block_id": "createbigcannons:very_large_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:medium_steel_cannon_layer": {
+    "block_id": "createbigcannons:medium_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_nethersteel_screw_breech": {
+    "block_id": "createbigcannons:incomplete_nethersteel_screw_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_sliding_breech": {
+    "block_id": "createbigcannons:cast_iron_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_cast_iron_sliding_breech": {
+    "block_id": "createbigcannons:incomplete_cast_iron_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_mount": {
+    "block_id": "createbigcannons:cannon_mount",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_quickfiring_breech": {
+    "block_id": "createbigcannons:steel_quickfiring_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_end_cast_mould": {
+    "block_id": "createbigcannons:cannon_end_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_loader": {
+    "block_id": "createbigcannons:cannon_loader",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:autocannon_breech_cast_mould": {
+    "block_id": "createbigcannons:autocannon_breech_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:autocannon_recoil_spring_cast_mould": {
+    "block_id": "createbigcannons:autocannon_recoil_spring_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:small_steel_cannon_layer": {
+    "block_id": "createbigcannons:small_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_autocannon_barrel": {
+    "block_id": "createbigcannons:bronze_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:ram_head": {
+    "block_id": "createbigcannons:ram_head",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_cannon_barrel": {
+    "block_id": "createbigcannons:unbored_bronze_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_sliding_breech": {
+    "block_id": "createbigcannons:bronze_sliding_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_bronze_autocannon_breech": {
+    "block_id": "createbigcannons:unbored_bronze_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_bronze_autocannon_recoil_spring": {
+    "block_id": "createbigcannons:incomplete_bronze_autocannon_recoil_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_small_steel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_small_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:worm_head": {
+    "block_id": "createbigcannons:worm_head",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:fixed_cannon_mount": {
+    "block_id": "createbigcannons:fixed_cannon_mount",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:molten_steel": {
+    "block_id": "createbigcannons:molten_steel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:small_cast_mould": {
+    "block_id": "createbigcannons:small_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:basin_foundry_lid": {
+    "block_id": "createbigcannons:basin_foundry_lid",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_very_small_steel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_very_small_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_cannon_end": {
+    "block_id": "createbigcannons:cast_iron_cannon_end",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_cast_iron_autocannon_barrel": {
+    "block_id": "createbigcannons:unbored_cast_iron_autocannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_autocannon_breech": {
+    "block_id": "createbigcannons:cast_iron_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_cast_iron_autocannon_breech": {
+    "block_id": "createbigcannons:incomplete_cast_iron_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:molten_bronze": {
+    "block_id": "createbigcannons:molten_bronze",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cannon_cast": {
+    "block_id": "createbigcannons:cannon_cast",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:yaw_controller": {
+    "block_id": "createbigcannons:yaw_controller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:casting_sand": {
+    "block_id": "createbigcannons:casting_sand",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:he_shell": {
+    "block_id": "createbigcannons:he_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:large_steel_cannon_layer": {
+    "block_id": "createbigcannons:large_steel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_quickfiring_breech": {
+    "block_id": "createbigcannons:bronze_quickfiring_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_block": {
+    "block_id": "createbigcannons:bronze_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_cast_iron_cannon_barrel": {
+    "block_id": "createbigcannons:unbored_cast_iron_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_cast_iron_cannon_chamber": {
+    "block_id": "createbigcannons:unbored_cast_iron_cannon_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_block": {
+    "block_id": "createbigcannons:cast_iron_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_steel_autocannon_breech": {
+    "block_id": "createbigcannons:incomplete_steel_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:fluid_shell": {
+    "block_id": "createbigcannons:fluid_shell",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:steel_block": {
+    "block_id": "createbigcannons:steel_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:incomplete_bronze_autocannon_breech": {
+    "block_id": "createbigcannons:incomplete_bronze_autocannon_breech",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:cast_iron_cannon_barrel": {
+    "block_id": "createbigcannons:cast_iron_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:bronze_cannon_end": {
+    "block_id": "createbigcannons:bronze_cannon_end",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:big_cartridge": {
+    "block_id": "createbigcannons:big_cartridge",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:medium_cast_mould": {
+    "block_id": "createbigcannons:medium_cast_mould",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:built_up_nethersteel_cannon_barrel": {
+    "block_id": "createbigcannons:built_up_nethersteel_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:built_up_steel_cannon_barrel": {
+    "block_id": "createbigcannons:built_up_steel_cannon_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createbigcannons:unbored_small_nethersteel_cannon_layer": {
+    "block_id": "createbigcannons:unbored_small_nethersteel_cannon_layer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,1454 @@
+{
+  "rechiseledcreate:crimsite_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_large_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_bricks_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_bricks_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_large_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_panes": {
+    "block_id": "rechiseledcreate:birch_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:birch_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_tiles": {
+    "block_id": "rechiseledcreate:mangrove_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_diagonal": {
+    "block_id": "rechiseledcreate:jungle_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_covered": {
+    "block_id": "rechiseledcreate:dark_oak_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_large": {
+    "block_id": "rechiseledcreate:crimson_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_large": {
+    "block_id": "rechiseledcreate:mangrove_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_rounded": {
+    "block_id": "rechiseledcreate:jungle_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_large": {
+    "block_id": "rechiseledcreate:spruce_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_panes": {
+    "block_id": "rechiseledcreate:acacia_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_covered": {
+    "block_id": "rechiseledcreate:crimson_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_large": {
+    "block_id": "rechiseledcreate:oak_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_bars_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:birch_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_slim": {
+    "block_id": "rechiseledcreate:mangrove_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_slim": {
+    "block_id": "rechiseledcreate:warped_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_tiles": {
+    "block_id": "rechiseledcreate:crimson_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_slim_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_bars_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_slim": {
+    "block_id": "rechiseledcreate:spruce_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_panes_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_rounded": {
+    "block_id": "rechiseledcreate:oak_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_bars": {
+    "block_id": "rechiseledcreate:dark_oak_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_bars_connecting": {
+    "block_id": "rechiseledcreate:birch_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimsite_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_rounded": {
+    "block_id": "rechiseledcreate:warped_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_rounded": {
+    "block_id": "rechiseledcreate:acacia_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_slim_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_bars": {
+    "block_id": "rechiseledcreate:oak_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_bars": {
+    "block_id": "rechiseledcreate:mangrove_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_panes": {
+    "block_id": "rechiseledcreate:crimson_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:birch_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_covered_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_rounded": {
+    "block_id": "rechiseledcreate:birch_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_diagonal": {
+    "block_id": "rechiseledcreate:birch_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_panes": {
+    "block_id": "rechiseledcreate:jungle_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_large_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:oak_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_bars_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_covered_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_rounded": {
+    "block_id": "rechiseledcreate:dark_oak_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_large": {
+    "block_id": "rechiseledcreate:birch_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_bars": {
+    "block_id": "rechiseledcreate:warped_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_chiseled_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_chiseled_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_slim_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_bars": {
+    "block_id": "rechiseledcreate:spruce_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_bricks": {
+    "block_id": "rechiseledcreate:rose_quartz_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_panes_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_covered": {
+    "block_id": "rechiseledcreate:oak_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_tiles": {
+    "block_id": "rechiseledcreate:jungle_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_tiles": {
+    "block_id": "rechiseledcreate:warped_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_bars_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_diagonal": {
+    "block_id": "rechiseledcreate:acacia_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_tiles": {
+    "block_id": "rechiseledcreate:acacia_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_panes_connecting": {
+    "block_id": "rechiseledcreate:birch_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_slim": {
+    "block_id": "rechiseledcreate:oak_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mechanical_chisel": {
+    "block_id": "rechiseledcreate:mechanical_chisel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_swirling": {
+    "block_id": "rechiseledcreate:oak_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_slim_connecting": {
+    "block_id": "rechiseledcreate:warped_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_diagonal": {
+    "block_id": "rechiseledcreate:spruce_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_slim_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:warped_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_tiles": {
+    "block_id": "rechiseledcreate:oak_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:birch_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_large_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_polished_block": {
+    "block_id": "rechiseledcreate:rose_quartz_polished_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_polished_block_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_polished_block_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_covered_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_large_connecting": {
+    "block_id": "rechiseledcreate:birch_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_panes": {
+    "block_id": "rechiseledcreate:warped_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_covered": {
+    "block_id": "rechiseledcreate:warped_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_large_connecting": {
+    "block_id": "rechiseledcreate:warped_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_covered": {
+    "block_id": "rechiseledcreate:mangrove_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_slim": {
+    "block_id": "rechiseledcreate:acacia_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_covered_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_large_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_bars": {
+    "block_id": "rechiseledcreate:birch_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_large_connecting": {
+    "block_id": "rechiseledcreate:oak_window_large_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_diagonal": {
+    "block_id": "rechiseledcreate:mangrove_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_diagonal": {
+    "block_id": "rechiseledcreate:warped_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_slim_connecting": {
+    "block_id": "rechiseledcreate:oak_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_covered_connecting": {
+    "block_id": "rechiseledcreate:warped_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_covered_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:warped_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_bars_connecting": {
+    "block_id": "rechiseledcreate:oak_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_panes": {
+    "block_id": "rechiseledcreate:mangrove_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_swirling": {
+    "block_id": "rechiseledcreate:dark_oak_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_rounded_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_rounded_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_panes_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:oak_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_squares": {
+    "block_id": "rechiseledcreate:rose_quartz_squares",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_tiles": {
+    "block_id": "rechiseledcreate:dark_oak_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_bars": {
+    "block_id": "rechiseledcreate:crimson_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_covered_connecting": {
+    "block_id": "rechiseledcreate:crimson_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_swirling": {
+    "block_id": "rechiseledcreate:birch_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_swirling": {
+    "block_id": "rechiseledcreate:jungle_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:mangrove_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_tiles": {
+    "block_id": "rechiseledcreate:birch_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_large": {
+    "block_id": "rechiseledcreate:warped_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_crushed_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_crushed_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:ochrum_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:ochrum_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_panes": {
+    "block_id": "rechiseledcreate:spruce_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_squares_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_squares_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:tuff_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:tuff_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_diagonal_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_diagonal_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_crushed": {
+    "block_id": "rechiseledcreate:rose_quartz_crushed",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_panes_connecting": {
+    "block_id": "rechiseledcreate:warped_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_swirling": {
+    "block_id": "rechiseledcreate:crimson_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:veridium_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:veridium_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_rounded": {
+    "block_id": "rechiseledcreate:crimson_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_rounded": {
+    "block_id": "rechiseledcreate:spruce_window_rounded",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:oak_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:deepslate_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:deepslate_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_panes_connecting": {
+    "block_id": "rechiseledcreate:acacia_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimsite_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_tiles_connecting": {
+    "block_id": "rechiseledcreate:rose_quartz_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_diagonal": {
+    "block_id": "rechiseledcreate:oak_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_diagonal": {
+    "block_id": "rechiseledcreate:dark_oak_window_diagonal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_slim_connecting": {
+    "block_id": "rechiseledcreate:birch_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimsite_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_bars_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_bars": {
+    "block_id": "rechiseledcreate:jungle_window_bars",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:oak_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_bars_connecting": {
+    "block_id": "rechiseledcreate:warped_window_bars_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimsite_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:rose_quartz_chiseled": {
+    "block_id": "rechiseledcreate:rose_quartz_chiseled",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:birch_window_slim": {
+    "block_id": "rechiseledcreate:birch_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_slim": {
+    "block_id": "rechiseledcreate:dark_oak_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_panes_connecting": {
+    "block_id": "rechiseledcreate:dark_oak_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_covered": {
+    "block_id": "rechiseledcreate:spruce_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_large": {
+    "block_id": "rechiseledcreate:acacia_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimsite_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:crimsite_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dripstone_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:dripstone_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_covered": {
+    "block_id": "rechiseledcreate:jungle_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:mangrove_window_swirling": {
+    "block_id": "rechiseledcreate:mangrove_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_slim_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_slim_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:dark_oak_window_panes": {
+    "block_id": "rechiseledcreate:dark_oak_window_panes",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scoria_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:scoria_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_covered": {
+    "block_id": "rechiseledcreate:acacia_window_covered",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:andesite_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:andesite_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:diorite_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:diorite_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_large": {
+    "block_id": "rechiseledcreate:jungle_window_large",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:acacia_window_swirling": {
+    "block_id": "rechiseledcreate:acacia_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:jungle_window_swirling_connecting": {
+    "block_id": "rechiseledcreate:jungle_window_swirling_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_small_brick_slab_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_small_brick_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:crimson_window_slim": {
+    "block_id": "rechiseledcreate:crimson_window_slim",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_small_brick_stairs_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_small_brick_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_swirling": {
+    "block_id": "rechiseledcreate:spruce_window_swirling",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:oak_window_covered_connecting": {
+    "block_id": "rechiseledcreate:oak_window_covered_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:calcite_cut_polished_slab_connecting": {
+    "block_id": "rechiseledcreate:calcite_cut_polished_slab_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:scorchia_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:scorchia_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_panes_connecting": {
+    "block_id": "rechiseledcreate:spruce_window_panes_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:warped_window_tiles_connecting": {
+    "block_id": "rechiseledcreate:warped_window_tiles_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:asurine_cut_polished_stairs_connecting": {
+    "block_id": "rechiseledcreate:asurine_cut_polished_stairs_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:limestone_cut_small_brick_connecting": {
+    "block_id": "rechiseledcreate:limestone_cut_small_brick_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:spruce_window_tiles": {
+    "block_id": "rechiseledcreate:spruce_window_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "rechiseledcreate:granite_cut_polished_connecting": {
+    "block_id": "rechiseledcreate:granite_cut_polished_connecting",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

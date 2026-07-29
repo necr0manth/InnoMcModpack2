@@ -1,0 +1,116 @@
+{
+  "createsprings:spring_alloy_casing": {
+    "block_id": "createsprings:spring_alloy_casing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:large_spring_extention": {
+    "block_id": "createsprings:large_spring_extention",
+    "base_mass": "0.01",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:friction_welder": {
+    "block_id": "createsprings:friction_welder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:andesite_mold": {
+    "block_id": "createsprings:andesite_mold",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:molten_spring_alloy": {
+    "block_id": "createsprings:molten_spring_alloy",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:large_spring_coil": {
+    "block_id": "createsprings:large_spring_coil",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:large_spring": {
+    "block_id": "createsprings:large_spring",
+    "base_mass": "9.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:industrial_spring_alloy": {
+    "block_id": "createsprings:industrial_spring_alloy",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:connectable_weathered_iron": {
+    "block_id": "createsprings:connectable_weathered_iron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:obsidian_slab": {
+    "block_id": "createsprings:obsidian_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:cut_spring_alloy": {
+    "block_id": "createsprings:cut_spring_alloy",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:spring": {
+    "block_id": "createsprings:spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:analog_toggle_latch": {
+    "block_id": "createsprings:analog_toggle_latch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:spring_catapult": {
+    "block_id": "createsprings:spring_catapult",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:kinetic_interface": {
+    "block_id": "createsprings:kinetic_interface",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:spring_alloy_block": {
+    "block_id": "createsprings:spring_alloy_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:obsidian_plate": {
+    "block_id": "createsprings:obsidian_plate",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:unfinished_spring": {
+    "block_id": "createsprings:unfinished_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createsprings:filled_andesite_mold": {
+    "block_id": "createsprings:filled_andesite_mold",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

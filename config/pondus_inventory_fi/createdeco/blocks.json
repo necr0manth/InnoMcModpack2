@@ -1,0 +1,2216 @@
+{
+  "createdeco:industrial_iron_coinstack": {
+    "block_id": "createdeco:industrial_iron_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:locked_brass_door": {
+    "block_id": "createdeco:locked_brass_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_catwalk_railing": {
+    "block_id": "createdeco:copper_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_umber_brick_slab": {
+    "block_id": "createdeco:tiled_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_umber_brick_slab": {
+    "block_id": "createdeco:long_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_blue_brick_stairs": {
+    "block_id": "createdeco:tiled_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_trapdoor": {
+    "block_id": "createdeco:industrial_iron_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_mesh_fence": {
+    "block_id": "createdeco:andesite_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:scarlet_bricks": {
+    "block_id": "createdeco:scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_copper_lamp": {
+    "block_id": "createdeco:green_copper_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_verdant_brick_wall": {
+    "block_id": "createdeco:corner_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_scarlet_brick_stairs": {
+    "block_id": "createdeco:cracked_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_catwalk_railing": {
+    "block_id": "createdeco:zinc_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dean_brick_wall": {
+    "block_id": "createdeco:corner_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pearl_brick_slab": {
+    "block_id": "createdeco:pearl_brick_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:orange_placard": {
+    "block_id": "createdeco:orange_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_placard": {
+    "block_id": "createdeco:red_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_umber_brick_stairs": {
+    "block_id": "createdeco:cracked_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_bars_overlay": {
+    "block_id": "createdeco:zinc_bars_overlay",
+    "base_mass": "0.14",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_scarlet_brick_wall": {
+    "block_id": "createdeco:long_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_copper_lamp": {
+    "block_id": "createdeco:yellow_copper_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_pearl_brick_slab": {
+    "block_id": "createdeco:corner_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dean_brick_wall": {
+    "block_id": "createdeco:dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_umber_brick_wall": {
+    "block_id": "createdeco:corner_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_pearl_brick_wall": {
+    "block_id": "createdeco:short_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_catwalk_stairs": {
+    "block_id": "createdeco:iron_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:verdant_brick_slab": {
+    "block_id": "createdeco:verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dean_brick_stairs": {
+    "block_id": "createdeco:mossy_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_blue_brick_stairs": {
+    "block_id": "createdeco:long_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_catwalk": {
+    "block_id": "createdeco:iron_catwalk",
+    "base_mass": "0.88",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_placard": {
+    "block_id": "createdeco:blue_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dusk_brick_slab": {
+    "block_id": "createdeco:mossy_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_bars_overlay": {
+    "block_id": "createdeco:copper_bars_overlay",
+    "base_mass": "0.19",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dean_brick_wall": {
+    "block_id": "createdeco:long_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:white_shipping_container": {
+    "block_id": "createdeco:white_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_red_bricks": {
+    "block_id": "createdeco:long_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_industrial_iron_lamp": {
+    "block_id": "createdeco:red_industrial_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dusk_bricks": {
+    "block_id": "createdeco:cracked_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_scarlet_brick_slab": {
+    "block_id": "createdeco:mossy_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_trapdoor": {
+    "block_id": "createdeco:brass_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_red_brick_stairs": {
+    "block_id": "createdeco:corner_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_blue_brick_stairs": {
+    "block_id": "createdeco:corner_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dusk_brick_stairs": {
+    "block_id": "createdeco:dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:magenta_placard": {
+    "block_id": "createdeco:magenta_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_red_brick_slab": {
+    "block_id": "createdeco:short_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_verdant_brick_slab": {
+    "block_id": "createdeco:tiled_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_verdant_brick_wall": {
+    "block_id": "createdeco:short_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_scarlet_brick_wall": {
+    "block_id": "createdeco:short_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_window_pane": {
+    "block_id": "createdeco:andesite_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dean_bricks": {
+    "block_id": "createdeco:long_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:locked_industrial_iron_door": {
+    "block_id": "createdeco:locked_industrial_iron_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_pearl_brick_slab": {
+    "block_id": "createdeco:cracked_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pink_placard": {
+    "block_id": "createdeco:pink_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_red_brick_slab": {
+    "block_id": "createdeco:long_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_sheet_metal": {
+    "block_id": "createdeco:andesite_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_red_brick_slab": {
+    "block_id": "createdeco:tiled_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:purple_placard": {
+    "block_id": "createdeco:purple_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dusk_brick_stairs": {
+    "block_id": "createdeco:cracked_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dusk_brick_stairs": {
+    "block_id": "createdeco:short_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_coinstack": {
+    "block_id": "createdeco:brass_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_blue_brick_wall": {
+    "block_id": "createdeco:long_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_support_wedge": {
+    "block_id": "createdeco:brass_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_verdant_bricks": {
+    "block_id": "createdeco:short_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dean_brick_slab": {
+    "block_id": "createdeco:corner_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_industrial_iron_lamp": {
+    "block_id": "createdeco:green_industrial_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_verdant_brick_wall": {
+    "block_id": "createdeco:long_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_pearl_bricks": {
+    "block_id": "createdeco:short_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_shipping_container": {
+    "block_id": "createdeco:green_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_window_pane": {
+    "block_id": "createdeco:industrial_iron_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:scarlet_brick_wall": {
+    "block_id": "createdeco:scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_pearl_bricks": {
+    "block_id": "createdeco:mossy_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_mesh_fence": {
+    "block_id": "createdeco:industrial_iron_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_mesh_fence": {
+    "block_id": "createdeco:copper_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cyan_placard": {
+    "block_id": "createdeco:cyan_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:purple_shipping_container": {
+    "block_id": "createdeco:purple_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_red_brick_stairs": {
+    "block_id": "createdeco:cracked_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_verdant_brick_stairs": {
+    "block_id": "createdeco:tiled_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_scarlet_bricks": {
+    "block_id": "createdeco:mossy_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_verdant_bricks": {
+    "block_id": "createdeco:corner_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_bars": {
+    "block_id": "createdeco:zinc_bars",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_verdant_brick_stairs": {
+    "block_id": "createdeco:long_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_pearl_bricks": {
+    "block_id": "createdeco:long_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_pearl_bricks": {
+    "block_id": "createdeco:corner_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_umber_bricks": {
+    "block_id": "createdeco:short_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_mesh_fence": {
+    "block_id": "createdeco:iron_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dusk_brick_slab": {
+    "block_id": "createdeco:cracked_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_verdant_brick_stairs": {
+    "block_id": "createdeco:cracked_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_brass_lamp": {
+    "block_id": "createdeco:blue_brass_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:light_gray_shipping_container": {
+    "block_id": "createdeco:light_gray_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:lime_shipping_container": {
+    "block_id": "createdeco:lime_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pearl_brick_wall": {
+    "block_id": "createdeco:pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_umber_bricks": {
+    "block_id": "createdeco:corner_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_red_brick_wall": {
+    "block_id": "createdeco:cracked_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_scarlet_brick_wall": {
+    "block_id": "createdeco:mossy_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dean_bricks": {
+    "block_id": "createdeco:cracked_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:gold_coinstack": {
+    "block_id": "createdeco:gold_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_trapdoor": {
+    "block_id": "createdeco:zinc_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_red_brick_wall": {
+    "block_id": "createdeco:mossy_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_pearl_brick_wall": {
+    "block_id": "createdeco:corner_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_scarlet_brick_slab": {
+    "block_id": "createdeco:long_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_bars": {
+    "block_id": "createdeco:brass_bars",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_umber_brick_slab": {
+    "block_id": "createdeco:corner_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_umber_bricks": {
+    "block_id": "createdeco:long_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_blue_brick_slab": {
+    "block_id": "createdeco:mossy_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_blue_brick_wall": {
+    "block_id": "createdeco:cracked_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_blue_brick_stairs": {
+    "block_id": "createdeco:short_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_verdant_brick_slab": {
+    "block_id": "createdeco:corner_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_umber_brick_wall": {
+    "block_id": "createdeco:cracked_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dean_brick_wall": {
+    "block_id": "createdeco:short_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_catwalk_stairs": {
+    "block_id": "createdeco:copper_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:locked_copper_door": {
+    "block_id": "createdeco:locked_copper_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_window": {
+    "block_id": "createdeco:copper_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_copper_lamp": {
+    "block_id": "createdeco:blue_copper_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_catwalk": {
+    "block_id": "createdeco:brass_catwalk",
+    "base_mass": "0.88",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_red_brick_wall": {
+    "block_id": "createdeco:long_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_verdant_brick_stairs": {
+    "block_id": "createdeco:mossy_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dean_brick_stairs": {
+    "block_id": "createdeco:tiled_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_iron_lamp": {
+    "block_id": "createdeco:red_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_placard": {
+    "block_id": "createdeco:yellow_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dusk_bricks": {
+    "block_id": "createdeco:long_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dean_brick_stairs": {
+    "block_id": "createdeco:corner_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_bars": {
+    "block_id": "createdeco:industrial_iron_bars",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_catwalk": {
+    "block_id": "createdeco:industrial_iron_catwalk",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:verdant_brick_stairs": {
+    "block_id": "createdeco:verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dean_bricks": {
+    "block_id": "createdeco:mossy_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:verdant_brick_wall": {
+    "block_id": "createdeco:verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_window": {
+    "block_id": "createdeco:andesite_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_red_brick_stairs": {
+    "block_id": "createdeco:long_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:orange_shipping_container": {
+    "block_id": "createdeco:orange_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_scarlet_brick_slab": {
+    "block_id": "createdeco:tiled_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:locked_andesite_door": {
+    "block_id": "createdeco:locked_andesite_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pearl_bricks": {
+    "block_id": "createdeco:pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_window_pane": {
+    "block_id": "createdeco:brass_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:black_placard": {
+    "block_id": "createdeco:black_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_hull": {
+    "block_id": "createdeco:andesite_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_ladder": {
+    "block_id": "createdeco:industrial_iron_ladder",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_umber_brick_stairs": {
+    "block_id": "createdeco:long_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_support": {
+    "block_id": "createdeco:copper_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_scarlet_brick_wall": {
+    "block_id": "createdeco:tiled_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_scarlet_bricks": {
+    "block_id": "createdeco:long_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_ladder": {
+    "block_id": "createdeco:iron_ladder",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_umber_bricks": {
+    "block_id": "createdeco:cracked_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_verdant_brick_slab": {
+    "block_id": "createdeco:short_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_blue_brick_slab": {
+    "block_id": "createdeco:long_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dusk_brick_wall": {
+    "block_id": "createdeco:cracked_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_support": {
+    "block_id": "createdeco:industrial_iron_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_sheet_metal": {
+    "block_id": "createdeco:iron_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_brass_lamp": {
+    "block_id": "createdeco:yellow_brass_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_trapdoor": {
+    "block_id": "createdeco:andesite_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dusk_bricks": {
+    "block_id": "createdeco:short_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_catwalk_railing": {
+    "block_id": "createdeco:industrial_iron_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_red_bricks": {
+    "block_id": "createdeco:cracked_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_bars_overlay": {
+    "block_id": "createdeco:industrial_iron_bars_overlay",
+    "base_mass": "0.23",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_ladder": {
+    "block_id": "createdeco:zinc_ladder",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_door": {
+    "block_id": "createdeco:andesite_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_blue_bricks": {
+    "block_id": "createdeco:corner_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dusk_brick_wall": {
+    "block_id": "createdeco:mossy_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_pearl_brick_slab": {
+    "block_id": "createdeco:mossy_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_blue_bricks": {
+    "block_id": "createdeco:short_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_blue_bricks": {
+    "block_id": "createdeco:tiled_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_scarlet_brick_stairs": {
+    "block_id": "createdeco:long_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_blue_bricks": {
+    "block_id": "createdeco:long_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_hull": {
+    "block_id": "createdeco:zinc_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_bars": {
+    "block_id": "createdeco:copper_bars",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_scarlet_brick_stairs": {
+    "block_id": "createdeco:mossy_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dean_brick_wall": {
+    "block_id": "createdeco:tiled_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_iron_lamp": {
+    "block_id": "createdeco:yellow_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_pearl_brick_wall": {
+    "block_id": "createdeco:long_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dusk_brick_slab": {
+    "block_id": "createdeco:long_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dusk_bricks": {
+    "block_id": "createdeco:corner_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_support_wedge": {
+    "block_id": "createdeco:iron_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dusk_bricks": {
+    "block_id": "createdeco:tiled_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_verdant_bricks": {
+    "block_id": "createdeco:tiled_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_zinc_lamp": {
+    "block_id": "createdeco:blue_zinc_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:light_blue_shipping_container": {
+    "block_id": "createdeco:light_blue_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_coinstack": {
+    "block_id": "createdeco:iron_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_red_brick_slab": {
+    "block_id": "createdeco:cracked_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_umber_brick_slab": {
+    "block_id": "createdeco:short_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_bars_overlay": {
+    "block_id": "createdeco:iron_bars_overlay",
+    "base_mass": "0.22",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_catwalk_stairs": {
+    "block_id": "createdeco:zinc_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_industrial_iron_lamp": {
+    "block_id": "createdeco:yellow_industrial_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_verdant_brick_wall": {
+    "block_id": "createdeco:mossy_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_bricks": {
+    "block_id": "createdeco:blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_blue_brick_slab": {
+    "block_id": "createdeco:cracked_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dusk_brick_wall": {
+    "block_id": "createdeco:long_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_red_brick_stairs": {
+    "block_id": "createdeco:mossy_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_window_pane": {
+    "block_id": "createdeco:copper_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:magenta_shipping_container": {
+    "block_id": "createdeco:magenta_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_andesite_lamp": {
+    "block_id": "createdeco:blue_andesite_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dusk_brick_wall": {
+    "block_id": "createdeco:dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_blue_brick_wall": {
+    "block_id": "createdeco:mossy_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dean_brick_stairs": {
+    "block_id": "createdeco:short_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:umber_bricks": {
+    "block_id": "createdeco:umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_blue_brick_stairs": {
+    "block_id": "createdeco:cracked_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_zinc_lamp": {
+    "block_id": "createdeco:green_zinc_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dean_bricks": {
+    "block_id": "createdeco:tiled_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_support_wedge": {
+    "block_id": "createdeco:andesite_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_hull": {
+    "block_id": "createdeco:copper_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_brick_stairs": {
+    "block_id": "createdeco:blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_support_wedge": {
+    "block_id": "createdeco:copper_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_support_wedge": {
+    "block_id": "createdeco:industrial_iron_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_hull": {
+    "block_id": "createdeco:industrial_iron_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_catwalk_stairs": {
+    "block_id": "createdeco:andesite_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_pearl_brick_stairs": {
+    "block_id": "createdeco:long_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dean_brick_slab": {
+    "block_id": "createdeco:short_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_umber_brick_slab": {
+    "block_id": "createdeco:cracked_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_umber_bricks": {
+    "block_id": "createdeco:tiled_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_verdant_brick_stairs": {
+    "block_id": "createdeco:corner_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dean_bricks": {
+    "block_id": "createdeco:dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:verdant_bricks": {
+    "block_id": "createdeco:verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dusk_brick_stairs": {
+    "block_id": "createdeco:mossy_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_mesh_fence": {
+    "block_id": "createdeco:zinc_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_support": {
+    "block_id": "createdeco:iron_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:light_gray_placard": {
+    "block_id": "createdeco:light_gray_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_verdant_brick_slab": {
+    "block_id": "createdeco:cracked_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_scarlet_brick_wall": {
+    "block_id": "createdeco:cracked_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_red_brick_slab": {
+    "block_id": "createdeco:corner_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_blue_brick_slab": {
+    "block_id": "createdeco:short_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_red_brick_slab": {
+    "block_id": "createdeco:mossy_red_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_window": {
+    "block_id": "createdeco:brass_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dusk_brick_stairs": {
+    "block_id": "createdeco:corner_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_pearl_bricks": {
+    "block_id": "createdeco:cracked_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_pearl_brick_stairs": {
+    "block_id": "createdeco:tiled_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_scarlet_brick_slab": {
+    "block_id": "createdeco:cracked_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_door": {
+    "block_id": "createdeco:zinc_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_red_brick_wall": {
+    "block_id": "createdeco:corner_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_umber_brick_wall": {
+    "block_id": "createdeco:short_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dusk_brick_stairs": {
+    "block_id": "createdeco:long_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_umber_brick_wall": {
+    "block_id": "createdeco:mossy_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_catwalk": {
+    "block_id": "createdeco:zinc_catwalk",
+    "base_mass": "0.88",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:netherite_coinstack": {
+    "block_id": "createdeco:netherite_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dean_bricks": {
+    "block_id": "createdeco:short_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cyan_shipping_container": {
+    "block_id": "createdeco:cyan_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_umber_bricks": {
+    "block_id": "createdeco:mossy_umber_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_window_pane": {
+    "block_id": "createdeco:iron_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dusk_brick_slab": {
+    "block_id": "createdeco:corner_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dean_brick_slab": {
+    "block_id": "createdeco:cracked_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_sheet_metal": {
+    "block_id": "createdeco:brass_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_placard": {
+    "block_id": "createdeco:green_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_scarlet_bricks": {
+    "block_id": "createdeco:tiled_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_blue_brick_slab": {
+    "block_id": "createdeco:corner_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_pearl_brick_slab": {
+    "block_id": "createdeco:long_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_umber_brick_stairs": {
+    "block_id": "createdeco:mossy_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_catwalk": {
+    "block_id": "createdeco:copper_catwalk",
+    "base_mass": "0.88",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_scarlet_brick_stairs": {
+    "block_id": "createdeco:corner_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_pearl_bricks": {
+    "block_id": "createdeco:tiled_pearl_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_umber_brick_stairs": {
+    "block_id": "createdeco:tiled_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_andesite_lamp": {
+    "block_id": "createdeco:red_andesite_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_blue_brick_slab": {
+    "block_id": "createdeco:tiled_blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dean_brick_slab": {
+    "block_id": "createdeco:mossy_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_pearl_brick_wall": {
+    "block_id": "createdeco:tiled_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_brick_slab": {
+    "block_id": "createdeco:blue_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_pearl_brick_wall": {
+    "block_id": "createdeco:mossy_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brown_shipping_container": {
+    "block_id": "createdeco:brown_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pearl_brick_stairs": {
+    "block_id": "createdeco:pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dusk_brick_slab": {
+    "block_id": "createdeco:dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:gray_shipping_container": {
+    "block_id": "createdeco:gray_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dean_brick_slab": {
+    "block_id": "createdeco:tiled_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_catwalk": {
+    "block_id": "createdeco:andesite_catwalk",
+    "base_mass": "0.88",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_red_bricks": {
+    "block_id": "createdeco:tiled_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:pink_shipping_container": {
+    "block_id": "createdeco:pink_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_sheet_metal": {
+    "block_id": "createdeco:industrial_iron_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_bars_overlay": {
+    "block_id": "createdeco:brass_bars_overlay",
+    "base_mass": "0.17",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_scarlet_brick_wall": {
+    "block_id": "createdeco:corner_scarlet_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dean_brick_stairs": {
+    "block_id": "createdeco:cracked_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_pearl_brick_stairs": {
+    "block_id": "createdeco:corner_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_red_bricks": {
+    "block_id": "createdeco:short_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_umber_brick_wall": {
+    "block_id": "createdeco:tiled_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_blue_bricks": {
+    "block_id": "createdeco:cracked_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brown_placard": {
+    "block_id": "createdeco:brown_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_andesite_lamp": {
+    "block_id": "createdeco:green_andesite_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_verdant_brick_slab": {
+    "block_id": "createdeco:mossy_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_shipping_container": {
+    "block_id": "createdeco:blue_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_brass_lamp": {
+    "block_id": "createdeco:green_brass_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_iron_lamp": {
+    "block_id": "createdeco:blue_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_andesite_lamp": {
+    "block_id": "createdeco:yellow_andesite_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:gray_placard": {
+    "block_id": "createdeco:gray_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_sheet_metal": {
+    "block_id": "createdeco:zinc_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:umber_brick_slab": {
+    "block_id": "createdeco:umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_verdant_brick_stairs": {
+    "block_id": "createdeco:short_verdant_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_red_bricks": {
+    "block_id": "createdeco:corner_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dusk_brick_slab": {
+    "block_id": "createdeco:tiled_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_red_brick_stairs": {
+    "block_id": "createdeco:short_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dean_brick_slab": {
+    "block_id": "createdeco:long_dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dean_brick_slab": {
+    "block_id": "createdeco:dean_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_catwalk_railing": {
+    "block_id": "createdeco:iron_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_door": {
+    "block_id": "createdeco:brass_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_industrial_iron_lamp": {
+    "block_id": "createdeco:blue_industrial_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_bars_overlay": {
+    "block_id": "createdeco:andesite_bars_overlay",
+    "base_mass": "0.12",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:light_blue_placard": {
+    "block_id": "createdeco:light_blue_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_scarlet_brick_stairs": {
+    "block_id": "createdeco:tiled_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_support": {
+    "block_id": "createdeco:zinc_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_verdant_brick_wall": {
+    "block_id": "createdeco:cracked_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_catwalk_stairs": {
+    "block_id": "createdeco:industrial_iron_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_dean_brick_wall": {
+    "block_id": "createdeco:cracked_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_umber_brick_stairs": {
+    "block_id": "createdeco:corner_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_blue_brick_wall": {
+    "block_id": "createdeco:short_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_scarlet_bricks": {
+    "block_id": "createdeco:cracked_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:scarlet_brick_stairs": {
+    "block_id": "createdeco:scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_verdant_bricks": {
+    "block_id": "createdeco:long_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_window_pane": {
+    "block_id": "createdeco:zinc_window_pane",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_verdant_bricks": {
+    "block_id": "createdeco:cracked_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_pearl_brick_slab": {
+    "block_id": "createdeco:short_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_catwalk_railing": {
+    "block_id": "createdeco:andesite_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_red_brick_wall": {
+    "block_id": "createdeco:short_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_blue_brick_stairs": {
+    "block_id": "createdeco:mossy_blue_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dean_brick_stairs": {
+    "block_id": "createdeco:dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_scarlet_brick_slab": {
+    "block_id": "createdeco:short_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:umber_brick_stairs": {
+    "block_id": "createdeco:umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_umber_brick_wall": {
+    "block_id": "createdeco:long_umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_dean_brick_stairs": {
+    "block_id": "createdeco:long_dean_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dusk_brick_wall": {
+    "block_id": "createdeco:short_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_shipping_container": {
+    "block_id": "createdeco:yellow_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_coinstack": {
+    "block_id": "createdeco:copper_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_umber_brick_slab": {
+    "block_id": "createdeco:mossy_umber_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_scarlet_brick_stairs": {
+    "block_id": "createdeco:short_scarlet_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_pearl_brick_stairs": {
+    "block_id": "createdeco:mossy_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:black_shipping_container": {
+    "block_id": "createdeco:black_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_dusk_brick_slab": {
+    "block_id": "createdeco:short_dusk_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dean_brick_wall": {
+    "block_id": "createdeco:mossy_dean_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_bars": {
+    "block_id": "createdeco:andesite_bars",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_red_brick_wall": {
+    "block_id": "createdeco:tiled_red_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_brass_lamp": {
+    "block_id": "createdeco:red_brass_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_catwalk_railing": {
+    "block_id": "createdeco:brass_catwalk_railing",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:yellow_zinc_lamp": {
+    "block_id": "createdeco:yellow_zinc_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_verdant_brick_wall": {
+    "block_id": "createdeco:tiled_verdant_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_window": {
+    "block_id": "createdeco:zinc_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_pearl_brick_stairs": {
+    "block_id": "createdeco:short_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_window": {
+    "block_id": "createdeco:iron_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_pearl_brick_stairs": {
+    "block_id": "createdeco:cracked_pearl_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:cracked_pearl_brick_wall": {
+    "block_id": "createdeco:cracked_pearl_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_scarlet_bricks": {
+    "block_id": "createdeco:short_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_dusk_bricks": {
+    "block_id": "createdeco:mossy_dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_red_brick_stairs": {
+    "block_id": "createdeco:tiled_red_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_door": {
+    "block_id": "createdeco:industrial_iron_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dean_bricks": {
+    "block_id": "createdeco:corner_dean_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_support": {
+    "block_id": "createdeco:brass_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:lime_placard": {
+    "block_id": "createdeco:lime_placard",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_zinc_lamp": {
+    "block_id": "createdeco:red_zinc_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_shipping_container": {
+    "block_id": "createdeco:red_shipping_container",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_pearl_brick_slab": {
+    "block_id": "createdeco:tiled_pearl_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_red_bricks": {
+    "block_id": "createdeco:mossy_red_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:blue_brick_wall": {
+    "block_id": "createdeco:blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_catwalk_stairs": {
+    "block_id": "createdeco:brass_catwalk_stairs",
+    "base_mass": "0.8",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_support_wedge": {
+    "block_id": "createdeco:zinc_support_wedge",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:short_umber_brick_stairs": {
+    "block_id": "createdeco:short_umber_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dusk_brick_stairs": {
+    "block_id": "createdeco:tiled_dusk_brick_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_verdant_bricks": {
+    "block_id": "createdeco:mossy_verdant_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:umber_brick_wall": {
+    "block_id": "createdeco:umber_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_mesh_fence": {
+    "block_id": "createdeco:brass_mesh_fence",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_dusk_brick_wall": {
+    "block_id": "createdeco:corner_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:zinc_coinstack": {
+    "block_id": "createdeco:zinc_coinstack",
+    "base_mass": "0.0125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:industrial_iron_window": {
+    "block_id": "createdeco:industrial_iron_window",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:red_copper_lamp": {
+    "block_id": "createdeco:red_copper_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_scarlet_brick_slab": {
+    "block_id": "createdeco:corner_scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:long_verdant_brick_slab": {
+    "block_id": "createdeco:long_verdant_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_dusk_brick_wall": {
+    "block_id": "createdeco:tiled_dusk_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_scarlet_bricks": {
+    "block_id": "createdeco:corner_scarlet_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:dusk_bricks": {
+    "block_id": "createdeco:dusk_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:andesite_support": {
+    "block_id": "createdeco:andesite_support",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:iron_hull": {
+    "block_id": "createdeco:iron_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:tiled_blue_brick_wall": {
+    "block_id": "createdeco:tiled_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:scarlet_brick_slab": {
+    "block_id": "createdeco:scarlet_brick_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:locked_zinc_door": {
+    "block_id": "createdeco:locked_zinc_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:corner_blue_brick_wall": {
+    "block_id": "createdeco:corner_blue_brick_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:green_iron_lamp": {
+    "block_id": "createdeco:green_iron_lamp",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:mossy_blue_bricks": {
+    "block_id": "createdeco:mossy_blue_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:brass_hull": {
+    "block_id": "createdeco:brass_hull",
+    "base_mass": "3.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdeco:copper_sheet_metal": {
+    "block_id": "createdeco:copper_sheet_metal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

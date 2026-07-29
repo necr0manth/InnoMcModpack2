@@ -1,0 +1,106 @@
+#Set automatically once the banner editor's click-the-preview hint has been acknowledged
+#(by clicking any part of the preview). Turn off to show the pulsing hint again.
+editorHintSeen = false
+#Where the clickable banner preview sits in the banner editor:
+#true - directly under the title, with the edit controls below it.
+#false - at the bottom of the screen, just above the OK/Cancel buttons.
+bannerEditorPreviewTop = false
+
+#Which addon tabs get absorbed, and which Create tab each one folds into.
+[absorption]
+	#Tab IDs (e.g. "somemod:main") to ALWAYS absorb under the Create tab,
+	#even if the owning mod doesn't declare a dependency on Create.
+	forceInclude = []
+	#Tab IDs (e.g. "somemod:main") to NEVER absorb; they keep their own standalone tab.
+	forceExclude = []
+	#Fold specific tabs into a chosen Create PARENT tab instead of the main "create:base".
+	#Format: "<addonTabId> > <parentTabId>", e.g. "somemod:deco > create:palettes".
+	#Create's parent tabs are "create:base" (Create) and "create:palettes" (Create: Palettes).
+	routes = []
+	#Tabs explicitly promoted to "hub" status (can have other tabs folded into them as
+	#sub-sections) even though nothing routes into them yet, e.g. "somemod:main". A hub keeps
+	#its own standalone tab button and items, same as create:base/create:palettes today.
+	#Managed live via shift+"+" in the creative menu.
+	extraMainSections = []
+
+#Banner, contrast-box, and title-text styling for the sections.
+[appearance]
+	#Default section banner colour as an ARGB integer (default opaque dark grey, HSV value 15%).
+	# Default: -14277082
+	# Range: > -2147483648
+	defaultBannerColor = -14277082
+	#Per-section banner colours, keyed by tab ID (a stop-gap until artwork exists).
+	#Format: "<tabId> = <hex>", e.g. "create:palettes = #6A8F3C" or "somemod:main = 0xFF335577".
+	#Accepts #RRGGBB, #AARRGGBB, or a 0x-prefixed hex value; 6-digit values are treated as opaque.
+	#Changes apply the next time you join a world.
+	sectionColors = []
+	#Per-section banner IMAGES, keyed by tab ID. An image overrides the colour for that section.
+	#Format: "<tabId> = <ref>" where <ref> is "res:<namespace>:<path>" for a bundled/gallery
+	#texture, or "file:<name>.png" for a PNG in config/createaddonorganizer/banners/.
+	#Managed by the in-game banner editor; banners are 160x17.
+	banners = []
+	#Declares a banner texture as animated (a vertical strip of 17px frames), keyed by the
+	#resolved texture id -- not the section id, so a shared/uploaded texture animates
+	#everywhere it's used. Format: "<textureId> = <frametime>" (frametime in game ticks).
+	#Bundled (res:) textures don't need this; they're auto-detected from a standard .mcmeta.
+	#Managed by the in-game banner editor.
+	animatedBanners = []
+	#Some mods have a curated set of banners assigned to them; by default their picker only
+	#offers those. Turn this on to ignore that curation and see the full banner gallery
+	#everywhere, same as an unassigned mod.
+	showAllBanners = false
+	#Banners YOU'VE uploaded for a curated (pool-restricted) mod's tab, keyed by tab ID.
+	#Added to that tab's curated pool automatically so your own upload shows up in its
+	#gallery even while the curated pool is restricting everything else. Format:
+	#"<tabId> = <ref>"; a tab can have several rows. Managed by the in-game banner editor.
+	extraBannerPool = []
+	#Draw a semi-transparent box behind section title text for contrast.
+	tintedTextBox = true
+	#Default tinted-box colour as an ARGB integer (default translucent black).
+	# Default: 1677721600
+	# Range: > -2147483648
+	defaultBoxColor = 1677721600
+	#Per-section tinted-box colours, keyed by tab ID. Same format as sectionColors;
+	#the alpha channel controls opacity, e.g. "create:palettes = #AA39231C".
+	boxColors = []
+	#Default section title text colour as an ARGB integer (default opaque white).
+	# Default: -1
+	# Range: > -2147483648
+	defaultTextColor = -1
+	#Per-section title text colours, keyed by tab ID. Same format as sectionColors.
+	textColors = []
+	#Shade section title text two-tone (primary colour on top, secondary on the bottom
+	#of each glyph) instead of a single flat colour.
+	twoToneText = true
+	#Default secondary text colour as an ARGB integer (default opaque light grey,
+	#HSV 0/0/80%).
+	# Default: -3355444
+	# Range: > -2147483648
+	defaultTextSecondaryColor = -3355444
+	#Per-section SECONDARY title text colour overrides, keyed by tab ID. Only used while
+	#twoToneText is on; falls back to defaultTextSecondaryColor when unset for a section.
+	textSecondaryColors = []
+	#Optional accent colour for MAIN tabs only (create:base, create:palettes, and any promoted
+	#hub), keyed by tab ID. Purely a config-screen convenience: tints that tab's row band and
+	#its sub-section group line in the section list, so you can tell addon groups apart at a
+	#glance. Has no effect on the actual in-game banner. Format: "<tabId> = <hex>".
+	highlightColors = []
+
+#Custom section ordering and renames.
+[organization]
+	#Manual drag order of sections within each parent tab (tab IDs). Unlisted sections
+	#(e.g. newly installed addons) are appended alphabetically by name.
+	sectionOrder = []
+	#Custom display names for sections, keyed by tab ID. Overrides the addon's own name.
+	#Format: "<tabId> = <custom name>". Managed by ctrl+click-to-rename in the section list.
+	sectionNames = []
+
+#The left-side section-index jump list on the creative screen.
+[interface]
+	#Visual style of the section-index panel:
+	#VANILLA - light-grey raised panel matching the vanilla inventory (default).
+	#DARK - the original flat dark panel.
+	#REFURBISHED - beveled side tabs in the style of MrCrayfish's Refurbished Furniture.
+	#BACKPORT - compact textured side panel in the style of Vanilla Backport.
+	#Allowed Values: VANILLA, DARK, REFURBISHED, BACKPORT
+	indexPanelStyle = "VANILLA"

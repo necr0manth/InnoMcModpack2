@@ -1,0 +1,98 @@
+{
+  "create_submarine:ballast_vent": {
+    "block_id": "create_submarine:ballast_vent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:electrolyzer": {
+    "block_id": "create_submarine:electrolyzer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:iron_pressurizer": {
+    "block_id": "create_submarine:iron_pressurizer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:oxygene_diffuser": {
+    "block_id": "create_submarine:oxygene_diffuser",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:creative_oxygenator": {
+    "block_id": "create_submarine:creative_oxygenator",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:ballast_tank": {
+    "block_id": "create_submarine:ballast_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:copper_pressurizer": {
+    "block_id": "create_submarine:copper_pressurizer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:arresting_hook": {
+    "block_id": "create_submarine:arresting_hook",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:decompression_chamber": {
+    "block_id": "create_submarine:decompression_chamber",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:pulley": {
+    "block_id": "create_submarine:pulley",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:industrial_alarm": {
+    "block_id": "create_submarine:industrial_alarm",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:barometer": {
+    "block_id": "create_submarine:barometer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:water_thruster": {
+    "block_id": "create_submarine:water_thruster",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:submarine_propeller": {
+    "block_id": "create_submarine:submarine_propeller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:underwater_mine": {
+    "block_id": "create_submarine:underwater_mine",
+    "base_mass": "10.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_submarine:floater": {
+    "block_id": "create_submarine:floater",
+    "base_mass": "0.1",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

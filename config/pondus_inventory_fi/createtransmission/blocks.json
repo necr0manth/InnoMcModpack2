@@ -1,0 +1,20 @@
+{
+  "createtransmission:transmission_chain": {
+    "block_id": "createtransmission:transmission_chain",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createtransmission:andesite_encased_transmission_chain": {
+    "block_id": "createtransmission:andesite_encased_transmission_chain",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createtransmission:brass_encased_transmission_chain": {
+    "block_id": "createtransmission:brass_encased_transmission_chain",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "create_things_and_misc:mangrove_sail": {
+    "block_id": "create_things_and_misc:mangrove_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:ramboutan_sail": {
+    "block_id": "create_things_and_misc:ramboutan_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:blaze_ballon": {
+    "block_id": "create_things_and_misc:blaze_ballon",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sturdy_sheet_slab_stairs": {
+    "block_id": "create_things_and_misc:sturdy_sheet_slab_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_speaker": {
+    "block_id": "create_things_and_misc:brass_speaker",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_brick_stairs": {
+    "block_id": "create_things_and_misc:brass_brick_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_tiles_slab": {
+    "block_id": "create_things_and_misc:brass_tiles_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_tiles": {
+    "block_id": "create_things_and_misc:brass_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:speed_25": {
+    "block_id": "create_things_and_misc:speed_25",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:oak_sail": {
+    "block_id": "create_things_and_misc:oak_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sturdy_sheet_slab": {
+    "block_id": "create_things_and_misc:sturdy_sheet_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:jungle_sail": {
+    "block_id": "create_things_and_misc:jungle_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:copper_casing_trapdoor": {
+    "block_id": "create_things_and_misc:copper_casing_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:powdered_obsidian_block": {
+    "block_id": "create_things_and_misc:powdered_obsidian_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:acacia_sail": {
+    "block_id": "create_things_and_misc:acacia_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_casing_trapdoor": {
+    "block_id": "create_things_and_misc:brass_casing_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:warped_sail": {
+    "block_id": "create_things_and_misc:warped_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_bricks": {
+    "block_id": "create_things_and_misc:brass_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:chorus_sail": {
+    "block_id": "create_things_and_misc:chorus_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sturdy_sheet_block": {
+    "block_id": "create_things_and_misc:sturdy_sheet_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:slime": {
+    "block_id": "create_things_and_misc:slime",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sprinkler": {
+    "block_id": "create_things_and_misc:sprinkler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:dark_oak_sail": {
+    "block_id": "create_things_and_misc:dark_oak_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:speed_75": {
+    "block_id": "create_things_and_misc:speed_75",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:speed_100": {
+    "block_id": "create_things_and_misc:speed_100",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing": {
+    "block_id": "create_things_and_misc:green_sing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:jaboticaba_sail": {
+    "block_id": "create_things_and_misc:jaboticaba_sail",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:cherry_sail": {
+    "block_id": "create_things_and_misc:cherry_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing": {
+    "block_id": "create_things_and_misc:train_sing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:card_reader_on": {
+    "block_id": "create_things_and_misc:card_reader_on",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_2": {
+    "block_id": "create_things_and_misc:green_sing_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_1": {
+    "block_id": "create_things_and_misc:green_sing_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_4": {
+    "block_id": "create_things_and_misc:green_sing_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_3": {
+    "block_id": "create_things_and_misc:green_sing_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_6": {
+    "block_id": "create_things_and_misc:green_sing_6",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_sticky_launcher": {
+    "block_id": "create_things_and_misc:brass_sticky_launcher",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:green_sing_5": {
+    "block_id": "create_things_and_misc:green_sing_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sticky_launcher": {
+    "block_id": "create_things_and_misc:sticky_launcher",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:diluted_bonemeal": {
+    "block_id": "create_things_and_misc:diluted_bonemeal",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_4": {
+    "block_id": "create_things_and_misc:train_sing_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:redsing": {
+    "block_id": "create_things_and_misc:redsing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_5": {
+    "block_id": "create_things_and_misc:train_sing_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:crimson_sail": {
+    "block_id": "create_things_and_misc:crimson_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_stop": {
+    "block_id": "create_things_and_misc:train_stop",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_2": {
+    "block_id": "create_things_and_misc:train_sing_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:sprinkleron": {
+    "block_id": "create_things_and_misc:sprinkleron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_3": {
+    "block_id": "create_things_and_misc:train_sing_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:birch_sail": {
+    "block_id": "create_things_and_misc:birch_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_tiles_stair": {
+    "block_id": "create_things_and_misc:brass_tiles_stair",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:spruce_sail": {
+    "block_id": "create_things_and_misc:spruce_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:redsing_2": {
+    "block_id": "create_things_and_misc:redsing_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:redsing_1": {
+    "block_id": "create_things_and_misc:redsing_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:speed_50": {
+    "block_id": "create_things_and_misc:speed_50",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:card_press": {
+    "block_id": "create_things_and_misc:card_press",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_buffer": {
+    "block_id": "create_things_and_misc:train_buffer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:andesite_casing_trapdoor": {
+    "block_id": "create_things_and_misc:andesite_casing_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:neon_tube_block": {
+    "block_id": "create_things_and_misc:neon_tube_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:card_reader": {
+    "block_id": "create_things_and_misc:card_reader",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_yellow_4": {
+    "block_id": "create_things_and_misc:train_sing_yellow_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_yellow_3": {
+    "block_id": "create_things_and_misc:train_sing_yellow_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_yellow_2": {
+    "block_id": "create_things_and_misc:train_sing_yellow_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_yellow_1": {
+    "block_id": "create_things_and_misc:train_sing_yellow_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:bamboo_sail": {
+    "block_id": "create_things_and_misc:bamboo_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:brass_brick_slab": {
+    "block_id": "create_things_and_misc:brass_brick_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_things_and_misc:train_sing_yellow_5": {
+    "block_id": "create_things_and_misc:train_sing_yellow_5",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sliceanddice:slicer": {
+    "block_id": "sliceanddice:slicer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sliceanddice:sprinkler": {
+    "block_id": "sliceanddice:sprinkler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sliceanddice:fertilizer": {
+    "block_id": "sliceanddice:fertilizer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

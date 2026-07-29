@@ -1,0 +1,27 @@
+#.
+#Client Config
+[client]
+	#.
+	#Censors the word "horse" into "h*rse."
+	#This applies to almost EVERY possible rendering text of Minecraft.
+	#Restart for full effect!
+	censorHorseWord = true
+	#.
+	#Greet some special players through the splash screen on boot.
+	greetSpecialPlayersOnBoot = true
+
+	#.
+	#Horse Abductor 9000
+	[client.horseAbductor]
+		#.
+		#Whether to show abducting particles far away.
+		#Recommended to disable this for better FPS performance.
+		showParticlesFarAway = true
+		#.
+		#Whether to make ambient abducting sounds.
+		ambientSounds = true
+		#.
+		#The amount of delayed ticks to spawn a particle.
+		# Default: 1
+		# Range: 1 ~ 1000
+		ticksPerParticle = 1

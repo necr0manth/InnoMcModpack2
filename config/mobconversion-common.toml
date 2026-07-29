@@ -1,0 +1,114 @@
+[detection]
+	#Distance in blocks for detecting hostile monsters.
+	#Default: 15
+	#Range: 8 ~ 128
+	# Default: 15
+	# Range: 8 ~ 128
+	threatDetectionRadius = 15
+	#Distance in blocks for bell searching.
+	#Default: 80
+	#Range: 8 ~ 128
+	# Default: 80
+	# Range: 8 ~ 128
+	bellDetectionRadius = 80
+	#Interval in ticks between checks (20 ticks = 1 second).
+	#Default: 80
+	#Range: 20 ~ 600
+	# Default: 80
+	# Range: 20 ~ 600
+	scanCooldownTicks = 80
+	#Distance in blocks to detect artificial villages via POIs.
+	#Default: 64
+	#Range: 8 ~ 128
+	# Default: 64
+	# Range: 8 ~ 128
+	artificialVillagePoiRadius = 64
+
+[village]
+	#Scope of villages permitted for conversion.
+	#Allowed Values: NATURAL, ARTIFICIAL, BOTH, ANYWHERE
+	#Allowed Values: NATURAL, ARTIFICIAL, BOTH, ANYWHERE
+	villageScope = "BOTH"
+	#If true, it requires a nearby bell for conversion.
+	requireBell = false
+	#Maximum number of converted/spawned entities of the same type in an area.
+	#Default: 2
+	#Range: 0 ~ 50
+	# Default: 2
+	# Range: 0 ~ 50
+	maxEntitiesPerArea = 2
+	#Search radius to count existing entities.
+	#Default: 80
+	#Range: 8 ~ 256
+	# Default: 80
+	# Range: 8 ~ 256
+	entitySearchRadius = 80
+	#Radius in blocks for shared cooldowns. Default: 100
+	# Default: 100
+	# Range: 1 ~ 512
+	sharedCooldownRadius = 100
+
+[conversion]
+	#Allow conversion of Nitwits.
+	convertNitwits = true
+	#Allow the conversion of unemployed villagers.
+	convertUnemployed = true
+	#Allow the conversion of professionals who have never been traded.
+	convertUntradedProfessionals = true
+	#If no other villagers are found, the detector converts.
+	allowSelfConversion = true
+	#If true, spawn a mob and keep the villager (default if not specified in entry).
+	spawnInsteadOfConvert = false
+	#Entity IDs exempt from attack-triggered conversion if in the same village.
+	exemptSameVillageAttackers = ["minecraft:villager", "minecraft:iron_golem"]
+	#A list of entity IDs that are eligible for conversion.
+	convertibleEntityIds = ["minecraft:villager", "mca:male_villager", "mca:female_villager"]
+
+[effects]
+	#If true, spawn particles when conversion occurs.
+	conversionParticlesEnabled = true
+	#Duration in ticks for conversion particles.
+	#Default: 40
+	#Range: 1 ~ 200
+	# Default: 40
+	# Range: 1 ~ 200
+	conversionParticleDurationTicks = 40
+
+[entity_pool]
+	#Maximum entities allowed in the pool
+	# Default: 10
+	# Range: 1 ~ 100
+	maxEntries = 10
+	#Default chance for conversion/spawn
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	defaultChance = 1.0
+	#Default mode for conversion/spawn
+	#Allowed Values: SPAWN, CONVERT
+	defaultMode = "CONVERT"
+	#Default priority for conversion/spawn
+	# Default: 1
+	# Range: 1 ~ 100
+	defaultPriority = 1
+	#Default drop loot setting
+	defaultDropLoot = false
+	#Default cooldown in ticks (20 ticks = 1 second)
+	# Default: 0
+	# Range: 0 ~ 1000000
+	defaultCooldownTicks = 0
+	#Default village scope override
+	#Allowed Values: NATURAL, ARTIFICIAL, BOTH, ANYWHERE, GLOBAL
+	defaultVillageScope = "GLOBAL"
+	#Default require bell override
+	#Allowed Values: TRUE, FALSE, GLOBAL
+	defaultRequireBell = "GLOBAL"
+	#Default max limit of entities of the same type in an area override
+	# Default: -1
+	# Range: -1 ~ 100
+	defaultMaxLimit = -1
+	#Format:
+	## entity/chance/mode/priority/dropLoot/cooldown/villageScope/requireBell/maxLimit/triggerEntityIds
+	## Separator is '/' or '|'
+	## maxLimit: -1 uses defaultMaxLimit or maxEntitiesPerArea
+	## triggerEntityIds: optional comma-separated list of entity IDs that trigger this entry (e.g. minecraft:villager,mca:male_villager) if empty will use global entity list
+	entries = ["guardvillagers:guard/1.0/CONVERT/1/true/60000/BOTH/false/2"]

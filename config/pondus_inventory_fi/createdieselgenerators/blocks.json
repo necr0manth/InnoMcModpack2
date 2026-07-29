@@ -1,0 +1,386 @@
+{
+  "createdieselgenerators:magenta_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:magenta_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:red_cement": {
+    "block_id": "createdieselgenerators:red_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:light_gray_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:light_gray_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:red_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:red_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:biodiesel": {
+    "block_id": "createdieselgenerators:biodiesel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:distillation_tank": {
+    "block_id": "createdieselgenerators:distillation_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:yellow_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:yellow_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:lime_cement": {
+    "block_id": "createdieselgenerators:lime_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:bulk_fermenter": {
+    "block_id": "createdieselgenerators:bulk_fermenter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:canister": {
+    "block_id": "createdieselgenerators:canister",
+    "base_mass": "1.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:yellow_cement": {
+    "block_id": "createdieselgenerators:yellow_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:black_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:black_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pumpjack_bearing_b": {
+    "block_id": "createdieselgenerators:pumpjack_bearing_b",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:light_blue_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:light_blue_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:brown_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:brown_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pumpjack_crank": {
+    "block_id": "createdieselgenerators:pumpjack_crank",
+    "base_mass": "1.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:blue_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:blue_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pumpjack_bearing": {
+    "block_id": "createdieselgenerators:pumpjack_bearing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pumpjack_hole": {
+    "block_id": "createdieselgenerators:pumpjack_hole",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:large_diesel_engine": {
+    "block_id": "createdieselgenerators:large_diesel_engine",
+    "base_mass": "1.15",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:chip_wood_stairs": {
+    "block_id": "createdieselgenerators:chip_wood_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:gasoline": {
+    "block_id": "createdieselgenerators:gasoline",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:gray_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:gray_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pink_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:pink_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:burner": {
+    "block_id": "createdieselgenerators:burner",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:gray_cement": {
+    "block_id": "createdieselgenerators:gray_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:cyan_cement": {
+    "block_id": "createdieselgenerators:cyan_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:green_cement": {
+    "block_id": "createdieselgenerators:green_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:white_cement": {
+    "block_id": "createdieselgenerators:white_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:orange_cement": {
+    "block_id": "createdieselgenerators:orange_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:cyan_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:cyan_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:diesel_engine": {
+    "block_id": "createdieselgenerators:diesel_engine",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:sheet_metal_panel": {
+    "block_id": "createdieselgenerators:sheet_metal_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pumpjack_head": {
+    "block_id": "createdieselgenerators:pumpjack_head",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:brown_cement": {
+    "block_id": "createdieselgenerators:brown_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:andesite_girder": {
+    "block_id": "createdieselgenerators:andesite_girder",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:crude_oil": {
+    "block_id": "createdieselgenerators:crude_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:andesite_girder_encased_shaft": {
+    "block_id": "createdieselgenerators:andesite_girder_encased_shaft",
+    "base_mass": "1.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:green_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:green_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:chip_wood_block": {
+    "block_id": "createdieselgenerators:chip_wood_block",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:powered_engine_shaft": {
+    "block_id": "createdieselgenerators:powered_engine_shaft",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:asphalt_stairs": {
+    "block_id": "createdieselgenerators:asphalt_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:light_blue_cement": {
+    "block_id": "createdieselgenerators:light_blue_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:basin_lid": {
+    "block_id": "createdieselgenerators:basin_lid",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:huge_diesel_engine": {
+    "block_id": "createdieselgenerators:huge_diesel_engine",
+    "base_mass": "1.4",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:white_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:white_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:purple_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:purple_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:chip_wood_beam": {
+    "block_id": "createdieselgenerators:chip_wood_beam",
+    "base_mass": "0.3",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:magenta_cement": {
+    "block_id": "createdieselgenerators:magenta_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:black_cement": {
+    "block_id": "createdieselgenerators:black_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:purple_cement": {
+    "block_id": "createdieselgenerators:purple_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:lime_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:lime_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:chip_wood_slab": {
+    "block_id": "createdieselgenerators:chip_wood_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:ethanol": {
+    "block_id": "createdieselgenerators:ethanol",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:chemical_turret": {
+    "block_id": "createdieselgenerators:chemical_turret",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:asphalt_slab": {
+    "block_id": "createdieselgenerators:asphalt_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:light_gray_cement": {
+    "block_id": "createdieselgenerators:light_gray_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:pink_cement": {
+    "block_id": "createdieselgenerators:pink_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:plant_oil": {
+    "block_id": "createdieselgenerators:plant_oil",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:orange_concrete_encased_fluid_pipe": {
+    "block_id": "createdieselgenerators:orange_concrete_encased_fluid_pipe",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:oil_barrel": {
+    "block_id": "createdieselgenerators:oil_barrel",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:diesel": {
+    "block_id": "createdieselgenerators:diesel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:asphalt_block": {
+    "block_id": "createdieselgenerators:asphalt_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "createdieselgenerators:blue_cement": {
+    "block_id": "createdieselgenerators:blue_cement",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

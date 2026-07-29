@@ -1,0 +1,572 @@
+{
+  "simulated:magenta_portable_engine": {
+    "block_id": "simulated:magenta_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:lime_handle": {
+    "block_id": "simulated:lime_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:altitude_sensor": {
+    "block_id": "simulated:altitude_sensor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:docking_connector": {
+    "block_id": "simulated:docking_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:auger_cog": {
+    "block_id": "simulated:auger_cog",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:blue_portable_engine": {
+    "block_id": "simulated:blue_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:modulating_linked_receiver": {
+    "block_id": "simulated:modulating_linked_receiver",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:green_nameplate": {
+    "block_id": "simulated:green_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:cyan_portable_engine": {
+    "block_id": "simulated:cyan_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:red_handle": {
+    "block_id": "simulated:red_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:lime_nameplate": {
+    "block_id": "simulated:lime_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:white_handle": {
+    "block_id": "simulated:white_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:blue_nameplate": {
+    "block_id": "simulated:blue_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:purple_nameplate": {
+    "block_id": "simulated:purple_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:green_portable_engine": {
+    "block_id": "simulated:green_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:red_symmetric_sail": {
+    "block_id": "simulated:red_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:copper_handle": {
+    "block_id": "simulated:copper_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:green_handle": {
+    "block_id": "simulated:green_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:purple_symmetric_sail": {
+    "block_id": "simulated:purple_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:magenta_nameplate": {
+    "block_id": "simulated:magenta_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:directional_gearshift": {
+    "block_id": "simulated:directional_gearshift",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:analog_transmission": {
+    "block_id": "simulated:analog_transmission",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:yellow_symmetric_sail": {
+    "block_id": "simulated:yellow_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_blue_symmetric_sail": {
+    "block_id": "simulated:light_blue_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:swivel_bearing": {
+    "block_id": "simulated:swivel_bearing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:purple_portable_engine": {
+    "block_id": "simulated:purple_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:redstone_magnet": {
+    "block_id": "simulated:redstone_magnet",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:pink_nameplate": {
+    "block_id": "simulated:pink_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:purple_handle": {
+    "block_id": "simulated:purple_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:white_symmetric_sail": {
+    "block_id": "simulated:white_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:black_handle": {
+    "block_id": "simulated:black_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:orange_symmetric_sail": {
+    "block_id": "simulated:orange_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:redstone_accumulator": {
+    "block_id": "simulated:redstone_accumulator",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_blue_nameplate": {
+    "block_id": "simulated:light_blue_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:merging_glue": {
+    "block_id": "simulated:merging_glue",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:gimbal_sensor": {
+    "block_id": "simulated:gimbal_sensor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:gray_nameplate": {
+    "block_id": "simulated:gray_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:black_portable_engine": {
+    "block_id": "simulated:black_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:auger_shaft": {
+    "block_id": "simulated:auger_shaft",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_blue_handle": {
+    "block_id": "simulated:light_blue_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:yellow_handle": {
+    "block_id": "simulated:yellow_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:red_portable_engine": {
+    "block_id": "simulated:red_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:physics_assembler": {
+    "block_id": "simulated:physics_assembler",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:black_nameplate": {
+    "block_id": "simulated:black_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:iron_handle": {
+    "block_id": "simulated:iron_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:laser_pointer": {
+    "block_id": "simulated:laser_pointer",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:cyan_nameplate": {
+    "block_id": "simulated:cyan_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_gray_handle": {
+    "block_id": "simulated:light_gray_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:blue_handle": {
+    "block_id": "simulated:blue_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:linked_typewriter": {
+    "block_id": "simulated:linked_typewriter",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:white_nameplate": {
+    "block_id": "simulated:white_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:yellow_nameplate": {
+    "block_id": "simulated:yellow_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_blue_portable_engine": {
+    "block_id": "simulated:light_blue_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:throttle_lever": {
+    "block_id": "simulated:throttle_lever",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:brown_symmetric_sail": {
+    "block_id": "simulated:brown_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:optical_sensor": {
+    "block_id": "simulated:optical_sensor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:lime_portable_engine": {
+    "block_id": "simulated:lime_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:brown_nameplate": {
+    "block_id": "simulated:brown_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:orange_handle": {
+    "block_id": "simulated:orange_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:pink_symmetric_sail": {
+    "block_id": "simulated:pink_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:yellow_portable_engine": {
+    "block_id": "simulated:yellow_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:swivel_bearing_link_block": {
+    "block_id": "simulated:swivel_bearing_link_block",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:rope_winch": {
+    "block_id": "simulated:rope_winch",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:torsion_spring": {
+    "block_id": "simulated:torsion_spring",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:lime_symmetric_sail": {
+    "block_id": "simulated:lime_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:gray_handle": {
+    "block_id": "simulated:gray_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_gray_portable_engine": {
+    "block_id": "simulated:light_gray_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:pink_portable_engine": {
+    "block_id": "simulated:pink_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:steering_wheel": {
+    "block_id": "simulated:steering_wheel",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:velocity_sensor": {
+    "block_id": "simulated:velocity_sensor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:paired_docking_connector": {
+    "block_id": "simulated:paired_docking_connector",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:red_nameplate": {
+    "block_id": "simulated:red_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:blue_symmetric_sail": {
+    "block_id": "simulated:blue_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:cyan_symmetric_sail": {
+    "block_id": "simulated:cyan_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:magenta_handle": {
+    "block_id": "simulated:magenta_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:laser_sensor": {
+    "block_id": "simulated:laser_sensor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:gray_symmetric_sail": {
+    "block_id": "simulated:gray_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:brown_handle": {
+    "block_id": "simulated:brown_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:magenta_symmetric_sail": {
+    "block_id": "simulated:magenta_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:pink_handle": {
+    "block_id": "simulated:pink_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:redstone_inductor": {
+    "block_id": "simulated:redstone_inductor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:directional_linked_receiver": {
+    "block_id": "simulated:directional_linked_receiver",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:cyan_handle": {
+    "block_id": "simulated:cyan_handle",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:black_symmetric_sail": {
+    "block_id": "simulated:black_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:rope_connector": {
+    "block_id": "simulated:rope_connector",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:white_portable_engine": {
+    "block_id": "simulated:white_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_gray_nameplate": {
+    "block_id": "simulated:light_gray_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:spring": {
+    "block_id": "simulated:spring",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:orange_nameplate": {
+    "block_id": "simulated:orange_nameplate",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:navigation_table": {
+    "block_id": "simulated:navigation_table",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:brown_portable_engine": {
+    "block_id": "simulated:brown_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:green_symmetric_sail": {
+    "block_id": "simulated:green_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:orange_portable_engine": {
+    "block_id": "simulated:orange_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:light_gray_symmetric_sail": {
+    "block_id": "simulated:light_gray_symmetric_sail",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "simulated:gray_portable_engine": {
+    "block_id": "simulated:gray_portable_engine",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

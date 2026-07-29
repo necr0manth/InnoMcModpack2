@@ -1,0 +1,218 @@
+{
+  "bellsandwhistles:metro_window": {
+    "block_id": "bellsandwhistles:metro_window",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:brass_pilot": {
+    "block_id": "bellsandwhistles:brass_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:metro_panel": {
+    "block_id": "bellsandwhistles:metro_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:corrugated_metro_panel": {
+    "block_id": "bellsandwhistles:corrugated_metro_panel",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:brass_bogie_steps": {
+    "block_id": "bellsandwhistles:brass_bogie_steps",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:metal_pilot": {
+    "block_id": "bellsandwhistles:metal_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_andesite_pilot": {
+    "block_id": "bellsandwhistles:polished_andesite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_calcite_pilot": {
+    "block_id": "bellsandwhistles:polished_calcite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:andesite_grab_rails": {
+    "block_id": "bellsandwhistles:andesite_grab_rails",
+    "base_mass": "0.125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_dripstone_pilot": {
+    "block_id": "bellsandwhistles:polished_dripstone_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:station_platform": {
+    "block_id": "bellsandwhistles:station_platform",
+    "base_mass": "0.75",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:copper_pilot": {
+    "block_id": "bellsandwhistles:copper_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_diorite_pilot": {
+    "block_id": "bellsandwhistles:polished_diorite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_asurine_pilot": {
+    "block_id": "bellsandwhistles:polished_asurine_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_scorchia_pilot": {
+    "block_id": "bellsandwhistles:polished_scorchia_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_crimsite_pilot": {
+    "block_id": "bellsandwhistles:polished_crimsite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_ochrum_pilot": {
+    "block_id": "bellsandwhistles:polished_ochrum_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_deepslate_pilot": {
+    "block_id": "bellsandwhistles:polished_deepslate_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:metro_trapdoor": {
+    "block_id": "bellsandwhistles:metro_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:copper_bogie_steps": {
+    "block_id": "bellsandwhistles:copper_bogie_steps",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:ornate_iron_trapdoor": {
+    "block_id": "bellsandwhistles:ornate_iron_trapdoor",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_granite_pilot": {
+    "block_id": "bellsandwhistles:polished_granite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_tuff_pilot": {
+    "block_id": "bellsandwhistles:polished_tuff_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:corrugated_metro_casing": {
+    "block_id": "bellsandwhistles:corrugated_metro_casing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:andesite_pilot": {
+    "block_id": "bellsandwhistles:andesite_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:andesite_bogie_steps": {
+    "block_id": "bellsandwhistles:andesite_bogie_steps",
+    "base_mass": "0.2",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:copper_grab_rails": {
+    "block_id": "bellsandwhistles:copper_grab_rails",
+    "base_mass": "0.125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:headlight": {
+    "block_id": "bellsandwhistles:headlight",
+    "base_mass": "0.35",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_veridium_pilot": {
+    "block_id": "bellsandwhistles:polished_veridium_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:andesite_door_step": {
+    "block_id": "bellsandwhistles:andesite_door_step",
+    "base_mass": "0.075",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:brass_grab_rails": {
+    "block_id": "bellsandwhistles:brass_grab_rails",
+    "base_mass": "0.125",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:copper_door_step": {
+    "block_id": "bellsandwhistles:copper_door_step",
+    "base_mass": "0.075",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:brass_door_step": {
+    "block_id": "bellsandwhistles:brass_door_step",
+    "base_mass": "0.075",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_limestone_pilot": {
+    "block_id": "bellsandwhistles:polished_limestone_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:polished_scoria_pilot": {
+    "block_id": "bellsandwhistles:polished_scoria_pilot",
+    "base_mass": "0.85",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "bellsandwhistles:metro_casing": {
+    "block_id": "bellsandwhistles:metro_casing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

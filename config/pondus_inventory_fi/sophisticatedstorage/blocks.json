@@ -1,0 +1,356 @@
+{
+  "sophisticatedstorage:copper_shulker_box": {
+    "block_id": "sophisticatedstorage:copper_shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:storage_output": {
+    "block_id": "sophisticatedstorage:storage_output",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:barrel": {
+    "block_id": "sophisticatedstorage:barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:iron_barrel": {
+    "block_id": "sophisticatedstorage:iron_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:copper_barrel": {
+    "block_id": "sophisticatedstorage:copper_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:acacia_storage_connector": {
+    "block_id": "sophisticatedstorage:acacia_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:decoration_table": {
+    "block_id": "sophisticatedstorage:decoration_table",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:storage_link": {
+    "block_id": "sophisticatedstorage:storage_link",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:shulker_box": {
+    "block_id": "sophisticatedstorage:shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:warped_storage_connector": {
+    "block_id": "sophisticatedstorage:warped_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:netherite_chest": {
+    "block_id": "sophisticatedstorage:netherite_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:diamond_shulker_box": {
+    "block_id": "sophisticatedstorage:diamond_shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:bamboo_storage_connector": {
+    "block_id": "sophisticatedstorage:bamboo_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:crimson_storage_connector": {
+    "block_id": "sophisticatedstorage:crimson_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:gold_shulker_box": {
+    "block_id": "sophisticatedstorage:gold_shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_diamond_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_diamond_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:iron_shulker_box": {
+    "block_id": "sophisticatedstorage:iron_shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:birch_storage_connector": {
+    "block_id": "sophisticatedstorage:birch_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_diamond_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_diamond_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:diamond_chest": {
+    "block_id": "sophisticatedstorage:diamond_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_diamond_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_diamond_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_diamond_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_diamond_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_netherite_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_netherite_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_netherite_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_netherite_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_netherite_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_netherite_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_netherite_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_netherite_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:jungle_storage_connector": {
+    "block_id": "sophisticatedstorage:jungle_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_copper_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_copper_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_copper_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_copper_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_copper_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_copper_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_copper_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_copper_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:controller": {
+    "block_id": "sophisticatedstorage:controller",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:storage_io": {
+    "block_id": "sophisticatedstorage:storage_io",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:mangrove_storage_connector": {
+    "block_id": "sophisticatedstorage:mangrove_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:iron_chest": {
+    "block_id": "sophisticatedstorage:iron_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:diamond_barrel": {
+    "block_id": "sophisticatedstorage:diamond_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:cherry_storage_connector": {
+    "block_id": "sophisticatedstorage:cherry_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:chest": {
+    "block_id": "sophisticatedstorage:chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:gold_barrel": {
+    "block_id": "sophisticatedstorage:gold_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:storage_input": {
+    "block_id": "sophisticatedstorage:storage_input",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_gold_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_gold_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_iron_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_iron_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_gold_barrel_2": {
+    "block_id": "sophisticatedstorage:limited_gold_barrel_2",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_iron_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_iron_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:spruce_storage_connector": {
+    "block_id": "sophisticatedstorage:spruce_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_gold_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_gold_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_iron_barrel_1": {
+    "block_id": "sophisticatedstorage:limited_iron_barrel_1",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:oak_storage_connector": {
+    "block_id": "sophisticatedstorage:oak_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_iron_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_iron_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_gold_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_gold_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:netherite_shulker_box": {
+    "block_id": "sophisticatedstorage:netherite_shulker_box",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:gold_chest": {
+    "block_id": "sophisticatedstorage:gold_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:dark_oak_storage_connector": {
+    "block_id": "sophisticatedstorage:dark_oak_storage_connector",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:copper_chest": {
+    "block_id": "sophisticatedstorage:copper_chest",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_barrel_4": {
+    "block_id": "sophisticatedstorage:limited_barrel_4",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:netherite_barrel": {
+    "block_id": "sophisticatedstorage:netherite_barrel",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sophisticatedstorage:limited_barrel_3": {
+    "block_id": "sophisticatedstorage:limited_barrel_3",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

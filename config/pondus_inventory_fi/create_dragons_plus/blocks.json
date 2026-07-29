@@ -1,0 +1,128 @@
+{
+  "create_dragons_plus:fluid_hatch": {
+    "block_id": "create_dragons_plus:fluid_hatch",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:pink_dye": {
+    "block_id": "create_dragons_plus:pink_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:light_blue_dye": {
+    "block_id": "create_dragons_plus:light_blue_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:cyan_dye": {
+    "block_id": "create_dragons_plus:cyan_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:dragon_breath": {
+    "block_id": "create_dragons_plus:dragon_breath",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:purple_dye": {
+    "block_id": "create_dragons_plus:purple_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:magenta_dye": {
+    "block_id": "create_dragons_plus:magenta_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:light_gray_dye": {
+    "block_id": "create_dragons_plus:light_gray_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:yellow_dye": {
+    "block_id": "create_dragons_plus:yellow_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:blue_dye": {
+    "block_id": "create_dragons_plus:blue_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:green_dye": {
+    "block_id": "create_dragons_plus:green_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:brown_dye": {
+    "block_id": "create_dragons_plus:brown_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:red_dye": {
+    "block_id": "create_dragons_plus:red_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:levitite_fragile_fluid_tank": {
+    "block_id": "create_dragons_plus:levitite_fragile_fluid_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:gray_dye": {
+    "block_id": "create_dragons_plus:gray_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:dragon_breath_cauldron": {
+    "block_id": "create_dragons_plus:dragon_breath_cauldron",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:white_dye": {
+    "block_id": "create_dragons_plus:white_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:lime_dye": {
+    "block_id": "create_dragons_plus:lime_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:black_dye": {
+    "block_id": "create_dragons_plus:black_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:fragile_fluid_tank": {
+    "block_id": "create_dragons_plus:fragile_fluid_tank",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_dragons_plus:orange_dye": {
+    "block_id": "create_dragons_plus:orange_dye",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

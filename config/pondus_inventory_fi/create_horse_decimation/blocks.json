@@ -1,0 +1,26 @@
+{
+  "create_horse_decimation:horse_block": {
+    "block_id": "create_horse_decimation:horse_block",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_horse_decimation:horse_door": {
+    "block_id": "create_horse_decimation:horse_door",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_horse_decimation:horse_glue": {
+    "block_id": "create_horse_decimation:horse_glue",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_horse_decimation:horse_abductor": {
+    "block_id": "create_horse_decimation:horse_abductor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

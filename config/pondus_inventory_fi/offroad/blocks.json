@@ -1,0 +1,20 @@
+{
+  "offroad:wheel_mount": {
+    "block_id": "offroad:wheel_mount",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "offroad:rockcutting_wheel": {
+    "block_id": "offroad:rockcutting_wheel",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "offroad:borehead_bearing": {
+    "block_id": "offroad:borehead_bearing",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

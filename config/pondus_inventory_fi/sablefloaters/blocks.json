@@ -1,0 +1,20 @@
+{
+  "sablefloaters:wooden_floater": {
+    "block_id": "sablefloaters:wooden_floater",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sablefloaters:wooden_floater_bundle": {
+    "block_id": "sablefloaters:wooden_floater_bundle",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sablefloaters:reinforced_wooden_floater": {
+    "block_id": "sablefloaters:reinforced_wooden_floater",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

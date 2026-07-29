@@ -1,0 +1,314 @@
+{
+  "astrological:light_jade_slab": {
+    "block_id": "astrological:light_jade_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_tiles_slab": {
+    "block_id": "astrological:light_jade_tiles_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_tiles_wall": {
+    "block_id": "astrological:purpurite_tiles_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_bricks_stairs": {
+    "block_id": "astrological:jade_bricks_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_tiles_wall": {
+    "block_id": "astrological:light_jade_tiles_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_stairs": {
+    "block_id": "astrological:purpurite_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_wall": {
+    "block_id": "astrological:light_jade_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade": {
+    "block_id": "astrological:jade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite": {
+    "block_id": "astrological:purpurite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:polished_jade": {
+    "block_id": "astrological:polished_jade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:cracked_light_jade_tiles_wall": {
+    "block_id": "astrological:cracked_light_jade_tiles_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_stairs": {
+    "block_id": "astrological:light_jade_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:reinforced_jade_stairs": {
+    "block_id": "astrological:reinforced_jade_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_tiles_slab": {
+    "block_id": "astrological:purpurite_tiles_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:cryo_fire": {
+    "block_id": "astrological:cryo_fire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:tumor": {
+    "block_id": "astrological:tumor",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:reinforced_jade_wall": {
+    "block_id": "astrological:reinforced_jade_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:insomnia_vent": {
+    "block_id": "astrological:insomnia_vent",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_tiles_stairs": {
+    "block_id": "astrological:light_jade_tiles_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade": {
+    "block_id": "astrological:light_jade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_stairs": {
+    "block_id": "astrological:jade_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:sleep": {
+    "block_id": "astrological:sleep",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:marbled_jade_slab": {
+    "block_id": "astrological:marbled_jade_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_tiles_stairs": {
+    "block_id": "astrological:purpurite_tiles_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:tendrils": {
+    "block_id": "astrological:tendrils",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:crying_duct": {
+    "block_id": "astrological:crying_duct",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:reinforced_jade_slab": {
+    "block_id": "astrological:reinforced_jade_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:selenite_wall": {
+    "block_id": "astrological:selenite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:triphylite_stairs": {
+    "block_id": "astrological:triphylite_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:polished_jade_stairs": {
+    "block_id": "astrological:polished_jade_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_bricks_slab": {
+    "block_id": "astrological:jade_bricks_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:ochre_selenite": {
+    "block_id": "astrological:ochre_selenite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:verdant_selenite": {
+    "block_id": "astrological:verdant_selenite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:cracked_light_jade_tiles": {
+    "block_id": "astrological:cracked_light_jade_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:reinforced_jade": {
+    "block_id": "astrological:reinforced_jade",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_bricks": {
+    "block_id": "astrological:jade_bricks",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_wall": {
+    "block_id": "astrological:jade_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:triphylite": {
+    "block_id": "astrological:triphylite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:polished_jade_slab": {
+    "block_id": "astrological:polished_jade_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:cracked_light_jade_tiles_slab": {
+    "block_id": "astrological:cracked_light_jade_tiles_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_slab": {
+    "block_id": "astrological:purpurite_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_slab": {
+    "block_id": "astrological:jade_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:triphylite_wall": {
+    "block_id": "astrological:triphylite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:pearlescent_selenite": {
+    "block_id": "astrological:pearlescent_selenite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_tiles": {
+    "block_id": "astrological:purpurite_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:prismatic_selenite": {
+    "block_id": "astrological:prismatic_selenite",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:purpurite_wall": {
+    "block_id": "astrological:purpurite_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:cracked_light_jade_tiles_stairs": {
+    "block_id": "astrological:cracked_light_jade_tiles_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:light_jade_tiles": {
+    "block_id": "astrological:light_jade_tiles",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:polished_jade_wall": {
+    "block_id": "astrological:polished_jade_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:jade_bricks_wall": {
+    "block_id": "astrological:jade_bricks_wall",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "astrological:triphylite_slab": {
+    "block_id": "astrological:triphylite_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

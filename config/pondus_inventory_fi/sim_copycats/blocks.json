@@ -1,0 +1,206 @@
+{
+  "sim_copycats:super_light_copycat_stairs": {
+    "block_id": "sim_copycats:super_light_copycat_stairs",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:absurdly_heavy_copycat_stairs": {
+    "block_id": "sim_copycats:absurdly_heavy_copycat_stairs",
+    "base_mass": "1000.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:super_light_copycat": {
+    "block_id": "sim_copycats:super_light_copycat",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:absurdly_heavy_copycat": {
+    "block_id": "sim_copycats:absurdly_heavy_copycat",
+    "base_mass": "1000.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:absurdly_heavy_copycat_slab": {
+    "block_id": "sim_copycats:absurdly_heavy_copycat_slab",
+    "base_mass": "1000.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:bouncy_copycat_slab": {
+    "block_id": "sim_copycats:bouncy_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:sticky_copycat_slab": {
+    "block_id": "sim_copycats:sticky_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:sticky_copycat": {
+    "block_id": "sim_copycats:sticky_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:normal_copycat_stairs": {
+    "block_id": "sim_copycats:normal_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:light_copycat_slab": {
+    "block_id": "sim_copycats:light_copycat_slab",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:super_light_copycat_slab": {
+    "block_id": "sim_copycats:super_light_copycat_slab",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:super_heavy_copycat_stairs": {
+    "block_id": "sim_copycats:super_heavy_copycat_stairs",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:slippery_copycat_slab": {
+    "block_id": "sim_copycats:slippery_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:bouncy_copycat_stairs": {
+    "block_id": "sim_copycats:bouncy_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:slippery_copycat_stairs": {
+    "block_id": "sim_copycats:slippery_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:levitite_copycat": {
+    "block_id": "sim_copycats:levitite_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:heavy_copycat_slab": {
+    "block_id": "sim_copycats:heavy_copycat_slab",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:levitite_copycat_slab": {
+    "block_id": "sim_copycats:levitite_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:light_copycat_stairs": {
+    "block_id": "sim_copycats:light_copycat_stairs",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:bouncy_copycat": {
+    "block_id": "sim_copycats:bouncy_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:sticky_copycat_stairs": {
+    "block_id": "sim_copycats:sticky_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:heavy_copycat": {
+    "block_id": "sim_copycats:heavy_copycat",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:fragile_copycat": {
+    "block_id": "sim_copycats:fragile_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:light_copycat": {
+    "block_id": "sim_copycats:light_copycat",
+    "base_mass": "0.5",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:envelope_copycat": {
+    "block_id": "sim_copycats:envelope_copycat",
+    "base_mass": "0.25",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:super_heavy_copycat_slab": {
+    "block_id": "sim_copycats:super_heavy_copycat_slab",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:fragile_copycat_stairs": {
+    "block_id": "sim_copycats:fragile_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:super_heavy_copycat": {
+    "block_id": "sim_copycats:super_heavy_copycat",
+    "base_mass": "4.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:fragile_copycat_slab": {
+    "block_id": "sim_copycats:fragile_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:normal_copycat_slab": {
+    "block_id": "sim_copycats:normal_copycat_slab",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:slippery_copycat": {
+    "block_id": "sim_copycats:slippery_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:levitite_copycat_stairs": {
+    "block_id": "sim_copycats:levitite_copycat_stairs",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:heavy_copycat_stairs": {
+    "block_id": "sim_copycats:heavy_copycat_stairs",
+    "base_mass": "2.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "sim_copycats:normal_copycat": {
+    "block_id": "sim_copycats:normal_copycat",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}

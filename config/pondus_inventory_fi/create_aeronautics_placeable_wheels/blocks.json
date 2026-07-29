@@ -1,0 +1,26 @@
+{
+  "create_aeronautics_placeable_wheels:small_tire": {
+    "block_id": "create_aeronautics_placeable_wheels:small_tire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_aeronautics_placeable_wheels:large_tire": {
+    "block_id": "create_aeronautics_placeable_wheels:large_tire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_aeronautics_placeable_wheels:monstrous_tire": {
+    "block_id": "create_aeronautics_placeable_wheels:monstrous_tire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  },
+  "create_aeronautics_placeable_wheels:tire": {
+    "block_id": "create_aeronautics_placeable_wheels:tire",
+    "base_mass": "1.0",
+    "inventory_multiplier": 1.0,
+    "include_container_mass": true
+  }
+}
