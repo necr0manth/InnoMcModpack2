@@ -43,3 +43,6 @@
 /cache
 /.sable
 /downloads
+/debug/
+/ldlib2/
+ponders_watched.json
