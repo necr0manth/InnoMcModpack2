@@ -1,0 +1,33 @@
+{
+	id: "36269A480DDF9896"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			id: "2D644EB7E99D9FAD"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "5C646724D6C3A8DC"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 3
+			id: "7F5DDCD52C19D8F9"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 0.5f
+		}
+	]
+}

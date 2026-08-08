@@ -1,0 +1,93 @@
+{
+	id: "41A30F179CC3C5E7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "6BDB8FF08A98A515"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 13.0f
+		}
+		{
+			count: 2
+			id: "2DD27132F499471A"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 3
+			id: "08CEA559F4E5CC7D"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "755A26500958B118"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 5
+			id: "5B5C92EC51332242"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 6
+			id: "4FCCE465246488BC"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 7
+			id: "5BC22F9F4F5DDB90"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 8
+			id: "1AA5154CA83C5EAB"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+		}
+		{
+			count: 9
+			id: "0CB9762BA4F763DC"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+		}
+		{
+			count: 10
+			id: "2612427C4A5D8655"
+			item: {
+				count: 1
+				id: "iceandfire:manuscript"
+			}
+		}
+	]
+}

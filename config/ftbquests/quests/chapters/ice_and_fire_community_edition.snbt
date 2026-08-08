@@ -1,0 +1,2752 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_and_fire_community_edition"
+	group: ""
+	id: "276FADC9194ED6BF"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20CD1B523CA3F28D"
+			rewards: [{
+				id: "254AC1435A053E7B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6847AC7B45C606D5"
+				item: { count: 1, id: "iceandfire:manuscript" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20CD1B523CA3F28D"]
+			id: "73BF405B73B52B1D"
+			rewards: [
+				{
+					id: "2C278A9C17FC0BED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AA9F3186A026CE2"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "442C856676E0F0CA"
+				item: { count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73BF405B73B52B1D"]
+			id: "502CD9C526955C5B"
+			rewards: [
+				{
+					id: "4D51EA98BB989FED"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55F178D66473413E"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "077C1B4BBE87DE0B"
+				item: { count: 1, id: "iceandfire:lectern" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73BF405B73B52B1D"]
+			id: "537FCE3844879F48"
+			rewards: [{
+				id: "1E1B07648EBDFCB1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6B26932F30070F6A"
+				item: { count: 1, id: "iceandfire:silver_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["537FCE3844879F48"]
+			id: "2D043AC9B01F29B1"
+			rewards: [
+				{
+					id: "13057C2F11CDF937"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C975D4EEF3B1F12"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "17B56A46D4CE6297"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_helmet" }
+					type: "item"
+				}
+				{
+					id: "070219EEA99E12C7"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2E03340FFB1B303C"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_leggings" }
+					type: "item"
+				}
+				{
+					id: "32EDD8BDA510BCA4"
+					item: { count: 1, id: "iceandfire:armor_silver_metal_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["537FCE3844879F48"]
+			id: "07264C6171AE8A99"
+			rewards: [{
+				id: "320CD33C5F31CCD7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5847EE6C14E67CF1"
+				item: { count: 1, id: "iceandfire:silver_sword" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "0EB8A3ABDDE25817"
+			rewards: [
+				{
+					count: 2
+					id: "57E3B047809941B7"
+					item: {
+						count: 1
+						id: "iceandfire:manuscript"
+					}
+					type: "item"
+				}
+				{
+					id: "7F6A8BAEED921CE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1BE5960ECF6DFEA6"
+					item: { count: 1, id: "iceandfire:sheep_helmet" }
+					type: "item"
+				}
+				{
+					id: "4E069FD39B266711"
+					item: { count: 1, id: "iceandfire:sheep_chestplate" }
+					type: "item"
+				}
+				{
+					id: "249B3D6B42EC8F90"
+					item: { count: 1, id: "iceandfire:sheep_leggings" }
+					type: "item"
+				}
+				{
+					id: "4D968BFA3836558B"
+					item: { count: 1, id: "iceandfire:sheep_boots" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "48202161CC421E0A"
+			rewards: [
+				{
+					id: "42FDBD0EDDBEE2D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "782569F3BA8C8EFA"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "222CF7B11F02637A"
+				item: { count: 1, id: "iceandfire:dragonbone" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19E16359F2DCFD94"]
+			id: "66963E0B609B0E12"
+			rewards: [
+				{
+					id: "49E1E5E550A46DFF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D524E588FD6069B"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69D4C510FD497BF6"
+				item: { count: 1, id: "iceandfire:dragonbone_sword" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48202161CC421E0A"]
+			id: "19E16359F2DCFD94"
+			tasks: [{
+				id: "312139AE7D9C8F7A"
+				item: { count: 1, id: "iceandfire:witherbone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["502CD9C526955C5B"]
+			id: "269DC845D9ECAAAA"
+			rewards: [{
+				id: "55372F11C2E3BC41"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35CFE68CD3EF22F7"
+				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["502CD9C526955C5B"]
+			id: "141BC73311C61161"
+			rewards: [{
+				id: "58DD27E9D2ABC208"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "557ACEDC0FE7D696"
+				item: { count: 1, id: "iceandfire:ice_dragon_blood" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["502CD9C526955C5B"]
+			id: "47136E7E5E0DBAEF"
+			rewards: [{
+				id: "50AED72522122DBE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C5C71EBA7DF35A1"
+				item: { count: 1, id: "iceandfire:lightning_dragon_blood" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["269DC845D9ECAAAA"]
+			id: "5B63DC5580956AE7"
+			rewards: [{
+				id: "47A31F0E3FE50666"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F66B7E03F0FCCAD"
+				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["141BC73311C61161"]
+			id: "79E9E7AA555B4456"
+			rewards: [{
+				id: "0B2E01CA8A06184A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D439D507B233F2C"
+				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47136E7E5E0DBAEF"]
+			id: "212B1F2EC1E28E07"
+			rewards: [{
+				id: "3502A1A13C5DC17A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BFE4570EE18A9C2"
+				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "41226B341CD817F4"
+			require_sequential_tasks: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4149301B2BD544E9"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "76DDD0BBB62232D3"
+				item: { count: 1, id: "iceandfire:manuscript" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"269DC845D9ECAAAA"
+				"66963E0B609B0E12"
+			]
+			id: "5BAC44DEFEB0B263"
+			tasks: [{
+				id: "4DFE8F391DC834F5"
+				item: { count: 1, id: "iceandfire:dragonbone_sword_fire" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"141BC73311C61161"
+				"66963E0B609B0E12"
+			]
+			id: "448F0F239063F027"
+			tasks: [{
+				id: "02E9B3F1CB61A1EE"
+				item: { count: 1, id: "iceandfire:dragonbone_sword_ice" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"66963E0B609B0E12"
+				"47136E7E5E0DBAEF"
+			]
+			id: "267FF2BA703ABCC3"
+			tasks: [{
+				id: "5D3677D60E58EB44"
+				item: { count: 1, id: "iceandfire:dragonbone_sword_lightning" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B63DC5580956AE7"]
+			id: "7C9A3289D2988CE4"
+			rewards: [{
+				id: "4163ADB28602313D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "088601003A1F9B58"
+				item: { count: 1, id: "iceandfire:dragonscales_red" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B63DC5580956AE7"]
+			id: "055AE0F215BE3FA4"
+			rewards: [{
+				id: "166727B73E63052B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "119BE9AA8912F221"
+				item: { count: 1, id: "iceandfire:dragonscales_green" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B63DC5580956AE7"]
+			id: "10F089696EBBCBD7"
+			rewards: [{
+				id: "0E4E1B88F59049E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "712D59523E76CC90"
+				item: { count: 1, id: "iceandfire:dragonscales_bronze" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B63DC5580956AE7"]
+			id: "21B472A81FDF5012"
+			rewards: [{
+				id: "2B05A7F62B396D28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "049EE5DA673F3738"
+				item: { count: 1, id: "iceandfire:dragonscales_gray" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C9A3289D2988CE4"]
+			id: "2398DEBBFFB46839"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CE5F266FB0872E6"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "761225A7EA1B6D60"
+					item: { count: 1, id: "iceandfire:armor_red_helmet" }
+					type: "item"
+				}
+				{
+					id: "588112D1CC4C9C68"
+					item: { count: 1, id: "iceandfire:armor_red_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6B3946B01B4B6D46"
+					item: { count: 1, id: "iceandfire:armor_red_leggings" }
+					type: "item"
+				}
+				{
+					id: "4DFC5086241AB79B"
+					item: { count: 1, id: "iceandfire:armor_red_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["055AE0F215BE3FA4"]
+			id: "191D1EDE17C84A72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468794D31CFF5217"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "38895D79DFCDE18C"
+					item: { count: 1, id: "iceandfire:armor_green_helmet" }
+					type: "item"
+				}
+				{
+					id: "4984C34094E484B4"
+					item: { count: 1, id: "iceandfire:armor_green_chestplate" }
+					type: "item"
+				}
+				{
+					id: "58607A3BD4028801"
+					item: { count: 1, id: "iceandfire:armor_green_leggings" }
+					type: "item"
+				}
+				{
+					id: "4073F28A07007FCB"
+					item: { count: 1, id: "iceandfire:armor_green_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10F089696EBBCBD7"]
+			id: "059A6E3E537349B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A880A1BB8774E27"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "137C2326B8260011"
+					item: { count: 1, id: "iceandfire:armor_bronze_helmet" }
+					type: "item"
+				}
+				{
+					id: "3B68E69A99678216"
+					item: { count: 1, id: "iceandfire:armor_bronze_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3E0D790FBE0AC4CB"
+					item: { count: 1, id: "iceandfire:armor_bronze_leggings" }
+					type: "item"
+				}
+				{
+					id: "3110D44DBE49CAEA"
+					item: { count: 1, id: "iceandfire:armor_bronze_boots" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21B472A81FDF5012"]
+			id: "363D82CD3B62BCC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "480F5E9164858806"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "758AC72E9EB924A8"
+					item: { count: 1, id: "iceandfire:armor_gray_helmet" }
+					type: "item"
+				}
+				{
+					id: "64FAD74AA564BA1A"
+					item: { count: 1, id: "iceandfire:armor_gray_chestplate" }
+					type: "item"
+				}
+				{
+					id: "06E404DE9E97BFC4"
+					item: { count: 1, id: "iceandfire:armor_gray_leggings" }
+					type: "item"
+				}
+				{
+					id: "7938D2166ADE88B8"
+					item: { count: 1, id: "iceandfire:armor_gray_boots" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79E9E7AA555B4456"]
+			id: "7BB0CDC25E00A830"
+			rewards: [{
+				id: "695FE8CEFFD7D50C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56B6433615E92DDC"
+				item: { count: 1, id: "iceandfire:dragonscales_blue" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79E9E7AA555B4456"]
+			id: "72652C515DE3533B"
+			rewards: [{
+				id: "1F8A5D113E5EDFD3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01A0F66E89A6B7B3"
+				item: { count: 1, id: "iceandfire:dragonscales_white" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79E9E7AA555B4456"]
+			id: "05C65A89B8D9150A"
+			rewards: [{
+				id: "6E7FD3741B70E89B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6955803B513A67D5"
+				item: { count: 1, id: "iceandfire:dragonscales_sapphire" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79E9E7AA555B4456"]
+			id: "118CBB80613F6FE4"
+			rewards: [{
+				id: "7109F38F756E13DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C7748A1F037FB27"
+				item: { count: 1, id: "iceandfire:dragonscales_silver" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BB0CDC25E00A830"]
+			id: "39EF45213520A866"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FDF3AB2430E4F33"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1FE1FB1D1BFE97EE"
+					item: { count: 1, id: "iceandfire:armor_blue_helmet" }
+					type: "item"
+				}
+				{
+					id: "101F9D0CAD1A2D9A"
+					item: { count: 1, id: "iceandfire:armor_blue_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7137A580BA06C869"
+					item: { count: 1, id: "iceandfire:armor_blue_leggings" }
+					type: "item"
+				}
+				{
+					id: "65FF174336FFAFE8"
+					item: { count: 1, id: "iceandfire:armor_blue_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72652C515DE3533B"]
+			id: "36FAF128F96504FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452DF67C16AB1B63"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1290682DA1F575ED"
+					item: { count: 1, id: "iceandfire:armor_white_helmet" }
+					type: "item"
+				}
+				{
+					id: "49B5BB76E77CF80D"
+					item: { count: 1, id: "iceandfire:armor_white_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0F7BFD4ED7AB3340"
+					item: { count: 1, id: "iceandfire:armor_white_leggings" }
+					type: "item"
+				}
+				{
+					id: "652B992171185842"
+					item: { count: 1, id: "iceandfire:armor_white_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05C65A89B8D9150A"]
+			id: "16326D377159BD8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "564692FB5844E615"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "61305F0FD53414C6"
+					item: { count: 1, id: "iceandfire:armor_sapphire_helmet" }
+					type: "item"
+				}
+				{
+					id: "11B1D12C72F061C2"
+					item: { count: 1, id: "iceandfire:armor_sapphire_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6E852131EF71DFC8"
+					item: { count: 1, id: "iceandfire:armor_sapphire_leggings" }
+					type: "item"
+				}
+				{
+					id: "341D877B6D61DB46"
+					item: { count: 1, id: "iceandfire:armor_sapphire_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["118CBB80613F6FE4"]
+			id: "4BCC5404A123A256"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB17CC0CF39F957"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6AEF27C8B4ABD720"
+					item: { count: 1, id: "iceandfire:armor_silver_helmet" }
+					type: "item"
+				}
+				{
+					id: "5B04E54B278AA2DA"
+					item: { count: 1, id: "iceandfire:armor_silver_chestplate" }
+					type: "item"
+				}
+				{
+					id: "755E23E88D8DC5FD"
+					item: { count: 1, id: "iceandfire:armor_silver_leggings" }
+					type: "item"
+				}
+				{
+					id: "4A2E8F7038022224"
+					item: { count: 1, id: "iceandfire:armor_silver_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["212B1F2EC1E28E07"]
+			id: "3536354161A4680A"
+			rewards: [{
+				id: "3E3867583DE8F035"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05D98656DA7D8908"
+				item: { count: 1, id: "iceandfire:dragonscales_electric" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["212B1F2EC1E28E07"]
+			id: "4F20A1B2A198EC47"
+			rewards: [{
+				id: "7A3556F761E9612E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D2BCAF3C61BBD7F"
+				item: { count: 1, id: "iceandfire:dragonscales_amethyst" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["212B1F2EC1E28E07"]
+			id: "622EC22B3DD889FF"
+			rewards: [{
+				id: "3DBEF8D87158AF20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "522EB3A95EE045F5"
+				item: { count: 1, id: "iceandfire:dragonscales_copper" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["212B1F2EC1E28E07"]
+			id: "0A08F6D40FD5E1E3"
+			rewards: [{
+				id: "1DBEC94C1E1AA12D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40F235EDB2FD4E2E"
+				item: { count: 1, id: "iceandfire:dragonscales_black" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"212B1F2EC1E28E07"
+				"79E9E7AA555B4456"
+				"5B63DC5580956AE7"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "iceandfire:dragonforge_fire_brick"
+			}
+			id: "76F3E85F85718B7A"
+			rewards: [{
+				id: "0AD437E341278406"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+				id: "48A8E319B166F8AE"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76F3E85F85718B7A"]
+			id: "1C5D46B981857881"
+			rewards: [{
+				id: "461322068EF4F7EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "224A950DDACA4809"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1C5D46B981857881"
+				"3B37B0D3F85F254D"
+			]
+			id: "3788983DF3BF8476"
+			rewards: [{
+				id: "67AFDB6B8DA85B9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "09C71B456C19F026"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3788983DF3BF8476"]
+			id: "7C3FF1B6C7BBB128"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D6167E79B5D3801"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+				id: "437340D6EC939390"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3536354161A4680A"]
+			id: "0535A89BB44B6E28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B8A8C0AFE80BD6D"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "531FA60B51445FB0"
+					item: { count: 1, id: "iceandfire:armor_electric_helmet" }
+					type: "item"
+				}
+				{
+					id: "614D04D831A09DE6"
+					item: { count: 1, id: "iceandfire:armor_electric_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4183FEF8276CB551"
+					item: { count: 1, id: "iceandfire:armor_electric_leggings" }
+					type: "item"
+				}
+				{
+					id: "5CA0E733E2A8B7C2"
+					item: { count: 1, id: "iceandfire:armor_electric_boots" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F20A1B2A198EC47"]
+			id: "044C839164670B74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B923E92A1DD8E37"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "678D881D5C5F380E"
+					item: { count: 1, id: "iceandfire:armor_amethyst_helmet" }
+					type: "item"
+				}
+				{
+					id: "150F1BC011274D19"
+					item: { count: 1, id: "iceandfire:armor_amethyst_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2129FCF1717CCFFB"
+					item: { count: 1, id: "iceandfire:armor_amethyst_leggings" }
+					type: "item"
+				}
+				{
+					id: "4E281B1B07FBF5AD"
+					item: { count: 1, id: "iceandfire:armor_amethyst_boots" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["622EC22B3DD889FF"]
+			id: "1E1A3C6C57CD721A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65157CDD7F8C3041"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0BCAB410351C27FC"
+					item: { count: 1, id: "iceandfire:armor_copper_helmet" }
+					type: "item"
+				}
+				{
+					id: "06EB7A67AE76F254"
+					item: { count: 1, id: "iceandfire:armor_copper_chestplate" }
+					type: "item"
+				}
+				{
+					id: "51E54062E7E10FE7"
+					item: { count: 1, id: "iceandfire:armor_copper_leggings" }
+					type: "item"
+				}
+				{
+					id: "68A813B08E6645E3"
+					item: { count: 1, id: "iceandfire:armor_copper_boots" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A08F6D40FD5E1E3"]
+			id: "141F5D0DCDB77048"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC53065B3482EB6"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0C56434A94FBF190"
+					item: { count: 1, id: "iceandfire:armor_electric_helmet" }
+					type: "item"
+				}
+				{
+					id: "5C1198A867E12F9B"
+					item: { count: 1, id: "iceandfire:armor_electric_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6A4D94A579FD0902"
+					item: { count: 1, id: "iceandfire:armor_electric_leggings" }
+					type: "item"
+				}
+				{
+					id: "1B094B16619F785A"
+					item: { count: 1, id: "iceandfire:armor_electric_boots" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["269DC845D9ECAAAA"]
+			id: "444F77440A9ABFEC"
+			rewards: [{
+				id: "5CE4112CAEFC8058"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BCE0F31D1444FDA"
+				item: { count: 1, id: "iceandfire:summoning_crystal_fire" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["141BC73311C61161"]
+			id: "2D8990EF7B49E722"
+			rewards: [{
+				id: "0CDF53924E8DF1B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A1A60AC4797632E"
+				item: { count: 1, id: "iceandfire:summoning_crystal_ice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47136E7E5E0DBAEF"]
+			id: "174990885871892E"
+			rewards: [{
+				id: "78BB98231F4D34AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67256AFB6108B4F3"
+				item: { count: 1, id: "iceandfire:summoning_crystal_lightning" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["172F7BBFEF872ECE"]
+			id: "3B37B0D3F85F254D"
+			rewards: [{
+				id: "51287DFE76E6BBCC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "6077E06B30B5E03A"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			id: "172F7BBFEF872ECE"
+			rewards: [{
+				id: "553A87DE15096748"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				id: "67594900486775B6"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3B37B0D3F85F254D"]
+			id: "243A34948289491A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03C3961EC3DC22BA"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonarmor"
+				criterion: ""
+				id: "1550337A894DE775"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3B37B0D3F85F254D"]
+			id: "1CB35B30CED4635A"
+			rewards: [{
+				id: "66374ED6602E10F5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_meal"
+				criterion: ""
+				id: "7B30FCDB30880100"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3B37B0D3F85F254D"]
+			id: "6E8C3DD6C14903AF"
+			rewards: [{
+				id: "3D5EB31FED88A31E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_staff"
+				criterion: ""
+				id: "0AB5EE604932AAB6"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3B37B0D3F85F254D"]
+			id: "60008277EF2ABBF3"
+			rewards: [{
+				id: "4DA534599C1B3B75"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_flute"
+				criterion: ""
+				id: "40BCCEA26D5B1FBF"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3B37B0D3F85F254D"]
+			id: "3EBC945096C0526F"
+			rewards: [{
+				id: "471117CF6506F651"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_horn"
+				criterion: ""
+				id: "2673FC2CB67BBCF8"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "0317F7C3D180A6DA"
+			rewards: [
+				{
+					id: "5964C27414AEF72E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CE6B239FDB0FFCE"
+					table_id: 3901975761424193686L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "52014D7B63F392AD"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "54D5DCB28D9D96D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3277EA92FF637511"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/gorgon_head"
+				criterion: ""
+				id: "2A1AACBB1DBB8018"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB35B30CED4635A"]
+			id: "3690032256CBF44B"
+			rewards: [{
+				id: "771D4EA0E4612937"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "69EA65F025356023"
+				item: { count: 1, id: "iceandfire:sickly_dragon_meal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "3A736792E5459377"
+			rewards: [{
+				id: "507C6C5D046D8A1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "61D0C815B0F98005"
+				item: { count: 1, id: "iceandfire:hippogryph_talon" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A736792E5459377"]
+			id: "4D4DEBE742582165"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C178E8C6C0C67FA"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "670251D727052C5B"
+				item: { count: 1, id: "iceandfire:hippogryph_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["502CD9C526955C5B"]
+			icon: {
+				id: "iceandfire:troll_skull"
+			}
+			id: "41050138640D4C83"
+			size: 1.5d
+			tasks: [{
+				id: "17D7C8A12FB703D3"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "62B68FD78AD656AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36D95CF23864A18E"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "4EA9F7AFD79A0340"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "63C7B258CA2B0B5E"
+			rewards: [{
+				id: "242FD9C039839682"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				id: "2FB2527EF1FF1E80"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63C7B258CA2B0B5E"]
+			id: "5336844B02CD05DB"
+			rewards: [{
+				id: "60EA5E3B4A3F8EDC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "437AE9A1CBC938B7"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63C7B258CA2B0B5E"]
+			id: "171EA5C9ED1C81CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C11931CEE0F1A74"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/pixie_wand"
+				criterion: ""
+				id: "6D7ACC71E197B843"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "02395FA0992347ED"
+			rewards: [{
+				id: "11F0503F333C9E9F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "58B538D512CCFA47"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02395FA0992347ED"]
+			id: "63FCB4188DF16262"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67DE2AFF227C8C43"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76B781B0F309E530"
+				item: { count: 1, id: "iceandfire:cyclops_eye" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "59E508F84DAF5839"
+			rewards: [{
+				id: "133A879180A9E20C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "4BECAE890EA46569"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59E508F84DAF5839"]
+			id: "0BE401962E6FAAC3"
+			rewards: [{
+				id: "26894BBE7ABC95C1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "030AE7FBB9D23AB9"
+				item: { count: 1, id: "iceandfire:ghost_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0BE401962E6FAAC3"
+				"66963E0B609B0E12"
+			]
+			id: "0C178E22913F7572"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A6360C45686A86"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0858118BF4CE89A0"
+				item: { count: 1, id: "iceandfire:ghost_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "7E44C33982266694"
+			rewards: [{
+				id: "7F974FF95B84E405"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+				id: "3D71F2F3681694D0"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E44C33982266694"]
+			id: "7C9282190AC841F5"
+			rewards: [{
+				id: "7BAE03C60B20DC5F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "35DC2838E8B68751"
+				item: { count: 1, id: "iceandfire:siren_tear" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C9282190AC841F5"]
+			id: "3A174D6B6B1BED0E"
+			tasks: [{
+				id: "1B60B0F4DC0CB82D"
+				item: { count: 1, id: "iceandfire:siren_flute" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "34282AD934961A17"
+			rewards: [{
+				id: "1728DFC0BAFE8C46"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "0532E5643C72D6FC"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "12B670DC0BA2CD61"
+			rewards: [{
+				id: "28301CFBAEFD6751"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "4453FDF93B54692F"
+				type: "advancement"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "40A8F178450B1E85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E59FCC2603ED184"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A2CA506483B76DA"
+				item: { count: 1, id: "iceandfire:tide_trident" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "1281911B4C7C9573"
+			rewards: [{
+				id: "7A70BC115FC51C78"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "7C1700E84F0CECCF"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "1AC17C69B346F07D"
+			rewards: [{
+				id: "475AB4280E203019"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "5179174E70E992C3"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1AC17C69B346F07D"]
+			id: "0B699CECC5BE3963"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E76D7995AC21770"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27EA50BB8F70D8C3"
+				item: { count: 1, id: "iceandfire:hydra_heart" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "643F22B6AA3D7771"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "691B2EE944BE6C94"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34746DF932F7C409"
+				item: { count: 1, id: "iceandfire:hippocampus_slapper" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "65DAA000FACDEFF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1397A3F55CFEFA7C"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2907166A1CCDB81B"
+				item: { count: 1, id: "iceandfire:amphithere_macuahuitl" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62B68FD78AD656AF"]
+			id: "48CEF606483A3C43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31E6975512985EF3"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "107C280562F8BA8E"
+				item: { count: 1, id: "iceandfire:stymphalian_feather_bundle" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62B68FD78AD656AF"]
+			id: "0959C990EC452B30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F98441F3095D4D6"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70CD787731F04B4C"
+				item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "33CCACD1B200748B"
+			rewards: [{
+				id: "1C552FCFE40A9DE1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				id: "20DD14170BA8FF6E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33CCACD1B200748B"]
+			id: "251EF6BABCDB86D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00B4FAF2A70D81F8"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16DD87F8FCFDD3AF"
+				item: { count: 1, id: "iceandfire:cockatrice_scepter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "6C3261662BE816A9"
+			rewards: [{
+				id: "65C5BE130F7C1EDA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+				id: "181EE06BDD6A0C2D"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C3261662BE816A9"]
+			id: "0A3CCA4E53AB4F22"
+			rewards: [{
+				id: "23908A00F3789A59"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5DD56F8B2FA1D0B9"
+				item: { count: 1, id: "iceandfire:troll_leather_forest" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6C3261662BE816A9"]
+			id: "014137B588E21ED8"
+			rewards: [{
+				id: "201D42AD65E1443C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "74F7ED7B3E9185A4"
+				item: { count: 1, id: "iceandfire:troll_leather_frost" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6C3261662BE816A9"]
+			id: "67F8116FE4F78570"
+			rewards: [{
+				id: "1CB786BBE0809AF8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4B132F8931538645"
+				item: { count: 1, id: "iceandfire:troll_leather_mountain" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A3CCA4E53AB4F22"]
+			id: "16DB64EA307EA92A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A79A37313C204DA"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3502B0A037C461FD"
+					item: { count: 1, id: "iceandfire:forest_troll_leather_boots" }
+					type: "item"
+				}
+				{
+					id: "00D3B33672F15CC0"
+					item: { count: 1, id: "iceandfire:forest_troll_leather_helmet" }
+					type: "item"
+				}
+				{
+					id: "239D97CE874EE6B6"
+					item: { count: 1, id: "iceandfire:forest_troll_leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7B28F76C8CE417A1"
+					item: { count: 1, id: "iceandfire:forest_troll_leather_leggings" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["014137B588E21ED8"]
+			id: "40741979A566664D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E06A17E4BDBBD9D"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4A6EF0EC49E2AAA6"
+					item: { count: 1, id: "iceandfire:frost_troll_leather_helmet" }
+					type: "item"
+				}
+				{
+					id: "388DF2239C5E3331"
+					item: { count: 1, id: "iceandfire:frost_troll_leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6E69EB49456BC0AD"
+					item: { count: 1, id: "iceandfire:frost_troll_leather_leggings" }
+					type: "item"
+				}
+				{
+					id: "30C484CBF2F8E187"
+					item: { count: 1, id: "iceandfire:frost_troll_leather_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["67F8116FE4F78570"]
+			id: "79F35B5CF26AB1FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E3801E6713FC3B"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1C31027B6982D367"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_helmet" }
+					type: "item"
+				}
+				{
+					id: "53352DFA8DA2A183"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "519839B8DE01DD93"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_leggings" }
+					type: "item"
+				}
+				{
+					id: "7993C69272A48286"
+					item: { count: 1, id: "iceandfire:mountain_troll_leather_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3788983DF3BF8476"]
+			id: "402C74B2FB55D8D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "280A725A139BF22B"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "11853C0A5B668A94"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_helmet" }
+					type: "item"
+				}
+				{
+					id: "75F073A38B7BF96B"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
+					type: "item"
+				}
+				{
+					id: "34F555B0876C912F"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_leggings" }
+					type: "item"
+				}
+				{
+					id: "495B676850E0F4F1"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_boots" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3788983DF3BF8476"]
+			id: "2F41A68163DC7D94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30CA6988CA9BC66C"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5139FC12F5EC8561"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_helmet" }
+					type: "item"
+				}
+				{
+					id: "7618D8C5E743D56E"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_chestplate" }
+					type: "item"
+				}
+				{
+					id: "337F29427ADF809C"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_leggings" }
+					type: "item"
+				}
+				{
+					id: "5A73E3220126A4E1"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_boots" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3788983DF3BF8476"]
+			id: "1585364EE6132A9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74159CC43C9AD280"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "546F67C5F4D71798"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_helmet" }
+					type: "item"
+				}
+				{
+					id: "66AB0F524C7DC5DE"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5C735ABCB324A3A6"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_leggings" }
+					type: "item"
+				}
+				{
+					id: "4BB2DB53B702FDF1"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_boots" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "40BDAD7E5AE274E0"
+			rewards: [{
+				id: "5879076500EAB5B6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "3C3D4DC6AF00D515"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"40BDAD7E5AE274E0"
+				"0F3CCAF9CA9E3593"
+			]
+			id: "2495ED4C1EC0623B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CC6F865756E5AA3"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "062ABEFBA3E75778"
+				item: { count: 1, id: "iceandfire:deathworm_gauntlet_yellow" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"40BDAD7E5AE274E0"
+				"77C474A8BB7E61B4"
+			]
+			id: "7AA6E89801160C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB5A26DB8D4EC08"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0ABBA363DF20674E"
+				item: { count: 1, id: "iceandfire:deathworm_gauntlet_white" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"40BDAD7E5AE274E0"
+				"029174669C1F65FF"
+			]
+			id: "64AB2A7B76DABE62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ADA2251192FDCE7"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28D2B07CF94AA833"
+				item: { count: 1, id: "iceandfire:deathworm_gauntlet_red" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			id: "0F3CCAF9CA9E3593"
+			rewards: [{
+				id: "04D4E6B2774ECFCC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "060B5DAE50BC587F"
+				item: { count: 1, id: "iceandfire:deathworm_chitin_yellow" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "77C474A8BB7E61B4"
+			rewards: [{
+				id: "413F7123EA613A24"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7F67AC7F4B8407D8"
+				item: { count: 1, id: "iceandfire:deathworm_chitin_white" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.5d
+		}
+		{
+			id: "029174669C1F65FF"
+			rewards: [{
+				id: "07B959102E5A4549"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "107F72290CB9C525"
+				item: { count: 1, id: "iceandfire:deathworm_chitin_red" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0F3CCAF9CA9E3593"]
+			id: "41430A0706B6A3B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E753410E9E010C4"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "74E2AA193037EEF6"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_helmet" }
+					type: "item"
+				}
+				{
+					id: "0CFF7A08E53699AB"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1741902101F8B5F2"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_leggings" }
+					type: "item"
+				}
+				{
+					id: "45ACFF93DB9887D4"
+					item: { count: 1, id: "iceandfire:deathworm_yellow_boots" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["77C474A8BB7E61B4"]
+			id: "515D4BCBD740A1E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F6C59EE1A62671B"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "28EFE8BEB81DDAB8"
+					item: { count: 1, id: "iceandfire:deathworm_white_helmet" }
+					type: "item"
+				}
+				{
+					id: "780FFCAFEFA0C1BE"
+					item: { count: 1, id: "iceandfire:deathworm_white_chestplate" }
+					type: "item"
+				}
+				{
+					id: "10528E014C30E327"
+					item: { count: 1, id: "iceandfire:deathworm_white_leggings" }
+					type: "item"
+				}
+				{
+					id: "1037361413DE16AB"
+					item: { count: 1, id: "iceandfire:deathworm_white_boots" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["029174669C1F65FF"]
+			id: "136A5018619364EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "232E24C45D78E613"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5412BF0B2D02B699"
+					item: { count: 1, id: "iceandfire:deathworm_red_helmet" }
+					type: "item"
+				}
+				{
+					id: "6E63FDA6AE065B7F"
+					item: { count: 1, id: "iceandfire:deathworm_red_chestplate" }
+					type: "item"
+				}
+				{
+					id: "32CA71B35FD7EC2D"
+					item: { count: 1, id: "iceandfire:deathworm_red_leggings" }
+					type: "item"
+				}
+				{
+					id: "78A917A6A0F80632"
+					item: { count: 1, id: "iceandfire:deathworm_red_boots" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["48202161CC421E0A"]
+			id: "47625FC4585C329E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40133FB870F3CAB0"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "35F21FC0269BC22E"
+					item: { count: 1, id: "iceandfire:dragonbone_sword" }
+					type: "item"
+				}
+				{
+					id: "6579DE4E46EE786D"
+					item: { count: 1, id: "iceandfire:dragonbone_bow" }
+					type: "item"
+				}
+				{
+					id: "1422237C2F43698C"
+					item: { count: 1, id: "iceandfire:dragonbone_shovel" }
+					type: "item"
+				}
+				{
+					id: "49E406993B98B128"
+					item: { count: 1, id: "iceandfire:dragonbone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "18AED3B2763372AE"
+					item: { count: 1, id: "iceandfire:dragonbone_axe" }
+					type: "item"
+				}
+				{
+					id: "144DBAAB08D1CF64"
+					item: { count: 1, id: "iceandfire:dragonbone_hoe" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "3840F8721B488875"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "637A2878C5428C82"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CBC4D9050DD02FE"
+				item: { count: 1, id: "iceandfire:dragon_seeker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3840F8721B488875"]
+			id: "411623E3B2FFBA49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "129F4CC55D0C499A"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1171D2B944B088D1"
+				item: { count: 1, id: "iceandfire:epic_dragon_seeker" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "6110D9CD3D24F99C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "638BA82EB0C2C148"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "381063A2F229E9DA"
+				item: { count: 1, id: "iceandfire:legendary_dragon_seeker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "53F191E2011995CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "552195DD55D1126A"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "248DC7076EF96B5A"
+					item: { count: 1, id: "iceandfire:tide_blue_helmet" }
+					type: "item"
+				}
+				{
+					id: "08560830678A1ED3"
+					item: { count: 1, id: "iceandfire:tide_blue_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7BDFD7A5272F6479"
+					item: { count: 1, id: "iceandfire:tide_blue_leggings" }
+					type: "item"
+				}
+				{
+					id: "3DE0D36A1BA840F5"
+					item: { count: 1, id: "iceandfire:tide_blue_boots" }
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "14184A1B87B35D00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D0C6044AFE3781B"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1A9A18BEE5AA4587"
+					item: { count: 1, id: "iceandfire:tide_bronze_helmet" }
+					type: "item"
+				}
+				{
+					id: "24FFA2C5C0E0CB2C"
+					item: { count: 1, id: "iceandfire:tide_bronze_chestplate" }
+					type: "item"
+				}
+				{
+					id: "31FE6BB1FA9997E1"
+					item: { count: 1, id: "iceandfire:tide_bronze_leggings" }
+					type: "item"
+				}
+				{
+					id: "7F36FE1BEFAB9823"
+					item: { count: 1, id: "iceandfire:tide_bronze_boots" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["40BDAD7E5AE274E0"]
+			id: "6C6C217B6FDF703A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C5EACD7F6DBC8D3"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/deathworm_egg"
+				criterion: ""
+				id: "7537C9C5A78379FC"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "635E85E44C1E9EEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "434A6A811A68EF83"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6D31F31C8F32FCE0"
+					item: { count: 1, id: "iceandfire:tide_deepblue_helmet" }
+					type: "item"
+				}
+				{
+					id: "0144DDF7E6C51506"
+					item: { count: 1, id: "iceandfire:tide_deepblue_chestplate" }
+					type: "item"
+				}
+				{
+					id: "521F5A62687AB63F"
+					item: { count: 1, id: "iceandfire:tide_deepblue_leggings" }
+					type: "item"
+				}
+				{
+					id: "3C9B3C95971E85B7"
+					item: { count: 1, id: "iceandfire:tide_deepblue_boots" }
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "7028210F32558AB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64AE5ACDC90ABEBB"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7356B031039E2CF4"
+					item: { count: 1, id: "iceandfire:tide_green_helmet" }
+					type: "item"
+				}
+				{
+					id: "4550478279117838"
+					item: { count: 1, id: "iceandfire:tide_green_chestplate" }
+					type: "item"
+				}
+				{
+					id: "43C2728FC1D2D4F3"
+					item: { count: 1, id: "iceandfire:tide_green_leggings" }
+					type: "item"
+				}
+				{
+					id: "3AC76CD5C583BEF3"
+					item: { count: 1, id: "iceandfire:tide_green_boots" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "14A07C20718EFA48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CE9F4A27EC73A94"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "66A4E7E85D03FB6B"
+					item: { count: 1, id: "iceandfire:tide_purple_helmet" }
+					type: "item"
+				}
+				{
+					id: "394D3C2F43529CAF"
+					item: { count: 1, id: "iceandfire:tide_purple_chestplate" }
+					type: "item"
+				}
+				{
+					id: "30A3486120D4E258"
+					item: { count: 1, id: "iceandfire:tide_purple_leggings" }
+					type: "item"
+				}
+				{
+					id: "6E3C60584A4CC409"
+					item: { count: 1, id: "iceandfire:tide_purple_boots" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "2486BE66DFF4FE49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C13640028E6E793"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "54A7BA50FC7B5DD7"
+					item: { count: 1, id: "iceandfire:tide_red_helmet" }
+					type: "item"
+				}
+				{
+					id: "18A2CC1DB08A96B6"
+					item: { count: 1, id: "iceandfire:tide_red_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2649476DE5B279F6"
+					item: { count: 1, id: "iceandfire:tide_red_leggings" }
+					type: "item"
+				}
+				{
+					id: "70CDA5B0F586D8E1"
+					item: { count: 1, id: "iceandfire:tide_red_boots" }
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["12B670DC0BA2CD61"]
+			id: "1D9DD04300214546"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66649DEB15C8E555"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "348E4E6929B2A45E"
+					item: { count: 1, id: "iceandfire:tide_teal_helmet" }
+					type: "item"
+				}
+				{
+					id: "3A54CB652D8AF35C"
+					item: { count: 1, id: "iceandfire:tide_teal_chestplate" }
+					type: "item"
+				}
+				{
+					id: "33F6D1B2891C9C50"
+					item: { count: 1, id: "iceandfire:tide_teal_leggings" }
+					type: "item"
+				}
+				{
+					id: "7CF8C360A8573927"
+					item: { count: 1, id: "iceandfire:tide_teal_boots" }
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["41050138640D4C83"]
+			id: "69658863697B04DB"
+			rewards: [{
+				id: "4EBB268FCAF8C53E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0DFE14ED5C8CAE60"
+				item: { count: 1, id: "iceandfire:dread_shard" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69658863697B04DB"]
+			id: "43829C3D916CF218"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2556075590EC965F"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [{
+				id: "016D8FA40405C4E0"
+				item: { count: 1, id: "iceandfire:dread_key" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69658863697B04DB"]
+			id: "4C1F6FAA78A155EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "047ECC775AB71C19"
+				table_id: 4729640627757893095L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:dread_scuttler"
+					id: "49C6FDC88227AD59"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_beast"
+					id: "785504434C8A50A1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_lich"
+					id: "21802A9D203B95C4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_thrall"
+					id: "568AAB6F3A146F49"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_knight"
+					id: "5A0E2B5724656E2D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_horse"
+					id: "70EAFDF1ABF9731B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:dread_ghoul"
+					id: "4E9E5CF0F18EEA3B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["43829C3D916CF218"]
+			id: "6E52A8C474274ADF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26086588E2F9A021"
+				table_id: 3901975761424193686L
+				type: "random"
+			}]
+			tasks: [{
+				id: "540D2012D5840697"
+				structure: "iceandfire:mausoleum"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["73BF405B73B52B1D"]
+			id: "14C70AB8DA41974D"
+			rewards: [{
+				id: "65E2D3C8280E5B4E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A2DFB565C112C3A"
+				item: { count: 1, id: "iceandfire:sapphire_gem" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "3D8BBE28CDF87132"
+			rewards: [{
+				id: "29DA57890B980565"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F71F057ED1F2471"
+				item: { count: 1, id: "iceandfire:sapphire_gem" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+	]
+}
