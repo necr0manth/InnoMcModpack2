@@ -1,0 +1,28 @@
+#Quarry settings
+[quarry]
+	#Speed multiplier for the quarry. Higher values = faster mining. (0.1 – 10.0, default 1.0)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	speedMultiplier = 1.0
+	#Energy usage multiplier for the quarry. Higher values = more FE consumed. (0.1 – 10.0, default 1.0)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	energyMultiplier = 1.0
+	#List of block resource locations the quarry cannot break (e.g. "minecraft:bedrock").
+	blacklist = ["minecraft:bedrock"]
+	#Maximum FE/tick the quarry can consume for high-speed mode. Uses a logarithmic curve — below 120 FE/tick is baseline speed; above that energy buys speed up to maxEnergySpeedMultiplier. Default 100,000. Range: 100 – 10,000,000.
+	# Default: 100000
+	# Range: 100 ~ 10000000
+	maxEnergyPerTick = 100000
+	#Maximum speed multiplier achievable at maxEnergyPerTick. E.g. 10.0 = 10x faster. The curve is logarithmic — the last 2x of speed costs exponentially more energy than the first 2x. Default 10.0. Range: 1.0 – 100.0.
+	# Default: 10.0
+	# Range: 1.0 ~ 100.0
+	maxEnergySpeedMultiplier = 10.0
+	#If true, right-clicking the quarry with an enchanted book applies Fortune or Silk Touch to all mined drops. Only one enchantment active at a time; later book overrides earlier.
+	enchantmentsEnabled = true
+	#If true, right-clicking the quarry with an empty bucket consumes the bucket and installs fluid voiding. Upgraded quarries delete fluid blocks encountered while mining.
+	fluidVoidingEnabled = true
+	#Maximum distance allowed between paired construction torches in blocks. Default 64. Increase this to allow larger quarry footprints.
+	# Default: 64
+	# Range: 8 ~ 512
+	maxTorchDistance = 64

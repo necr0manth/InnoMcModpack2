@@ -1,0 +1,27 @@
+/time set day
+/gamerule doDaylightCycle false
+/kjs dump registry minecraft:recipe_type
+/weather clear
+/time set day
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/time set day
+/gamerule doDaylightCycle false
+/tick sprint 1d
+/give @s create:andesite_encased_shaft
+/effect give @s minecraft:night_vision infinite
+/time set day
+/weather clear
+/gamerule doWeatherCycle false
+/difficulty easy
+/summon cyclic:lightning_bolt
+/summon minecraft:lightning_bolt
+/weather thunder
+/summon minecraft:lightning_bolt
+/tick sprint 1d
+/gamerule doWeatherCycle true
+/weather thunder
+/weather clear
+/gamerule doWeatherCycle false
+/tick sprint 1d
+/ftbquests open_book

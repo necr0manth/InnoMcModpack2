@@ -10,8 +10,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -56,21 +56,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "eclipticseasons": {
-    "greenhouse_core": true,
-    "animal": true,
-    "cauldron": true,
-    "crop": true,
-    "snowy_status": true,
-    "crop.shift_hint": true
-  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
   },
   "jadeaddons.create": {
     "filter": true,
@@ -89,8 +78,8 @@
     "entity": true,
     "entity_variant": true
   },
-  "jadeaddons.lootr": {
-    "info": true
+  "ftbquests": {
+    "barrier": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -106,7 +95,76 @@
   "iceandfire": {
     "dragon_egg_entity": true,
     "multipart": true,
-    "dragon_egg_block": true,
-    "dragon": true
+    "dragon": true,
+    "dragon_egg_block": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "eclipticseasons": {
+    "greenhouse_core": true,
+    "animal": true,
+    "cauldron": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
+  },
+  "ae2lt": {
+    "lightning_collector": true,
+    "firmament_conversion_core": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "enderio_conduit_opt": {
+    "item_conduit_info": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "ae2cs": {
+    "ender_emitter": true,
+    "ender_channels": true,
+    "ender_broadcaster": true,
+    "mirror_pattern_provider": true
+  },
+  "data_energistics": {
+    "data_sanctum.part": false,
+    "data_distribution_tower": true,
+    "me_access_hatch": true,
+    "multiblock.role": false,
+    "digital_storage_depot": true,
+    "data_teleport_anchor": true,
+    "data_sanctum.mode": false,
+    "data_reassembler": true,
+    "data_sanctum_interface": true,
+    "data_extractor": true,
+    "me_solar_panel": true,
+    "data_sanctum": true,
+    "multiblock.blocks": false,
+    "data_mimetic_field": true,
+    "multiblock": true,
+    "data_charger": true,
+    "compartment": true,
+    "multiblock.debug": false
   }
 }

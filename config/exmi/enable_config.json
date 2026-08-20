@@ -1,6 +1,7 @@
 {
   "enabledIntegrations": {
     "farmersdelight": true,
+    "actuallyadditions": true,
     "rechiseled": true
   }
 }

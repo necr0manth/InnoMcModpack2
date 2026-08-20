@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 3,
+  "preferences": {},
+  "serverProfiles": {
+    "sha256:3cf57c99a2cc7cac1e923e589e8bbfdf4a71035c1e06e16518fa836d8c21a8eb": {
+      "lastAccessEpochMillis": 1787248317107,
+      "clickStatistics": []
+    },
+    "sha256:46ede4bd0528dabb1ffadb9127f8b86d4e27f64bcf117e329e9d7ccf95a8a1fb": {
+      "lastAccessEpochMillis": 1786293779704,
+      "clickStatistics": []
+    }
+  }
+}

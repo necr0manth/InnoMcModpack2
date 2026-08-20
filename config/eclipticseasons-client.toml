@@ -130,3 +130,8 @@
 		UnifiedSnowyBlockSides = true
 		#Shader Fix: Prevents thin ice from being incorrectly flagged as 'Water' during post-processing.
 		UnifiedFrozenWater = false
+
+	[Compat.DistantHorizons]
+		#Force Distant Horizons to refresh all LODs timely.
+		#WARNING: Enabling this may cause a full LOD rebuild and significant lag spikes.
+		DistantHorizonsWinterLODForceUpdateAll = false

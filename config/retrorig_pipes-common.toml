@@ -1,0 +1,37 @@
+[createCompat]
+	#SU load consumed by each Rotary Dynamo Pipe while running. Default 32 lets one small Create water wheel drive one adapter.
+	# Default: 32
+	# Range: 1 ~ 16384
+	rotaryDynamoStressImpact = 32
+	#FE generated per tick for each consumed SU.
+	# Default: 4
+	# Range: 1 ~ 1024
+	rotaryDynamoFePerSu = 4
+	#Hard FE/t generation cap for one Rotary Dynamo Pipe.
+	# Default: 4096
+	# Range: 1 ~ 1000000
+	rotaryDynamoMaxFePerTick = 4096
+	#Internal FE buffer for one Rotary Dynamo Pipe.
+	# Default: 16000
+	# Range: 1 ~ 10000000
+	rotaryDynamoBuffer = 16000
+
+[teleportPipes]
+	#Enables cross-dimensional Teleport Pipes. Both endpoint chunks must already be loaded.
+	teleportPipesEnabled = false
+	#Highest selectable Teleport Pipe frequency.
+	# Default: 9999
+	# Range: 0 ~ 1000000
+	teleportMaxFrequency = 9999
+	#Maximum item stacks teleported per tick by one Teleport Item Pipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	teleportItemRate = 1
+	#Maximum millibuckets teleported per tick by one Teleport Fluid Pipe.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	teleportFluidRate = 1000
+	#Maximum FE teleported per tick by one Teleport Energy Pipe.
+	# Default: 4000
+	# Range: 1 ~ 1000000
+	teleportEnergyRate = 4000

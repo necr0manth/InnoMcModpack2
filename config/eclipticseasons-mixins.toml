@@ -107,3 +107,9 @@
 		MixinClonedChunkSection = true
 		MixinLevelSlice = true
 		MixinNeoForgeModelAccess = true
+
+	[compat.distanthorizons]
+		MixinAbstractDhTintGetter = true
+		MixinClientLevel = true
+		MixinFullDataToRenderDataTransformer = true
+		MixinQuadTree = true

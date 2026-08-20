@@ -1,0 +1,35 @@
+#Processing Type Enablement
+[processing]
+
+	#Fan Processing Types
+	[processing.fanProcessing]
+		#Enable withering fan processing
+		enableWitheringFan = true
+		#Enable purifying fan processing
+		enablePurifyingFan = true
+		#Enable petrifying fan processing
+		enablePetrifyingFan = true
+		#Enable sanding fan processing
+		enableSandingFan = true
+		#Enable enderfying fan processing
+		enableEnderifyingFan = true
+
+	#Pressing Types
+	[processing.pressing]
+		#Enable hot pressing with blaze burner catalyst
+		enableHotPressing = true
+		#Enable cold pressing with packed ice catalyst
+		enableColdPressing = true
+		#Enable magnetic pressing with lodestone catalyst
+		enableMagneticPressing = true
+		#Enable speed-tiered pressing (FAST @ 64 RPM, OVERDRIVE @ 256 RPM)
+		enableSpeedPressing = true
+
+	#Mixing Types
+	[processing.mixing]
+		#Enable cold mixing with packed ice catalyst
+		enableColdMixing = true
+		#Enable resonance mixing with amethyst catalyst
+		enableResonanceMixing = true
+		#Enable speed-tiered mixing (FAST @ 64 RPM, OVERDRIVE @ 256 RPM)
+		enableSpeedMixing = true
