@@ -1,0 +1,3 @@
+#Allow Create's kinematic windmill rotor for power generation.
+#False requires a physical alternative and disables ordinary windmill assembly.
+allowWindmill = true

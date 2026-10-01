@@ -25,3 +25,24 @@
 /gamerule doWeatherCycle false
 /tick sprint 1d
 /ftbquests open_book
+/weather clear
+/sparkc profiler start
+/weather clear
+/sparkc profiler stop
+/sparkc profiler start
+/sparkc profiler stop
+/sparkc profiler start
+/sparkc profiler stop
+/sparkc profiler start
+/sparkc profiler stop
+/kubejs reload
+/kubejs reload server-scripts
+/reload
+/spark profiler start --thread *
+/spark profiler stop
+/kubejs dump registry minecraft:dimension
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand

@@ -1,0 +1,10 @@
+#Enable addon dependency during mechanism generation
+enableAddonRequirement = true
+#Generate item recipes
+generateItemRecipes = false
+#Generate mechanism recipes
+generateMechanismRecipes = false
+#Generate use recipes
+generateUseRecipes = false
+#Generate extra scripts
+generateExtraRecipes = false

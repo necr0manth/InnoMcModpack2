@@ -86,16 +86,6 @@ alternateWirePlacement = false
 	# Range: 0.1 ~ 1.7976931348623157E308
 	resistiveHeaterResistance = 45.0
 	#.
-	#[in Ohms]
-	# Default: 150.0
-	# Range: 0.1 ~ 1.7976931348623157E308
-	electricTrainAccelerationResistance = 150.0
-	#.
-	#[in Ohms]
-	# Default: 300.0
-	# Range: 0.1 ~ 1.7976931348623157E308
-	electricTrainCruiseResistance = 300.0
-	#.
 	#[in Ohms / Meter]
 	# Default: 0.005
 	# Range: 1.0E-4 ~ 1.7976931348623157E308
@@ -120,11 +110,20 @@ alternateWirePlacement = false
 	# Default: 1000.0
 	# Range: 1.0E-4 ~ 1.7976931348623157E308
 	indicatorBulbResistance = 1000.0
+	#.
+	#[in Watts]
+	# Default: 40000.0
+	# Range: 0.1 ~ 1.7976931348623157E308
+	electricTrainAccelerationPowerConsumption = 40000.0
+	#.
+	#[in Watts]
+	# Default: 20000.0
+	# Range: 0.1 ~ 1.7976931348623157E308
+	electricTrainCruisePowerConsumption = 20000.0
 
 #.
 #Voltage Values
 [Voltages]
-	#.
 	#.
 	#[in Volts]
 	# Default: 1900
@@ -175,6 +174,12 @@ alternateWirePlacement = false
 	# Default: 36000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	maxAccumulatorCharge = 36000.0
+	#.
+	#.
+	#[in Volts]
+	# Default: 80
+	# Range: > 0
+	motorMinVoltage = 80
 
 #.
 #Train Values
@@ -231,7 +236,7 @@ alternateWirePlacement = false
 	#[EXPERIMENTAL] This describes how many times the simulation is run every tick.
 	# Default: 1
 	# Range: 1 ~ 32
-	microTicks = 1
+	microTicks = 32
 
 #.
 #Alternator Values

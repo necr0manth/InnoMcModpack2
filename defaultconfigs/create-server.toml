@@ -1,0 +1,3 @@
+# Native moving actors drop items into the world, preserving mounted storage.
+[kinetics.contraptions]
+moveItemsToStorage = false

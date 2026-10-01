@@ -73,14 +73,14 @@ show_config_tooltips = true
 	precision_assembly_can_swap_inputs = true
 	#
 	# If true, Mechanical Arms can be used for Deployer Application recipes, in the same way as Precision Assembly
-	mechanical_arms_handle_deploying_recipes = false
+	mechanical_arms_handle_deploying_recipes = true
 	#
 	# If true, Mechanical Arms can be used for Deploying steps in Sequenced Assembly, in the same way as Precision Assembly
 	mechanical_arms_handle_sequenced_deploying_recipes = true
 	#
 	# Determines if the Sequenced Assembly category displays Mechanical Arms for Deploying steps, in Recipe Viewers
 	#Allowed Values: NEVER, ALTERNATING, ALWAYS
-	sequenced_deploying_displays_mech_arm = "NEVER"
+	sequenced_deploying_displays_mech_arm = "ALWAYS"
 
 [Appliances]
 	# Default: 8.0

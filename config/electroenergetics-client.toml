@@ -1,6 +1,6 @@
 #.
 #Show AC content in the creative tab.
-showACContent = false
+showACContent = true
 #.
 #Disables flywheel wire rendering
 disableFlywheelWireRendering = false
@@ -24,3 +24,6 @@ debugNodeID = false
 #.
 #Display birds on wires.
 showBirdsOnWires = true
+#.
+#Display hint on items placeable in electrical panel.
+displayPanelTooltip = true

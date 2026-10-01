@@ -47,3 +47,5 @@
 /debug/
 /ldlib2/
 ponders_watched.json
+/.ai_docs
+/mods/.connector

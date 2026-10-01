@@ -209,7 +209,7 @@
 		movableReinforcedDeepslate = "UNMOVABLE"
 		#.
 		#Whether items mined or harvested by contraptions should be placed in their mounted storage.
-		moveItemsToStorage = true
+		moveItemsToStorage = false
 		#.
 		#Whether harvesters should break crops that aren't fully grown.
 		harvestPartiallyGrown = false

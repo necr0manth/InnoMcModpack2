@@ -1,0 +1,8 @@
+{
+  "fluid": ["petrochem:gasoline"],
+  "normal": { "speed": 96, "strength": 4096, "burn_rate": 0.05 },
+  "modular": { "speed": 96, "strength": 6144, "burn_rate": 0.05 },
+  "huge": { "speed": 224, "strength": 12288, "burn_rate": 0.05 },
+  "sound_pitch": 1.0,
+  "burner_multiplier": 1.1
+}
