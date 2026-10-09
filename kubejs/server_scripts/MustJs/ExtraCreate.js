@@ -230,3 +230,139 @@ function sawRecipe(e, sawTier, materialInput){
         )
     })
 }
+
+/**
+ * Creates both a vanilla smithing recipe and a Create sequenced assembly
+ * recipe using deploying steps.
+ *
+ * @param {Object} e - The recipe event object.
+ * @param {Object|string} output - The final recipe output item.
+ * @param {Object|string} template - The smithing template item.
+ * @param {Object|string} base - The base item used in the recipe and sequenced assembly.
+ * @param {Object|string} addition - The item or tag applied to the base item.
+ * @param {boolean} tag - Whether the addition should be treated as an item tag. Defaults to false.
+ * @param {number} stack - The amount of output items produced. Defaults to 0, which uses the default output amount.
+ *
+ * Usage example: smithing_deploying(
+ *     e,
+ *     'createmechanisms:portable_chute',
+ *     'createmechanisms:zinc_mechanism',
+ *     'create:chute',
+ *     'minecraft:iron_ingot',
+ *     false,
+ *     1
+ * )
+ *
+ * - Creates a vanilla smithing recipe using the specified template, base, and addition.
+ * - Creates a Create sequenced assembly using two deploying steps.
+ * - The first deploying step applies the template to the base item.
+ * - The second deploying step applies the addition to the base item.
+ * - When tag is true, the addition is treated as an item tag.
+ * - When stack is greater than 0, the specified amount of output items is produced.
+ * - Removes existing recipes that produce the specified output before creating the new recipes.
+ */
+function smithing_deploying(e, output, template, base, addition, tag, stack) {
+    tag = tag || false;
+    stack = stack || 0;
+
+    RemoveOutput(e, [output]);
+
+    const additionInput = tag
+        ? itemInputTag(addition)
+        : itemInput(addition);
+
+    const outputCount = stack > 0
+        ? itemOutputStack(output, stack)
+        : itemOutput(output);
+
+    smithing(
+        e,
+        outputCount,
+        itemInput(template),
+        itemInput(base),
+        additionInput
+    );
+
+    sequenced_assembly(
+        e,
+        [
+            outputCount,
+        ],
+        itemInput(base),
+        itemOutput(base),
+        1,
+        [
+            deployingS(
+                itemOutput(base),
+                itemInput(base),
+                itemInput(template),
+                false
+            ),
+            deployingS(
+                itemOutput(base),
+                itemInput(base),
+                additionInput,
+                false
+            )
+        ]
+    );
+}
+
+/**
+ * Creates a portable base recipe using a smithing and deploying process.
+ *
+ * @param {Object} e - The recipe event object.
+ * @param {Object|string} output - The recipe output item.
+ * @param {Object|string} casing - The casing item or item tag applied to the base.
+ * @param {boolean} ifTagCasing - Whether the casing should be treated as an item tag. Defaults to false.
+ *
+ * Usage example: portable_base_recipe(
+ *     e,
+ *     'createmechanisms:portable_chute',
+ *     'create:andesite_casing',
+ *     false
+ * )
+ *
+ * - Uses createmechanisms:zinc_mechanism as the smithing template.
+ * - Uses create:chute as the base item.
+ * - Applies the specified casing to the base item.
+ * - When ifTagCasing is true, casing is treated as an item tag.
+ * - Internally uses smithing_deploying() to create the recipes.
+ */
+function portable_base_recipe(e, output, casing, ifTagCasing) {
+    ifTagCasing = ifTagCasing || false;
+
+    smithing_deploying(
+        e, output, 'createmechanisms:zinc_mechanism', 'create:chute', casing, ifTagCasing, 0
+    )
+}
+
+/**
+ * Creates stonecutting recipes for every item contained in an item tag.
+ *
+ * @param {Object} e - The recipe event object.
+ * @param {string} inputTag - The item tag used as the input.
+ *
+ * Usage example: tag_saw_converter_recipe(
+ *     e,
+ *     'crafting:redstone_mechanism'
+ * )
+ *
+ * - Retrieves all items contained in the specified item tag.
+ * - Creates a stonecutting recipe for each item in the tag.
+ * - Uses the entire tag as the recipe input.
+ * - Each item in the tag becomes the output of its corresponding recipe.
+ * - Removes existing recipes that produce each generated output item.
+ */
+function tag_saw_converter_recipe(e, inputTag) {
+    const items = Ingredient.of(`#${inputTag}`).itemIds;
+
+    items.forEach((item) => {
+        RemoveOutput(e, [item]);
+        stonecutting(
+            e,
+            itemInputTag(inputTag),
+            itemOutput(item),
+        );
+    });
+}

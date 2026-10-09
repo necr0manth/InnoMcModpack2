@@ -217,3 +217,28 @@ function smithing(e, output, template, base, addition) {
 function addTag(e, tagName, itens) {
     e.add(tagName, itens);
 }
+
+/**
+ * Creates two shapeless crafting recipes that allow two items to be
+ * converted into each other.
+ *
+ * @param {Object} e - The recipe event object.
+ * @param {Object|string} item_a - The first item.
+ * @param {Object|string} item_b - The second item.
+ *
+ * Usage example: alternate(
+ *     e,
+ *     'minecraft:iron_ingot',
+ *     'minecraft:iron_nugget'
+ * )
+ *
+ * * Creates a shapeless recipe that converts item_a into item_b.
+ * * Creates a shapeless recipe that converts item_b into item_a.
+ * * Each recipe requires only one input item.
+ * * The conversion works in both directions, allowing the two items
+ * to be used as alternatives to each other.
+ */
+function alternate(e, item_a, item_b) {
+    shapeless(e, itemOutput(item_a), [itemInput(item_b)]);
+    shapeless(e, itemOutput(item_b), [itemInput(item_a)]);
+}

@@ -166,3 +166,32 @@ function ReplaceItem(e, item, new_item) {
     ReplaceInput(e, item, new_item);
     ReplaceOutput(e, item, new_item);
 }
+
+/**
+ * Replaces an input in recipes from a specific mod.
+ *
+ * Only recipes that match both the specified mod and input are affected.
+ *
+ * @param {Object} e - KubeJS recipe event.
+ * @param {string} mod - Mod ID used to filter the recipes.
+ * @param {string} input - Input item or ingredient to be replaced.
+ * @param {string} new_input - Replacement item or ingredient.
+ *
+ * @example
+ * ReplaceModInput(
+ *     e,
+ *     'create',
+ *     'minecraft:dried_kelp',
+ *     'createmechanisms:rubber'
+ * );
+ */
+function ReplaceModInput(e, mod, input, new_input) {
+    e.replaceInput(
+        {
+            mod: mod,
+            input: input
+        },
+        input,
+        Ingredient.of(new_input)
+    );
+}
