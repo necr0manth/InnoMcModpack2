@@ -1,5 +1,6 @@
 // Late Blaze Mixer assembly uses mechanical arms; its press step stays on a depot.
 ServerEvents.recipes(function (event) {
+  if (!Platform.isLoaded('blazinghot')) return;
   var unfinished = 'blazinghot:incomplete_blaze_mixer';
   var item = function (id) { return { item: id }; };
   var components = [

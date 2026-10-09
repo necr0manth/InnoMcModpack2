@@ -2,7 +2,8 @@
 // Native Create actors use the persisted loot flag instead of disabling mounted inventories.
 ServerEvents.loaded(function (event) {
   if (!Platform.isLoaded('innophysicalcreate')) {
-    throw new Error('[Inno Physics] Missing Inno Physical Create companion: ordinary assemblies are not restricted.');
+    console.warn('[Inno Physics] Inno Physical Create companion is disabled: ordinary assemblies are not restricted.');
+    return;
   }
   var configs = Java.loadClass('com.simibubi.create.infrastructure.config.AllConfigs');
   if (configs.server().kinetics.moveItemsToStorage.get()) {
