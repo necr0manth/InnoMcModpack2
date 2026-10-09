@@ -23,6 +23,7 @@ ItemEvents.modifyTooltips(event => {
     group.namespaces.forEach(namespace => { event.add(new RegExp('^' + namespace + ':'), lines) })
   })
   innoCatalog.rankRestrictions.forEach(restriction => {
+    if (!(Item.of(restriction.item).item instanceof Java.loadClass('it.hurts.sskirillss.relics.api.relics.IRelicItem'))) return
     event.add(restriction.item, [Text.gray('MVP: ' + restriction.reason)])
   })
 })

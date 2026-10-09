@@ -20,10 +20,18 @@ function innoAccessDeny(event, id) {
 }
 
 function innoAccessCombatTemplates() {
+  var relicItem = Java.loadClass('it.hurts.sskirillss.relics.api.relics.IRelicItem')
+  var applicableRestrictions = 0
   innoAccess.rankRestrictions.forEach(function(restriction) {
+    var item = Item.of(restriction.item).item
+    // Plain Artifacts items have no Relics ranks while Reliquified Artifacts is disabled.
+    if (!(item instanceof relicItem)) {
+      console.warn('[inno_access] Rank restriction not applicable to ' + restriction.item + ': item has no Relics ranks (Reliquified Artifacts loaded=' + Platform.isLoaded('reliquified_artifacts') + ')')
+      return
+    }
     var rank = Number(restriction.rank)
     var modifier = String(restriction.modifier)
-    var ranks = Item.of(restriction.item).item.getDefaultRelicTemplate()
+    var ranks = item.getDefaultRelicTemplate()
       .getAbilities().getAbilities().get(restriction.ability).getRankModifiers()
     // Iterate the original Java entries: Multimap.remove(Object,Object) would box JS5 as Double.
     // Installed Rhino reuses a const binding inside while; var reads each advancing entry.
@@ -37,12 +45,13 @@ function innoAccessCombatTemplates() {
       if (entryRank === rank && entryModifier === modifier) iterator.remove()
     }
     if (ranks.containsValue(modifier)) throw new Error('inno_access rank restriction failed: ' + restriction.item + ' target=' + rank + '/' + modifier + ' observed=' + JSON.stringify(observed) + ' remaining=' + String(ranks))
+    applicableRestrictions++
   })
   Java.loadClass('it.hurts.sskirillss.relics.handlers.CacheHandler').clearTemplateCache()
   var ring = Item.of('relics:ring_of_the_seven_deadly_sins').item
   ring.getDefaultLootTemplate().setEntries(Java.loadClass('java.util.Collections').emptyList())
   Java.loadClass('it.hurts.sskirillss.relics.level.RelicLootModifier').processRelicCache(ring)
-  console.info('[inno_access] rank5 survival/salvation disabled; Seven Sins native loot disabled')
+  console.info('[inno_access] Applied ' + applicableRestrictions + ' rank restrictions; Seven Sins native loot disabled')
 }
 
 ServerEvents.recipes(event => {
