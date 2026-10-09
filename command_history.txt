@@ -1,32 +1,3 @@
-/time set day
-/gamerule doDaylightCycle false
-/kjs dump registry minecraft:recipe_type
-/weather clear
-/time set day
-/gamerule doDaylightCycle false
-/gamerule doWeatherCycle false
-/time set day
-/gamerule doDaylightCycle false
-/tick sprint 1d
-/give @s create:andesite_encased_shaft
-/effect give @s minecraft:night_vision infinite
-/time set day
-/weather clear
-/gamerule doWeatherCycle false
-/difficulty easy
-/summon cyclic:lightning_bolt
-/summon minecraft:lightning_bolt
-/weather thunder
-/summon minecraft:lightning_bolt
-/tick sprint 1d
-/gamerule doWeatherCycle true
-/weather thunder
-/weather clear
-/gamerule doWeatherCycle false
-/tick sprint 1d
-/ftbquests open_book
-/weather clear
-/sparkc profiler start
 /weather clear
 /sparkc profiler stop
 /sparkc profiler start
@@ -46,3 +17,34 @@
 /kjs hand
 /reload
 /kjs hand
+/spark tps
+/kill @e[type=!minecraft:player]
+/ftbquests
+/ftbquests open_book
+/spark profiler start
+/spark profiler stop
+/spark profiler start --thread * --timeout 60 --not-combined
+/spark tps
+/spark profiler start --thread * --not-combined
+/spark profiler stop
+/ftbquests open_book
+/locate structure cr_aero_structures:engineering_house
+/tp @s 2656 ~ -10704
+/ftbquests open_book
+/weather clear
+/ftbquests open_book
+/kubejs hand
+/reload
+/kubejs hand
+/reload
+/kubejs hand
+/reload
+/ftbquests open_book
+/spark tps
+/spark profiler start
+/ftbquests open_book
+/kjs hand
+/reload
+/ftbquests open_book
+/reload
+/ftbquests open_book

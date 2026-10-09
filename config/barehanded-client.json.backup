@@ -1,7 +1,7 @@
 {
-  "configVersion": 7,
-  "verticalRotationSensitivity": 0.5,
-  "horizontalRotationSensitivity": 0.5,
+  "configVersion": 10,
+  "verticalRotationSensitivity": 0.1,
+  "horizontalRotationSensitivity": 0.1,
   "scrollDistanceSensitivity": 0.5,
   "invertVerticalRotation": false,
   "invertHorizontalRotation": false,
