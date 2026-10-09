@@ -1,6 +1,6 @@
 [Weather]
 	#Adjust the overall frequency of thunder.
-	# Default: 80
+	# Default: 100
 	# Range: 0 ~ 1000
 	ThunderChanceMultiplier = 80
 	#Automatically reset weather to clear after the player wakes up from a bed.
@@ -15,16 +15,19 @@
 	NoRainInDeserts = false
 	#Force initialize snow states for extreme cold biomes when the mod or world is first loaded.
 	ShouldInitSnowForExtremeColdBiomes = true
-	#Enable localized weather patterns where rain or sun is determined per-biome.
+	#Weather changes in many ways with the solar terms  (seasons) .
 	UseSolarWeather = true
 	#Adjust the overall frequency of rain.
-	# Default: 120
+	# Default: 100
 	# Range: 0 ~ 1000
 	RainChanceMultiplier = 120
 	#Adjusts the recession speed of atmospheric snow overlays during warmer periods.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
 	SnowMeltSpeedMultiplier = 1.0
+	#Clear and rainy periods alternate, preventing endless rain or perpetual clear skies.
+	#Ignored if UseSolarWeather is disabled.
+	AlternatingWeatherModel = true
 
 [Crop]
 	#Restrict plant growth based on their compatible seasons.
@@ -77,7 +80,8 @@
 	SaveChunkEnvironmentalHumidity = true
 	#Whether Wandering Traders can sell Seasonal Greenhouse Essence.
 	WanderingTraderSellsGreenhouseEssence = true
-	#Enables more precise shape detection for greenhouse structures.
+	#Adjusts the greenhouse structure detection mode. Higher accuracy modes check more directions, while top-only mode only requires overhead coverage.
+	#Allowed Values: FULL, BASIC, TOP_ONLY
 	GreenHouseCheckMode = "FULL"
 	#The horizontal detection radius for the Greenhouse.
 	# Default: 32
@@ -222,7 +226,7 @@
 	# Default: 4
 	# Range: 1 ~ 24
 	InitialSolarTermIndex = 4
-	#Synchronize the in-game calendar and seasonal data with the server/client local time.
+	#Displays local seasonal and calendar information based on the agricultural climate zone of the current biome. Different regions may show different seasonal progress.
 	BiomeBasedLocalCalendar = false
 
 [Map]
@@ -247,3 +251,8 @@
 	DisableUniqueBiomeTagsRebinding = false
 	#Keep chunk extra info in memory (disables the cache cleaner).
 	DisableChunkCacheCleaner = false
+
+[Core]
+	#Controls the intensity of seasonal simulation.
+	#Allowed Values: ENVIRONMENT, ECOLOGY, AGRICULTURE, SURVIVAL, CUSTOM
+	SeasonalSimulationLevel = "AGRICULTURE"

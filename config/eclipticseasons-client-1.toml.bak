@@ -33,6 +33,8 @@
 	WildGooseSpawnDelay = 10
 	#Emits soft ambient particles when the Season Core or Greenhouse is active.
 	GreenHouseParticles = true
+	#Fallen leaves on the ground will gradually shrink instead of disappearing instantly.
+	FallenLeavesGroundFade = true
 
 [Weather]
 	#When enabled, Ecliptic Seasons may adjust rain and snow particle textures when needed.
