@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "ice_and_fire_community_edition"
 	group: ""
+	icon: {
+		id: "iceandfire:summoning_crystal_lightning"
+	}
 	id: "276FADC9194ED6BF"
 	images: [ ]
 	order_index: 0

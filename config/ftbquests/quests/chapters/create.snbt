@@ -1,0 +1,713 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: {
+		id: "create:precision_mechanism"
+	}
+	id: "003F14EB0B47B78E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71D4C87C5B0BC89C"
+			size: 1.5d
+			tasks: [{
+				id: "18442C367BCDD69B"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D4C87C5B0BC89C"]
+			id: "4DEA8C18EE89CEF8"
+			tasks: [{
+				id: "447780F7BBA730EE"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71D4C87C5B0BC89C"]
+			id: "44DEA01417B3B09C"
+			tasks: [{
+				id: "02F989955099B62A"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "450E8ED24F49011D"
+			tasks: [{
+				id: "527F64EDBF8197A3"
+				item: { count: 1, id: "createdieselgenerators:hammer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["450E8ED24F49011D"]
+			id: "3920948E013B87B1"
+			tasks: [{
+				id: "05F7ABAFDA572C53"
+				item: { count: 1, id: "createdeco:andesite_sheet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3920948E013B87B1"
+				"500474DE034F8271"
+				"7396B04BAE16335B"
+			]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "35C86F7D63D451A4"
+			tasks: [
+				{
+					id: "21FE6DC8F025FF1A"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "00E86BB68EDD0368"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "1D593DFBC172D79F"
+			tasks: [
+				{
+					id: "06CE9162AF9DC384"
+					item: { count: 1, id: "electroenergetics:copper_wire" }
+					type: "item"
+				}
+				{
+					id: "127F76ADB6D84AB0"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+				{
+					id: "44FD6975F1B66A6B"
+					item: { count: 1, id: "electroenergetics:copper_wire_spool" }
+					type: "item"
+				}
+				{
+					id: "4AD106FBF6A2291B"
+					item: { count: 1, id: "electroenergetics:commutator" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FDBDDAB1F0F116B"]
+			id: "345AA451F0F44012"
+			tasks: [{
+				id: "19B1887A44326643"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D593DFBC172D79F"
+				"5052EFD48304AAEF"
+			]
+			id: "2913135724B908CD"
+			tasks: [{
+				id: "64686BE37A8938EE"
+				item: { count: 1, id: "createmechanisms:basic_energy_mechanism" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2913135724B908CD"]
+			id: "07932891DA1FF351"
+			size: 1.5d
+			tasks: [
+				{
+					id: "23FFD99E0F1C33C1"
+					item: { count: 1, id: "electroenergetics:alternator_rotor" }
+					type: "item"
+				}
+				{
+					id: "776F1CC6207F9679"
+					item: { count: 1, id: "electroenergetics:stator" }
+					type: "item"
+				}
+				{
+					id: "65048C475F7EE9FA"
+					item: { count: 1, id: "electroenergetics:alternator_brushes" }
+					type: "item"
+				}
+			]
+			x: 24.75d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"07932891DA1FF351"
+				"2913135724B908CD"
+			]
+			id: "5C7656E10A8DFCFE"
+			tasks: [{
+				id: "27F9183FC254A6BD"
+				item: { count: 1, id: "electroenergetics:white_electric_motor" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07932891DA1FF351"]
+			id: "62DDC0D12D5480C4"
+			tasks: [{
+				id: "38CA64AA64293D8B"
+				item: { count: 1, id: "electroenergetics:converter" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07932891DA1FF351"]
+			id: "57DAA940E38D722B"
+			tasks: [{
+				id: "26DEEF4E1E14EB0D"
+				item: { count: 1, id: "electroenergetics:three_phase_alternator_brushes" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71D4C87C5B0BC89C"]
+			id: "056B9819A7ECC6C7"
+			tasks: [{
+				id: "7D75C5356A391480"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71D4C87C5B0BC89C"]
+			icon: {
+				id: "create:white_sail"
+			}
+			id: "03E001E328D70485"
+			tasks: [
+				{
+					id: "458BF93BE29A5049"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4198882FEF533678"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71D4C87C5B0BC89C"]
+			id: "500474DE034F8271"
+			tasks: [{
+				id: "7649524C44C92DEA"
+				item: { count: 1, id: "createmechanisms:wooden_mechanism" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"03E001E328D70485"
+				"4DEA8C18EE89CEF8"
+			]
+			dependency_requirement: "one_completed"
+			id: "4751C6530D4B01DF"
+			tasks: [{
+				id: "59A978039446DBDC"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"35C86F7D63D451A4"
+				"4751C6530D4B01DF"
+			]
+			id: "2139C94C15CB8A90"
+			tasks: [{
+				id: "022836D8247D6C15"
+				item: { count: 1, id: "createmetallurgy:refractory_mortar" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "72532EB83B510CA9"
+			tasks: [{
+				id: "475743C794B2AC22"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2139C94C15CB8A90"]
+			id: "36FFE223B44233BD"
+			tasks: [{
+				id: "0796784215A668B1"
+				item: { count: 1, id: "createmetallurgy:foundry_basin" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36FFE223B44233BD"
+				"72532EB83B510CA9"
+			]
+			icon: {
+				id: "createmetallurgy:foundry_lid"
+			}
+			id: "0CC6716B4AE53B17"
+			tasks: [
+				{
+					id: "0465A740D3282B74"
+					item: { count: 1, id: "createmetallurgy:foundry_lid" }
+					type: "item"
+				}
+				{
+					id: "31A5EAC32E584EB8"
+					item: { count: 1, id: "createmetallurgy:foundry_basin" }
+					type: "item"
+				}
+				{
+					id: "4000A6040A125376"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CC6716B4AE53B17"]
+			id: "5156EA996FC4E2D9"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createmetallurgy:molten_iron"
+				}
+				id: "10246B74B55BA619"
+				type: "fluid"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "150FA948C1936C2F"
+			tasks: [{
+				id: "30E64E2DF8E6E859"
+				item: { count: 1, id: "createmetallurgy:coke" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4EB4AF8D487A9C8B"
+				"3DBF270C9D89AE47"
+				"36FFE223B44233BD"
+				"72532EB83B510CA9"
+			]
+			icon: {
+				id: "createmetallurgy:foundry_mixer"
+			}
+			id: "002A894E5BAC7925"
+			tasks: [
+				{
+					id: "0F83B7CBD7805794"
+					item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+					type: "item"
+				}
+				{
+					id: "21829879B67E330A"
+					item: { count: 1, id: "createmetallurgy:foundry_basin" }
+					type: "item"
+				}
+				{
+					id: "269772137A171B15"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["450E8ED24F49011D"]
+			id: "688E955540D88C99"
+			tasks: [{
+				id: "46A984E1CE743E6C"
+				item: { count: 1, id: "vintageimprovements:osmium_sheet" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["450E8ED24F49011D"]
+			id: "74CCBF11FBBC28C4"
+			tasks: [{
+				id: "726DB5605D8C159F"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"74CCBF11FBBC28C4"
+				"71D4C87C5B0BC89C"
+			]
+			id: "7396B04BAE16335B"
+			tasks: [{
+				id: "7100B56BCCE4EBE9"
+				item: { count: 1, id: "create:whisk" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["688E955540D88C99"]
+			id: "3DBF270C9D89AE47"
+			tasks: [{
+				id: "4BA2C7A41FDFEB7F"
+				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["450E8ED24F49011D"]
+			id: "4EB4AF8D487A9C8B"
+			tasks: [{
+				id: "515AC262E114B1E7"
+				item: { count: 1, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5156EA996FC4E2D9"
+				"150FA948C1936C2F"
+				"002A894E5BAC7925"
+			]
+			id: "2DF6A51419F5646C"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createmetallurgy:molten_steel"
+				}
+				id: "32765E224434DFF4"
+				type: "fluid"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "createmetallurgy:casting_basin"
+			}
+			id: "6C1FC33528511F90"
+			tasks: [
+				{
+					id: "0C60E997905699D5"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					type: "item"
+				}
+				{
+					id: "24B05A0ECF324A17"
+					item: { count: 1, id: "createmetallurgy:casting_basin" }
+					type: "item"
+				}
+				{
+					id: "56914E1B54F75DA0"
+					item: { count: 1, id: "createmetallurgy:faucet" }
+					type: "item"
+				}
+				{
+					id: "2034097F1863A816"
+					item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C1FC33528511F90"
+				"2DF6A51419F5646C"
+			]
+			id: "48487AA8D375F1ED"
+			tasks: [
+				{
+					id: "064265386A8769AF"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					id: "245EC5D83133F8C3"
+					item: { count: 1, id: "kubejs:steel_rod" }
+					type: "item"
+				}
+				{
+					id: "0BA5EFA757BEF959"
+					item: { count: 1, id: "petrochem:steel_sheet" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CC6716B4AE53B17"]
+			id: "37BD985D78A83B07"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createmetallurgy:molten_zinc"
+				}
+				id: "5EA95C178F628E60"
+				type: "fluid"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CC6716B4AE53B17"]
+			id: "777FCFFB79887D5C"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createmetallurgy:molten_copper"
+				}
+				id: "75C9EC999574EB3B"
+				type: "fluid"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"777FCFFB79887D5C"
+				"002A894E5BAC7925"
+				"37BD985D78A83B07"
+			]
+			id: "59B1457D57F2C2B8"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createmetallurgy:molten_brass"
+				}
+				id: "0D794D726F035AA5"
+				type: "fluid"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"59B1457D57F2C2B8"
+				"6C1FC33528511F90"
+			]
+			id: "35983EC078E6EE39"
+			tasks: [{
+				id: "2BF4F3D85504E590"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48487AA8D375F1ED"]
+			id: "11F13095875648B5"
+			tasks: [{
+				id: "427A18B725BE6A14"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48487AA8D375F1ED"]
+			id: "5052EFD48304AAEF"
+			tasks: [{
+				id: "0F5E22323DB8B26C"
+				item: { count: 1, id: "createmechanisms:zinc_mechanism" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5052EFD48304AAEF"]
+			id: "3C90D1E8E3562C2E"
+			tasks: [{
+				id: "42AB8A0A1FA29BCA"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5052EFD48304AAEF"]
+			id: "522F43598950CAF1"
+			tasks: [{
+				id: "7E871A4469AF124B"
+				item: { count: 1, id: "vintageimprovements:spring_coiling_machine" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35983EC078E6EE39"
+				"1D593DFBC172D79F"
+			]
+			id: "31E0AEC81162C5A0"
+			tasks: [{
+				id: "07F5123FCDF943EB"
+				item: { count: 1, id: "createmechanisms:logic_mechanism" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			id: "72D2B7D868EF7E7F"
+			tasks: [{
+				id: "79469420EB1BD9B4"
+				item: { count: 1, id: "createmechanisms:redstone_mechanism" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["522F43598950CAF1"]
+			id: "42900FB4986B109C"
+			tasks: [{
+				id: "6C5983CD80C41C81"
+				item: { count: 1, id: "vintageimprovements:iron_spring" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42900FB4986B109C"
+				"31E0AEC81162C5A0"
+				"72D2B7D868EF7E7F"
+			]
+			id: "4E08F5ED47D8DBFC"
+			tasks: [{
+				id: "39E01FE2F85B4EB6"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E08F5ED47D8DBFC"]
+			id: "3E11AF97DDFB3C68"
+			tasks: [{
+				id: "17B7066861913D89"
+				item: { count: 1, id: "create_connected:control_chip" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E11AF97DDFB3C68"]
+			id: "77A2E26CBE99F9E0"
+			tasks: [{
+				id: "769BBCD8EB2DCFA2"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77A2E26CBE99F9E0"]
+			id: "0FDBDDAB1F0F116B"
+			tasks: [{
+				id: "351A0A92318D052A"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E08F5ED47D8DBFC"]
+			id: "6B6517350DC02F14"
+			tasks: [{
+				id: "06B7FB8C272CCFF6"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+	]
+}

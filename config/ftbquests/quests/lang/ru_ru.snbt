@@ -1,4 +1,5 @@
 {
+	chapter.003F14EB0B47B78E.title: "Create: механическая прогрессия"
 	chapter.276FADC9194ED6BF.title: "Ice and Fire Community Edition"
 	quest.014137B588E21ED8.quest_subtitle: "Получите кожу морозного тролля"
 	quest.02395FA0992347ED.quest_subtitle: "Убейте циклопа"
@@ -20,6 +21,9 @@
 	quest.07264C6171AE8A99.quest_desc: ["Легок в создании, но при этом весьма полезен!"]
 	quest.07264C6171AE8A99.quest_subtitle: "Создайте серебряный меч"
 	quest.07264C6171AE8A99.title: "Пора избавиться от нежити!"
+	quest.07932891DA1FF351.quest_desc: ["Отдельного предмета «генератор» в этой цепочке нет. Соберите узлы альтернатора: изменённый Rotor использует железные пластины, Copper Wire Spools, валы и Basic Energy Mechanism; Stator — андезитовый сплав, магнит и железные пластины; Brushes — железные решётки, Connector, коммутатор и вал. Для генерации подведите вращение через валы Create к Rotor, окружите его статорами и установите щётки альтернатора. Компоновку смотрите в Ponder Electro Energetics на Rotor или Stator."]
+	quest.07932891DA1FF351.quest_subtitle: "Ротор, статор и щётки вместо отдельного «генератора»"
+	quest.07932891DA1FF351.title: "Генерация Electro Energetics"
 	quest.0959C990EC452B30.quest_subtitle: "Создайте кинжал Стимфалийской птицы"
 	quest.0A08F6D40FD5E1E3.quest_subtitle: "Добудьте чёрную чешую дракона"
 	quest.0A08F6D40FD5E1E3.title: "Чёрная чешуя дракона"
@@ -77,6 +81,9 @@
 	quest.1CB35B30CED4635A.quest_desc: [""]
 	quest.1CB35B30CED4635A.quest_subtitle: "Создайте драконью еду"
 	quest.1CB35B30CED4635A.title: "Гормон роста ящеров"
+	quest.1D593DFBC172D79F.quest_desc: ["Кусачки CDG дают 3 медных или железных провода из пластины, а механическая пила — 4. Восемь медных проводов с сушёной ламинарией дают 8 изолированных проводов. Copper Wire Spool использует четыре медных провода и пустую катушку, а коммутатор — вал, медные пластины и андезитовый сплав. Электросеть, мотор и альтернатор CreateAddition отключены — используйте Electro Energetics."]
+	quest.1D593DFBC172D79F.quest_subtitle: "Электрика начинается с собственной EE-проводки"
+	quest.1D593DFBC172D79F.title: "Провода Electro Energetics"
 	quest.1D9DD04300214546.quest_subtitle: "Создайте бирюзовый морской сет"
 	quest.1D9DD04300214546.title: "Бирюзовый морской сет"
 	quest.1E1A3C6C57CD721A.quest_subtitle: "Создайте медный сет из чешуи дракона"
@@ -103,6 +110,9 @@
 	quest.267FF2BA703ABCC3.title: "Меч для убийства большинства типов драконов"
 	quest.269DC845D9ECAAAA.quest_desc: ["Соберите кровь поверженного дракона при помощи бутылочки. Все ведь знают как победить дракона?"]
 	quest.269DC845D9ECAAAA.quest_subtitle: "Подробная информация в бестиарии"
+	quest.2913135724B908CD.quest_desc: ["Basic Energy Mechanism собирается из железных листов, двух Copper Wire Spools, цинкового механизма и коммутатора. Precision Mechanism для первого электричества не требуется."]
+	quest.2913135724B908CD.quest_subtitle: "Механическая мастерская встречается с электричеством"
+	quest.2913135724B908CD.title: "Энергетический механизм"
 	quest.2D043AC9B01F29B1.quest_desc: ["Это не очень эффективно, но хотя бы выглядит неплохо!"]
 	quest.2D043AC9B01F29B1.quest_subtitle: "Создайте полный сет серебряной брони"
 	quest.2D043AC9B01F29B1.title: "Серебряный!"
@@ -114,8 +124,14 @@
 	quest.33CCACD1B200748B.title: "Убейте василиска!"
 	quest.34282AD934961A17.quest_subtitle: "Приручите гиппокампа"
 	quest.34282AD934961A17.title: "Морской конь?"
+	quest.345AA451F0F44012.quest_desc: ["Rotation Speed Controller теперь использует цинковый механизм вместо Precision Mechanism. Та же идея применяется к kinetic battery и нескольким пружинным/пусковым устройствам: Precision не является универсальным гейтом обычной кинетики."]
+	quest.345AA451F0F44012.quest_subtitle: "Обычные приводы больше не требуют Precision Mechanism"
+	quest.345AA451F0F44012.title: "Регулятор скорости раньше"
 	quest.3536354161A4680A.quest_subtitle: "Добудьте электрик чешую дракона"
 	quest.3536354161A4680A.title: "Электрик чешуя дракона"
+	quest.35C86F7D63D451A4.quest_desc: ["Миксер здесь собирается из деревянного механизма, андезитовых листов, валов, шестистороннего редуктора и венчика. Поэтому он доступен ещё до пресса."]
+	quest.35C86F7D63D451A4.quest_subtitle: "Новый рецепт без механического пресса"
+	quest.35C86F7D63D451A4.title: "Ранний миксер"
 	quest.363D82CD3B62BCC3.quest_subtitle: "Создайте серый сет брони из чешуи дракона"
 	quest.363D82CD3B62BCC3.title: "Загодочный серый"
 	quest.3690032256CBF44B.quest_subtitle: "Остановите рост дракона"
@@ -126,6 +142,9 @@
 	quest.3788983DF3BF8476.title: "Лучший слиток!"
 	quest.3840F8721B488875.quest_subtitle: "Отличный инструмент для их поиска!"
 	quest.3840F8721B488875.title: "Как найти драконов?"
+	quest.3920948E013B87B1.quest_desc: ["Молот CDG превращает андезитовый сплав в андезитовый лист в соотношении 1:1. Этот путь специально оставлен до доступа к механическому прессу."]
+	quest.3920948E013B87B1.quest_subtitle: "Сделайте андезитовый лист молотом"
+	quest.3920948E013B87B1.title: "Лист без пресса"
 	quest.39EF45213520A866.quest_subtitle: "Создайте синий сет брони из чешуи дракона"
 	quest.39EF45213520A866.title: "Необычный синий"
 	quest.3A174D6B6B1BED0E.quest_subtitle: "Создайте флейту сирены"
@@ -163,6 +182,12 @@
 	quest.448F0F239063F027.quest_desc: ["Совместите меч из кости дракона и кровь дракона нужного типа на верстаке"]
 	quest.448F0F239063F027.quest_subtitle: "Создайте ледяной меч из кости дракона"
 	quest.448F0F239063F027.title: "Убийца огненных драконов"
+	quest.44DEA01417B3B09C.quest_desc: ["Жернов — простой ранний процессор Create. Используйте JEI для конкретных рецептов и привыкайте строить обработку вокруг кинетической сети."]
+	quest.44DEA01417B3B09C.quest_subtitle: "Первая механическая обработка"
+	quest.44DEA01417B3B09C.title: "Мельница"
+	quest.450E8ED24F49011D.quest_desc: ["До пресса в этой сборке важны ручные инструменты Create Diesel Generators. Молот нужен для раннего андезитового листа, а кусачки — для медной и железной проволоки."]
+	quest.450E8ED24F49011D.quest_subtitle: "Молот и кусачки заменяют часть ранних машин"
+	quest.450E8ED24F49011D.title: "Ручная мастерская"
 	quest.47136E7E5E0DBAEF.quest_desc: ["Соберите кровь поверженного дракона при помощи бутылочки. Все ведь знают как победить дракона?"]
 	quest.47136E7E5E0DBAEF.quest_subtitle: "Подробная информация в бестиарии"
 	quest.47625FC4585C329E.quest_subtitle: "Создайте все инструменты из кости дракона"
@@ -177,6 +202,9 @@
 	quest.4C1F6FAA78A155EC.quest_subtitle: "Убейте их всех!"
 	quest.4C1F6FAA78A155EC.title: "Пройдя сквозь все кошмары"
 	quest.4D4DEBE742582165.quest_subtitle: "Создайте меч из когтей гиппогрифа"
+	quest.4DEA8C18EE89CEF8.quest_desc: ["Водяное колесо даёт раннюю кинетическую энергию, вал переносит вращение, а шестерни передают его дальше. Это основа почти всей ветки Create."]
+	quest.4DEA8C18EE89CEF8.quest_subtitle: "Соберите источник и базовую передачу"
+	quest.4DEA8C18EE89CEF8.title: "Первое вращение"
 	quest.4F20A1B2A198EC47.quest_subtitle: "Добудьте аметистовую чешую дракона"
 	quest.4F20A1B2A198EC47.title: "Аметистовая чешуя дракона"
 	quest.502CD9C526955C5B.quest_subtitle: "Рецепт в бестиарии."
@@ -193,6 +221,9 @@
 	quest.54D5DCB28D9D96D6.quest_desc: ["Подробная информация в бестиарии."]
 	quest.54D5DCB28D9D96D6.quest_subtitle: "Получите голову Горгоны"
 	quest.54D5DCB28D9D96D6.title: "Битва титанов"
+	quest.57DAA940E38D722B.quest_desc: ["Three-Phase Alternator Brushes используют латунные пластины, Quad Connector, Wire Spool, стальной стержень и обычные Alternator Brushes. Frequency Meter и Synchroscope уже требуют Precision Mechanism, поэтому они относятся к продвинутой стадии, а не к порогу первого электричества."]
+	quest.57DAA940E38D722B.quest_subtitle: "Щётки доступны ещё до Precision"
+	quest.57DAA940E38D722B.title: "Трёхфазная ступень"
 	quest.59E508F84DAF5839.quest_subtitle: "Убейте призрака"
 	quest.59E508F84DAF5839.title: "Кто меня звал?"
 	quest.5B63DC5580956AE7.quest_desc: ["При помощи ПКМ по трупу дракона заполучите его сердце. Надеюсь, вы не потратили столь ценное тело дракона только ради его крови?"]
@@ -200,6 +231,9 @@
 	quest.5BAC44DEFEB0B263.quest_desc: ["Совместите меч из кости дракона и кровь дракона нужного типа на верстаке"]
 	quest.5BAC44DEFEB0B263.quest_subtitle: "Создайте огненный меч из кости дракона"
 	quest.5BAC44DEFEB0B263.title: "Убийца ледяных драконов"
+	quest.5C7656E10A8DFCFE.quest_desc: ["Прямые рецепты всех 16 цветных Electric Motor изменены: нужны Connectors, Copper Wire Spools, коммутатор, Basic Energy Mechanism, краситель и Brass Casing. Перекрашивание готовых моторов остаётся доступно. Для первой нагрузки соедините щётки работающего альтернатора и Electric Motor проводами через соединители EE, замкнув электрическую цепь. Прокладка проводов показана в Ponder Electro Energetics на Connector."]
+	quest.5C7656E10A8DFCFE.quest_subtitle: "Верните электричество обратно во вращение"
+	quest.5C7656E10A8DFCFE.title: "Электродвигатель"
 	quest.60008277EF2ABBF3.quest_subtitle: "Создайте флейту из драконьей кости"
 	quest.6110D9CD3D24F99C.quest_subtitle: "Лучший способ искать драконов"
 	quest.6110D9CD3D24F99C.title: "Вот я их и нашёл!"
@@ -207,6 +241,9 @@
 	quest.622EC22B3DD889FF.title: "Медная чешуя дракона"
 	quest.62B68FD78AD656AF.quest_subtitle: "Убейте стимфалийскую птицу"
 	quest.62B68FD78AD656AF.title: "Геркулес в ударе!"
+	quest.62DDC0D12D5480C4.quest_desc: ["Converter собирается из Connector, медного провода, железной пластины и терракоты. Это штатный ранний путь EE к FE; не используйте отключённую электрическую сеть CreateAddition как обход."]
+	quest.62DDC0D12D5480C4.quest_subtitle: "Базовый мост к FE доступен до Precision"
+	quest.62DDC0D12D5480C4.title: "FE-конвертер"
 	quest.635E85E44C1E9EEB.quest_subtitle: "Создайте тёмно-синий морской сет"
 	quest.635E85E44C1E9EEB.title: "Тёмно-синий морской сет"
 	quest.63C7B258CA2B0B5E.quest_subtitle: "Станьте другом для пикси"
@@ -235,6 +272,9 @@
 	quest.6E8C3DD6C14903AF.title: "Батя драконов"
 	quest.7028210F32558AB3.quest_subtitle: "Создайте зелёный морской сет"
 	quest.7028210F32558AB3.title: "Зелёный морской сет"
+	quest.71D4C87C5B0BC89C.quest_desc: ["Эта глава ведёт от первых кинетических механизмов через изменённую мастерскую и литейку к механическим крафтерам, дробильным колёсам и электричеству Electro Energetics."]
+	quest.71D4C87C5B0BC89C.quest_subtitle: "Начните с базового материала Create"
+	quest.71D4C87C5B0BC89C.title: "Андезитовый сплав"
 	quest.72652C515DE3533B.quest_subtitle: "Добудьте белую чешую дракона"
 	quest.72652C515DE3533B.title: "Белая чешуя дракона"
 	quest.73BF405B73B52B1D.quest_desc: ["Создаётся из 3 манускриптов на верстаке."]
