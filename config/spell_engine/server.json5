@@ -13,6 +13,8 @@
 	"spell_cost_durability_allowed": true,
 	// The time in ticks of global cooldown to apply to all instant cast spells when casted.
 	"spell_instant_cast_global_cooldown": 0,
+	// Extra distance in blocks allowed when the server validates the range of client-targeted entities at spell fire. Covers the drift between the client's aim frame and the server tick (latency + movement).
+	"spell_target_range_tolerance": 2.0,
 	// Players cannot unequip a spell book, if one of the spells in it is on cooldown.
 	"spell_item_cooldown_lock": true,
 	// Additional cooldown in seconds applied to equipped spell book item, after casting a spell from them, to prevent quick swapping and casting.
@@ -66,7 +68,7 @@
 	   |                | ALLY  | FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
 	   +----------------+-------+----------+----------+----------+--------+
 	   | DIRECT DAMAGE  | 🚫    | ✅       | ✅       | ✅       | ✅    |
-	   | AREA DAMAGE    | 🚫    | 🚫       | 🚫       | ✅       | ✅    |
+	   | AREA DAMAGE    | 🚫    | 🚫       | ✅       | ✅       | ✅    |
 	   | DIRECT HEALING | ✅    | ✅       | ✅       | 🚫       | ✅    |
 	   | AREA HEALING   | ✅    | ✅       | 🚫       | 🚫       | ✅    |
 	   +----------------+-------+----------+----------+----------+--------+
@@ -90,12 +92,24 @@
 	"player_relation_tags": { },
 	// Relation to self, and self owned pets (tamed entities), changing this to `FRIENDLY` will make it impossible to hit pets with weapons
 	"player_relation_to_owned_pets": "FRIENDLY",
+	/* Relation to a tamed entity whose owner cannot be resolved right now — the owner is offline,
+	   or in another dimension. Defaults to `FRIENDLY`, which is what the same pet resolves to
+	   while its owner IS present (via `player_relations` -> `minecraft:player`), so that relations
+	   do not flip based on whether a pet's owner happens to be logged in.
+	*/
+	"player_relation_to_absent_owner_pets": "FRIENDLY",
 	// Relation to teammates (entities in the same team), changing this to `FRIENDLY` will automatically disable friendly fire for all teams
 	"player_relation_to_teammates": "FRIENDLY",
-	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
+	/* Relation to unspecified entities those are instance of PassiveEntity(Yarn) — cows, sheep,
+	   horses and the like. `NEUTRAL` keeps them damageable by both direct and area spells, while
+	   keeping them off the list of things summoned entities pick fights with. Set `HOSTILE` for
+	   summons that should hunt animals on sight.
+	*/
 	"player_relation_to_passives": "HOSTILE",
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
 	// Fallback relation
-	"player_relation_to_other": "HOSTILE"
+	"player_relation_to_other": "HOSTILE",
+	// The relation between the summoned entity and its owner.
+	"summoned_relation_to_owner": "ALLY"
 }

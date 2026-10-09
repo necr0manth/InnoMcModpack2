@@ -1,0 +1,69 @@
+[thruster_array]
+	#
+	# Default: 500.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	basePropulsion = 500.0
+	#
+	# Default: 120
+	# Range: 0 ~ 9223372036854775807
+	joulesPerTick = 120
+	#
+	# Default: 1
+	# Range: 0 ~ 9223372036854775807
+	chemicalsPerTick = 1
+
+	[thruster_array.boosters]
+		#Thrust Value added by Basic booster
+		# Default: 4.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		basicThrustBudget = 4.0
+		#Thrust Value added by Advanced booster
+		# Default: 8.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		advancedThrustBudget = 8.0
+		#Thrust Value added by Elite booster
+		# Default: 16.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		eliteThrustBudget = 16.0
+		#Thrust Value added by Ultimate booster
+		# Default: 32.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		ultimateThrustBudget = 32.0
+		#Thrust Value added by Creative booster
+		# Default: 1024.0
+		# Range: 1.0 ~ 9.223372036854776E18
+		creativeThrustBudget = 1024.0
+
+[field_drive]
+	#
+	# Default: 1000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	impulseMultCap = 1000.0
+	#
+	# Default: 1000000000000
+	# Range: 800000000 ~ 9223372036854775807
+	jouleBaseStorage = 1000000000000
+	#
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	joulesPerImpulseMult = 100
+	#
+	# Default: 1
+	# Range: 0 ~ 10
+	chemicalsPerImpulseMult = 1
+	#
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 0.5
+
+[spatial_anchor]
+	#
+	# Default: 0.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 0.25
+
+[anti_grav]
+	#
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	joulesPerMassMult = 1.0

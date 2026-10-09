@@ -1,4 +1,10 @@
 {
+  "behavior": {
+    "class_affiliation_enabled": true,
+    "class_affiliation_extra_weight": 3.0,
+    "class_affiliation_weight_operation": "MULTIPLY",
+    "class_affiliation_include_team": true
+  },
   "injectors": {
     "minecraft:chests/ruined_portal": {
       "rolls": 2.0,
@@ -6,12 +12,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -27,12 +31,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_0_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -43,12 +45,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_0_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -59,12 +59,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_0_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -75,12 +73,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_0_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -91,12 +87,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -107,12 +101,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -123,12 +115,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -139,12 +129,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -155,12 +143,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -171,7 +157,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -182,7 +167,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -192,7 +176,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -202,7 +185,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -212,7 +194,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -223,7 +204,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -233,7 +213,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -243,7 +222,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -253,7 +231,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -264,7 +241,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -274,7 +250,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -284,7 +259,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -294,7 +268,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -305,7 +278,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -315,7 +287,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -325,7 +296,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -335,7 +305,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -346,7 +315,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -356,7 +324,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -366,7 +333,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -376,7 +342,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -387,12 +352,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -403,12 +366,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -419,7 +380,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -429,7 +389,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -440,7 +399,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -450,7 +408,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -460,12 +417,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -476,7 +431,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -486,7 +440,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -497,7 +450,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -507,7 +459,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -518,7 +469,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -528,7 +478,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -538,12 +487,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -558,7 +505,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -573,7 +519,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -588,7 +533,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -603,7 +547,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -618,7 +561,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 2
         }
       ]
@@ -629,7 +571,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -640,7 +581,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -651,17 +591,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -672,17 +609,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -693,7 +627,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -703,7 +636,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -713,12 +645,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -729,7 +659,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -739,7 +668,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -749,12 +677,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -765,7 +691,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -775,12 +700,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -791,7 +714,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -801,12 +723,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -817,7 +737,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -828,7 +747,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -839,7 +757,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -849,17 +766,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 3
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:loot_theme/dragon"
           ],
@@ -874,7 +788,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -884,7 +797,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -894,17 +806,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -915,7 +824,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -925,7 +833,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -935,17 +842,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -956,17 +860,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -977,17 +878,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -1002,7 +900,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -1017,7 +914,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -1032,7 +928,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -1047,7 +942,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -1068,7 +962,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1078,7 +971,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1088,7 +980,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1098,7 +989,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1108,12 +998,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1124,7 +1012,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -1134,7 +1021,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 6,
           "enchant": {
             "min_power": 1.0,
@@ -1144,17 +1030,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1165,7 +1048,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 6,
           "enchant": {
             "min_power": 1.0,
@@ -1175,7 +1057,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -1185,17 +1066,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1206,7 +1084,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 5,
           "enchant": {
             "min_power": 1.0,
@@ -1216,7 +1093,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 5,
           "enchant": {
             "min_power": 1.0,
@@ -1226,22 +1102,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1252,7 +1124,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -1262,7 +1133,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -1272,17 +1142,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -1297,7 +1164,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -1312,7 +1178,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -1327,7 +1192,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -1342,7 +1206,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -1357,7 +1220,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1368,7 +1230,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 6,
           "enchant": {
             "min_power": 1.0,
@@ -1378,22 +1239,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1404,7 +1261,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1414,7 +1270,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1424,17 +1279,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1445,7 +1297,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1455,7 +1306,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1465,12 +1315,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1481,7 +1329,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1491,7 +1338,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1501,12 +1347,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1517,7 +1361,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1527,7 +1370,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1537,12 +1379,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1553,7 +1393,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1563,7 +1402,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1573,12 +1411,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1589,7 +1425,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1599,7 +1434,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1609,12 +1443,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1625,7 +1457,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1635,7 +1466,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1645,12 +1475,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1661,12 +1489,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/aether",
-          "filters_lenient": true,
           "weight": 4
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1677,7 +1503,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/aether",
-          "filters_lenient": true,
           "weight": 5,
           "enchant": {
             "min_power": 1.0,
@@ -1687,7 +1512,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1698,7 +1522,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/aether",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1709,17 +1532,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -1734,7 +1554,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -1749,7 +1568,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -1764,7 +1582,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -1779,7 +1596,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -1794,7 +1610,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1805,17 +1620,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1826,7 +1638,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1836,7 +1647,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1846,7 +1656,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1857,7 +1666,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1867,7 +1675,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1877,7 +1684,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1888,12 +1694,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1904,7 +1708,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1914,7 +1717,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1924,7 +1726,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1940,7 +1741,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1950,7 +1750,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1961,7 +1760,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1971,7 +1769,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1981,7 +1778,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -1992,7 +1788,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2002,7 +1797,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2012,7 +1806,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2022,12 +1815,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2038,7 +1829,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2048,7 +1838,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2058,7 +1847,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2068,12 +1856,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2084,7 +1870,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2094,7 +1879,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2104,7 +1888,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2114,7 +1897,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2125,7 +1907,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2135,7 +1916,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2146,7 +1926,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -2156,12 +1935,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 4
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2172,7 +1949,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2182,22 +1958,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2208,7 +1980,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -2218,7 +1989,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -2228,7 +1998,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -2238,7 +2007,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2249,7 +2017,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2259,7 +2026,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2269,7 +2035,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2280,7 +2045,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2290,7 +2054,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2300,7 +2063,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2311,17 +2073,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2332,22 +2091,18 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2358,12 +2113,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2374,17 +2127,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2395,7 +2145,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2405,7 +2154,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2416,7 +2164,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2426,17 +2173,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2447,7 +2191,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2457,12 +2200,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2473,17 +2214,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2494,12 +2232,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2510,7 +2246,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2521,12 +2256,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2537,12 +2270,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2553,12 +2284,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2569,12 +2298,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2585,7 +2312,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2596,7 +2322,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -2606,7 +2331,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -2616,12 +2340,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2632,7 +2354,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2642,7 +2363,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2652,7 +2372,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2663,7 +2382,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2673,7 +2391,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2683,12 +2400,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2699,7 +2414,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2709,7 +2423,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2719,7 +2432,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2730,7 +2442,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2740,7 +2451,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2750,12 +2460,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2766,7 +2474,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2776,7 +2483,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2786,12 +2492,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2802,7 +2506,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2812,7 +2515,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2822,12 +2524,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2838,7 +2538,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2848,7 +2547,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2858,12 +2556,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2874,12 +2570,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 3
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 3
         }
       ]
@@ -2890,12 +2584,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 3
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 3
         }
       ]
@@ -2906,7 +2598,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2916,7 +2607,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2926,7 +2616,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2937,12 +2626,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 3
         }
       ]
@@ -2953,7 +2640,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2963,7 +2649,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2973,12 +2658,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -2989,7 +2672,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -2999,7 +2681,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -3009,12 +2690,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3025,7 +2704,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -3035,7 +2713,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -3045,12 +2722,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3061,7 +2736,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -3071,7 +2745,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -3081,7 +2754,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3091,7 +2763,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3101,7 +2772,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3112,7 +2782,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3122,7 +2791,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3138,7 +2806,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -3148,7 +2815,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -3158,12 +2824,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3174,17 +2838,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 4
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3195,7 +2856,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3205,7 +2865,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3215,7 +2874,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3226,7 +2884,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3236,7 +2893,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3246,7 +2902,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3257,7 +2912,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3267,7 +2921,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3283,7 +2936,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3293,7 +2945,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3309,7 +2960,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3319,7 +2969,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3329,7 +2978,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3340,7 +2988,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3356,12 +3003,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3372,7 +3017,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3382,7 +3026,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3398,7 +3041,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3408,7 +3050,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3418,7 +3059,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3429,17 +3069,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3450,17 +3087,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3471,17 +3105,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3492,12 +3123,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3508,12 +3137,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3529,12 +3156,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3550,12 +3175,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3565,7 +3188,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3581,7 +3203,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3591,7 +3212,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3602,7 +3222,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3618,27 +3237,22 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3649,27 +3263,22 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3680,7 +3289,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3690,7 +3298,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3701,12 +3308,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3716,7 +3321,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3726,7 +3330,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3737,7 +3340,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3747,7 +3349,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3758,12 +3359,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -3773,7 +3372,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3784,7 +3382,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3800,17 +3397,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3821,17 +3415,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3841,12 +3432,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3856,12 +3445,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3871,12 +3458,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3892,7 +3477,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3908,7 +3492,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3924,12 +3507,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3940,12 +3521,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3955,7 +3534,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3966,12 +3544,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -3981,7 +3557,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -3992,17 +3567,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4013,7 +3585,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4023,17 +3594,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4044,7 +3612,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4054,12 +3621,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4070,7 +3635,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4080,7 +3644,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4090,7 +3653,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4101,7 +3663,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4111,7 +3672,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4122,12 +3682,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4138,7 +3696,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4148,7 +3705,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4158,12 +3714,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4174,17 +3728,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4195,22 +3746,18 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4220,12 +3767,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4236,17 +3781,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4257,12 +3799,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4273,12 +3813,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4289,12 +3827,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4305,7 +3841,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4315,7 +3850,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4325,7 +3859,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4336,12 +3869,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4352,7 +3883,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4368,7 +3898,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4384,7 +3913,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4394,7 +3922,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4405,7 +3932,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4415,7 +3941,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4426,7 +3951,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4436,7 +3960,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4447,7 +3970,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4458,7 +3980,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4468,7 +3989,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4484,7 +4004,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4500,12 +4019,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4515,7 +4032,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4526,7 +4042,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4536,12 +4051,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4552,7 +4065,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4563,7 +4075,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4573,7 +4084,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4583,7 +4093,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4594,7 +4103,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4605,12 +4113,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4620,7 +4126,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4631,12 +4136,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4647,7 +4150,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4658,7 +4160,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4668,7 +4169,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4678,7 +4178,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4689,7 +4188,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4700,12 +4198,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4716,22 +4212,18 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4742,17 +4234,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4763,12 +4252,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4779,7 +4266,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4790,7 +4276,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4801,7 +4286,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4812,7 +4296,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4822,12 +4305,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4837,7 +4318,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4848,7 +4328,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4858,7 +4337,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4869,7 +4347,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4879,7 +4356,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4890,7 +4366,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4900,7 +4375,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4910,7 +4384,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4921,7 +4394,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4931,7 +4403,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4941,7 +4412,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4952,7 +4422,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4962,12 +4431,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -4978,7 +4445,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4988,7 +4454,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -4998,7 +4463,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5009,12 +4473,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5024,7 +4486,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5035,7 +4496,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5045,7 +4505,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5056,27 +4515,22 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         }
       ]
@@ -5087,7 +4541,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5097,7 +4550,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5113,7 +4565,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5123,7 +4574,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5139,7 +4589,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5149,7 +4598,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5159,7 +4607,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5170,22 +4617,18 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5196,7 +4639,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5206,7 +4648,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5222,7 +4663,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -5232,7 +4672,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -5242,7 +4681,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5253,7 +4691,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -5263,7 +4700,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 2,
           "enchant": {
             "min_power": 1.0,
@@ -5273,17 +4709,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5294,7 +4727,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5304,7 +4736,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5314,7 +4745,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5325,7 +4755,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5335,7 +4764,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5345,12 +4773,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5361,7 +4787,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5371,12 +4796,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5387,7 +4810,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5397,7 +4819,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5407,7 +4828,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5418,7 +4838,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5428,7 +4847,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5438,7 +4856,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5449,32 +4866,26 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5485,7 +4896,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5495,7 +4905,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5505,7 +4914,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5516,7 +4924,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5526,7 +4933,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5536,7 +4942,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5547,7 +4952,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5557,7 +4961,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5567,7 +4970,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5578,7 +4980,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5588,7 +4989,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5598,7 +4998,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5609,17 +5008,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_0_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5629,12 +5025,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5650,7 +5044,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5660,12 +5053,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5676,7 +5067,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5686,7 +5076,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5696,7 +5085,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5707,7 +5095,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5717,7 +5104,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5727,7 +5113,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5738,12 +5123,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5753,12 +5136,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5768,7 +5149,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5778,12 +5158,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5794,12 +5172,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_theme/golden_weapon",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5809,7 +5185,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5820,12 +5195,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5835,7 +5208,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5846,12 +5218,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5861,7 +5231,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5871,17 +5240,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5892,7 +5258,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5902,12 +5267,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5918,7 +5281,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5928,7 +5290,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5938,7 +5299,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5949,7 +5309,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5959,7 +5318,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5969,7 +5327,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -5979,7 +5336,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -5990,7 +5346,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6000,7 +5355,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6010,17 +5364,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6031,7 +5382,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6041,7 +5391,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6051,7 +5400,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6062,12 +5410,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6078,7 +5424,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6088,7 +5433,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6098,17 +5442,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6119,7 +5460,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6129,7 +5469,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6140,7 +5479,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6150,7 +5488,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6160,7 +5497,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6171,17 +5507,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6192,7 +5525,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6202,7 +5534,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6212,17 +5543,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6233,7 +5561,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6243,7 +5570,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6253,12 +5579,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 4
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6269,17 +5593,14 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6290,7 +5611,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6300,12 +5620,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6316,7 +5634,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6326,7 +5643,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6342,7 +5658,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6352,7 +5667,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6362,7 +5676,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6378,7 +5691,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6388,7 +5700,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6398,7 +5709,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6414,7 +5724,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6424,7 +5733,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6434,7 +5742,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6445,7 +5752,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6455,7 +5761,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6465,17 +5770,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -6490,7 +5792,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -6505,7 +5806,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -6520,7 +5820,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -6535,7 +5834,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -6550,7 +5848,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6561,7 +5858,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 5,
           "enchant": {
             "min_power": 1.0,
@@ -6571,7 +5867,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 5,
           "enchant": {
             "min_power": 1.0,
@@ -6581,22 +5876,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6607,7 +5898,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 6,
           "enchant": {
             "min_power": 1.0,
@@ -6617,22 +5907,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6643,12 +5929,10 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6658,12 +5942,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/melee_damage_weapon"
           ],
@@ -6678,7 +5960,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/ranged_damage_weapon"
           ],
@@ -6693,7 +5974,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/magic_damage_weapon"
           ],
@@ -6708,7 +5988,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/defense_weapon"
           ],
@@ -6723,7 +6002,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "filters": [
             "#rpg_series:archetype/healing_weapon"
           ],
@@ -6744,7 +6022,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6754,7 +6031,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6764,17 +6040,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6785,7 +6058,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6795,7 +6067,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6811,7 +6082,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 6,
           "enchant": {
             "min_power": 1.0,
@@ -6821,7 +6091,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -6831,17 +6100,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6852,7 +6118,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6862,7 +6127,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -6872,12 +6136,10 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6888,7 +6150,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6898,7 +6159,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6908,7 +6168,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6918,7 +6177,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 8
         }
       ]
@@ -6929,7 +6187,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6939,7 +6196,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -6955,7 +6211,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -6965,7 +6220,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -6975,17 +6229,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -6996,7 +6247,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -7006,7 +6256,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -7016,17 +6265,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7037,7 +6283,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7047,7 +6292,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7063,7 +6307,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_2_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7073,7 +6316,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_2_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7083,7 +6325,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7093,7 +6334,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7103,7 +6343,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7114,7 +6353,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -7124,7 +6362,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -7134,7 +6371,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7144,17 +6380,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7165,7 +6398,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_3_weapons",
-          "filters_lenient": true,
           "weight": 4,
           "enchant": {
             "min_power": 1.0,
@@ -7175,7 +6407,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 3,
           "enchant": {
             "min_power": 1.0,
@@ -7185,17 +6416,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7206,7 +6434,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7216,7 +6443,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7226,17 +6452,14 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_weapons",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7247,7 +6470,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_4_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7257,7 +6479,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7267,22 +6488,18 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_3_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_accessories",
-          "filters_lenient": true,
           "weight": 2
         },
         {
           "id": "#rpg_series:loot_tier/tier_4_relics",
-          "filters_lenient": true,
           "weight": 1
         },
         {
           "id": "#rpg_series:loot_tier/tier_5_armors",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7295,7 +6512,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7305,7 +6521,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7315,7 +6530,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
@@ -7326,7 +6540,6 @@
       "entries": [
         {
           "id": "#rpg_series:loot_tier/tier_1_weapons",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7336,7 +6549,6 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_armors",
-          "filters_lenient": true,
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -7346,10 +6558,260 @@
         },
         {
           "id": "#rpg_series:loot_tier/tier_1_accessories",
-          "filters_lenient": true,
           "weight": 1
         }
       ]
     }
+  },
+  "fallback": {
+    "rolls_multiplier": 0.5,
+    "max_rolls": 1.0,
+    "tables": "~:chests/",
+    "blacklist": [],
+    "skip_tables_with_rpg_loot": true,
+    "entries": [
+      {
+        "reference": "#rpg_series:loot_reference/golden_weapons",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_theme/golden_weapon",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_0_weapons",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_0_weapons",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_1_weapons",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_weapons",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_weapons",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_weapons",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_weapons",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_weapons",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_0_armors",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_armors",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_1_armors",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_armors",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_armors",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_armors",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_armors",
+        "rolls": 1.0,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_armors",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_1_treasures",
+        "rolls": 0.5,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_treasures",
+        "rolls": 0.5,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_treasures",
+        "rolls": 0.5,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_0_weapons",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_0_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_0_armors",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_0_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_1_weapons",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_1_armors",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_1_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_weapons",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_armors",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_weapons",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_armors",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_accessories",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_2_treasures",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_2_relics",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "reference": "#rpg_series:loot_reference/tier_3_treasures",
+        "rolls": 0.25,
+        "bonus_rolls": 0.2,
+        "items": [
+          {
+            "id": "#rpg_series:loot_tier/tier_3_relics",
+            "weight": 1
+          }
+        ]
+      }
+    ]
   }
 }

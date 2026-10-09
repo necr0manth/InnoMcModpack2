@@ -31,6 +31,10 @@ floodFillDistance = 2
 floodFillTickDelay = 2
 #Allowed Values: AUTO, GENERAL, CUSTOM, SOLID, TRANSLUCENT, CUTOUT, ENTITY_SOLID, ENTITY_TRANSLUCENT, ENTITY_TRANSLUCENT_CULL, ENTITY_CUTOUT, ENTITY_CUTOUT_NO_CULL, ENTITY_CUTOUT_NO_CULL_Z_OFFSET
 renderType = "AUTO"
+#Extra height added on top of the wave height detected from the loaded shader pack, for packs whose water displacement cannot be detected
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+shaderWaterHeightOffset = 0.0
 
 #Spawning Rules
 [spawningRules]
@@ -44,6 +48,8 @@ renderType = "AUTO"
 	mobSpawning = "ONLY_SIMULATION"
 	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
 	itemSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	fishingBobberSpawning = "ONLY_SIMULATION"
 
 #Wake Behavior
 [wakeBehavior]

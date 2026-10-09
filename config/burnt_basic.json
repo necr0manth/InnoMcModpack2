@@ -1,7 +1,7 @@
 {
   "burnt_on": true,
   "rain_extinguish": true,
-  "vanilla_burn": true,
+  "vanilla_burn": false,
   "lava_burn": false,
   "lightning_burn": true,
   "biome_specific": true,

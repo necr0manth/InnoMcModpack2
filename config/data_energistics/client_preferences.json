@@ -1,13 +1,26 @@
 {
-  "schemaVersion": 3,
-  "preferences": {},
+  "schemaVersion": 7,
+  "preferences": {
+    "uploadEnabled": true,
+    "previewPanelPinned": false,
+    "patternSourceEnabled": true,
+    "previewPanel": {}
+  },
   "serverProfiles": {
     "sha256:3cf57c99a2cc7cac1e923e589e8bbfdf4a71035c1e06e16518fa836d8c21a8eb": {
-      "lastAccessEpochMillis": 1790861669740,
+      "lastAccessEpochMillis": 1791536224123,
       "clickStatistics": []
     },
     "sha256:46ede4bd0528dabb1ffadb9127f8b86d4e27f64bcf117e329e9d7ccf95a8a1fb": {
       "lastAccessEpochMillis": 1786293779704,
+      "clickStatistics": []
+    },
+    "sha256:76e10fd4da21189f3e2e0cc1fc8734c361cafc298291653171f0ea108ab32afb": {
+      "lastAccessEpochMillis": 1791314397773,
+      "clickStatistics": []
+    },
+    "sha256:d5f1703c9e938e00074c14d2af2ea6ee1f8d46acc199323d7f473422a2dff670": {
+      "lastAccessEpochMillis": 1791324587957,
       "clickStatistics": []
     }
   }

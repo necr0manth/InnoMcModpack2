@@ -3,12 +3,6 @@
 # Range: > 1
 configVersion = 3
 
-[compatibility]
-	#Enable AE2LT's startup compatibility protection when Data Energistics is installed.
-	#Set this to false only for diagnostics or after upstream compatibility is restored.
-	#Changing this option requires a full client or server restart.
-	dataEnergisticsMixinProtection = true
-
 [lightningCollector]
 	#Cooldown in ticks after each captured lightning strike.
 	# Default: 0
@@ -259,7 +253,7 @@ configVersion = 3
 		# Default: 200
 		# Range: 1 ~ 72000
 		shieldComboWindowTicks = 200
-		#Ticks in the linear combo window for undying FE and EHV cost scaling.
+		#Legacy compatibility option; unused. Overload protection now shares a fixed 20-tick billing window and capped combo tiers.
 		# Default: 200
 		# Range: 1 ~ 72000
 		undyingComboWindowTicks = 200
@@ -366,6 +360,34 @@ configVersion = 3
 		# Range: 1 ~ 64
 		maxTracked = 8
 
+	[railgun.ehvBeam]
+		#EHV beam base damage every 2 ticks; requires the module and enabled beam mode.
+		# Default: 200
+		# Range: > 0
+		damagePerSettle = 200
+		#Extreme High Voltage lightning consumed every 2 ticks.
+		# Default: 16
+		# Range: 1 ~ 9223372036854775807
+		ehvCostPerSettle = 16
+		#FE consumed every 2 ticks in EHV beam mode.
+		# Default: 4000
+		# Range: 0 ~ 9223372036854775807
+		feCostPerSettle = 4000
+
+	[railgun.percentageExecution]
+		#Fraction of max health added by tier-1 charged Overload shots in percentage mode. Never applies to beams or chain propagation.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		tier1 = 0.05
+		#Fraction of max health added by tier-2 charged Overload shots in percentage mode.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		tier2 = 0.1
+		#Fraction of max health added by tier-3 charged Overload shots in percentage mode.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		tier3 = 0.2
+
 	[frequencyCard.cleanup]
 		#Controls whether invalid Overloaded Frequency Card wireless link records are cleaned up automatically.
 		enableAutoCleanup = true
@@ -385,3 +407,25 @@ configVersion = 3
 		# Default: 128
 		# Range: > 1
 		cleanupBatchSize = 128
+
+[miningFactory]
+	#Parallel capacity without matrices. Independent of the Overload Processing Factory settings.
+	# Default: 8
+	# Range: 1 ~ 4096
+	baseParallel = 8
+	#Parallel capacity per installed matrix, replacing baseParallel when matrices are installed. Up to eight matrices can be installed.
+	# Default: 256
+	# Range: 1 ~ 268435455
+	parallelPerMatrix = 256
+	#Maximum independent loot rolls per batch (despite the historical PerTick name). Each batch takes five ticks and rolls only on completion. Each roll represents an equal-sized group (remainder distributed across groups). Set at least the actual batch size for independent rolls; 2048 covers the default eight-matrix capacity.
+	# Default: 8
+	# Range: 1 ~ 4096
+	lootSamplesPerTick = 8
+	#FE consumed per input block when using a durability tool.
+	# Default: 256
+	# Range: 1 ~ 500000
+	toolEnergyPerBlock = 256
+	#Additional FE per input block when using an annihilation plane instead of a durability tool.
+	# Default: 768
+	# Range: 0 ~ 500000
+	planeExtraEnergyPerBlock = 768

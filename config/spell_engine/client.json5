@@ -1,5 +1,4 @@
 {
-	"renderBeamsHighLuminance": true,
 	"holdToCastChannelled": true,
 	"holdToCastCharged": true,
 	"spellHotbarHidesOffhand": true,
@@ -15,6 +14,7 @@
 	"spell_hotbar_9_defer": "HOTBAR_KEY_9",
 	"sneakingByPassSpellHotbar": false,
 	"useKeyHighPriority": false,
+	"renderBeamsHighLuminance": true,
 	"highlightTarget": true,
 	"filterInvalidTargets": true,
 	"alwaysShowFullTooltip": false,

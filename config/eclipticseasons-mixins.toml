@@ -1,3 +1,5 @@
+version = 3
+
 	[common.biome]
 		MixinBiome = true
 
@@ -89,6 +91,10 @@
 	[client.sound]
 		MixinMusicManager = true
 
+	[client.gui]
+		MixinCycleButtonBuilder = true
+		MixinAbstractButton = true
+
 	[compat.fabric_renderer_indigo]
 		MixinAbstractBlockRenderer = true
 		MixinBlockRenderer = true
@@ -107,9 +113,12 @@
 		MixinClonedChunkSection = true
 		MixinLevelSlice = true
 		MixinNeoForgeModelAccess = true
+		Mixin_FoliageColorSource = true
+		Mixin_ColorSource = true
 
 	[compat.distanthorizons]
 		MixinAbstractDhTintGetter = true
 		MixinClientLevel = true
 		MixinFullDataToRenderDataTransformer = true
 		MixinQuadTree = true
+		MixinClientLevelWrapper = true

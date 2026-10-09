@@ -56,11 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -80,6 +75,9 @@
   },
   "ftbquests": {
     "barrier": true
+  },
+  "jadeaddons.computercraft": {
+    "computer_id": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -118,7 +116,11 @@
     "snowy_status": true,
     "crop.shift_hint": true
   },
+  "enderio_evolution": {
+    "capacitor_bank_render": true
+  },
   "ae2lt": {
+    "frequency_card_wireless_node": true,
     "lightning_collector": true,
     "firmament_conversion_core": true
   },
@@ -141,6 +143,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
   "ae2cs": {
     "ender_emitter": true,
     "ender_channels": true,
@@ -149,8 +154,8 @@
   },
   "data_energistics": {
     "data_sanctum.part": false,
+    "trinity_information_exchange_depot": true,
     "data_distribution_tower": true,
-    "me_access_hatch": true,
     "multiblock.role": false,
     "digital_storage_depot": true,
     "data_teleport_anchor": true,
@@ -160,11 +165,15 @@
     "data_extractor": true,
     "me_solar_panel": true,
     "data_sanctum": true,
-    "multiblock.blocks": false,
+    "tuning_fork_base": true,
     "data_mimetic_field": true,
     "multiblock": true,
     "data_charger": true,
     "compartment": true,
-    "multiblock.debug": false
+    "multiblock.debug": false,
+    "data_integrated_charger": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

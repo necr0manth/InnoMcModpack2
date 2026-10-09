@@ -1,12 +1,12 @@
 {
-  "configVersion": 10,
+  "configVersion": 11,
   "verticalRotationSensitivity": 0.1,
   "horizontalRotationSensitivity": 0.1,
   "scrollDistanceSensitivity": 0.5,
   "invertVerticalRotation": false,
   "invertHorizontalRotation": false,
   "rotateAroundCenter": false,
-  "preventMovementWhileRotating": true,
+  "preventMovementWhileRotating": false,
   "armTransitionSpeed": 0.13,
   "armGrabLowerOffset": 1.5,
   "armTransitionDelay": 0.2,
@@ -28,5 +28,6 @@
   "grabArmOffsetZ": -0.2,
   "preventAssemblyWhenMining": true,
   "barehandedAssemblyMiningThreshold": 0.08,
+  "unsneakOnTreeBreak": true,
   "regrabDebounceTicks": 2
 }
