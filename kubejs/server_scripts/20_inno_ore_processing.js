@@ -5,8 +5,9 @@ ServerEvents.recipes(event => {
     const materialId = material.materialId
     const ingot = material.ingot
     const crushedOre = material.crushedOre || `create:crushed_raw_${materialId}`
-    const dirtyDust = material.dirtyDust || `createmetallurgy:dirty_${materialId}_dust`
-    const normalDust = material.normalDust || `createmetallurgy:${materialId}_dust`
+    const dirtyDust = material.dirtyDust || `mekanism:dirty_dust_${materialId}`
+    // Almost Unified selects Mekanism dusts and hides the non-canonical variants in EMI.
+    const normalDust = material.normalDust || `mekanism:dust_${materialId}`
     const dirtySlurry = material.dirtySlurry || `mekanism:dirty_${materialId}`
     const shard = material.shard || `mekanism:shard_${materialId}`
     const clump = material.clump || `mekanism:clump_${materialId}`
@@ -189,4 +190,69 @@ ServerEvents.recipes(event => {
     materialId: 'copper',
     ingot: 'minecraft:copper_ingot'
   })
+
+  registerOreProcessing({
+    materialId: 'lead',
+    ingot: 'mekanism:ingot_lead',
+    oreInputs: ['mekanism:raw_lead', 'mekanism:lead_ore', 'mekanism:deepslate_lead_ore']
+  })
+
+  registerOreProcessing({
+    materialId: 'osmium',
+    ingot: 'mekanism:ingot_osmium',
+    oreInputs: ['mekanism:raw_osmium', 'mekanism:osmium_ore', 'mekanism:deepslate_osmium_ore']
+  })
+
+  registerOreProcessing({
+    materialId: 'uranium',
+    ingot: 'mekanism:ingot_uranium',
+    oreInputs: ['mekanism:raw_uranium', 'mekanism:uranium_ore', 'mekanism:deepslate_uranium_ore']
+  })
+
+  registerOreProcessing({
+    materialId: 'tin',
+    ingot: 'mekanism:ingot_tin',
+    oreInputs: ['mekanism:raw_tin', 'mekanism:tin_ore', 'mekanism:deepslate_tin_ore']
+  })
+
+  // Mekanism has no zinc intermediates; reuse existing dusts and register only missing stages.
+  registerOreProcessing({
+    materialId: 'zinc',
+    ingot: 'create:zinc_ingot',
+    dirtyDust: 'createmetallurgy:dirty_zinc_dust',
+    normalDust: 'createmetallurgy:zinc_dust',
+    dirtySlurry: 'kubejs:dirty_zinc',
+    shard: 'kubejs:shard_zinc',
+    clump: 'kubejs:clump_zinc',
+    oreInputs: ['create:raw_zinc', 'create:zinc_ore', 'create:deepslate_zinc_ore']
+  })
+
+  event.custom({
+    type: 'mekanism:washing',
+    chemical_input: { amount: 1, chemical: 'kubejs:dirty_zinc' },
+    fluid_input: { amount: 5, tag: 'minecraft:water' },
+    output: { amount: 1, id: 'kubejs:clean_zinc' }
+  }).id('kubejs:ore_processing/zinc/washing_slurry')
+
+  event.custom({
+    type: 'mekanism:crystallizing',
+    input: { amount: 200, chemical: 'kubejs:clean_zinc' },
+    output: { count: 1, id: 'kubejs:crystal_zinc' }
+  }).id('kubejs:ore_processing/zinc/crystallizing')
+
+  event.custom({
+    type: 'mekanism:injecting',
+    chemical_input: { amount: 1, chemical: 'mekanism:hydrogen_chloride' },
+    item_input: { count: 1, tag: 'c:crystals/zinc' },
+    output: { count: 1, id: 'kubejs:shard_zinc' },
+    per_tick_usage: true
+  }).id('kubejs:ore_processing/zinc/injecting_crystal')
+
+  event.custom({
+    type: 'mekanism:purifying',
+    chemical_input: { amount: 1, chemical: 'mekanism:oxygen' },
+    item_input: { count: 1, tag: 'c:shards/zinc' },
+    output: { count: 1, id: 'kubejs:clump_zinc' },
+    per_tick_usage: true
+  }).id('kubejs:ore_processing/zinc/purifying_shard')
 })

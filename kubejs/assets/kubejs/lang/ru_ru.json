@@ -33,5 +33,10 @@
   "block.kubejs.arm_assembly_11": "Сборка механической руки (11/14)",
   "block.kubejs.arm_assembly_12": "Сборка механической руки (12/14)",
   "block.kubejs.arm_assembly_13": "Сборка механической руки (13/14)",
-  "block.kubejs.arm_assembly_14": "Сборка механической руки (14/14)"
+  "block.kubejs.arm_assembly_14": "Сборка механической руки (14/14)",
+  "item.kubejs.crystal_zinc": "Кристалл цинка",
+  "item.kubejs.shard_zinc": "Осколок цинка",
+  "item.kubejs.clump_zinc": "Глыба цинка",
+  "chemical.kubejs.dirty_zinc": "Грязная суспензия цинка",
+  "chemical.kubejs.clean_zinc": "Чистая суспензия цинка"
 }

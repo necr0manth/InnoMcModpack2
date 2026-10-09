@@ -33,5 +33,10 @@
   "block.kubejs.arm_assembly_11": "Mechanical Arm Assembly (11/14)",
   "block.kubejs.arm_assembly_12": "Mechanical Arm Assembly (12/14)",
   "block.kubejs.arm_assembly_13": "Mechanical Arm Assembly (13/14)",
-  "block.kubejs.arm_assembly_14": "Mechanical Arm Assembly (14/14)"
+  "block.kubejs.arm_assembly_14": "Mechanical Arm Assembly (14/14)",
+  "item.kubejs.crystal_zinc": "Zinc Crystal",
+  "item.kubejs.shard_zinc": "Zinc Shard",
+  "item.kubejs.clump_zinc": "Zinc Clump",
+  "chemical.kubejs.dirty_zinc": "Dirty Zinc Slurry",
+  "chemical.kubejs.clean_zinc": "Clean Zinc Slurry"
 }
