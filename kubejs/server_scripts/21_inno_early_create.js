@@ -40,6 +40,12 @@ ServerEvents.recipes(function (event) {
     results: [{ id: 'createdeco:andesite_sheet', count: 1 }]
   }).id('kubejs:inno_early/hammering/andesite_sheet');
 
+  event.custom({
+    type: 'createdieselgenerators:hammering',
+    ingredients: [{ tag: 'c:ingots/osmium' }],
+    results: [{ id: 'vintageimprovements:osmium_sheet', count: 1 }]
+  }).id('kubejs:inno_early/hammering/osmium_sheet');
+
   // Native held-use cutters keep 3 wires/plate; the chosen saw produces 4.
   // The matching foundry recycling correction is in 22_inno_foundry.js.
   ['copper', 'iron'].forEach(function (metal) {

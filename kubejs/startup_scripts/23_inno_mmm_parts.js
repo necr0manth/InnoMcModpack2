@@ -12,7 +12,7 @@ StartupEvents.registry('item', function (event) {
   });
   event.create('steel_rod')
     .displayName('Steel Rod')
-    .texture('createvintageneoforged:item/iron_rod')
+    .texture('createaddition:item/iron_rod')
     .color(0, 0x838A92);
 });
 

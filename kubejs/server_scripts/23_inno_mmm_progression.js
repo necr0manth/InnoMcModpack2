@@ -4,7 +4,7 @@ ServerEvents.tags('item', function (event) {
     event.add('c:gears', 'kubejs:' + metal + '_gear');
     event.add('c:gears/' + metal, 'kubejs:' + metal + '_gear');
   });
-  event.add('c:rods/iron', 'createvintageneoforged:iron_rod');
+  event.add('c:rods/iron', 'createaddition:iron_rod');
 });
 
 ServerEvents.recipes(function (event) {
@@ -37,9 +37,9 @@ ServerEvents.recipes(function (event) {
   // Remove alternative finished outputs, including the former early press/crusher recipes.
   [wooden, mechanical, control, precision, energy,
     'create:mechanical_press', 'createaddition:rolling_mill',
-    'createvintageneoforged:spring_coiling_machine',
+    'vintageimprovements:spring_coiling_machine',
     'create:mechanical_arm', 'create:mechanical_crafter', 'create:crushing_wheel',
-    'createvintageneoforged:lathe', 'createvintageneoforged:curving_press'
+    'vintageimprovements:lathe', 'vintageimprovements:curving_press'
   ].forEach(function (output) { event.remove({ output: output }); });
 
   ['iron', 'steel', 'brass'].forEach(function (metal) {
@@ -94,18 +94,18 @@ ServerEvents.recipes(function (event) {
     P: steelSheet, R: item('kubejs:steel_rod'), G: item('kubejs:iron_gear'),
     C: item('create:andesite_casing')
   });
-  shaped('spring_coiling_machine', 'createvintageneoforged:spring_coiling_machine', 1,
+  shaped('spring_coiling_machine', 'vintageimprovements:spring_coiling_machine', 1,
     [' P ', 'WMS', ' PC'], {
-      P: steelSheet, W: item('createvintageneoforged:spring_coiling_machine_wheel'),
+      P: steelSheet, W: item('vintageimprovements:spring_coiling_machine_wheel'),
       M: item(mechanical), S: item('create:shaft'), C: item('create:andesite_casing')
     });
-  event.remove({ id: 'createvintageneoforged:coiling/iron_spring' });
   // The coiler bends a finished rod; rod production belongs to rolling/manual cutters.
-  event.remove({ id: 'createvintageneoforged:coiling/iron_rod' });
+  event.remove({ id: 'vintageimprovements:coiling/iron_rod' });
   recipe('coiling/iron_spring', {
-    type: 'createvintageneoforged:coiling',
+    type: 'vintageimprovements:coiling',
+    spring_color: '828282',
     ingredients: [tag('c:rods/iron')],
-    results: [{ id: 'createvintageneoforged:iron_spring', count: 1 }],
+    results: [{ id: 'vintageimprovements:iron_spring', count: 1 }],
     processing_time: 150
   });
 

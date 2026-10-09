@@ -6,7 +6,7 @@ ServerEvents.recipes(function (event) {
     key: {
       C: { item: 'create_connected:control_chip' },
       P: { item: 'petrochem:steel_sheet' },
-      S: { item: 'createvintageneoforged:iron_spring' },
+      S: { item: 'vintageimprovements:iron_spring' },
       G: { item: 'kubejs:brass_gear' },
       M: { item: 'create:precision_mechanism' },
       R: { item: 'create:shaft' },

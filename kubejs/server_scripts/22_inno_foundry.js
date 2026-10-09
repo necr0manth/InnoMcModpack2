@@ -17,7 +17,7 @@ ServerEvents.recipes(function (event) {
     pattern: [' A ', 'BAB', 'BBB'],
     key: {
       A: { item: 'create:andesite_alloy' },
-      B: { tag: 'c:plates/iron' }
+      B: { tag: 'c:plates/osmium' }
     },
     result: { id: 'createmetallurgy:sturdy_whisk', count: 1 }
   }).id('kubejs:inno_foundry/sturdy_whisk');

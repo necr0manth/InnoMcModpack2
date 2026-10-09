@@ -8,7 +8,7 @@ ServerEvents.recipes(function (event) {
     ['logic', 'kubejs:crafter_assembly_3', 'createmechanisms:logic_mechanism', 'kubejs:crafter_assembly_4'],
     ['redstone', 'kubejs:crafter_assembly_4', 'createmechanisms:redstone_mechanism', 'kubejs:crafter_assembly_5'],
     ['secure_control', 'kubejs:crafter_assembly_5', 'create:wrench', 'kubejs:crafter_assembly_6', true],
-    ['spring', 'kubejs:crafter_assembly_6', 'createvintageneoforged:iron_spring', 'kubejs:crafter_assembly_7'],
+    ['spring', 'kubejs:crafter_assembly_6', 'vintageimprovements:iron_spring', 'kubejs:crafter_assembly_7'],
     ['gear', 'kubejs:crafter_assembly_7', 'kubejs:brass_gear', 'kubejs:crafter_assembly_8'],
     ['sheet', 'kubejs:crafter_assembly_8', 'create:brass_sheet', 'kubejs:crafter_assembly_9'],
     ['tube', 'kubejs:crafter_assembly_9', 'create:electron_tube', 'kubejs:crafter_assembly_10'],

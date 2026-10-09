@@ -10,11 +10,11 @@ ServerEvents.recipes(function (event) {
     'createmechanisms:zinc_mechanism',
     'createmechanisms:logic_mechanism',
     'createmechanisms:redstone_mechanism',
-    'createvintageneoforged:iron_spring',
+    'vintageimprovements:iron_spring',
     'kubejs:brass_gear',
     'create:wrench',
     'create_connected:control_chip',
-    'createvintageneoforged:iron_spring',
+    'vintageimprovements:iron_spring',
     'kubejs:brass_gear',
     'create:wrench'
   ];

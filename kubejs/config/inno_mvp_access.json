@@ -653,15 +653,6 @@
       "status": "pending_role",
       "reason": "Vintage пока используется только для навивки пружин; остальные машины ждут осмысленной роли.",
       "items": [
-        "createvintageneoforged:belt_grinder",
-        "createvintageneoforged:centrifuge",
-        "createvintageneoforged:curving_press",
-        "createvintageneoforged:helve_hammer",
-        "createvintageneoforged:laser",
-        "createvintageneoforged:laser_item",
-        "createvintageneoforged:lathe",
-        "createvintageneoforged:vacuum_chamber",
-        "createvintageneoforged:vibrating_table"
       ],
       "namespaces": []
     },
