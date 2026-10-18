@@ -10,11 +10,10 @@ import tempfile
 import uuid
 from pathlib import Path
 
-from deploy_common import SCOPES, Scope, manifest_bytes, parse_manifest, plan_scope, scan_builds
-
-
-def _remote_manifest_path(target: str, name: str) -> str:
-    return target.rstrip("/") + "/" + name
+from deploy_common import (
+    SCOPES, Scope, manifest_bytes, parse_manifest, plan_deployment,
+    read_settings, remote_path, remote_root, scan_builds,
+)
 
 
 def _ssh_base(host: str, user: str, port: str) -> list[str]:
@@ -34,7 +33,7 @@ def _read_remote_manifest(ssh: list[str], env: dict[str, str], target: str, scop
     if scope.legacy_manifest_name:
         names.append(scope.legacy_manifest_name)
     for name in names:
-        path = _remote_manifest_path(target, name)
+        path = remote_path(target, name)
         command = f"LC_ALL=C cat -- {shlex.quote(path)}"
         result = _run(ssh + [command], env, capture=True, check=False)
         if result.returncode != 0:
@@ -75,23 +74,17 @@ def _rsync_command(
 
 def deploy(
     host: str, user: str, port: str, target: str, password: str,
-    full: bool = False, project_root: Path | str = ".",
+    full: bool = False, project_root: Path | str = ".", *, current: dict | None = None,
 ) -> None:
-    current = scan_builds(project_root)
+    if current is None:
+        current = scan_builds(project_root)
     env = os.environ.copy()
     env["SSHPASS"] = password
     ssh = _ssh_base(host, user, port)
     previous = {scope.name: _read_remote_manifest(ssh, env, target, scope) for scope in SCOPES}
-    plans = {
-        scope.name: plan_scope(scope, current[scope.name], previous[scope.name], full)
-        for scope in SCOPES
-    }
+    plans = plan_deployment(current, previous, full)
 
-    remote_roots = {
-        scope.name: target.rstrip("/") if scope.remote_relative_dir == "."
-        else target.rstrip("/") + "/" + scope.remote_relative_dir
-        for scope in SCOPES
-    }
+    remote_roots = {scope.name: remote_root(target, scope) for scope in SCOPES}
     for scope in SCOPES:
         _mkdir(ssh, env, remote_roots[scope.name])
 
@@ -109,12 +102,12 @@ def deploy(
         for scope in SCOPES:
             _, deletes = plans[scope.name]
             for relative in deletes:
-                remote = remote_roots[scope.name] + "/" + relative
+                remote = remote_path(remote_roots[scope.name], relative)
                 _delete(ssh, env, remote)
 
         # Data operations for both scopes finish before either success manifest is replaced.
         for scope in SCOPES:
-            final_path = _remote_manifest_path(target, scope.manifest_name)
+            final_path = remote_path(target, scope.manifest_name)
             temporary_path = final_path + ".tmp-" + uuid.uuid4().hex
             local_manifest = temp_root / f"{scope.name}-manifest.json"
             local_manifest.write_bytes(manifest_bytes(current[scope.name]))
@@ -132,19 +125,14 @@ def deploy(
 
 
 def main() -> int:
-    host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
-    password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
-    port = os.environ.get("SFTP_PORT", "22")
     try:
-        if not all((host, user, password, target)):
-            raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
-        if not target.startswith("/") or target == "/":
-            raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
-        if not port.isdigit() or not (1 <= int(port) <= 65535):
-            raise ValueError("SFTP_PORT must be between 1 and 65535")
+        settings = read_settings()
         # Local validation completes before SSH or any remote mutation.
-        scan_builds()
-        deploy(host, user, port, target, password, os.environ.get("FORCE_FULL", "false").lower() == "true")
+        current = scan_builds()
+        deploy(
+            settings.host, settings.user, str(settings.port), settings.target,
+            settings.password, settings.full, current=current,
+        )
         print("Deployment complete.")
         return 0
     except Exception as error:

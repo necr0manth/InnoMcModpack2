@@ -1,12 +1,15 @@
 import json
+import os
 import tempfile
 import unittest
+from contextlib import chdir
 from pathlib import Path
-from unittest.mock import patch
+from types import SimpleNamespace
+from unittest.mock import MagicMock, patch
 
 import deploy_common
 import deploy_rsync
-import deploy_smart
+import deploy_sftp
 
 
 def entry(data):
@@ -81,6 +84,64 @@ class MemorySftp:
 
 
 class DeployCommonTests(unittest.TestCase):
+    def test_settings_defaults_full_and_invalid_values(self):
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
+        with patch.dict(os.environ, env, clear=True):
+            settings = deploy_common.read_settings()
+            self.assertEqual((settings.host, settings.user, settings.password, settings.target),
+                             ("host", "user", "secret", "/srv/minecraft"))
+            self.assertEqual(settings.port, 22)
+            self.assertFalse(settings.full)
+            with patch.dict(os.environ, {"SFTP_PORT": "2222", "FORCE_FULL": "TRUE"}):
+                settings = deploy_common.read_settings()
+                self.assertEqual(settings.port, 2222)
+                self.assertTrue(settings.full)
+            for key, value in (("SFTP_HOST", ""), ("TARGET_DIR", "/"), ("TARGET_DIR", "relative"),
+                               ("SFTP_PORT", "0"), ("SFTP_PORT", "65536"), ("SFTP_PORT", "bad")):
+                with self.subTest(key=key, value=value), patch.dict(os.environ, {key: value}):
+                    with self.assertRaises(ValueError):
+                        deploy_common.read_settings()
+
+    def test_remote_paths_and_smart_full_planning(self):
+        current = {scope.name: {"mods/new.jar": entry(b"new"), "same.cfg": entry(b"same")}
+                   for scope in deploy_common.SCOPES}
+        previous = {scope.name: {"old.cfg": entry(b"old"), "same.cfg": entry(b"same")}
+                    for scope in deploy_common.SCOPES}
+        for full in (False, True):
+            plans = deploy_common.plan_deployment(current, previous, full)
+            for scope in deploy_common.SCOPES:
+                self.assertEqual(plans[scope.name],
+                                 (["mods/new.jar", "same.cfg"] if full else ["mods/new.jar"], ["old.cfg"]))
+        server, client = deploy_common.SCOPES
+        self.assertEqual(deploy_common.remote_root("/srv/minecraft/", server), "/srv/minecraft")
+        self.assertEqual(deploy_common.remote_root("/srv/minecraft/", client),
+                         "/srv/minecraft/automodpack/host-modpack/main")
+        self.assertEqual(deploy_common.remote_path("/srv/minecraft/", server.manifest_name),
+                         "/srv/minecraft/deploy_server_manifest.json")
+
+    def test_both_entrypoints_scan_once_before_remote_operations(self):
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
+        with tempfile.TemporaryDirectory() as temp:
+            make_builds(Path(temp))
+            with chdir(temp), patch.dict(os.environ, env, clear=True):
+                for module in (deploy_sftp, deploy_rsync):
+                    with self.subTest(transport=module.__name__):
+                        sftp = MemorySftp()
+                        sftp.close = lambda: None
+                        paramiko = MagicMock()
+                        paramiko.SFTPClient.from_transport.return_value = sftp
+
+                        def remote_call(*args, **kwargs):
+                            self.assertEqual(scan.call_count, 1)
+                            return SimpleNamespace(returncode=0, stdout="{}", stderr="")
+
+                        paramiko.Transport.side_effect = lambda *args: (remote_call(), MagicMock())[1]
+                        with patch.object(module, "scan_builds", wraps=deploy_common.scan_builds) as scan, \
+                                patch.dict("sys.modules", {"paramiko": paramiko}), \
+                                patch.object(deploy_rsync, "_run", side_effect=remote_call):
+                            self.assertEqual(module.main(), 0)
+                            self.assertEqual(scan.call_count, 1)
+
     def test_scans_both_trees_and_filters_bootstrap_and_server_runtime(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
@@ -124,7 +185,7 @@ class SftpDeploymentTests(unittest.TestCase):
                 target + "/world/region.mca": b"unmanaged world",
                 target + "/old.txt": b"old",
             })
-            deploy_smart.deploy(sftp, target, project_root=root)
+            deploy_sftp.deploy(sftp, target, project_root=root)
             self.assertEqual(sftp.files[target + "/automodpack/server.conf"], b"user-owned")
             self.assertEqual(sftp.files[target + "/automodpack/runtime/timeline.json"], b"runtime")
             self.assertEqual(sftp.files[target + "/world/region.mca"], b"unmanaged world")
@@ -154,7 +215,7 @@ class SftpDeploymentTests(unittest.TestCase):
             make_builds(root)
             sftp = FailingSftp()
             with self.assertRaises(OSError):
-                deploy_smart.deploy(sftp, "/srv/minecraft", project_root=root)
+                deploy_sftp.deploy(sftp, "/srv/minecraft", project_root=root)
             self.assertNotIn("/srv/minecraft/deploy_server_manifest.json", sftp.files)
             self.assertNotIn("/srv/minecraft/deploy_client_manifest.json", sftp.files)
 
@@ -168,7 +229,7 @@ class SftpDeploymentTests(unittest.TestCase):
                 target + "/deploy_manifest.json": json.dumps({"old.txt": entry(b"old")}).encode(),
             })
             with self.assertRaises(ValueError):
-                deploy_smart.deploy(sftp, target, project_root=root)
+                deploy_sftp.deploy(sftp, target, project_root=root)
             self.assertEqual(sftp.operations, [])
             self.assertNotIn(target + "/deploy_client_manifest.json", sftp.files)
 

@@ -1,4 +1,4 @@
-name: Deploy Server
+name: Deploy via SFTP
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
     - name: Install dependencies
       run: pip install paramiko
 
-    - name: Smart Deploy via SFTP
+    - name: Deploy via SFTP
       env:
         SFTP_HOST: ${{ secrets.SFTP_HOST }}
         SFTP_USER: ${{ secrets.SFTP_USERNAME }}
@@ -38,4 +38,4 @@ jobs:
         SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
         TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
         FORCE_FULL: ${{ github.event.inputs.deploy_type == 'full' }}
-      run: python deploy_smart.py
+      run: python deploy_sftp.py

@@ -11,11 +11,14 @@ import tempfile
 import uuid
 from pathlib import Path
 
-from deploy_common import SCOPES, Scope, manifest_bytes, parse_manifest, plan_scope, scan_builds
+from deploy_common import (
+    SCOPES, Scope, manifest_bytes, parse_manifest, plan_deployment,
+    read_settings, remote_path, remote_root, scan_builds,
+)
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
-logger = logging.getLogger("DeploySmart")
+logger = logging.getLogger("DeploySFTP")
 
 
 def _is_missing(error: BaseException) -> bool:
@@ -24,12 +27,8 @@ def _is_missing(error: BaseException) -> bool:
     )
 
 
-def _remote_manifest_path(target: str, name: str) -> str:
-    return posixpath.join(target.rstrip("/"), name)
-
-
 def read_previous(sftp, target: str, scope: Scope) -> dict:
-    path = _remote_manifest_path(target, scope.manifest_name)
+    path = remote_path(target, scope.manifest_name)
     try:
         with sftp.open(path, "rb") as remote:
             data = remote.read()
@@ -38,7 +37,7 @@ def read_previous(sftp, target: str, scope: Scope) -> dict:
             raise RuntimeError(f"Could not read {scope.name} manifest {path}: {error}") from error
         if scope.legacy_manifest_name is None:
             return {}
-        legacy = _remote_manifest_path(target, scope.legacy_manifest_name)
+        legacy = remote_path(target, scope.legacy_manifest_name)
         try:
             with sftp.open(legacy, "rb") as remote:
                 data = remote.read()
@@ -92,7 +91,7 @@ def _remove_if_present(sftp, remote: str) -> None:
 
 
 def _publish_manifest(sftp, target: str, scope: Scope, state: dict) -> None:
-    final_path = _remote_manifest_path(target, scope.manifest_name)
+    final_path = remote_path(target, scope.manifest_name)
     _ensure_remote_dir(sftp, posixpath.dirname(final_path))
     temp_path = final_path + ".tmp-" + uuid.uuid4().hex
     local_name = None
@@ -115,30 +114,27 @@ def _publish_manifest(sftp, target: str, scope: Scope, state: dict) -> None:
             os.unlink(local_name)
 
 
-def deploy(sftp, target: str, full: bool = False, project_root: Path | str = ".") -> None:
-    current = scan_builds(project_root)
+def deploy(sftp, target: str, full: bool = False, project_root: Path | str = ".", *, current: dict | None = None) -> None:
+    if current is None:
+        current = scan_builds(project_root)
     previous = {scope.name: read_previous(sftp, target, scope) for scope in SCOPES}
-    plans = {
-        scope.name: plan_scope(scope, current[scope.name], previous[scope.name], full)
-        for scope in SCOPES
-    }
+    plans = plan_deployment(current, previous, full)
 
+    remote_roots = {scope.name: remote_root(target, scope) for scope in SCOPES}
     for scope in SCOPES:
         uploads, _ = plans[scope.name]
         local_root = Path(project_root) / scope.local_dir
-        remote_root = target.rstrip("/") if scope.remote_relative_dir == "." else posixpath.join(target.rstrip("/"), scope.remote_relative_dir)
         for relative in uploads:
-            remote_path = posixpath.join(remote_root, relative)
+            destination = remote_path(remote_roots[scope.name], relative)
             logger.info("Uploading %s/%s", scope.name, relative)
-            _upload_atomically(sftp, local_root / Path(*relative.split("/")), remote_path)
+            _upload_atomically(sftp, local_root / Path(*relative.split("/")), destination)
 
     for scope in SCOPES:
         _, deletes = plans[scope.name]
-        remote_root = target.rstrip("/") if scope.remote_relative_dir == "." else posixpath.join(target.rstrip("/"), scope.remote_relative_dir)
         for relative in deletes:
-            remote_path = posixpath.join(remote_root, relative)
+            destination = remote_path(remote_roots[scope.name], relative)
             logger.info("Deleting stale %s/%s", scope.name, relative)
-            _remove_if_present(sftp, remote_path)
+            _remove_if_present(sftp, destination)
 
     # Publish only after every upload and stale deletion in both scopes succeeds.
     for scope in SCOPES:
@@ -146,16 +142,8 @@ def deploy(sftp, target: str, full: bool = False, project_root: Path | str = "."
 
 
 def main() -> int:
-    host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
-    password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
     try:
-        port = int(os.environ.get("SFTP_PORT", "22"))
-        if not 1 <= port <= 65535:
-            raise ValueError("SFTP_PORT must be between 1 and 65535")
-        if not all((host, user, password, target)):
-            raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
-        if target is None or not target.startswith("/") or target == "/":
-            raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
+        settings = read_settings()
         current = scan_builds()
     except Exception as error:
         logger.error("Preflight failed: %s", error)
@@ -165,14 +153,13 @@ def main() -> int:
 
     transport = None
     try:
-        transport = paramiko.Transport((host, port))
+        transport = paramiko.Transport((settings.host, settings.port))
         transport.set_keepalive(15)
         transport.default_window_size = 8192
         transport.default_max_packet_size = 1024
-        transport.connect(username=user, password=password)
+        transport.connect(username=settings.user, password=settings.password)
         sftp = paramiko.SFTPClient.from_transport(transport)
-        # Avoid rescanning after connection while keeping deploy() convenient for tests.
-        deploy(sftp, target, os.environ.get("FORCE_FULL", "false").lower() == "true")
+        deploy(sftp, settings.target, settings.full, current=current)
         sftp.close()
         logger.info("Deployment complete.")
         return 0

@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import posixpath
 import re
 import stat
 from dataclasses import dataclass
@@ -28,6 +29,40 @@ SCOPES = (
     Scope("server", "build/server", ".", "deploy_server_manifest.json", "deploy_manifest.json"),
     Scope("client", "build/client", "automodpack/host-modpack/main", "deploy_client_manifest.json"),
 )
+
+
+@dataclass(frozen=True)
+class DeploymentSettings:
+    host: str
+    user: str
+    password: str
+    port: int
+    target: str
+    full: bool
+
+
+def read_settings() -> DeploymentSettings:
+    host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
+    password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
+    if not all((host, user, password, target)):
+        raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
+    if not target.startswith("/") or target == "/":
+        raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
+    port = int(os.environ.get("SFTP_PORT", "22"))
+    if not 1 <= port <= 65535:
+        raise ValueError("SFTP_PORT must be between 1 and 65535")
+    return DeploymentSettings(
+        host, user, password, port, target,
+        os.environ.get("FORCE_FULL", "false").lower() == "true",
+    )
+
+
+def remote_path(target: str, relative: str) -> str:
+    return posixpath.join(target.rstrip("/"), relative)
+
+
+def remote_root(target: str, scope: Scope) -> str:
+    return target.rstrip("/") if scope.remote_relative_dir == "." else remote_path(target, scope.remote_relative_dir)
 
 
 def safe_relative_path(value: object) -> bool:
@@ -133,6 +168,13 @@ def plan_scope(
     uploads = [path for path, info in current.items() if full or previous.get(path, {}).get("hash") != info["hash"]]
     deletes = sorted(path for path in previous if path not in current)
     return sorted(uploads), deletes
+
+
+def plan_deployment(current: dict, previous: dict, full: bool) -> dict[str, tuple[list[str], list[str]]]:
+    return {
+        scope.name: plan_scope(scope, current[scope.name], previous[scope.name], full)
+        for scope in SCOPES
+    }
 
 
 def manifest_bytes(state: dict[str, dict[str, int | str]]) -> bytes:
