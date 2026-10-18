@@ -41,12 +41,15 @@ class DeploymentSettings:
     full: bool
 
 
-def read_settings() -> DeploymentSettings:
+def read_settings(*, allow_root: bool = False) -> DeploymentSettings:
     host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
     password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
+    # SFTP historically deploys to its visible root when TARGET_DIR is empty.
+    if allow_root and not target:
+        target = "/"
     if not all((host, user, password, target)):
         raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
-    if not target.startswith("/") or target == "/":
+    if not target.startswith("/") or (not allow_root and not target.rstrip("/")):
         raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
     port = int(os.environ.get("SFTP_PORT", "22"))
     if not 1 <= port <= 65535:
@@ -58,11 +61,11 @@ def read_settings() -> DeploymentSettings:
 
 
 def remote_path(target: str, relative: str) -> str:
-    return posixpath.join(target.rstrip("/"), relative)
+    return posixpath.join(target.rstrip("/") or "/", relative)
 
 
 def remote_root(target: str, scope: Scope) -> str:
-    return target.rstrip("/") if scope.remote_relative_dir == "." else remote_path(target, scope.remote_relative_dir)
+    return (target.rstrip("/") or "/") if scope.remote_relative_dir == "." else remote_path(target, scope.remote_relative_dir)
 
 
 def safe_relative_path(value: object) -> bool:

@@ -143,7 +143,7 @@ def deploy(sftp, target: str, full: bool = False, project_root: Path | str = "."
 
 def main() -> int:
     try:
-        settings = read_settings()
+        settings = read_settings(allow_root=True)
         current = scan_builds()
     except Exception as error:
         logger.error("Preflight failed: %s", error)

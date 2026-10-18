@@ -84,6 +84,22 @@ class MemorySftp:
 
 
 class DeployCommonTests(unittest.TestCase):
+    def test_root_default_is_sftp_only_and_credentials_stay_required(self):
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        for target in (None, "", "/", "///"):
+            values = env if target is None else dict(env, TARGET_DIR=target)
+            with self.subTest(target=target), patch.dict(os.environ, values, clear=True):
+                self.assertEqual(deploy_common.read_settings(allow_root=True).target, target or "/")
+                with self.assertRaises(ValueError):
+                    deploy_common.read_settings()
+        for key in env:
+            with self.subTest(missing=key), patch.dict(os.environ, dict(env, **{key: ""}), clear=True):
+                with self.assertRaises(ValueError):
+                    deploy_common.read_settings(allow_root=True)
+        with patch.dict(os.environ, dict(env, TARGET_DIR="relative"), clear=True):
+            with self.assertRaises(ValueError):
+                deploy_common.read_settings(allow_root=True)
+
     def test_settings_defaults_full_and_invalid_values(self):
         env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
         with patch.dict(os.environ, env, clear=True):
@@ -118,6 +134,9 @@ class DeployCommonTests(unittest.TestCase):
                          "/srv/minecraft/automodpack/host-modpack/main")
         self.assertEqual(deploy_common.remote_path("/srv/minecraft/", server.manifest_name),
                          "/srv/minecraft/deploy_server_manifest.json")
+        self.assertEqual(deploy_common.remote_root("/", server), "/")
+        self.assertEqual(deploy_common.remote_root("/", client), "/automodpack/host-modpack/main")
+        self.assertEqual(deploy_common.remote_path("/", server.manifest_name), "/deploy_server_manifest.json")
 
     def test_both_entrypoints_scan_once_before_remote_operations(self):
         env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
@@ -167,6 +186,37 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
+    def test_entrypoint_deploys_to_root_with_empty_unset_or_explicit_target(self):
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        with tempfile.TemporaryDirectory() as temp:
+            make_builds(Path(temp))
+            with chdir(temp):
+                for target in (None, "", "/"):
+                    for full in ("false", "true"):
+                        values = dict(env, FORCE_FULL=full)
+                        if target is not None:
+                            values["TARGET_DIR"] = target
+                        with self.subTest(target=target, full=full), patch.dict(os.environ, values, clear=True):
+                            sftp = MemorySftp({
+                                "/deploy_manifest.json": json.dumps({"old.cfg": entry(b"old")}).encode(),
+                                "/old.cfg": b"old",
+                                "/world/level.dat": b"world",
+                                "/automodpack/server.conf": b"runtime",
+                            })
+                            sftp.close = lambda: None
+                            paramiko = MagicMock()
+                            paramiko.SFTPClient.from_transport.return_value = sftp
+                            with patch.dict("sys.modules", {"paramiko": paramiko}):
+                                self.assertEqual(deploy_sftp.main(), 0)
+                            self.assertEqual(sftp.files["/mods/common.jar"], b"common")
+                            self.assertEqual(sftp.files["/automodpack/host-modpack/main/mods/client-only.jar"], b"client-only")
+                            self.assertIn("/deploy_server_manifest.json", sftp.files)
+                            self.assertIn("/deploy_client_manifest.json", sftp.files)
+                            self.assertNotIn("/old.cfg", sftp.files)
+                            self.assertEqual(sftp.files["/world/level.dat"], b"world")
+                            self.assertEqual(sftp.files["/automodpack/server.conf"], b"runtime")
+                            self.assertTrue(all(path.startswith("/") for path in sftp.files))
+
     def test_scopes_migrate_server_manifest_and_protect_manual_runtime(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
