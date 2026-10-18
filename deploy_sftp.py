@@ -6,6 +6,7 @@ import errno
 import logging
 import os
 import posixpath
+import stat
 import sys
 import tempfile
 import uuid
@@ -69,11 +70,42 @@ def _upload(sftp, local: Path, remote: str) -> None:
             destination.write(chunk)
 
 
-def _upload_atomically(sftp, local: Path, remote: str) -> None:
+def _replace_remote(sftp, temporary: str, remote: str) -> None:
+    try:
+        sftp.posix_rename(temporary, remote)
+        return
+    except OSError:
+        logger.warning("POSIX rename failed for %s; trying standard SFTP rename", remote)
+
+    try:
+        sftp.rename(temporary, remote)
+        return
+    except OSError:
+        # Standard SFTP rename cannot replace an existing destination. Keep the
+        # old file until the new one is complete, and restore it on failure.
+        attributes = sftp.stat(remote)
+        if not stat.S_ISREG(attributes.st_mode):
+            raise OSError(f"Refusing to replace non-regular destination: {remote}")
+
+    backup = remote + ".bak-" + uuid.uuid4().hex
+    sftp.rename(remote, backup)
+    try:
+        # This fallback has a brief gap where the destination does not exist.
+        sftp.rename(temporary, remote)
+    except Exception:
+        try:
+            sftp.rename(backup, remote)
+        except Exception as restore_error:
+            raise RuntimeError(f"Replacement and rollback failed for {remote}; previous file kept at {backup}") from restore_error
+        raise
+    sftp.remove(backup)
+
+
+def _upload_with_replace(sftp, local: Path, remote: str) -> None:
     temporary = remote + ".tmp-" + uuid.uuid4().hex
     try:
         _upload(sftp, local, temporary)
-        sftp.posix_rename(temporary, remote)
+        _replace_remote(sftp, temporary, remote)
     except Exception:
         try:
             sftp.remove(temporary)
@@ -100,9 +132,7 @@ def _publish_manifest(sftp, target: str, scope: Scope, state: dict) -> None:
             local_name = local.name
             local.write(manifest_bytes(state))
         _upload(sftp, Path(local_name), temp_path)
-        # Requires the server's POSIX rename extension to atomically replace an
-        # existing canonical manifest. Failure is surfaced; no truncated file.
-        sftp.posix_rename(temp_path, final_path)
+        _replace_remote(sftp, temp_path, final_path)
     except Exception:
         try:
             sftp.remove(temp_path)
@@ -127,7 +157,7 @@ def deploy(sftp, target: str, full: bool = False, project_root: Path | str = "."
         for relative in uploads:
             destination = remote_path(remote_roots[scope.name], relative)
             logger.info("Uploading %s/%s", scope.name, relative)
-            _upload_atomically(sftp, local_root / Path(*relative.split("/")), destination)
+            _upload_with_replace(sftp, local_root / Path(*relative.split("/")), destination)
 
     for scope in SCOPES:
         _, deletes = plans[scope.name]

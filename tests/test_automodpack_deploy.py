@@ -1,5 +1,6 @@
 import json
 import os
+import stat
 import tempfile
 import unittest
 from contextlib import chdir
@@ -67,6 +68,7 @@ class MemorySftp:
     def stat(self, path):
         if path not in self.dirs and path not in self.files:
             raise FileNotFoundError(path)
+        return SimpleNamespace(st_mode=stat.S_IFDIR if path in self.dirs else stat.S_IFREG)
 
     def mkdir(self, path):
         self.dirs.add(path)
@@ -79,6 +81,19 @@ class MemorySftp:
         del self.files[path]
 
     def posix_rename(self, source, destination):
+        self.operations.append(("rename", source, destination))
+        self.files[destination] = self.files.pop(source)
+
+
+class StandardRenameSftp(MemorySftp):
+    def posix_rename(self, source, destination):
+        raise OSError("failure")
+
+    def rename(self, source, destination):
+        if source not in self.files:
+            raise FileNotFoundError(source)
+        if destination in self.files:
+            raise OSError("destination exists")
         self.operations.append(("rename", source, destination))
         self.files[destination] = self.files.pop(source)
 
@@ -186,6 +201,80 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
+    def test_rename_fallback_does_not_move_a_destination_directory(self):
+        with tempfile.TemporaryDirectory() as temp:
+            local = Path(temp) / "file"
+            local.write_bytes(b"new")
+            sftp = StandardRenameSftp()
+            sftp.dirs.add("/file")
+            with patch.object(sftp, "rename", side_effect=OSError("failure")) as rename:
+                with self.assertRaisesRegex(OSError, "non-regular destination"):
+                    deploy_sftp._upload_with_replace(sftp, local, "/file")
+                self.assertEqual(rename.call_count, 1)
+            self.assertIn("/file", sftp.dirs)
+            self.assertFalse(sftp.files)
+
+    def test_standard_rename_fallback_handles_new_and_existing_files_and_manifests(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            make_builds(root)
+            previous = {"mods/common.jar": entry(b"old"), "stale.cfg": entry(b"stale")}
+            sftp = StandardRenameSftp({
+                "/mods/common.jar": b"old",
+                "/stale.cfg": b"stale",
+                "/deploy_server_manifest.json": json.dumps(previous).encode(),
+                "/world/level.dat": b"world",
+            })
+            deploy_sftp.deploy(sftp, "/", project_root=root)
+            self.assertEqual(sftp.files["/mods/common.jar"], b"common")
+            self.assertEqual(sftp.files["/automodpack/host-modpack/main/mods/client-only.jar"], b"client-only")
+            self.assertEqual(sftp.files["/world/level.dat"], b"world")
+            self.assertNotIn("/stale.cfg", sftp.files)
+            for scope in deploy_common.SCOPES:
+                manifest = json.loads(sftp.files["/" + scope.manifest_name])
+                self.assertEqual(manifest, deploy_common.scan_build(scope, root))
+            self.assertFalse(any(".bak-" in path or ".tmp-" in path for path in sftp.files))
+            # The next incremental deployment must also succeed without POSIX rename.
+            deploy_sftp.deploy(sftp, "/", project_root=root)
+
+    def test_standard_rename_failure_restores_old_payload_or_manifest(self):
+        class FailingRenameSftp(StandardRenameSftp):
+            def rename(self, source, destination):
+                if ".tmp-" in source and destination == failing_path:
+                    raise OSError("replacement failed")
+                super().rename(source, destination)
+
+        with tempfile.TemporaryDirectory() as temp:
+            local = Path(temp) / "new.cfg"
+            local.write_bytes(b"new")
+            for failing_path in ("/config/example.cfg", "/deploy_server_manifest.json"):
+                with self.subTest(path=failing_path):
+                    sftp = FailingRenameSftp({failing_path: b"previous"})
+                    with self.assertRaisesRegex(OSError, "replacement failed"):
+                        if failing_path.endswith(".json"):
+                            deploy_sftp._publish_manifest(sftp, "/", deploy_common.SCOPES[0], {})
+                        else:
+                            deploy_sftp._upload_with_replace(sftp, local, failing_path)
+                    self.assertEqual(sftp.files, {failing_path: b"previous"})
+
+    def test_failed_rollback_preserves_backup_and_reports_its_path(self):
+        class BrokenRenameSftp(StandardRenameSftp):
+            def rename(self, source, destination):
+                if ".tmp-" in source or ".bak-" in source:
+                    raise OSError("rename failed")
+                super().rename(source, destination)
+
+        with tempfile.TemporaryDirectory() as temp:
+            local = Path(temp) / "new.cfg"
+            local.write_bytes(b"new")
+            sftp = BrokenRenameSftp({"/old.cfg": b"previous"})
+            with self.assertRaisesRegex(RuntimeError, "previous file kept at /old.cfg.bak-"):
+                deploy_sftp._upload_with_replace(sftp, local, "/old.cfg")
+            self.assertEqual(len(sftp.files), 1)
+            backup = next(iter(sftp.files))
+            self.assertTrue(backup.startswith("/old.cfg.bak-"))
+            self.assertEqual(sftp.files[backup], b"previous")
+
     def test_entrypoint_deploys_to_root_with_empty_unset_or_explicit_target(self):
         env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
         with tempfile.TemporaryDirectory() as temp:
