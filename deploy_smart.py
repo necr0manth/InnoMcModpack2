@@ -1,249 +1,188 @@
-import os
-import hashlib
-import json
-import paramiko
-import sys
-import logging
-import time
-from stat import S_ISDIR
+"""Manifest-based SFTP deployment for server and AutoModpack client packs."""
 
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s',
-    datefmt='%H:%M:%S',
-    stream=sys.stdout
-)
+from __future__ import annotations
+
+import errno
+import logging
+import os
+import posixpath
+import sys
+import tempfile
+import uuid
+from pathlib import Path
+
+from deploy_common import SCOPES, Scope, manifest_bytes, parse_manifest, plan_scope, scan_builds
+
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
 logger = logging.getLogger("DeploySmart")
 
-# Configuration via Environment Variables
-HOST = os.environ.get('SFTP_HOST')
-USER = os.environ.get('SFTP_USER')
-PASSWORD = os.environ.get('SFTP_PASS')
-PORT = int(os.environ.get('SFTP_PORT', 22))
-REMOTE_BASE_DIR = os.environ.get('TARGET_DIR')
-LOCAL_BASE_DIR = 'build/server'
-MANIFEST_FILENAME = 'deploy_manifest.json'
 
-def calculate_hash(filepath):
-    """Calculates MD5 hash of a file."""
-    hash_md5 = hashlib.md5()
-    with open(filepath, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            hash_md5.update(chunk)
-    return hash_md5.hexdigest()
+def _is_missing(error: BaseException) -> bool:
+    return isinstance(error, FileNotFoundError) or getattr(error, "errno", None) == errno.ENOENT or (
+        bool(getattr(error, "args", ())) and getattr(error, "args")[0] == errno.ENOENT
+    )
 
-def get_local_files_info(base_dir):
-    """
-    Scans local directory and returns a dict: 
-    { 'relative/path': {'hash': 'md5...', 'size': 1234} }
-    """
-    files_info = {}
-    for root, _, files in os.walk(base_dir):
-        for file in files:
-            full_path = os.path.join(root, file)
-            rel_path = os.path.relpath(full_path, base_dir).replace(os.path.sep, '/')
-            
-            # Skip manifest itself if generated locally
-            if rel_path == MANIFEST_FILENAME:
-                continue
-                
-            stats = os.stat(full_path)
-            file_hash = calculate_hash(full_path)
-            
-            files_info[rel_path] = {
-                'hash': file_hash,
-                'size': stats.st_size
-            }
-    return files_info
 
-def sftp_walk(sftp, remote_path):
-    """Non-recursive helper to verify directory existence (not used for diffing anymore)."""
+def _remote_manifest_path(target: str, name: str) -> str:
+    return posixpath.join(target.rstrip("/"), name)
+
+
+def read_previous(sftp, target: str, scope: Scope) -> dict:
+    path = _remote_manifest_path(target, scope.manifest_name)
     try:
-        sftp.stat(remote_path)
-        return True
-    except IOError:
-        return False
-
-def ensure_remote_dir(sftp, remote_path):
-    """Recursively creates remote directories."""
-    dirs = remote_path.split('/')
-    current_path = ""
-    for dir_part in dirs:
-        if not dir_part: continue
-        current_path += "/" + dir_part
+        with sftp.open(path, "rb") as remote:
+            data = remote.read()
+    except Exception as error:
+        if not _is_missing(error):
+            raise RuntimeError(f"Could not read {scope.name} manifest {path}: {error}") from error
+        if scope.legacy_manifest_name is None:
+            return {}
+        legacy = _remote_manifest_path(target, scope.legacy_manifest_name)
         try:
-            sftp.stat(current_path)
-        except IOError:
-            logger.info(f"Creating remote directory: {current_path}")
-            sftp.mkdir(current_path)
+            with sftp.open(legacy, "rb") as remote:
+                data = remote.read()
+        except Exception as legacy_error:
+            if _is_missing(legacy_error):
+                return {}
+            raise RuntimeError(f"Could not read legacy server manifest {legacy}: {legacy_error}") from legacy_error
+    return parse_manifest(data, scope)
 
-def manual_sftp_put(sftp, local_path, remote_path, callback=None):
-    """
-    Manually copies file to handle VPN/MTU issues where paramiko.put() might hang.
-    Reads locally and writes remotely in small chunks.
-    """
-    chunk_size = 16 * 1024 # 16KB chunks
-    total_size = os.path.getsize(local_path)
-    transferred = 0
-    
-    with open(local_path, 'rb') as f_local:
-        with sftp.open(remote_path, 'wb') as f_remote:
-            # Force prefetch off if possible, though 'wb' usually doesn't prefetch.
-            # Just write linearly.
-            while True:
-                data = f_local.read(chunk_size)
-                if not data:
-                    break
-                f_remote.write(data)
-                transferred += len(data)
-                if callback:
-                    callback(transferred, total_size)
 
-def create_progress_callback(filename):
-    start_time = time.time()
-    last_log_time = start_time
-    
-    def progress_callback(transferred, total):
-        nonlocal last_log_time
-        current_time = time.time()
-        
-        # Log every 5 seconds or on completion
-        if current_time - last_log_time > 5 or transferred == total:
-            percentage = (transferred / total) * 100 if total > 0 else 0
-            elapsed = current_time - start_time
-            speed = (transferred / 1024 / 1024) / elapsed if elapsed > 0 else 0
-            logger.info(f"Transferring {filename}: {percentage:.1f}% ({transferred}/{total} bytes) - {speed:.2f} MB/s")
-            last_log_time = current_time
-            
-    return progress_callback
+def _ensure_remote_dir(sftp, path: str) -> None:
+    current = ""
+    for part in path.split("/"):
+        if not part:
+            continue
+        current += "/" + part
+        try:
+            sftp.stat(current)
+        except Exception as error:
+            if not _is_missing(error):
+                raise
+            sftp.mkdir(current)
 
-def main():
-    logger.info(f"Connecting to {HOST}:{PORT} as {USER}...")
-    
+
+def _upload(sftp, local: Path, remote: str) -> None:
+    _ensure_remote_dir(sftp, posixpath.dirname(remote))
+    with local.open("rb") as source, sftp.open(remote, "wb") as destination:
+        while chunk := source.read(16 * 1024):
+            destination.write(chunk)
+
+
+def _upload_atomically(sftp, local: Path, remote: str) -> None:
+    temporary = remote + ".tmp-" + uuid.uuid4().hex
     try:
-        transport = paramiko.Transport((HOST, PORT))
-        transport.set_keepalive(15) 
-        
-        # Tweak transport settings to avoid MTU/Window hangs on VPNs (like WireGuard)
-        # Using conservative values to prevent packet fragmentation/dropping
-        # MTU is likely ~1420 or lower. We use 1024 bytes per packet to be safe.
-        transport.default_window_size = 8192 # 8KB Window
-        transport.default_max_packet_size = 1024 # 1KB Packet limit (Fits 1420 MTU)
-        
-        transport.connect(username=USER, password=PASSWORD)
+        _upload(sftp, local, temporary)
+        sftp.posix_rename(temporary, remote)
+    except Exception:
+        try:
+            sftp.remove(temporary)
+        except Exception:
+            pass
+        raise
+
+
+def _remove_if_present(sftp, remote: str) -> None:
+    try:
+        sftp.remove(remote)
+    except Exception as error:
+        if not _is_missing(error):
+            raise
+
+
+def _publish_manifest(sftp, target: str, scope: Scope, state: dict) -> None:
+    final_path = _remote_manifest_path(target, scope.manifest_name)
+    _ensure_remote_dir(sftp, posixpath.dirname(final_path))
+    temp_path = final_path + ".tmp-" + uuid.uuid4().hex
+    local_name = None
+    try:
+        with tempfile.NamedTemporaryFile(prefix="deploy-manifest-", suffix=".json", delete=False) as local:
+            local_name = local.name
+            local.write(manifest_bytes(state))
+        _upload(sftp, Path(local_name), temp_path)
+        # Requires the server's POSIX rename extension to atomically replace an
+        # existing canonical manifest. Failure is surfaced; no truncated file.
+        sftp.posix_rename(temp_path, final_path)
+    except Exception:
+        try:
+            sftp.remove(temp_path)
+        except Exception:
+            pass
+        raise
+    finally:
+        if local_name:
+            os.unlink(local_name)
+
+
+def deploy(sftp, target: str, full: bool = False, project_root: Path | str = ".") -> None:
+    current = scan_builds(project_root)
+    previous = {scope.name: read_previous(sftp, target, scope) for scope in SCOPES}
+    plans = {
+        scope.name: plan_scope(scope, current[scope.name], previous[scope.name], full)
+        for scope in SCOPES
+    }
+
+    for scope in SCOPES:
+        uploads, _ = plans[scope.name]
+        local_root = Path(project_root) / scope.local_dir
+        remote_root = target.rstrip("/") if scope.remote_relative_dir == "." else posixpath.join(target.rstrip("/"), scope.remote_relative_dir)
+        for relative in uploads:
+            remote_path = posixpath.join(remote_root, relative)
+            logger.info("Uploading %s/%s", scope.name, relative)
+            _upload_atomically(sftp, local_root / Path(*relative.split("/")), remote_path)
+
+    for scope in SCOPES:
+        _, deletes = plans[scope.name]
+        remote_root = target.rstrip("/") if scope.remote_relative_dir == "." else posixpath.join(target.rstrip("/"), scope.remote_relative_dir)
+        for relative in deletes:
+            remote_path = posixpath.join(remote_root, relative)
+            logger.info("Deleting stale %s/%s", scope.name, relative)
+            _remove_if_present(sftp, remote_path)
+
+    # Publish only after every upload and stale deletion in both scopes succeeds.
+    for scope in SCOPES:
+        _publish_manifest(sftp, target, scope, current[scope.name])
+
+
+def main() -> int:
+    host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
+    password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
+    try:
+        port = int(os.environ.get("SFTP_PORT", "22"))
+        if not 1 <= port <= 65535:
+            raise ValueError("SFTP_PORT must be between 1 and 65535")
+        if not all((host, user, password, target)):
+            raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
+        if target is None or not target.startswith("/") or target == "/":
+            raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
+        current = scan_builds()
+    except Exception as error:
+        logger.error("Preflight failed: %s", error)
+        return 1
+
+    import paramiko
+
+    transport = None
+    try:
+        transport = paramiko.Transport((host, port))
+        transport.set_keepalive(15)
+        transport.default_window_size = 8192
+        transport.default_max_packet_size = 1024
+        transport.connect(username=user, password=password)
         sftp = paramiko.SFTPClient.from_transport(transport)
-    except Exception as e:
-        logger.error(f"Failed to connect: {e}")
-        sys.exit(1)
+        # Avoid rescanning after connection while keeping deploy() convenient for tests.
+        deploy(sftp, target, os.environ.get("FORCE_FULL", "false").lower() == "true")
+        sftp.close()
+        logger.info("Deployment complete.")
+        return 0
+    except Exception as error:
+        logger.exception("Deployment failed: %s", error)
+        return 1
+    finally:
+        if transport:
+            transport.close()
 
-    # 1. Calculate Local state
-    logger.info("Scanning local files and calculating hashes...")
-    local_state = get_local_files_info(LOCAL_BASE_DIR)
-    logger.info(f"Found {len(local_state)} local files.")
-
-    # 2. Get Remote Manifest
-    remote_state = {}
-    manifest_path = f"{REMOTE_BASE_DIR}/{MANIFEST_FILENAME}"
-    logger.info(f"Checking for remote manifest at {manifest_path}...")
-    try:
-        with sftp.open(manifest_path, 'r') as f:
-            remote_state = json.load(f)
-        logger.info(f"Loaded remote manifest. Known remote files: {len(remote_state)}")
-    except (IOError, json.JSONDecodeError):
-        logger.warning("Remote manifest not found or invalid. Performing full sync.")
-
-    # 3. Compare & Plan Uploads
-    files_to_upload = []
-    force_full = os.environ.get('FORCE_FULL', 'false').lower() == 'true'
-    
-    if force_full:
-        logger.info("!!! FORCED FULL DEPLOY ACTIVATED !!!")
-
-    for rel_path, info in local_state.items():
-        need_upload = False
-        reason = ""
-        
-        if rel_path not in remote_state:
-            need_upload = True 
-            reason = "New file"
-        elif force_full:
-            need_upload = True
-            reason = "Forced full"
-        elif remote_state[rel_path]['hash'] != info['hash']:
-            need_upload = True
-            reason = "Hash mismatch"
-        
-        if need_upload:
-            files_to_upload.append(rel_path)
-    
-    # 4. Compare & Plan Deletions (Safe Delete)
-    # Only delete files that are in the remote manifest (we put them there) 
-    # BUT are no longer in the local build.
-    files_to_delete = []
-    for rel_path in remote_state:
-        if rel_path not in local_state:
-            files_to_delete.append(rel_path)
-
-    logger.info(f"Summary: {len(files_to_upload)} files to upload, {len(files_to_delete)} files to delete.")
-
-    # 5. Execute Delete
-    if files_to_delete:
-        logger.info("--- Deleting removed files ---")
-        for i, rel_path in enumerate(files_to_delete):
-            remote_path = f"{REMOTE_BASE_DIR}/{rel_path}"
-            logger.info(f"[{i+1}/{len(files_to_delete)}] Deleting: {rel_path}")
-            try:
-                sftp.remove(remote_path)
-            except IOError as e:
-                logger.error(f"Failed to delete {remote_path}: {e}")
-
-    # 6. Execute Upload
-    if files_to_upload:
-        logger.info("--- Uploading files ---")
-        for i, rel_path in enumerate(files_to_upload):
-            local_path = os.path.join(LOCAL_BASE_DIR, rel_path)
-            remote_path = f"{REMOTE_BASE_DIR}/{rel_path}"
-            remote_dir = os.path.dirname(remote_path)
-            
-            try:
-                sftp.stat(remote_path)
-                # sftp.posix_rename(remote_path, remote_path) # check exists cheap
-            except IOError:
-                 ensure_remote_dir(sftp, remote_dir)
-
-            logger.info(f"[{i+1}/{len(files_to_upload)}] Uploading: {rel_path} (Size: {local_state[rel_path]['size']} bytes)")
-            
-            try:
-                callback = create_progress_callback(rel_path)
-                # sftp.put(local_path, remote_path, callback=callback)
-                manual_sftp_put(sftp, local_path, remote_path, callback=callback)
-                logger.info(f"Finished uploading {rel_path}")
-            except Exception as e:
-                logger.error(f"Failed to upload {rel_path}: {e}")
-                # Don't break immediately, or do? If network is dead, next one will tail too.
-                # Usually best to raise to fail the CI
-                raise e
-    else:
-        logger.info("No files to upload.")
-
-    # 7. Upload New Manifest
-    logger.info("Updating remote manifest...")
-    # Using local_state as the new manifest effectively
-    with open('new_manifest.json', 'w') as f:
-        json.dump(local_state, f)
-    
-    try:
-        sftp.put('new_manifest.json', manifest_path)
-        logger.info("Manifest updated successfully.")
-    except Exception as e:
-         logger.error(f"Failed to upload manifest: {e}")
-
-    os.remove('new_manifest.json')
-
-    sftp.close()
-    transport.close()
-    logger.info("Deployment complete.")
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

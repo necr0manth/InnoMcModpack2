@@ -50,3 +50,6 @@ ponders_watched.json
 /.ai_docs
 /mods/.connector
 *.disabled
+/automodpack
+/deployment
+/tests

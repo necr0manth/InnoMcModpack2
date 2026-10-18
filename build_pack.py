@@ -11,6 +11,7 @@ CLIENT_FILES_IGNORE = '.client_files'
 PACK_IGNORE = '.packignore'
 SERVER_PACK_DIR = 'server_pack'
 DEFAULT_BUILD_DIR = 'build'
+AUTOMODPACK_CLIENT_CONFIG = os.path.join('automodpack', 'client.conf')
 
 def load_ignore_patterns(root_dir, file_names):
     """
@@ -142,6 +143,10 @@ def ensure_git_lfs(root_dir):
         print(f"Warning: git lfs pull failed with exit code {result.returncode}; continuing with existing files.")
 
 def build_mode(mode, root_dir, output_dir=None):
+    client_config = os.path.join(root_dir, AUTOMODPACK_CLIENT_CONFIG)
+    if mode == 'client' and not os.path.isfile(client_config):
+        raise FileNotFoundError(f"Required AutoModpack client config is missing: {client_config}")
+
     if output_dir:
         target_dir = output_dir
     else:
@@ -172,6 +177,15 @@ def build_mode(mode, root_dir, output_dir=None):
         server_pack_path = os.path.join(root_dir, SERVER_PACK_DIR)
         print(f"Overlaying {SERVER_PACK_DIR}...")
         merge_tree(server_pack_path, target_dir)
+        # Keep the client bootstrap and all machine-owned runtime state out of servers.
+        automodpack_dir = os.path.join(target_dir, 'automodpack')
+        if os.path.exists(automodpack_dir):
+            shutil.rmtree(automodpack_dir)
+    else:
+        # The tree copy excludes AutoModpack runtime data; add only the checked bootstrap.
+        client_config_target = os.path.join(target_dir, AUTOMODPACK_CLIENT_CONFIG)
+        os.makedirs(os.path.dirname(client_config_target), exist_ok=True)
+        shutil.copy2(client_config, client_config_target)
 
 def main():
     parser = argparse.ArgumentParser(description='Minecraft Modpack Builder')

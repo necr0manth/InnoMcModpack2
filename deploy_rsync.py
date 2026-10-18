@@ -1,214 +1,156 @@
+"""Manifest-based rsync deployment for server and AutoModpack client packs."""
+
+from __future__ import annotations
+
 import os
-import hashlib
-import json
+import shlex
 import subprocess
 import sys
-import shlex
+import tempfile
+import uuid
+from pathlib import Path
 
-# Configuration via Environment Variables
-HOST = os.environ.get('SFTP_HOST')
-USER = os.environ.get('SFTP_USER')
-PASSWORD = os.environ.get('SFTP_PASS')
-PORT = os.environ.get('SFTP_PORT', '22')
-REMOTE_BASE_DIR = os.environ.get('TARGET_DIR')
-LOCAL_BASE_DIR = 'build/server'
-MANIFEST_FILENAME = 'deploy_manifest.json'
+from deploy_common import SCOPES, Scope, manifest_bytes, parse_manifest, plan_scope, scan_builds
 
-def calculate_hash(filepath):
-    """Calculates MD5 hash of a file."""
-    hash_md5 = hashlib.md5()
-    with open(filepath, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            hash_md5.update(chunk)
-    return hash_md5.hexdigest()
 
-def get_local_files_info(base_dir):
-    """
-    Scans local directory and returns a dict: 
-    { 'relative/path': {'hash': 'md5...', 'size': 1234} }
-    """
-    files_info = {}
-    if not os.path.exists(base_dir):
-        print(f"Error: Local directory '{base_dir}' does not exist.")
-        sys.exit(1)
-        
-    for root, _, files in os.walk(base_dir):
-        for file in files:
-            full_path = os.path.join(root, file)
-            rel_path = os.path.relpath(full_path, base_dir).replace(os.path.sep, '/')
-            
-            # Skip manifest itself if generated locally
-            if rel_path == MANIFEST_FILENAME:
+def _remote_manifest_path(target: str, name: str) -> str:
+    return target.rstrip("/") + "/" + name
+
+
+def _ssh_base(host: str, user: str, port: str) -> list[str]:
+    return [
+        "sshpass", "-e", "ssh", "-p", port,
+        "-o", "StrictHostKeyChecking=no", "-o", "UserKnownHostsFile=/dev/null",
+        "-o", "ConnectTimeout=15", "-o", "ServerAliveInterval=30", f"{user}@{host}",
+    ]
+
+
+def _run(args: list[str], env: dict[str, str], *, capture: bool = False, check: bool = True):
+    return subprocess.run(args, env=env, check=check, text=True, capture_output=capture)
+
+
+def _read_remote_manifest(ssh: list[str], env: dict[str, str], target: str, scope: Scope) -> dict:
+    names = [scope.manifest_name]
+    if scope.legacy_manifest_name:
+        names.append(scope.legacy_manifest_name)
+    for name in names:
+        path = _remote_manifest_path(target, name)
+        command = f"LC_ALL=C cat -- {shlex.quote(path)}"
+        result = _run(ssh + [command], env, capture=True, check=False)
+        if result.returncode != 0:
+            if "No such file or directory" in result.stderr:
                 continue
-                
-            stats = os.stat(full_path)
-            file_hash = calculate_hash(full_path)
-            
-            files_info[rel_path] = {
-                'hash': file_hash,
-                'size': stats.st_size
-            }
-    return files_info
+            raise RuntimeError(f"Could not read {scope.name} manifest {path}: {result.stderr.strip()}")
+        return parse_manifest(result.stdout, scope)
+    return {}
 
-def run_cmd(cmd_list, env=None, check=True, capture_output=False):
-    """Runs a subprocess command with hidden password in logs."""
-    display_cmd = " ".join(cmd_list).replace(PASSWORD, "*****") if PASSWORD else " ".join(cmd_list)
-    print(f"Executing: {display_cmd}")
-    sys.stdout.flush()
 
-    if capture_output:
-        # For capturing output (like getting manifest), we wait for completion
-        try:
-            result = subprocess.run(
-                cmd_list, 
-                env=env, 
-                check=check, 
-                text=True,
-                capture_output=True
-            )
-            return result
-        except subprocess.CalledProcessError as e:
-            print(f"Command failed with exit code {e.returncode}")
-            print(f"Stderr: {e.stderr}")
-            if check:
-                sys.exit(e.returncode)
-            return e
-    else:
-        # For long running commands (rsync), we stream output
-        process = subprocess.Popen(
-            cmd_list,
-            env=env,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT, # Merge stderr into stdout
-            text=True,
-            bufsize=1
-        )
+def _destination(user: str, host: str, remote_path: str) -> str:
+    return f"{user}@{host}:{remote_path}"
 
-        for line in process.stdout:
-            print(line, end='')
-            sys.stdout.flush()
 
-        process.wait()
+def _mkdir(ssh: list[str], env: dict[str, str], path: str) -> None:
+    _run(ssh + [f"mkdir -p -- {shlex.quote(path)}"], env)
 
-        if check and process.returncode != 0:
-            print(f"Command failed with exit code {process.returncode}")
-            sys.exit(process.returncode)
-        
-        return process
 
-def main():
-    if not all([HOST, USER, PASSWORD, REMOTE_BASE_DIR]):
-        print("Error: Missing required environment variables (SFTP_HOST, SFTP_USER, SFTP_PASS, TARGET_DIR).")
-        sys.exit(1)
+def _delete(ssh: list[str], env: dict[str, str], path: str) -> None:
+    # rm -f succeeds for a missing path, but still fails on permission/network errors.
+    _run(ssh + [f"rm -f -- {shlex.quote(path)}"], env)
 
-    print(f"Preparing deployment to {HOST}:{PORT}...")
-    
-    # 1. State Calculation
-    print("Scanning local files...")
-    local_state = get_local_files_info(LOCAL_BASE_DIR)
-    print(f"Found {len(local_state)} local files.")
 
-    # Prepare environment for commands (inject SSHPASS)
+def _rsync_command(
+    user: str, host: str, port: str, source: str, destination: str,
+    file_list: str, env: dict[str, str], full: bool,
+) -> None:
+    ssh_transport = f"ssh -p {shlex.quote(port)} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+    command = [
+        "sshpass", "-e", "rsync", "-avzc", "--no-perms", "--timeout=60",
+        "--from0", f"--files-from={file_list}", "-s", "-e", ssh_transport,
+    ]
+    if full:
+        command.append("--ignore-times")
+    command.extend([source.rstrip(os.sep) + os.sep, _destination(user, host, destination)])
+    _run(command, env)
+
+
+def deploy(
+    host: str, user: str, port: str, target: str, password: str,
+    full: bool = False, project_root: Path | str = ".",
+) -> None:
+    current = scan_builds(project_root)
     env = os.environ.copy()
-    env['SSHPASS'] = PASSWORD
-    
-    # Common SSH flags
-    # -vvv: Verbose debugging for connection issues
-    ssh_opts = ["-p", str(PORT), "-vvv", "-o", "StrictHostKeyChecking=no", "-o", "UserKnownHostsFile=/dev/null", "-o", "ConnectTimeout=15", "-o", "ServerAliveInterval=30"]
-    ssh_base_cmd = ["sshpass", "-e", "ssh"] + ssh_opts + [f"{USER}@{HOST}"]
+    env["SSHPASS"] = password
+    ssh = _ssh_base(host, user, port)
+    previous = {scope.name: _read_remote_manifest(ssh, env, target, scope) for scope in SCOPES}
+    plans = {
+        scope.name: plan_scope(scope, current[scope.name], previous[scope.name], full)
+        for scope in SCOPES
+    }
 
-    # 1.5 Ensure Remote Directory Exists
-    print(f"Ensuring remote directory structure: {REMOTE_BASE_DIR}")
-    mkdir_cmd = ssh_base_cmd + [f"mkdir -p {shlex.quote(REMOTE_BASE_DIR)}"]
-    run_cmd(mkdir_cmd, env=env, check=True)
+    remote_roots = {
+        scope.name: target.rstrip("/") if scope.remote_relative_dir == "."
+        else target.rstrip("/") + "/" + scope.remote_relative_dir
+        for scope in SCOPES
+    }
+    for scope in SCOPES:
+        _mkdir(ssh, env, remote_roots[scope.name])
 
-    # 2. Get Remote Manifest
-    manifest_path = f"{REMOTE_BASE_DIR}/{MANIFEST_FILENAME}"
-    print(f"Fetching remote manifest from {manifest_path}...")
-    
-    cat_cmd = ssh_base_cmd + [f"cat {shlex.quote(manifest_path)}"]
-    remote_state = {}
-    
-    res = run_cmd(cat_cmd, env=env, check=False, capture_output=True)
-    if res.returncode == 0:
-        try:
-            remote_state = json.loads(res.stdout)
-            print(f"Loaded remote manifest. Known remote files: {len(remote_state)}")
-        except json.JSONDecodeError:
-            print("Remote manifest corrupted. Proceeding with full sync.")
-    else:
-        print("Remote manifest not found. Proceeding with full sync.")
+    with tempfile.TemporaryDirectory(prefix="automodpack-deploy-") as temp_dir:
+        temp_root = Path(temp_dir)
+        for scope in SCOPES:
+            uploads, _ = plans[scope.name]
+            if not uploads:
+                continue
+            file_list = temp_root / f"{scope.name}-files-from.bin"
+            file_list.write_bytes(b"\0".join(path.encode("utf-8") for path in uploads) + b"\0")
+            source = str(Path(project_root) / scope.local_dir)
+            _rsync_command(user, host, port, source, remote_roots[scope.name], str(file_list), env, full)
 
-    # 3. Calculate Deletions
-    # Only delete files that are in the remote manifest (managed by us) but not in local state.
-    files_to_delete = []
-    for rel_path in remote_state:
-        if rel_path not in local_state:
-            files_to_delete.append(rel_path)
-    
-    print(f"Found {len(files_to_delete)} files to delete.")
+        for scope in SCOPES:
+            _, deletes = plans[scope.name]
+            for relative in deletes:
+                remote = remote_roots[scope.name] + "/" + relative
+                _delete(ssh, env, remote)
 
-    # 4. Execute Deletions
-    if files_to_delete:
-        print("--- Deleting removed files ---")
-        # Construct `rm` commands in batches to avoid command length limits
-        batch_size = 50
-        for i in range(0, len(files_to_delete), batch_size):
-            batch = files_to_delete[i:i+batch_size]
-            paths_to_remove = [f"{REMOTE_BASE_DIR}/{p}" for p in batch]
-            quoted_paths = [shlex.quote(p) for p in paths_to_remove]
-            
-            rm_cmd = ssh_base_cmd + ["rm -f"] + quoted_paths
-            run_cmd(rm_cmd, env=env, check=True)
-            print(f"Deleted batch {i // batch_size + 1}")
+        # Data operations for both scopes finish before either success manifest is replaced.
+        for scope in SCOPES:
+            final_path = _remote_manifest_path(target, scope.manifest_name)
+            temporary_path = final_path + ".tmp-" + uuid.uuid4().hex
+            local_manifest = temp_root / f"{scope.name}-manifest.json"
+            local_manifest.write_bytes(manifest_bytes(current[scope.name]))
+            try:
+                command = [
+                    "sshpass", "-e", "rsync", "-avz", "-e",
+                    f"ssh -p {shlex.quote(port)} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null",
+                    str(local_manifest), _destination(user, host, temporary_path),
+                ]
+                _run(command, env)
+                _run(ssh + [f"mv -f -- {shlex.quote(temporary_path)} {shlex.quote(final_path)}"], env)
+            except Exception:
+                _run(ssh + [f"rm -f -- {shlex.quote(temporary_path)}"], env, check=False)
+                raise
 
-    # 5. Execute Sync via Rsync (Uploads/Updates)
-    print("--- Syncing files via Rsync ---")
-    local_dir = LOCAL_BASE_DIR.rstrip('/') + '/'
-    
-    rsync_ssh_cmd = f"ssh -p {PORT} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
-    
-    # -a: archive
-    # -v: verbose
-    # -z: compress
-    # -c: use checksums (slower but safer)
-    # --no-perms: don't error on permission setting failures (common on some FS)
-    # --timeout=60: I/O timeout
-    rsync_cmd = [
-        "sshpass", "-e",
-        "rsync",
-        "-avzc",
-        "--no-perms",
-        "--timeout=60",
-        "--progress",
-        "-e", rsync_ssh_cmd,
-        local_dir,
-        f"{USER}@{HOST}:{REMOTE_BASE_DIR}/"
-    ]
-    
-    # We do NOT use --delete here because we already handled deletions safely based on the manifest.
-    run_cmd(rsync_cmd, env=env, check=True)
 
-    # 6. Upload New Manifest
-    print("Updating remote manifest...")
-    manifest_local_path = "new_manifest.json"
-    with open(manifest_local_path, 'w') as f:
-        json.dump(local_state, f)
-    
-    # Use rsync to upload manifest too, for consistency
-    manifest_upload_cmd = [
-        "sshpass", "-e",
-        "rsync",
-        "-avz",
-        "-e", rsync_ssh_cmd,
-        manifest_local_path,
-        f"{USER}@{HOST}:{manifest_path}"
-    ]
-    
-    run_cmd(manifest_upload_cmd, env=env, check=True)
-    os.remove(manifest_local_path)
-    
-    print("Deployment complete.")
+def main() -> int:
+    host, user = os.environ.get("SFTP_HOST"), os.environ.get("SFTP_USER")
+    password, target = os.environ.get("SFTP_PASS"), os.environ.get("TARGET_DIR")
+    port = os.environ.get("SFTP_PORT", "22")
+    try:
+        if not all((host, user, password, target)):
+            raise ValueError("Missing required SFTP_HOST, SFTP_USER, SFTP_PASS, or TARGET_DIR")
+        if not target.startswith("/") or target == "/":
+            raise ValueError("TARGET_DIR must be an absolute, non-root remote path")
+        if not port.isdigit() or not (1 <= int(port) <= 65535):
+            raise ValueError("SFTP_PORT must be between 1 and 65535")
+        # Local validation completes before SSH or any remote mutation.
+        scan_builds()
+        deploy(host, user, port, target, password, os.environ.get("FORCE_FULL", "false").lower() == "true")
+        print("Deployment complete.")
+        return 0
+    except Exception as error:
+        print(f"Deployment failed: {error}", file=sys.stderr)
+        return 1
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

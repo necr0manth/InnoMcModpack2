@@ -1,0 +1,25 @@
+modpack-host: true
+generate-modpack-on-start: true
+require-modpack: true
+advertise-versions-to-sync: true
+self-updater: false
+connection-mode: HOLEPUNCH
+bind-address: ""
+bind-port: -1
+advertised-endpoint-host: ""
+advertised-endpoint-port: -1
+disable-internal-tls: false
+validate-secrets: false
+
+modpack {
+  name: "InnoMcModpack2"
+  General {
+    main {
+      selection: REQUIRED
+      auto-exclude-server-side-mods: DISABLED
+      from-server: []
+      exclude: []
+      editable: ["**"]
+    }
+  }
+}

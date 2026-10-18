@@ -24,8 +24,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Build Server Pack
-      run: python build_pack.py server
+    - name: Build Client and Server Packs
+      run: python build_pack.py
 
     - name: Install dependencies
       run: |
@@ -42,5 +42,5 @@ jobs:
         SFTP_PASS: ${{ secrets.SFTP_PASSWORD }}
         SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
         TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
-        FORCE_FULL: ${{ github.event.inputs.deploy_type == 'full' }} # Not used by rsync script yet but kept for consistency
+        FORCE_FULL: ${{ github.event.inputs.deploy_type == 'full' }}
       run: python deploy_rsync.py
