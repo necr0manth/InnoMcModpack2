@@ -72,12 +72,6 @@ def _upload(sftp, local: Path, remote: str) -> None:
 
 def _replace_remote(sftp, temporary: str, remote: str) -> None:
     try:
-        sftp.posix_rename(temporary, remote)
-        return
-    except OSError:
-        logger.warning("POSIX rename failed for %s; trying standard SFTP rename", remote)
-
-    try:
         sftp.rename(temporary, remote)
         return
     except OSError:

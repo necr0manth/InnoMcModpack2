@@ -80,15 +80,6 @@ class MemorySftp:
             raise FileNotFoundError(path)
         del self.files[path]
 
-    def posix_rename(self, source, destination):
-        self.operations.append(("rename", source, destination))
-        self.files[destination] = self.files.pop(source)
-
-
-class StandardRenameSftp(MemorySftp):
-    def posix_rename(self, source, destination):
-        raise OSError("failure")
-
     def rename(self, source, destination):
         if source not in self.files:
             raise FileNotFoundError(source)
@@ -201,11 +192,11 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
-    def test_rename_fallback_does_not_move_a_destination_directory(self):
+    def test_rename_does_not_move_a_destination_directory(self):
         with tempfile.TemporaryDirectory() as temp:
             local = Path(temp) / "file"
             local.write_bytes(b"new")
-            sftp = StandardRenameSftp()
+            sftp = MemorySftp()
             sftp.dirs.add("/file")
             with patch.object(sftp, "rename", side_effect=OSError("failure")) as rename:
                 with self.assertRaisesRegex(OSError, "non-regular destination"):
@@ -214,12 +205,12 @@ class SftpDeploymentTests(unittest.TestCase):
             self.assertIn("/file", sftp.dirs)
             self.assertFalse(sftp.files)
 
-    def test_standard_rename_fallback_handles_new_and_existing_files_and_manifests(self):
+    def test_standard_rename_handles_new_and_existing_files_and_manifests(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             make_builds(root)
             previous = {"mods/common.jar": entry(b"old"), "stale.cfg": entry(b"stale")}
-            sftp = StandardRenameSftp({
+            sftp = MemorySftp({
                 "/mods/common.jar": b"old",
                 "/stale.cfg": b"stale",
                 "/deploy_server_manifest.json": json.dumps(previous).encode(),
@@ -234,11 +225,11 @@ class SftpDeploymentTests(unittest.TestCase):
                 manifest = json.loads(sftp.files["/" + scope.manifest_name])
                 self.assertEqual(manifest, deploy_common.scan_build(scope, root))
             self.assertFalse(any(".bak-" in path or ".tmp-" in path for path in sftp.files))
-            # The next incremental deployment must also succeed without POSIX rename.
+            # The next incremental deployment must also replace existing manifests.
             deploy_sftp.deploy(sftp, "/", project_root=root)
 
     def test_standard_rename_failure_restores_old_payload_or_manifest(self):
-        class FailingRenameSftp(StandardRenameSftp):
+        class FailingRenameSftp(MemorySftp):
             def rename(self, source, destination):
                 if ".tmp-" in source and destination == failing_path:
                     raise OSError("replacement failed")
@@ -258,7 +249,7 @@ class SftpDeploymentTests(unittest.TestCase):
                     self.assertEqual(sftp.files, {failing_path: b"previous"})
 
     def test_failed_rollback_preserves_backup_and_reports_its_path(self):
-        class BrokenRenameSftp(StandardRenameSftp):
+        class BrokenRenameSftp(MemorySftp):
             def rename(self, source, destination):
                 if ".tmp-" in source or ".bak-" in source:
                     raise OSError("rename failed")
@@ -334,7 +325,11 @@ class SftpDeploymentTests(unittest.TestCase):
             self.assertNotIn(target + "/automodpack/host-modpack/main/mods/automodpack-5.0.0-rc.4.jar", sftp.files)
             self.assertIn(target + "/deploy_server_manifest.json", sftp.files)
             self.assertNotIn(target + "/automodpack/server.conf", json.loads(sftp.files[target + "/deploy_server_manifest.json"]))
-            last_delete = max(i for i, operation in enumerate(sftp.operations) if operation[0] == "delete")
+            stale_paths = {target + "/old.txt", target + "/automodpack/host-modpack/main/removed.cfg"}
+            last_delete = max(
+                i for i, operation in enumerate(sftp.operations)
+                if operation[0] == "delete" and operation[1] in stale_paths
+            )
             first_manifest_publish = min(
                 i for i, operation in enumerate(sftp.operations)
                 if operation[0] == "rename" and operation[2].endswith("deploy_server_manifest.json")
