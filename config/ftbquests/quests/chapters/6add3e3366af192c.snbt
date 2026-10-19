@@ -1,0 +1,87 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6add3e3366af192c"
+	group: ""
+	id: "6ADD3E3366AF192C"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2913135724B908CD"]
+			id: "07932891DA1FF351"
+			size: 1.0d
+			tasks: [
+				{
+					id: "23FFD99E0F1C33C1"
+					item: { count: 1, id: "electroenergetics:alternator_rotor" }
+					type: "item"
+				}
+				{
+					id: "776F1CC6207F9679"
+					item: { count: 1, id: "electroenergetics:stator" }
+					type: "item"
+				}
+				{
+					id: "65048C475F7EE9FA"
+					item: { count: 1, id: "electroenergetics:alternator_brushes" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07932891DA1FF351"]
+			id: "57DAA940E38D722B"
+			tasks: [{
+				id: "26DEEF4E1E14EB0D"
+				item: { count: 1, id: "electroenergetics:three_phase_alternator_brushes" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07932891DA1FF351"]
+			id: "62DDC0D12D5480C4"
+			tasks: [{
+				id: "38CA64AA64293D8B"
+				item: { count: 1, id: "electroenergetics:converter" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"07932891DA1FF351"
+				"2913135724B908CD"
+			]
+			id: "5C7656E10A8DFCFE"
+			tasks: [{
+				id: "27F9183FC254A6BD"
+				item: { count: 1, id: "electroenergetics:white_electric_motor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D593DFBC172D79F"
+				"5052EFD48304AAEF"
+			]
+			id: "2913135724B908CD"
+			size: 1.5d
+			tasks: [{
+				id: "64686BE37A8938EE"
+				item: { count: 1, id: "createmechanisms:basic_energy_mechanism" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+	]
+}
