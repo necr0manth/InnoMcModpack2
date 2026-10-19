@@ -55,3 +55,4 @@ ponders_watched.json
 /tests
 /automodpack/client/
 /automodpack/helper/
+/.gitattributes
