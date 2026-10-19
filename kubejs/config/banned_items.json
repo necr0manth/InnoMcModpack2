@@ -593,6 +593,7 @@
         "createaddition:portable_energy_interface",
         "createaddition:redstone_relay",
         "createaddition:small_light_connector",
+        "createaddition:servo_motor",
         "createaddition:tesla_coil"
       ],
       "namespaces": []
