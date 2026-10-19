@@ -50,3 +50,5 @@ ponders_watched.json
 /mods/.connector/
 /command_history.txt
 /.cache
+/automodpack/client/
+/automodpack/helper/

@@ -53,3 +53,5 @@ ponders_watched.json
 /automodpack
 /deployment
 /tests
+/automodpack/client/
+/automodpack/helper/
