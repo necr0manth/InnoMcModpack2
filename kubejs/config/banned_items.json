@@ -561,6 +561,21 @@
       "namespaces": []
     },
     {
+      "key": "create_contraption_assembly",
+      "status": "permanent",
+      "reason": "Создание contraption отключено; механизмы сборки и их рецепты закрыты.",
+      "items": [
+        "create:mechanical_bearing",
+        "create:clockwork_bearing",
+        "create:sticky_mechanical_piston",
+        "create:rope_pulley",
+        "create:elevator_pulley",
+        "create:gantry_carriage",
+        "create:cart_assembler"
+      ],
+      "namespaces": []
+    },
+    {
       "key": "createaddition_network",
       "status": "permanent",
       "reason": "Альтернативная электросеть и FE motor/alternator обходят выбранную EE сеть; проволока и детали как материалы остаются.",
