@@ -12,7 +12,8 @@ RecipeViewerEvents.removeEntries('item', event => {
 ItemEvents.modifyTooltips(event => {
   innoCatalog.groups.forEach(group => {
     if (group.status === 'available') return
-    const lines = [Text.red('Временно забанено'), Text.gray(group.reason)]
+    const label = group.status === 'permanent' ? 'Забанено навсегда' : 'Временно забанено'
+    const lines = [Text.red(label), Text.gray(group.reason)]
     group.items.forEach(id => { event.add(id, lines) })
     group.namespaces.forEach(namespace => { event.add(new RegExp('^' + namespace + ':'), lines) })
   })

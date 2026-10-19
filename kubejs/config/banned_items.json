@@ -687,7 +687,15 @@
       "reason": "Добыча и перегонка нефти принадлежат Petrochem; CDG инструменты и двигатели сохранены.",
       "items": [
         "createdieselgenerators:distillation_controller",
-        "createdieselgenerators:oil_scanner",
+        "createdieselgenerators:oil_scanner"
+      ],
+      "namespaces": []
+    },
+    {
+      "key": "cdg_pumpjack",
+      "status": "permanent",
+      "reason": "Нефть добывается через Petrochem; CDG pumpjack не используется в выбранной прогрессии.",
+      "items": [
         "createdieselgenerators:pumpjack_bearing",
         "createdieselgenerators:pumpjack_crank",
         "createdieselgenerators:pumpjack_head",
