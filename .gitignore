@@ -52,3 +52,7 @@ ponders_watched.json
 /.cache
 /automodpack/client/
 /automodpack/helper/
+/automodpack/server.conf
+/automodpack/credentials/
+/automodpack/host-modpack/
+/automodpack/server/

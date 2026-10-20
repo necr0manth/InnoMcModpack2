@@ -56,3 +56,7 @@ ponders_watched.json
 /automodpack/client/
 /automodpack/helper/
 /.gitattributes
+/automodpack/server.conf
+/automodpack/credentials/
+/automodpack/host-modpack/
+/automodpack/server/
