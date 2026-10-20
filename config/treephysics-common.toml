@@ -18,7 +18,7 @@ remove_rooted_dirt = true
 #treephysics.config.drop_hanging_roots.tooltip
 drop_hanging_roots = false
 #treephysics.config.rootless_tree_detection.tooltip
-rootless_tree_detection = false
+rootless_tree_detection = true
 #treephysics.config.requires_axe.tooltip
 requires_axe = true
 #treephysics.config.prevent_interacting_with_trees.tooltip
