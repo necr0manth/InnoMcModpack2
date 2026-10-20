@@ -170,6 +170,8 @@
 	#A blacklist of Mod IDs whose crops should NOT receive automatic humidity assignments.
 	#Example: ["vinery", "meadow"]
 	ModsWithoutSereneSeasonBasedHumidity = []
+	#Enables winter-themed Level of Detail (LOD) textures for Distant Horizons to ensure visual consistency at long distances.
+	DistantHorizonsWinterLOD = true
 
 [Resource]
 	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.

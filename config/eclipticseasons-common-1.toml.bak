@@ -162,8 +162,6 @@
 	ShowCropGrowthInfoInProbe = true
 	#Enables compatibility with mods that utilize Serene Seasons' CropTag system.
 	SereneSeasonsCropTag = true
-	#Enables winter-themed Level of Detail (LOD) textures for Distant Horizons to ensure visual consistency at long distances.
-	DistantHorizonsWinterLOD = true
 	#Excludes saplings from Serene Seasons' seasonal growth restrictions.
 	#Set to false to force saplings to follow the same seasonal rules as crops.
 	SereneSeasonsCropTagIgnoreSapling = true

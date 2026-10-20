@@ -683,6 +683,12 @@
 			# Range: 1 ~ 3600
 			cooldown_seconds = 30
 
+		[cyclic.items.lunchbox]
+			#Item IDs that the Lunchbox must not accept or consume.
+			#Use full IDs (namespace:item). Invalid/unknown IDs are ignored.
+			#Restart Minecraft/server after changing this list.
+			blacklist = ["artifacts:everlasting_beef", "artifacts:eternal_steak"]
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################

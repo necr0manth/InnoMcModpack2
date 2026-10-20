@@ -35,13 +35,18 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true
 				x: 1
 				y: 0
+			}
+			"ftbbackups3:config": {
+				enabled: true
+				x: 3
+				y: 1
 			}
 			"ftblibrary:toggle/rain": {
 				enabled: true

@@ -48,11 +48,6 @@
 		#Extends unified shading to the side faces of snow-covered blocks.
 		UnifiedSnowyBlockSides = true
 
-	[Compat.DistantHorizons]
-		#Force Distant Horizons to refresh all LODs timely.
-		#WARNING: Enabling this may cause a full LOD rebuild and significant lag spikes.
-		DistantHorizonsWinterLODForceUpdateAll = false
-
 [Renderer]
 	#Periodically force-reloads chunk rendering to fix visual glitches (may impact FPS).
 	ForceChunkRenderUpdate = true
