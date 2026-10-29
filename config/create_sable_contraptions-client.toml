@@ -1,0 +1,6 @@
+#Show CSC information in Create's goggles overlay.
+gogglesHud = true
+#Show the reason a contraption has stopped.
+gogglesReasons = true
+#Outline the blocking block while inspecting a stopped structure with goggles.
+collisionHighlight = true

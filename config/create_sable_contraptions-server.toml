@@ -1,0 +1,6 @@
+#Bearing vs static-world clearance, in blocks. Does not resize Sable bodies or change cart collisions.
+# Default: 9.765625E-4
+# Range: 1.0E-5 ~ 0.00390625
+rotationClearance = 9.765625E-4
+#Record cart/bearing sweep details for /csc diagnostics. Does not disable collision checks.
+collisionDiagnostics = true

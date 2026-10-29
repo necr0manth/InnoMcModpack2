@@ -561,16 +561,10 @@
       "namespaces": []
     },
     {
-      "key": "create_contraption_assembly",
+      "key": "create_minecart_assembly",
       "status": "permanent",
-      "reason": "Создание contraption отключено; механизмы сборки и их рецепты закрыты.",
+      "reason": "Сборщик вагонеток запрещён: contraptions на вагонетках остаются недоступны.",
       "items": [
-        "create:mechanical_bearing",
-        "create:clockwork_bearing",
-        "create:sticky_mechanical_piston",
-        "create:rope_pulley",
-        "create:elevator_pulley",
-        "create:gantry_carriage",
         "create:cart_assembler"
       ],
       "namespaces": []
