@@ -10,10 +10,10 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [{
-		id: "2264AA15A8C8B390"
+		id: "1C62BCFF9AB51734"
 		linked_quest: "2913135724B908CD"
-		x: 22.0d
-		y: -5.5d
+		x: 23.5d
+		y: -7.0d
 	}]
 	quests: [
 		{
