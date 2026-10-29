@@ -1,8 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true,
-    "framed_block_generic": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -151,6 +147,10 @@
     "ender_channels": true,
     "ender_broadcaster": true,
     "mirror_pattern_provider": true
+  },
+  "createthrusters": {
+    "smart_battery_energy": true,
+    "thruster_resources": true
   },
   "data_energistics": {
     "data_sanctum.part": false,
