@@ -117,8 +117,11 @@ ServerEvents.recipes(function (event) {
       S: tag('c:stones'), M: item(mechanical) },
     result: { id: 'create:crushing_wheel', count: 2 }, accept_mirrored: true
   });
-  shaped('basic_energy_mechanism', energy, 1, [' I ', 'WMW', ' CI'], {
-    I: item('create:iron_sheet'), W: item('electroenergetics:copper_wire_spool'),
-    M: item(mechanical), C: item('electroenergetics:commutator')
-  });
+  event.custom({
+    type: 'minecraft:crafting_shaped', category: 'misc',
+    pattern: [' I ', 'WMW', ' CI'],
+    key: { I: item('create:iron_sheet'), W: item('electroenergetics:wire_spool'),
+      M: item(mechanical), C: item('electroenergetics:commutator') },
+    result: { id: energy, count: 1 }
+  }).id('kubejs:inno_preview/basic_energy_mechanism_current_v2');
 });

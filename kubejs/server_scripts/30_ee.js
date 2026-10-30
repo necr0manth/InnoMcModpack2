@@ -24,18 +24,22 @@ ServerEvents.recipes(event => {
   // Four affordable terminals per craft; native double/triple/quad regrouping stays available.
   replace('connector');
   shaped('connector', ee + 'connector', 4, [' W ', ' A ', ' T '], {
-    W: item(ee + 'copper_wire'),
+    W: item(ee + 'insulated_wire'),
     A: item('create:andesite_alloy'),
     T: { tag: 'minecraft:terracotta' }
   });
 
   replace('alternator_rotor');
-  shaped('alternator_rotor', ee + 'alternator_rotor', 1, ['WIW', 'SBS', 'WIW'], {
-    W: item(ee + 'copper_wire_spool'),
-    I: plate('iron'),
-    S: item('create:shaft'),
-    B: item('createmechanisms:basic_energy_mechanism')
-  });
+  event.custom({
+    type: 'create:mechanical_crafting',
+    pattern: [' WSW ', 'IWBWI', ' VSV '],
+    key: {
+      W: item(ee + 'wire_spool'), I: plate('iron'),
+      S: item('create:shaft'), B: item('createmechanisms:basic_energy_mechanism'),
+      V: item(ee + 'insulated_wire')
+    },
+    result: { id: ee + 'alternator_rotor', count: 1 }, accept_mirrored: true
+  }).id('kubejs:inno_preview/alternator_rotor_current_v3');
 
   // Upgrade accessible DC brushes; the native generator exposes phase 1/2/3 and neutral.
   shaped('three_phase_alternator_brushes', ee + 'three_phase_alternator_brushes', 1,
@@ -50,43 +54,65 @@ ServerEvents.recipes(event => {
   // Only direct motor crafts are replaced. All 16 native *_electric_motor_dye recipes survive.
   const colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink',
     'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
+  const insulatedMotorComparisons = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
   colors.forEach(color => {
     const name = color + '_electric_motor';
     replace(name);
-    shaped(name, ee + name, 1, ['C C', 'RPD', 'WBW'], {
+    const motorKey = spool => ({
       C: item(ee + 'connector'),
-      W: item(ee + 'copper_wire_spool'),
+      W: item(ee + spool),
       R: item(ee + 'commutator'),
       P: item('createmechanisms:basic_energy_mechanism'),
       D: item('minecraft:' + color + '_dye'),
       B: item('create:brass_casing')
     });
+    if (insulatedMotorComparisons.includes(color)) {
+      var motor = spool => ({
+        type: 'minecraft:crafting_shaped', category: 'misc',
+        pattern: ['C C', 'RPD', 'WBW'], key: motorKey(spool),
+        result: { id: ee + name, count: 1 }
+      });
+      event.custom(motor('wire_spool')).id('kubejs:inno_preview/' + name + '_current_v2');
+    } else {
+      shaped(name, ee + name, 1, ['C C', 'RPD', 'WBW'], motorKey('copper_wire_spool'));
+    }
   });
 
   // Basic FE connection hardware is available before precision assembly.
   replace('converter');
   shaped('converter', ee + 'converter', 1, ['CW', 'IT'], {
     C: item(ee + 'connector'),
-    W: item(ee + 'copper_wire'),
+    W: item(ee + 'insulated_wire'),
     I: plate('iron'),
     T: { tag: 'minecraft:terracotta' }
   });
 
   // These AC instruments are registered in EE 1.1.2 but have no bundled survival recipes.
-  shaped('frequency_meter', ee + 'frequency_meter', 1, [' G ', 'IVP', ' C '], {
-    G: item('minecraft:glass'),
-    I: item(ee + 'inductor'),
-    V: item(ee + 'voltmeter'),
-    P: item('create:precision_mechanism'),
-    C: item(ee + 'double_connector')
-  });
-  shaped('synchroscope', ee + 'synchroscope', 1, ['CMC', 'FPF', ' B '], {
-    C: item(ee + 'double_connector'),
-    M: item('minecraft:compass'),
-    F: item(ee + 'frequency_meter'),
-    P: item('create:precision_mechanism'),
-    B: item('create:brass_casing')
-  });
+  event.custom({
+    type: 'minecraft:crafting_shaped',
+    category: 'misc',
+    pattern: ['GVG', 'ILB', 'WCW'],
+    key: {
+      G: item('minecraft:glass'),
+      V: item(ee + 'voltmeter'),
+      I: item(ee + 'inductor'),
+      L: item('createmechanisms:logic_mechanism'),
+      B: item('mekanism:basic_control_circuit'),
+      W: item(ee + 'insulated_wire'),
+      C: item(ee + 'double_connector')
+    },
+    result: { id: ee + 'frequency_meter', count: 1 }
+  }).id('kubejs:inno_preview/frequency_meter_current_v2');
+  event.custom({
+    type: 'minecraft:crafting_shaped', category: 'misc',
+    pattern: ['CMC', 'FQF', 'WBW'],
+    key: {
+      C: item(ee + 'double_connector'), M: item('minecraft:compass'),
+      F: item(ee + 'frequency_meter'), Q: item('minecraft:comparator'),
+      W: item(ee + 'insulated_wire'), B: item('create:brass_casing')
+    },
+    result: { id: ee + 'synchroscope', count: 1 }
+  }).id('kubejs:inno_preview/synchroscope_current_v2');
 
   // Optional polymer insulation after Petrochem; native dried-kelp insulation stays available.
   event.custom({

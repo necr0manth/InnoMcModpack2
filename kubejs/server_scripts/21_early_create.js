@@ -47,7 +47,7 @@ ServerEvents.recipes(function (event) {
   }).id('kubejs:inno_early/hammering/osmium_sheet');
 
   // Native held-use cutters keep 3 wires/plate; the chosen saw produces 4.
-  // The matching foundry recycling correction is in 22_inno_foundry.js.
+  // The matching foundry recycling correction is in 22_foundry.js.
   ['copper', 'iron'].forEach(function (metal) {
     event.custom({
       type: 'create:cutting',
