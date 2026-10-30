@@ -38,7 +38,7 @@ ServerEvents.recipes(function (event) {
   [wooden, mechanical, control, precision, energy,
     'create:mechanical_press', 'createaddition:rolling_mill',
     'vintageimprovements:spring_coiling_machine',
-    'create:mechanical_arm', 'create:mechanical_crafter', 'create:crushing_wheel',
+    'create:mechanical_arm', 'create:mechanical_crafter',
     'vintageimprovements:lathe', 'vintageimprovements:curving_press'
   ].forEach(function (output) { event.remove({ output: output }); });
 
@@ -110,13 +110,6 @@ ServerEvents.recipes(function (event) {
   });
 
   // Crafters use the world bootstrap in script 27 or arm assembly in script 32.
-  recipe('crushing_wheels', {
-    type: 'create:mechanical_crafting',
-    pattern: ['AAAAA', 'AGSGA', 'ASMSA', 'AGSGA', 'AAAAA'],
-    key: { A: item('create:andesite_alloy'), G: item('kubejs:steel_gear'),
-      S: tag('c:stones'), M: item(mechanical) },
-    result: { id: 'create:crushing_wheel', count: 2 }, accept_mirrored: true
-  });
   event.custom({
     type: 'minecraft:crafting_shaped', category: 'misc',
     pattern: [' I ', 'WMW', ' CI'],
