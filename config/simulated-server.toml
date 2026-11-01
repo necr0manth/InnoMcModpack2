@@ -216,7 +216,7 @@
 	#The maximum FE/t throughput of Docking Connectors
 	# Default: 10000
 	# Range: > 0
-	docking_connector_fe_throughput = 10000
+	docking_connector_fe_throughput = 0
 
 #.
 #Equipment and gadgets added by Simulated
