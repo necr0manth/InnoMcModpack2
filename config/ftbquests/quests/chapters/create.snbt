@@ -10,10 +10,10 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [{
-		id: "2264AA15A8C8B390"
+		id: "1C62BCFF9AB51734"
 		linked_quest: "2913135724B908CD"
-		x: 22.0d
-		y: -5.5d
+		x: 23.5d
+		y: -7.0d
 	}]
 	quests: [
 		{
@@ -281,7 +281,6 @@
 		}
 		{
 			dependencies: [
-				"4EB4AF8D487A9C8B"
 				"3DBF270C9D89AE47"
 				"36FFE223B44233BD"
 				"72532EB83B510CA9"
@@ -358,17 +357,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["450E8ED24F49011D"]
-			id: "4EB4AF8D487A9C8B"
-			tasks: [{
-				id: "515AC262E114B1E7"
-				item: { count: 1, id: "create:copper_sheet" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: 2.0d
-		}
-		{
 			dependencies: [
 				"5156EA996FC4E2D9"
 				"150FA948C1936C2F"
@@ -381,6 +369,7 @@
 					id: "createmetallurgy:molten_steel"
 				}
 				id: "32765E224434DFF4"
+				optional_task: true
 				type: "fluid"
 			}]
 			x: 15.5d
