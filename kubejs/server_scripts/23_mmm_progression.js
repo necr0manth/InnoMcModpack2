@@ -112,9 +112,10 @@ ServerEvents.recipes(function (event) {
   // Crafters use the world bootstrap in script 27 or arm assembly in script 32.
   event.custom({
     type: 'minecraft:crafting_shaped', category: 'misc',
-    pattern: [' I ', 'WMW', ' CI'],
+    pattern: [' I ', 'WMW', 'KCI'],
     key: { I: item('create:iron_sheet'), W: item('electroenergetics:wire_spool'),
-      M: item(mechanical), C: item('electroenergetics:commutator') },
+      M: item(mechanical), C: item('electroenergetics:commutator'),
+      K: item('enderio:basic_capacitor') },
     result: { id: energy, count: 1 }
-  }).id('kubejs:inno_preview/basic_energy_mechanism_current_v2');
+  }).id('kubejs:basic_energy_mechanism_with_capacitor');
 });

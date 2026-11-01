@@ -89,7 +89,13 @@
         "enderio:alloy_smelter",
         "mekanism:metallurgic_infuser",
         "powah:energizing_rod_starter",
-        "powah:energizing_orb"
+        "powah:energizing_orb",
+        "mekanism:enrichment_chamber",
+        "actuallyadditions:atomic_reconstructor",
+        "actuallyadditions:empowerer",
+        "actuallyadditions:display_stand",
+        "actuallyadditions:double_battery",
+        "actuallyadditions:single_battery"
       ],
       "namespaces": []
     },

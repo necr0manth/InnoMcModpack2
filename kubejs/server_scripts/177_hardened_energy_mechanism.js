@@ -10,7 +10,7 @@ ServerEvents.recipes(function (event) {
     type: 'create:sequenced_assembly',
     ingredient: item('createmechanisms:basic_energy_mechanism'),
     transitional_item: { id: incomplete },
-    sequence: parts.concat([item('powah:dielectric_paste')]).map(function (part) {
+    sequence: parts.concat([item('powah:dielectric_paste'), item('powah:capacitor_hardened')]).map(function (part) {
       return {
         type: 'get_creative:arm_assembly',
         ingredients: [item(incomplete), part],
@@ -20,5 +20,5 @@ ServerEvents.recipes(function (event) {
     }),
     results: [{ id: 'createmechanisms:hardened_energy_mechanism', count: 1, chance: 1.0 }],
     loops: 1
-  }).id('kubejs:hardened_energy_mechanism_with_paste');
+  }).id('kubejs:hardened_energy_mechanism_with_capacitor');
 });
