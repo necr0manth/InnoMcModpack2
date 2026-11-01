@@ -17,6 +17,8 @@
         "enderio_evolution:crystalline_infinity_generator",
         "enderio_evolution:stellar_infinity_generator",
         "createaddition:alternator",
+        "petrochem:turbine",
+        "createpropulsion:coral_generator",
         "rftoolspower:blazing_generator",
         "rftoolspower:coalgenerator",
         "actuallyadditions:bio_reactor",
@@ -63,6 +65,16 @@
         "powah:thermo_generator_nitro",
         "powah:thermo_generator_spirited",
         "powah:thermo_generator_starter"
+      ],
+      "namespaces": []
+    },
+    {
+      "key": "fe_network_bypasses",
+      "status": "permanent",
+      "reason": "Передача FE доступна через электричество EE.",
+      "items": [
+        "createpropulsion:cable",
+        "createpropulsion:cable_relay"
       ],
       "namespaces": []
     },

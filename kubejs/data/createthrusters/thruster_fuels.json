@@ -1,0 +1,52 @@
+{
+  "fluid": {
+    "createdieselgenerators:crude_oil": {
+      "enabled": false
+    },
+    "createdieselgenerators:flowing_crude_oil": {
+      "enabled": false
+    },
+    "petrochem:petroleum": {
+      "enabled": false
+    },
+    "petrochem:flowing_petroleum": {
+      "enabled": false
+    },
+    "petrochem:diesel": {
+      "burn_time": 180,
+      "weight": 1.2,
+      "propulsion": 1.5,
+      "particle": "default"
+    },
+    "petrochem:flowing_diesel": {
+      "burn_time": 180,
+      "weight": 1.2,
+      "propulsion": 1.5,
+      "particle": "default"
+    },
+    "petrochem:gasoline": {
+      "burn_time": 180,
+      "weight": 1.2,
+      "propulsion": 1.0,
+      "particle": "default"
+    },
+    "petrochem:flowing_gasoline": {
+      "burn_time": 180,
+      "weight": 1.2,
+      "propulsion": 1.0,
+      "particle": "default"
+    },
+    "petrochem:desulfurized_kerosene": {
+      "burn_time": 180,
+      "weight": 1.0,
+      "propulsion": 1.35,
+      "particle": "default"
+    },
+    "petrochem:flowing_desulfurized_kerosene": {
+      "burn_time": 180,
+      "weight": 1.0,
+      "propulsion": 1.35,
+      "particle": "default"
+    }
+  }
+}

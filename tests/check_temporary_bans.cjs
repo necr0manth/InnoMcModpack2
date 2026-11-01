@@ -66,9 +66,32 @@ for (const enabled of [false, true]) {
     assert.ok(result.removed('kubejs:late_recipe', id), id)
     assert.ok(result.hidden(id), id)
   }
+  for (const [recipe, id] of [
+    ['petrochem:crafting/null/turbine', 'petrochem:turbine'],
+    ['createpropulsion:crafting/coral_generator', 'createpropulsion:coral_generator'],
+    ['createpropulsion:crafting/cable', 'createpropulsion:cable'],
+    ['createpropulsion:crafting/cable_relay', 'createpropulsion:cable_relay']
+  ]) {
+    assert.ok(result.removed(recipe, id), id + ' native recipe')
+    assert.ok(result.removed('kubejs:late_recipe', id), id + ' late recipe')
+    assert.ok(result.hidden(id), id + ' JEI visibility')
+    assert.ok(result.labels(id).includes('Забанено навсегда'), id + ' tooltip')
+  }
+  assert.ok(!result.removed('createpropulsion:crafting/ion_thruster', 'createpropulsion:ion_thruster'))
   assert.ok(!result.removed('kubejs:inno_ee/converter', 'electroenergetics:converter'))
 }
 const group = (status, items, namespaces = []) => ({ status, reason: 'test', items, namespaces })
+const lateFilters = []
+vm.runInNewContext(late, {
+  JsonIO: { read: () => config },
+  ServerEvents: { recipes: cb => cb({ remove: filter => lateFilters.push(filter) }) }
+})
+for (const id of ['petrochem:turbine', 'createpropulsion:coral_generator', 'createpropulsion:cable', 'createpropulsion:cable_relay']) {
+  assert.ok(lateFilters.some(filter => match(filter, { id: 'kubejs:late_recipe', output: id })), id + ' late filter')
+}
+for (const id of ['electroenergetics:converter', 'createpropulsion:ion_thruster']) {
+  assert.ok(!lateFilters.some(filter => match(filter, { id: 'kubejs:late_recipe', output: id })), id + ' late filter')
+}
 for (const groups of [
   [group('available', ['test:yes', 'test:permanent', 'locked:overlap']), group('pending_recipe', ['test:yes', 'test:pending'], ['test']), group('permanent', ['test:permanent'], ['locked']), group('future_status', ['other:unknown'])],
   [group('permanent', ['test:permanent'], ['locked']), group('future_status', ['other:unknown']), group('pending_recipe', ['test:yes', 'test:pending'], ['test']), group('available', ['test:yes', 'test:permanent', 'locked:overlap'])]

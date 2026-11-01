@@ -1,0 +1,6 @@
+{
+  "fluid": "petrochem:desulfurized_kerosene",
+  "thrust_multiplier": 2.415,
+  "consumption_multiplier": 0.9,
+  "required_mod": "petrochem"
+}
