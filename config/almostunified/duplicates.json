@@ -2,7 +2,7 @@
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
-  "ignored_recipe_ids": ["enderio:iron_gear", "kubejs:inno_preview/.*", "kubejs:swivel_bearing_steel", "kubejs:stirling_engine_steel", "kubejs:liquid_burner_mechanisms", "kubejs:gyroscopic_propeller_bearing_upgrade"],
+  "ignored_recipe_ids": ["enderio:iron_gear", "kubejs:inno_preview/.*", "kubejs:swivel_bearing_steel", "kubejs:stirling_engine_steel", "kubejs:liquid_burner_mechanisms", "kubejs:gyroscopic_propeller_bearing_upgrade", "kubejs:steam_engine_assembly", "kubejs:diesel_engine_steel", "kubejs:huge_diesel_engine_steel"],
   "default_duplicate_rules": {
     "ignored_fields": [
       "neoforge:conditions",
