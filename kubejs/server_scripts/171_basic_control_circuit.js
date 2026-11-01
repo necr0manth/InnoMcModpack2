@@ -6,6 +6,7 @@ ServerEvents.recipes(function (event) {
   var parts = [
     { item: 'electroenergetics:insulated_wire' },
     item('minecraft:redstone'),
+    item('ae2:silicon'),
     item('minecraft:gold_nugget')
   ];
   event.custom({
@@ -20,7 +21,11 @@ ServerEvents.recipes(function (event) {
         keep_held_item: false
       };
     }),
-    results: [{ id: 'mekanism:basic_control_circuit', count: 1, chance: 1.0 }],
-    loops: 1
+    results: [
+      { id: 'mekanism:basic_control_circuit', count: 1, chance: 80.0 },
+      { id: 'minecraft:iron_nugget', count: 1, chance: 10.0 },
+      { id: 'minecraft:redstone', count: 1, chance: 10.0 }
+    ],
+    loops: 3
   }).id('kubejs:inno_preview/basic_control_circuit_v1');
 });
