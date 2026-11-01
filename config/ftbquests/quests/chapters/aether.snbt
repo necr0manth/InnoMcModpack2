@@ -1,0 +1,1087 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: ""
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "1D3A2C4E5B607F89"
+	images: [{
+		click_action: "none:"
+		height: 1.0d
+		id: "4995925385CB4115"
+		image: "quark:textures/attribute/gravity.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -3.5d
+		y: -6.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6505F0C7F92CB6F3"
+			rewards: [{
+				id: "43EBF48DAD37F9E9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "2895B8AF5A7B14BD"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "748284546384E222"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["725F2C637C2E4823"]
+			id: "79BC188CB9E8CFB0"
+			rewards: [{
+				id: "436E3935F794455C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "7B14BA3FC4C566F1"
+					item: { count: 1, id: "aether:holystone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "72F2D7DE08B8DD48"
+					item: { count: 1, id: "aether:holystone_axe" }
+					type: "item"
+				}
+				{
+					id: "16462E04A7858DD7"
+					item: { count: 1, id: "aether:holystone_shovel" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["725F2C637C2E4823"]
+			id: "303AC71D31F66519"
+			rewards: [{
+				id: "56E5BE752C23808C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "36F7175ADBC007CF"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					id: "1AEC8D78F2BE55A0"
+					item: { count: 1, id: "aether:ambrosium_torch" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["79BC188CB9E8CFB0"]
+			id: "520862DCC81E7B0A"
+			rewards: [{
+				id: "48927D146F8ED28B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6596EC0C1AB47D42"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["520862DCC81E7B0A"]
+			id: "284B8360C74BB700"
+			rewards: [{
+				id: "755FE3F8ADF45F6F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5CB8B284E1F72C9D"
+					item: { count: 1, id: "aether:zanite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3CA043D89CEF2918"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+				{
+					id: "0F769A1D2C0D0003"
+					item: { count: 1, id: "aether:zanite_shovel" }
+					type: "item"
+				}
+				{
+					id: "2820840DF0DF0E46"
+					item: { count: 1, id: "aether:zanite_axe" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["284B8360C74BB700"]
+			id: "2064A1F1D627E3F7"
+			rewards: [{
+				id: "22A015CEA64F8D4D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3B101CE0D4458BA5"
+				item: { count: 1, id: "aether:gravitite_ore" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2064A1F1D627E3F7"
+				"3D33431B064ADA6C"
+			]
+			id: "09E84DBC07E1AD25"
+			rewards: [{
+				id: "79F4D8C557CDFAFB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "781F01B98C3000EC"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09E84DBC07E1AD25"]
+			id: "0BB051F561B567AD"
+			rewards: [{
+				id: "70897DFB3102E72C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5F713BA5E01FBBBC"
+					item: { count: 1, id: "aether:gravitite_sword" }
+					type: "item"
+				}
+				{
+					id: "3EA73E9CFBC8EF15"
+					item: { count: 1, id: "aether:gravitite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1D135F012EFA51A8"
+					item: { count: 1, id: "aether:gravitite_axe" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09E84DBC07E1AD25"]
+			id: "176BC31880E43B95"
+			rewards: [{
+				id: "3928F010B5016C38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2EAC81A90B6188FD"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					id: "7903225424EA6D68"
+					item: { count: 1, id: "aether:gravitite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "615F8FF8D04B3EF8"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					id: "5D9E1C1A0FA79CB8"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+				{
+					id: "443486217F7AA8E5"
+					item: { count: 1, id: "aether:gravitite_gloves" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BB051F561B567AD"]
+			id: "3DD08D75176EF40F"
+			rewards: [{
+				id: "41D6FCAE38EB8DC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61C68A42C13C2C10"
+				item: { count: 1, id: "aether:bronze_dungeon_key" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DD08D75176EF40F"]
+			id: "62B2FB66E5BB1F0B"
+			rewards: [{
+				id: "64FCFF681D14D74F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5CD833C00E11A5A7"
+					item: { count: 1, id: "aether:sentry_boots" }
+					type: "item"
+				}
+				{
+					id: "4330468C737320C8"
+					item: { count: 1, id: "aether:lightning_knife" }
+					type: "item"
+				}
+				{
+					id: "117CA4DB2E7B770B"
+					item: { count: 1, id: "aether:shield_of_repulsion" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DD08D75176EF40F"]
+			id: "48200137A5DF31A4"
+			rewards: [{
+				id: "1A481E844A43C2CE"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5EEDD1232701FA17"
+					item: { count: 1, id: "aether:flaming_sword" }
+					type: "item"
+				}
+				{
+					id: "74A5CA1B068D1962"
+					item: { count: 1, id: "aether:cloud_staff" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DD08D75176EF40F"]
+			id: "295549283B25C44D"
+			rewards: [{
+				id: "4F4DE9CA809037E4"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5E232424535F0233"
+					item: { count: 1, id: "aether:valkyrie_lance" }
+					type: "item"
+				}
+				{
+					id: "31B29C10C7C1DD90"
+					item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DD08D75176EF40F"]
+			id: "61BFB09983A07993"
+			rewards: [{
+				id: "418CA96C7195074C"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "469715177E7967B8"
+				item: { count: 1, id: "aether:silver_dungeon_key" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61BFB09983A07993"]
+			id: "1EF0E24CB28E0B83"
+			rewards: [{
+				id: "2874BC4E24986544"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "57DCA4FB1BC48F2E"
+					item: { count: 1, id: "aether:holy_sword" }
+					type: "item"
+				}
+				{
+					id: "1E4DBE3FE7F5FD8E"
+					item: { count: 1, id: "aether:lightning_sword" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["61BFB09983A07993"]
+			id: "35D47A94481EB7B0"
+			rewards: [{
+				id: "30F95D0990E536A1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "4FE74B7C36340F9B"
+					item: { count: 1, id: "aether:invisibility_cloak" }
+					type: "item"
+				}
+				{
+					id: "22FD9EA48521BF8D"
+					item: { count: 1, id: "aether:regeneration_stone" }
+					type: "item"
+				}
+				{
+					id: "168F993C1789BDFC"
+					item: { count: 1, id: "aether:valkyrie_cape" }
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"61BFB09983A07993"
+				"2626D72F47BC566E"
+			]
+			id: "29DD4E2F6B713EB9"
+			rewards: [{
+				id: "7B7C8A3B2E39CA58"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "634D91511AC5C7A0"
+				item: { count: 1, id: "aether:gold_dungeon_key" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29DD4E2F6B713EB9"]
+			id: "0BA549AAAFB83E10"
+			rewards: [{
+				id: "0C5DAB7B505B661D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7C91F416CA31ACB3"
+					item: { count: 1, id: "aether:phoenix_helmet" }
+					type: "item"
+				}
+				{
+					id: "06A4BDA66EF98336"
+					item: { count: 1, id: "aether:phoenix_chestplate" }
+					type: "item"
+				}
+				{
+					id: "409BF55555AECC8A"
+					item: { count: 1, id: "aether:phoenix_leggings" }
+					type: "item"
+				}
+				{
+					id: "53F3BB8B5001D20C"
+					item: { count: 1, id: "aether:phoenix_boots" }
+					type: "item"
+				}
+				{
+					id: "53A2B939AFF9B49B"
+					item: { count: 1, id: "aether:phoenix_gloves" }
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29DD4E2F6B713EB9"]
+			id: "3720D841681CB1B4"
+			rewards: [{
+				id: "3331B8DA60153ECD"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "6C19C4705909DD15"
+					item: { count: 1, id: "aether:vampire_blade" }
+					type: "item"
+				}
+				{
+					id: "75694A9BF9C1ABD0"
+					item: { count: 1, id: "aether:pig_slayer" }
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29DD4E2F6B713EB9"]
+			id: "3DB1311E2570596F"
+			rewards: [{
+				id: "3889EAE4110C955A"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12FA13BEE571DB10"
+				item: { count: 1, id: "aether:life_shard" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["725F2C637C2E4823"]
+			id: "3D33431B064ADA6C"
+			rewards: [{
+				id: "57C5B86A372E8277"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6B898850EAA466B5"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D33431B064ADA6C"]
+			id: "7A69978BBBD46E57"
+			rewards: [{
+				id: "03FCF9EA88A0FF27"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0C172EA3B692E652"
+					item: { count: 1, id: "aether:blue_berry" }
+					type: "item"
+				}
+				{
+					id: "2030C3E49682BEBC"
+					item: { count: 1, id: "aether:enchanted_berry" }
+					type: "item"
+				}
+				{
+					id: "79BB289FDD8C36A6"
+					item: { count: 1, id: "aether:healing_stone" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9CD4C0BAFA853C"]
+			id: "21A50D80744478D0"
+			rewards: [{
+				id: "1191A052048D2C0C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "75B1273946ACEE21"
+				item: { count: 1, id: "aether:cold_parachute" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6505F0C7F92CB6F3"]
+			id: "5B9CD4C0BAFA853C"
+			rewards: [{
+				id: "20343E566E3D9074"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "63A2DEAF533B3572"
+				item: { count: 1, id: "aether:golden_parachute" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D33431B064ADA6C"]
+			id: "52DDC6694DEBF0C9"
+			rewards: [{
+				id: "1C0151442083CD56"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "251E67172C571507"
+				item: { count: 1, id: "aether:freezer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52DDC6694DEBF0C9"]
+			id: "3F905FC26BB8B32E"
+			rewards: [{
+				id: "5D9348C0B4A22C29"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "20C1A4CE77AD4C34"
+					item: { count: 1, id: "aether:ice_ring" }
+					type: "item"
+				}
+				{
+					id: "15CC8E08AAB0762C"
+					item: { count: 1, id: "aether:ice_pendant" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D33431B064ADA6C"]
+			id: "348B776B651EA149"
+			rewards: [{
+				id: "1031046C909F42F6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "579069D33AAD4AF6"
+				item: { count: 1, id: "aether:incubator" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"348B776B651EA149"
+				"54D870D5C9206ED7"
+			]
+			id: "5E314EBE7975FE0E"
+			rewards: [{
+				id: "1D7C8D363A3C241B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "1CECEEBB69ADBB9D"
+					item: { count: 1, id: "aether:white_moa_egg" }
+					type: "item"
+				}
+				{
+					id: "1BC59A057FD8BA22"
+					item: { count: 1, id: "aether:blue_moa_egg" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "54D870D5C9206ED7"
+			rewards: [{
+				id: "0C263FB575EB47D3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "511253DCE987D5AE"
+				item: { count: 1, id: "aether:aechor_petal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54D870D5C9206ED7"]
+			id: "0D0C5D614F2B39A0"
+			rewards: [{
+				id: "73BAAC2F294430A3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "417FFF2137BBC9F1"
+					item: { count: 1, id: "aether:golden_dart_shooter" }
+					type: "item"
+				}
+				{
+					id: "370BDC52E004CB07"
+					item: { count: 1, id: "aether:poison_dart_shooter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "5DDCA0A702A9A10E"
+			rewards: [{
+				id: "0567837759A12F2A"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6B1D00CC7356CDE6"
+				item: { count: 1, id: "deep_aether:skyjade" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DDCA0A702A9A10E"]
+			id: "0C727FCAAFC80B69"
+			rewards: [{
+				id: "10159F3E160E2397"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "2E167D96FE129DF8"
+					item: { count: 1, id: "deep_aether:skyjade_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "724CCBEE4088DC51"
+					item: { count: 1, id: "deep_aether:skyjade_axe" }
+					type: "item"
+				}
+				{
+					id: "6E9051867956C7C9"
+					item: { count: 1, id: "deep_aether:skyjade_sword" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			id: "596F2F3A543DB87C"
+			rewards: [{
+				id: "1C195383B590DB69"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "58E0C7BF9C10F850"
+				item: { count: 1, id: "deep_aether:chromatic_aercloud" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"596F2F3A543DB87C"
+				"09E84DBC07E1AD25"
+				"5DDCA0A702A9A10E"
+			]
+			id: "2327D0DB253656C0"
+			rewards: [{
+				id: "513F2D1E5A0D49F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E5D3A2EA84D3FB8"
+				item: { count: 1, id: "deep_aether:stratus_ingot" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2327D0DB253656C0"]
+			id: "29676E75761AB19C"
+			rewards: [{
+				id: "2ACC9A0E1827A48B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6467E86CAE4037FD"
+					item: { count: 1, id: "deep_aether:stratus_helmet" }
+					type: "item"
+				}
+				{
+					id: "5AB0E22235FEF03E"
+					item: { count: 1, id: "deep_aether:stratus_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5D6C02496C94C908"
+					item: { count: 1, id: "deep_aether:stratus_leggings" }
+					type: "item"
+				}
+				{
+					id: "58C7D83692746D3D"
+					item: { count: 1, id: "deep_aether:stratus_boots" }
+					type: "item"
+				}
+				{
+					id: "3387FCC4234E9B1F"
+					item: { count: 1, id: "deep_aether:stratus_gloves" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DD08D75176EF40F"]
+			id: "2626D72F47BC566E"
+			rewards: [{
+				id: "0F4019B44D6C9E4E"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "02E39996EB16C302"
+				item: { count: 1, id: "deep_aether:brass_dungeon_key" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2626D72F47BC566E"
+				"0C727FCAAFC80B69"
+			]
+			dependency_requirement: "one_completed"
+			id: "75379C1BA56A55A6"
+			rewards: [{
+				id: "69042AF161BDA7FF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "1240903DFD8AB1A3"
+					item: { count: 1, id: "deep_aether:storm_sword" }
+					type: "item"
+				}
+				{
+					id: "7E9E027388B3CF39"
+					item: { count: 1, id: "deep_aether:storm_bow" }
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2626D72F47BC566E"]
+			id: "46D3687CC3BBB684"
+			rewards: [{
+				id: "4B181A69AFCDED8B"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [
+				{
+					id: "65B0FB6C67B26372"
+					item: { count: 1, id: "deep_aether:stormforged_helmet" }
+					type: "item"
+				}
+				{
+					id: "17744EE7ACAAEB4D"
+					item: { count: 1, id: "deep_aether:stormforged_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2053C099EB7FE5CF"
+					item: { count: 1, id: "deep_aether:stormforged_leggings" }
+					type: "item"
+				}
+				{
+					id: "6E2CA2CC7EA0B81F"
+					item: { count: 1, id: "deep_aether:stormforged_boots" }
+					type: "item"
+				}
+				{
+					id: "66DE880D117088B8"
+					item: { count: 1, id: "deep_aether:stormforged_gloves" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2DAFBB1DC3002EAE"]
+			id: "7A5A4DE6CC9F80AA"
+			rewards: [{
+				id: "7327E7925B7975E1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "388A664D5ADA8955"
+					item: { count: 1, id: "aether:skyroot_axe" }
+					type: "item"
+				}
+				{
+					id: "5E266ECCE187C60F"
+					item: { count: 1, id: "aether:skyroot_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "34EB61DA341B049E"
+					item: { count: 1, id: "aether:skyroot_shovel" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5B9CD4C0BAFA853C"]
+			id: "2DAFBB1DC3002EAE"
+			rewards: [{
+				id: "3FC0B3775DCD589D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3E5981A5795907C3"
+				item: { count: 1, id: "aether:skyroot_log" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DAFBB1DC3002EAE"]
+			id: "725F2C637C2E4823"
+			rewards: [{
+				id: "3657AFB4059EA97A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "706249C2823C8A66"
+				item: { count: 1, id: "aether:holystone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["520862DCC81E7B0A"]
+			id: "5839BBCADCD412F3"
+			rewards: [{
+				id: "43DB8AD5533C8A64"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "58599F2A3F599244"
+					item: { count: 1, id: "aether:zanite_ring" }
+					type: "item"
+				}
+				{
+					id: "3C70701A8BE65741"
+					item: { count: 1, id: "aether:zanite_pendant" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2327D0DB253656C0"]
+			id: "354785BE70854D31"
+			rewards: [{
+				id: "539A3E6344E93FB6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "65012CFEAE1A1F8D"
+					item: { count: 1, id: "deep_aether:stratus_sword" }
+					type: "item"
+				}
+				{
+					id: "185ACFA242891B24"
+					item: { count: 1, id: "deep_aether:stratus_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "56B026A5330F8BB6"
+					item: { count: 1, id: "deep_aether:stratus_axe" }
+					type: "item"
+				}
+				{
+					id: "71AEB08429BC5C3A"
+					item: { count: 1, id: "deep_aether:stratus_shovel" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2327D0DB253656C0"]
+			id: "0CE50070E1994D2B"
+			rewards: [{
+				id: "2226E5F1D731244D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0BBE0B90753874FD"
+				item: { count: 1, id: "deep_aether:stratus_ring" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61BFB09983A07993"]
+			id: "7836C92EDBFB519F"
+			rewards: [{
+				id: "01C68EB3F9DB1B09"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "11633CDE2F5C47FF"
+					item: { count: 1, id: "aether:valkyrie_helmet" }
+					type: "item"
+				}
+				{
+					id: "47C8A30728A2BA25"
+					item: { count: 1, id: "aether:valkyrie_chestplate" }
+					type: "item"
+				}
+				{
+					id: "321B6647A8519785"
+					item: { count: 1, id: "aether:valkyrie_leggings" }
+					type: "item"
+				}
+				{
+					id: "226287BEECF7639D"
+					item: { count: 1, id: "aether:valkyrie_boots" }
+					type: "item"
+				}
+				{
+					id: "7DD42E0BE5B755F2"
+					item: { count: 1, id: "aether:valkyrie_gloves" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2626D72F47BC566E"]
+			id: "67E1DE31B1ABA4F7"
+			rewards: [{
+				id: "0441B50C25F4AFC8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "1B4329B68AE9032D"
+					item: { count: 1, id: "deep_aether:cloud_cape" }
+					type: "item"
+				}
+				{
+					id: "622A11660243D541"
+					item: { count: 1, id: "deep_aether:wind_shield" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 5.5d
+		}
+	]
+}

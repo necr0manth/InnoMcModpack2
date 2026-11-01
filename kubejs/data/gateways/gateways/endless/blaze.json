@@ -1,0 +1,118 @@
+{
+  "type": "gateways:endless",
+  "size": "medium",
+  "color": "#FFFF84",
+  "base_wave": {
+    "max_wave_time": 800,
+    "setup_time": 100,
+    "entities": [
+      {
+        "type": "gateways:standard",
+        "count": 3,
+        "entity": "minecraft:blaze"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "gateways:entity_loot",
+        "entity": "minecraft:blaze",
+        "rolls": 10
+      },
+      {
+        "type": "gateways:chanced",
+        "chance": 0.1,
+        "reward": {
+          "type": "gateways:loot_table",
+          "loot_table": "kubejs:inno_exclusive/artifacts",
+          "rolls": 1,
+          "desc": "rewards.gateways.loot_table.artifacts"
+        }
+      },
+      {
+        "type": "gateways:chanced",
+        "chance": 0.08,
+        "reward": {
+          "type": "gateways:loot_table",
+          "loot_table": "kubejs:inno_exclusive/book_sharpness6",
+          "rolls": 1,
+          "desc": "rewards.gateways.loot_table.book_sharpness6"
+        }
+      }
+    ]
+  },
+  "modifiers": [
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "max": 10,
+        "waves": 3
+      },
+      "max_wave_time": -40,
+      "setup_time": -10,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 3,
+          "entity": "minecraft:blaze"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:entity_loot",
+          "entity": "minecraft:blaze",
+          "rolls": 10
+        },
+        {
+          "type": "gateways:chanced",
+          "chance": 0.5,
+          "reward": {
+            "type": "gateways:loot_table",
+            "loot_table": "kubejs:inno_exclusive/swords_late",
+            "rolls": 1,
+            "desc": "rewards.gateways.loot_table.swords_late"
+          }
+        },
+        {
+          "type": "gateways:chanced",
+          "chance": 0.25,
+          "reward": {
+            "type": "gateways:loot_table",
+            "loot_table": "kubejs:inno_exclusive/uniques",
+            "rolls": 1,
+            "desc": "rewards.gateways.loot_table.uniques"
+          }
+        },
+        {
+          "type": "gateways:chanced",
+          "chance": 0.2,
+          "reward": {
+            "type": "gateways:loot_table",
+            "loot_table": "kubejs:inno_exclusive/artifacts",
+            "rolls": 1,
+            "desc": "rewards.gateways.loot_table.artifacts"
+          }
+        }
+      ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "max": 3,
+        "waves": 5
+      },
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_multiplied_total",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "spawn_algorithm": "gateways:inward_spiral",
+  "boss_event": {
+    "fog": false,
+    "mode": "name_plate"
+  }
+}

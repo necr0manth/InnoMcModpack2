@@ -1,0 +1,211 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:watcher_claymore",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:brimstone_claymore",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:storms_edge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:stormscale",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:stormbringer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:bramblethorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:watching_warglaive",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:toxic_longsword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:emberblade",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:frostfall",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulpyre",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:molten_edge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:livyatan",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:icewhisper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:arcanethyst",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:thunderbrand",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:hearthflame",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:twisted_blade",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulrender",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulkeeper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulstealer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:mjolnir",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:slumbering_lichblade",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:shadowsting",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:dormant_relic",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:whisperwind",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:emberlash",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:waxweaver",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:hiveheart",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:stars_edge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:wickpiercer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:tempest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:flamewind",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:ribboncleaver",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:riftmane",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:dawnquiver",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:caelestis",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:wraithfang",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:bloodwake",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:chompolotl",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

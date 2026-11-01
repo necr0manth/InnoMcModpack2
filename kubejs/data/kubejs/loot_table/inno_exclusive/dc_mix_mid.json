@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "kubejs:inno_exclusive/swords_early",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kubejs:inno_exclusive/swords_late",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "kubejs:inno_exclusive/artifacts",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

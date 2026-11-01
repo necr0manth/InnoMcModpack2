@@ -1,0 +1,10 @@
+{
+  "type": "artifacts:roll_loot_table",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.0
+    }
+  ],
+  "lootTable": "artifacts:inject/chests/village/village_taiga_house"
+}
