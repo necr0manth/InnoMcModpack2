@@ -12,7 +12,7 @@
 
 	["Server Configs"."Diesel Engines"]
 		#Turbocharged Diesel Engine Speed Multiplier
-		"Turbocharged Diesel Engine Speed Multiplier" = 2.0
+		"Turbocharged Diesel Engine Speed Multiplier" = 1.25
 		#Turbocharged Diesel Engine Burn Rate Multiplier
 		"Turbocharged Diesel Engine Burn Rate Multiplier" = 1.0
 		#Whenever Normal Diesel Engines are enabled

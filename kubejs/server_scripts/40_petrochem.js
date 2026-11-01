@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
     [out('minecraft:water', 100), { id: 'petrochem:sulfur_dust', count: 1 }], 200)
 
   // Explicit clean fluids prevent a later broad common tag from reopening raw fuels.
-  recipe('diesel_engine_fuel', 'petrochem:diesel_engine_fuel', [fluid('petrochem:diesel', 1)], [], { processing_time: 5 })
-  recipe('gasoline_engine_fuel', 'petrochem:gasoline_engine_fuel', [fluid('petrochem:gasoline', 1)], [], { processing_time: 12 })
-  recipe('kerosene_engine_fuel', 'petrochem:gasoline_engine_fuel', [fluid('petrochem:desulfurized_kerosene', 1)], [], { processing_time: 15 })
+  recipe('diesel_engine_fuel', 'petrochem:diesel_engine_fuel', [fluid('petrochem:diesel', 1)], [], { processing_time: 16 })
+  recipe('gasoline_engine_fuel', 'petrochem:gasoline_engine_fuel', [fluid('petrochem:gasoline', 1)], [], { processing_time: 40 })
+  recipe('kerosene_engine_fuel', 'petrochem:gasoline_engine_fuel', [fluid('petrochem:desulfurized_kerosene', 1)], [], { processing_time: 50 })
 })

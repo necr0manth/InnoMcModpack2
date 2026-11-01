@@ -19,5 +19,5 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				medium_engine = 1536.0
-				small_engine = 128.0
+				medium_engine = 384.0
+				small_engine = 24.0
