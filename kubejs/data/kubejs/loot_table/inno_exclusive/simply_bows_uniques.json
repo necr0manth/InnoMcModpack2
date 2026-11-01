@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:vine_bow/vine_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:ice_bow/ice_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:bubble_bow/bubble_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:bee_bow/bee_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:blossom_bow/blossom_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:earth_bow/earth_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplybows:echo_bow/echo_bow",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

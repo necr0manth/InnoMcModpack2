@@ -1,6 +1,6 @@
 # Don't change this! Version used to track needed updates.
 version = 3
-enableLootDrops = true
+enableLootDrops = false
 enableLootInVillages = false
 standardLootTableWeight = 0.1
 rareLootTableWeight = 0.4

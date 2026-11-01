@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:runic_tablet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:runefused_gem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:netherfused_gem",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.03
+    },
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "dungeoncrawl:chests/treasure"
+    }
+  ],
+  "table": "kubejs:inno_exclusive/uniques"
+}
