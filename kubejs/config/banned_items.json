@@ -95,7 +95,15 @@
         "actuallyadditions:empowerer",
         "actuallyadditions:display_stand",
         "actuallyadditions:double_battery",
-        "actuallyadditions:single_battery"
+        "actuallyadditions:single_battery",
+        "enderio:xp_vacuum",
+        "enderio:enchanter",
+        "enderio:vacuum_chest",
+        "ae2:charger",
+        "ae2:inscriber",
+        "ae2:energy_acceptor",
+        "ae2lt:overload_alloy_blank",
+        "data_energistics:data_framework"
       ],
       "namespaces": []
     },

@@ -6,7 +6,7 @@ const server = fs.readFileSync('kubejs/server_scripts/10_banned_items.js', 'utf8
 const late = fs.readFileSync('kubejs/server_scripts/zzzz_permanent_fe_bans.js', 'utf8')
 const client = fs.readFileSync('kubejs/client_scripts/10_banned_items.js', 'utf8')
 const config = JSON.parse(fs.readFileSync('kubejs/config/banned_items.json', 'utf8'))
-const targets = ["mekanism:metallurgic_infuser", "enderio:alloy_smelter", "powah:energizing_rod_starter", "powah:energizing_orb"]
+const targets = ["mekanism:metallurgic_infuser","enderio:alloy_smelter","powah:energizing_rod_starter","powah:energizing_orb","ae2:charger","ae2:energy_acceptor","ae2:inscriber","ae2lt:overload_alloy_blank","data_energistics:data_framework","mekanism:enrichment_chamber","enderio:enchanter","enderio:vacuum_chest","enderio:xp_vacuum","actuallyadditions:atomic_reconstructor","actuallyadditions:empowerer","actuallyadditions:display_stand","actuallyadditions:double_battery","actuallyadditions:single_battery"]
 const available = config.groups.filter(g => g.status === 'available').flatMap(g => g.items)
 for (const id of targets) assert.ok(available.includes(id), id)
 assert.match(server, /const APPLY_TEMPORARY_BANS = (true|false)/)
@@ -53,7 +53,7 @@ for (const enabled of [false, true]) {
   ]) assert.ok(!result.removed(recipe, output), recipe + ' early crystal bootstrap')
   assert.ok(result.removed('mekanism:pump', 'mekanism:electric_pump'))
   assert.ok(result.hidden('mekanism:electric_pump'))
-  for (const id of ['actuallyadditions:display_stand', 'actuallyadditions:double_battery', 'powah:energizing_rod_basic', 'ae2:controller']) {
+  for (const id of ['powah:energizing_rod_basic', 'ae2:controller']) {
     assert.equal(result.removed('kubejs:other', id), enabled, id)
   }
   for (const name of ['farming_station', 'powered_spawner']) {

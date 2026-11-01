@@ -2,7 +2,7 @@
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
-  "ignored_recipe_ids": ["enderio:iron_gear", "kubejs:inno_preview/enderio_iron_gear_v2"],
+  "ignored_recipe_ids": ["enderio:iron_gear", "kubejs:inno_preview/.*"],
   "default_duplicate_rules": {
     "ignored_fields": [
       "neoforge:conditions",
