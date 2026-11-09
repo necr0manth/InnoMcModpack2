@@ -12,11 +12,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    strategy:
-      fail-fast: false
-      matrix:
-        profile: [current, defaults]
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v5
@@ -30,7 +26,6 @@ jobs:
         SFTP_PASS: ${{ secrets.SFTP_PASSWORD }}
         SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
         TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
-        PROFILE: ${{ matrix.profile }}
       run: |
         python -u - <<'PY'
         import hashlib
@@ -43,6 +38,7 @@ jobs:
         import paramiko
         from deploy_common import read_settings, remote_path
         from deploy_sftp import _upload_with_replace
+        import deploy_sftp
 
         settings = read_settings(allow_root=True)
         def connect(profile):
@@ -57,39 +53,61 @@ jobs:
             sftp.get_channel().settimeout(10)
             return transport, sftp
 
-        profile = os.environ['PROFILE']
-        transport, sftp = connect(profile)
-        probe = remote_path(settings.target, '.sftp-probe-' + uuid.uuid4().hex)
-        try:
-            print('Profile:', profile, 'Paramiko:', paramiko.__version__, flush=True)
-            for name in ('deploy_server_manifest.json', 'deploy_client_manifest.json'):
-                started = time.monotonic()
-                with sftp.open(remote_path(settings.target, name), 'rb') as source:
-                    data = source.read()
-                print('Read', name, len(data), 'bytes in', round(time.monotonic() - started, 2), 'seconds')
-            payload = os.urandom(256 * 1024)
-            with tempfile.TemporaryDirectory() as directory:
-                local = Path(directory) / 'probe.bin'
-                local.write_bytes(payload)
-                for iteration in range(2):
-                    started = time.monotonic()
-                    print('Uploading isolated probe', iteration + 1, flush=True)
-                    _upload_with_replace(sftp, local, probe)
-                    with sftp.open(probe, 'rb') as source:
-                        actual = source.read()
-                    assert hashlib.sha256(actual).digest() == hashlib.sha256(payload).digest()
-                    print('Upload, replacement and readback OK:', round(time.monotonic() - started, 2), 'seconds')
-        finally:
-            transport.close()
-            # Reconnect so a timed-out channel cannot delay cleanup.
-            cleanup_transport, cleanup = connect('defaults')
+        def run_probe(profile):
+            original_upload = deploy_sftp._upload
+            if profile == 'small-writes':
+                def upload(sftp, local, remote):
+                    with local.open('rb') as source, sftp.open(remote, 'wb') as destination:
+                        while chunk := source.read(1024):
+                            destination.write(chunk)
+                deploy_sftp._upload = upload
             try:
-                directory = settings.target
-                prefix = Path(probe).name
-                for name in cleanup.listdir(directory):
-                    if name == prefix or name.startswith(prefix + '.tmp-') or name.startswith(prefix + '.bak-'):
-                        cleanup.remove(remote_path(directory, name))
-                        print('Removed this run\'s probe:', name)
+                probe_profile(profile)
+            except Exception as error:
+                print('PROFILE FAILED:', profile, type(error).__name__, str(error), flush=True)
+                return False
             finally:
-                cleanup_transport.close()
+                deploy_sftp._upload = original_upload
+            return True
+
+        def probe_profile(profile):
+            print('Starting profile:', profile, flush=True)
+            transport, sftp = connect(profile)
+            probe = remote_path(settings.target, '.sftp-probe-' + uuid.uuid4().hex)
+            try:
+                print('Profile:', profile, 'Paramiko:', paramiko.__version__, flush=True)
+                for name in ('deploy_server_manifest.json', 'deploy_client_manifest.json'):
+                    started = time.monotonic()
+                    with sftp.open(remote_path(settings.target, name), 'rb') as source:
+                        data = source.read()
+                    print('Read', name, len(data), 'bytes in', round(time.monotonic() - started, 2), 'seconds')
+                # Use the same JSON payload that failed in the deployment.
+                with sftp.open(remote_path(settings.target, 'deploy_server_manifest.json'), 'rb') as source:
+                    payload = source.read()
+                with tempfile.TemporaryDirectory() as directory:
+                    local = Path(directory) / 'probe.bin'
+                    local.write_bytes(payload)
+                    for iteration in range(2):
+                        started = time.monotonic()
+                        print('Uploading isolated probe', iteration + 1, flush=True)
+                        _upload_with_replace(sftp, local, probe)
+                        with sftp.open(probe, 'rb') as source:
+                            actual = source.read()
+                        assert hashlib.sha256(actual).digest() == hashlib.sha256(payload).digest()
+                        print('Upload, replacement and readback OK:', round(time.monotonic() - started, 2), 'seconds')
+            finally:
+                transport.close()
+                cleanup_transport, cleanup = connect('defaults')
+                try:
+                    prefix = Path(probe).name
+                    for name in cleanup.listdir(settings.target):
+                        if name == prefix or name.startswith(prefix + '.tmp-') or name.startswith(prefix + '.bak-'):
+                            cleanup.remove(remote_path(settings.target, name))
+                            print('Removed this run\'s probe:', name)
+                finally:
+                    cleanup_transport.close()
+
+        outcomes = {profile: run_probe(profile) for profile in ('current', 'defaults', 'small-writes')}
+        print('PROFILE RESULTS:', outcomes, flush=True)
+        raise SystemExit(0 if all(outcomes.values()) else 1)
         PY
