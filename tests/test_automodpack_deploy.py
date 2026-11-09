@@ -193,6 +193,42 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
+    def test_write_timeout_closes_transport_before_file_cleanup(self):
+        with tempfile.TemporaryDirectory() as temp:
+            local = Path(temp) / 'payload'
+            local.write_bytes(b'payload')
+            sftp = MagicMock()
+            remote = sftp.open.return_value
+            remote.__enter__.return_value.write.side_effect = TimeoutError()
+            close = sftp.get_channel.return_value.get_transport.return_value.close
+
+            def file_cleanup(*args):
+                close.assert_called_once()
+                return False
+
+            remote.__exit__.side_effect = file_cleanup
+            with self.assertRaisesRegex(TimeoutError, 'SFTP write timed out: /probe'):
+                deploy_sftp._upload(sftp, local, '/probe')
+            close.assert_called_once()
+
+    def test_unchanged_deploy_does_not_write_but_migrates_legacy_manifest(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            make_builds(root)
+            current = deploy_common.scan_builds(root)
+            sftp = MemorySftp({
+                '/' + scope.manifest_name: deploy_common.manifest_bytes(current[scope.name])
+                for scope in deploy_common.SCOPES
+            })
+            before = dict(sftp.files)
+            deploy_sftp.deploy(sftp, '/', project_root=root, current=current)
+            self.assertEqual(sftp.operations, [])
+            self.assertEqual(sftp.files, before)
+            sftp.files['/deploy_manifest.json'] = sftp.files.pop('/deploy_server_manifest.json')
+            deploy_sftp.deploy(sftp, '/', project_root=root, current=current)
+            self.assertEqual(sftp.files['/deploy_server_manifest.json'], before['/deploy_server_manifest.json'])
+            self.assertFalse(any('deploy_client_manifest' in str(operation) for operation in sftp.operations))
+
     def test_rename_does_not_move_a_destination_directory(self):
         with tempfile.TemporaryDirectory() as temp:
             local = Path(temp) / "file"

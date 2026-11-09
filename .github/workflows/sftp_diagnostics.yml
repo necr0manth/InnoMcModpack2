@@ -31,13 +31,14 @@ jobs:
         import hashlib
         import os
         import socket
+        import subprocess
         import tempfile
         import time
         import uuid
         from pathlib import Path
         import paramiko
         from deploy_common import read_settings, remote_path
-        from deploy_sftp import _upload_with_replace
+        from deploy_sftp import _upload_with_replace, deploy
         import deploy_sftp
 
         settings = read_settings(allow_root=True)
@@ -106,6 +107,25 @@ jobs:
                             print('Removed this run\'s probe:', name)
                 finally:
                     cleanup_transport.close()
+
+        # Exercise the real smart deployment with writes physically unavailable.
+        # A changed build fails this check before any remote mutation.
+        subprocess.run(['python', 'build_pack.py'], check=True)
+        transport, sftp = connect('current')
+        class ReadOnlySftp:
+            def open(self, path, mode):
+                if mode != 'rb':
+                    raise RuntimeError('Read-only deployment check refused a write')
+                return sftp.open(path, mode)
+
+            def stat(self, path):
+                return sftp.stat(path)
+
+        try:
+            deploy(ReadOnlySftp(), settings.target)
+            print('Unchanged smart deployment passed with all remote mutations blocked', flush=True)
+        finally:
+            transport.close()
 
         outcomes = {profile: run_probe(profile) for profile in ('current', 'defaults', 'small-writes')}
         print('PROFILE RESULTS:', outcomes, flush=True)

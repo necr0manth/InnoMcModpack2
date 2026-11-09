@@ -69,7 +69,13 @@ def _upload(sftp, local: Path, remote: str) -> None:
     _ensure_remote_dir(sftp, posixpath.dirname(remote))
     with local.open("rb") as source, sftp.open(remote, "wb") as destination:
         while chunk := source.read(16 * 1024):
-            destination.write(chunk)
+            try:
+                destination.write(chunk)
+            except TimeoutError as error:
+                # A timed-out SFTP response leaves the channel unusable. Close
+                # before file cleanup, which would otherwise wait again.
+                sftp.get_channel().get_transport().close()
+                raise TimeoutError(f"SFTP write timed out: {remote}") from error
 
 
 def _replace_remote(sftp, temporary: str, remote: str) -> None:
@@ -165,6 +171,15 @@ def deploy(sftp, target: str, full: bool = False, project_root: Path | str = "."
 
     # Publish only after every upload and stale deletion in both scopes succeeds.
     for scope in SCOPES:
+        if current[scope.name] == previous[scope.name]:
+            try:
+                sftp.stat(remote_path(target, scope.manifest_name))
+            except Exception as error:
+                if not _is_missing(error):
+                    raise
+            else:
+                logger.info("%s manifest unchanged; skipping publication", scope.name)
+                continue
         _publish_manifest(sftp, target, scope, current[scope.name])
 
 
