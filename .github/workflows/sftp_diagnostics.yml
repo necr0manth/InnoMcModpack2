@@ -1,0 +1,95 @@
+name: SFTP diagnostics (temporary files only)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sftp_diagnostics.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [current, defaults]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - run: pip install paramiko
+    - name: Read manifests and verify an isolated temporary upload
+      env:
+        SFTP_HOST: ${{ secrets.SFTP_HOST }}
+        SFTP_USER: ${{ secrets.SFTP_USERNAME }}
+        SFTP_PASS: ${{ secrets.SFTP_PASSWORD }}
+        SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
+        TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
+        PROFILE: ${{ matrix.profile }}
+      run: |
+        python -u - <<'PY'
+        import hashlib
+        import os
+        import socket
+        import tempfile
+        import time
+        import uuid
+        from pathlib import Path
+        import paramiko
+        from deploy_common import read_settings, remote_path
+        from deploy_sftp import _upload_with_replace
+
+        settings = read_settings(allow_root=True)
+        def connect(profile):
+            sock = socket.create_connection((settings.host, settings.port), timeout=15)
+            transport = paramiko.Transport(sock)
+            transport.set_keepalive(15)
+            if profile == 'current':
+                transport.default_window_size = 8192
+                transport.default_max_packet_size = 1024
+            transport.connect(username=settings.user, password=settings.password)
+            sftp = paramiko.SFTPClient.from_transport(transport)
+            sftp.get_channel().settimeout(10)
+            return transport, sftp
+
+        profile = os.environ['PROFILE']
+        transport, sftp = connect(profile)
+        probe = remote_path(settings.target, '.sftp-probe-' + uuid.uuid4().hex)
+        try:
+            print('Profile:', profile, 'Paramiko:', paramiko.__version__, flush=True)
+            for name in ('deploy_server_manifest.json', 'deploy_client_manifest.json'):
+                started = time.monotonic()
+                with sftp.open(remote_path(settings.target, name), 'rb') as source:
+                    data = source.read()
+                print('Read', name, len(data), 'bytes in', round(time.monotonic() - started, 2), 'seconds')
+            payload = os.urandom(256 * 1024)
+            with tempfile.TemporaryDirectory() as directory:
+                local = Path(directory) / 'probe.bin'
+                local.write_bytes(payload)
+                for iteration in range(2):
+                    started = time.monotonic()
+                    print('Uploading isolated probe', iteration + 1, flush=True)
+                    _upload_with_replace(sftp, local, probe)
+                    with sftp.open(probe, 'rb') as source:
+                        actual = source.read()
+                    assert hashlib.sha256(actual).digest() == hashlib.sha256(payload).digest()
+                    print('Upload, replacement and readback OK:', round(time.monotonic() - started, 2), 'seconds')
+        finally:
+            transport.close()
+            # Reconnect so a timed-out channel cannot delay cleanup.
+            cleanup_transport, cleanup = connect('defaults')
+            try:
+                directory = settings.target
+                prefix = Path(probe).name
+                for name in cleanup.listdir(directory):
+                    if name == prefix or name.startswith(prefix + '.tmp-') or name.startswith(prefix + '.bak-'):
+                        cleanup.remove(remote_path(directory, name))
+                        print('Removed this run\'s probe:', name)
+            finally:
+                cleanup_transport.close()
+        PY
