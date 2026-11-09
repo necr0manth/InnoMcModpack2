@@ -61,6 +61,7 @@ class MemorySftp:
         self.dirs = {"/"}
         self.fail_upload = fail_upload
         self.operations = []
+        self.get_channel = MagicMock()
 
     def open(self, path, mode):
         return MemoryFile(self, path, mode)
@@ -288,6 +289,7 @@ class SftpDeploymentTests(unittest.TestCase):
                             paramiko.SFTPClient.from_transport.return_value = sftp
                             with patch.dict("sys.modules", {"paramiko": paramiko}):
                                 self.assertEqual(deploy_sftp.main(), 0)
+                            sftp.get_channel.return_value.settimeout.assert_called_once_with(60)
                             self.assertEqual(sftp.files["/mods/common.jar"], b"common")
                             self.assertEqual(sftp.files["/automodpack/host-modpack/main/mods/client-only.jar"], b"client-only")
                             self.assertIn("/deploy_server_manifest.json", sftp.files)
@@ -296,6 +298,27 @@ class SftpDeploymentTests(unittest.TestCase):
                             self.assertEqual(sftp.files["/world/level.dat"], b"world")
                             self.assertEqual(sftp.files["/automodpack/server.conf"], b"runtime")
                             self.assertTrue(all(path.startswith("/") for path in sftp.files))
+
+    def test_manifest_timeout_fails_without_remote_changes(self):
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        paramiko = MagicMock()
+        sftp = paramiko.SFTPClient.from_transport.return_value
+
+        def stalled_open(*args, **kwargs):
+            sftp.get_channel.return_value.settimeout.assert_called_once_with(60)
+            raise TimeoutError("SFTP read timed out")
+
+        sftp.open.side_effect = stalled_open
+        with patch.dict(os.environ, env, clear=True), \
+                patch.dict("sys.modules", {"paramiko": paramiko}), \
+                patch.object(deploy_sftp, "scan_builds", return_value={}), \
+                self.assertLogs(deploy_sftp.logger, level="ERROR") as logs:
+            self.assertEqual(deploy_sftp.main(), 1)
+        self.assertIn("Could not read server manifest /deploy_server_manifest.json", logs.output[0])
+        sftp.open.assert_called_once_with("/deploy_server_manifest.json", "rb")
+        sftp.remove.assert_not_called()
+        sftp.rename.assert_not_called()
+        paramiko.Transport.return_value.close.assert_called_once()
 
     def test_scopes_migrate_server_manifest_and_protect_manual_runtime(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -30,6 +30,7 @@ def _is_missing(error: BaseException) -> bool:
 
 def read_previous(sftp, target: str, scope: Scope) -> dict:
     path = remote_path(target, scope.manifest_name)
+    logger.info("Reading %s manifest %s", scope.name, path)
     try:
         with sftp.open(path, "rb") as remote:
             data = remote.read()
@@ -39,6 +40,7 @@ def read_previous(sftp, target: str, scope: Scope) -> dict:
         if scope.legacy_manifest_name is None:
             return {}
         legacy = remote_path(target, scope.legacy_manifest_name)
+        logger.info("Reading legacy server manifest %s", legacy)
         try:
             with sftp.open(legacy, "rb") as remote:
                 data = remote.read()
@@ -118,6 +120,7 @@ def _remove_if_present(sftp, remote: str) -> None:
 
 def _publish_manifest(sftp, target: str, scope: Scope, state: dict) -> None:
     final_path = remote_path(target, scope.manifest_name)
+    logger.info("Publishing %s manifest %s", scope.name, final_path)
     _ensure_remote_dir(sftp, posixpath.dirname(final_path))
     temp_path = final_path + ".tmp-" + uuid.uuid4().hex
     local_name = None
@@ -183,6 +186,8 @@ def main() -> int:
         transport.default_max_packet_size = 1024
         transport.connect(username=settings.user, password=settings.password)
         sftp = paramiko.SFTPClient.from_transport(transport)
+        sftp.get_channel().settimeout(60)
+        logger.info("SFTP operation timeout: 60 seconds")
         deploy(sftp, settings.target, settings.full, current=current)
         sftp.close()
         logger.info("Deployment complete.")
