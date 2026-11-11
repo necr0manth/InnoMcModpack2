@@ -65,17 +65,34 @@ def _ensure_remote_dir(sftp, path: str) -> None:
             sftp.mkdir(current)
 
 
-def _upload(sftp, local: Path, remote: str) -> None:
+def _upload(sftp, local: Path, remote: str, *, pipelined: bool = True) -> None:
     _ensure_remote_dir(sftp, posixpath.dirname(remote))
-    with local.open("rb") as source, sftp.open(remote, "wb") as destination:
-        while chunk := source.read(16 * 1024):
+    size = local.stat().st_size
+    chunk_size = 16 * 1024
+    pipeline_active = pipelined and size > chunk_size
+    closed_for_timeout = False
+    try:
+        with local.open("rb") as source, sftp.open(remote, "wb") as destination:
+            if pipeline_active:
+                destination.set_pipelined(True)
             try:
-                destination.write(chunk)
-            except TimeoutError as error:
-                # A timed-out SFTP response leaves the channel unusable. Close
-                # before file cleanup, which would otherwise wait again.
+                while chunk := source.read(chunk_size):
+                    if pipeline_active and source.tell() >= size:
+                        # A synchronous final write drains pending acknowledgements.
+                        destination.set_pipelined(False)
+                        pipeline_active = False
+                    destination.write(chunk)
+            except TimeoutError:
+                # Close before file cleanup, which could otherwise wait again.
                 sftp.get_channel().get_transport().close()
-                raise TimeoutError(f"SFTP write timed out: {remote}") from error
+                closed_for_timeout = True
+                raise
+        if sftp.stat(remote).st_size != size:
+            raise OSError(f"Incomplete SFTP upload: {remote}")
+    except TimeoutError as error:
+        if not closed_for_timeout:
+            sftp.get_channel().get_transport().close()
+        raise TimeoutError(f"SFTP write timed out: {remote}") from error
 
 
 def _replace_remote(sftp, temporary: str, remote: str) -> None:

@@ -51,6 +51,9 @@ class MemoryFile:
     def read(self):
         return self.sftp.files[self.path]
 
+    def set_pipelined(self, value):
+        self.sftp.operations.append(("pipelined", value))
+
     def write(self, data):
         self.buffer.extend(data)
 
@@ -69,7 +72,10 @@ class MemorySftp:
     def stat(self, path):
         if path not in self.dirs and path not in self.files:
             raise FileNotFoundError(path)
-        return SimpleNamespace(st_mode=stat.S_IFDIR if path in self.dirs else stat.S_IFREG)
+        return SimpleNamespace(
+            st_mode=stat.S_IFDIR if path in self.dirs else stat.S_IFREG,
+            st_size=len(self.files.get(path, b"")),
+        )
 
     def mkdir(self, path):
         self.dirs.add(path)
@@ -193,6 +199,32 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
+    def test_pipeline_drains_before_replacing_and_checks_size(self):
+        with tempfile.TemporaryDirectory() as temp:
+            local = Path(temp) / "payload"
+            payload = b"x" * (32 * 1024 + 1)
+            local.write_bytes(payload)
+            sftp = MemorySftp({"/probe": b"previous"})
+
+            deploy_sftp._upload_with_replace(sftp, local, "/probe")
+
+            self.assertEqual(sftp.files["/probe"], payload)
+            self.assertEqual(sftp.operations[:2], [("pipelined", True), ("pipelined", False)])
+
+            real_stat = sftp.stat
+
+            def truncated_stat(path):
+                attributes = real_stat(path)
+                if path.startswith("/probe.tmp-"):
+                    attributes.st_size -= 1
+                return attributes
+
+            local.write_bytes(payload + b"new")
+            with patch.object(sftp, "stat", side_effect=truncated_stat):
+                with self.assertRaisesRegex(OSError, "Incomplete SFTP upload"):
+                    deploy_sftp._upload_with_replace(sftp, local, "/probe")
+            self.assertEqual(sftp.files, {"/probe": payload})
+
     def test_write_timeout_closes_transport_before_file_cleanup(self):
         with tempfile.TemporaryDirectory() as temp:
             local = Path(temp) / 'payload'

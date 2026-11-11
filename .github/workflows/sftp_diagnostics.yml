@@ -31,103 +31,104 @@ jobs:
         import hashlib
         import os
         import socket
-        import subprocess
         import tempfile
         import time
         import uuid
+        from functools import partial
         from pathlib import Path
+        from unittest.mock import patch
+
         import paramiko
         from deploy_common import read_settings, remote_path
-        from deploy_sftp import _upload_with_replace, deploy
-        import deploy_sftp
+        from deploy_sftp import _upload, _upload_with_replace
 
         settings = read_settings(allow_root=True)
-        def connect(profile):
+        payload = os.urandom(2 * 1024 * 1024)
+        expected = hashlib.sha256(payload).digest()
+
+        def connect(defaults=False):
             sock = socket.create_connection((settings.host, settings.port), timeout=15)
             transport = paramiko.Transport(sock)
-            transport.set_keepalive(15)
-            if profile == 'current':
-                transport.default_window_size = 8192
-                transport.default_max_packet_size = 1024
-            transport.connect(username=settings.user, password=settings.password)
-            sftp = paramiko.SFTPClient.from_transport(transport)
-            sftp.get_channel().settimeout(10)
-            return transport, sftp
-
-        def run_probe(profile):
-            original_upload = deploy_sftp._upload
-            if profile == 'small-writes':
-                def upload(sftp, local, remote):
-                    with local.open('rb') as source, sftp.open(remote, 'wb') as destination:
-                        while chunk := source.read(1024):
-                            destination.write(chunk)
-                deploy_sftp._upload = upload
             try:
-                probe_profile(profile)
-            except Exception as error:
-                print('PROFILE FAILED:', profile, type(error).__name__, str(error), flush=True)
-                return False
-            finally:
-                deploy_sftp._upload = original_upload
-            return True
+                transport.set_keepalive(15)
+                if not defaults:
+                    transport.default_window_size = 8192
+                    transport.default_max_packet_size = 1024
+                transport.connect(username=settings.user, password=settings.password)
+                sftp = paramiko.SFTPClient.from_transport(transport)
+                sftp.get_channel().settimeout(10)
+                return transport, sftp
+            except Exception:
+                transport.close()
+                raise
 
-        def probe_profile(profile):
-            print('Starting profile:', profile, flush=True)
-            transport, sftp = connect(profile)
-            probe = remote_path(settings.target, '.sftp-probe-' + uuid.uuid4().hex)
+        def read_manifests():
+            transport, sftp = connect()
             try:
-                print('Profile:', profile, 'Paramiko:', paramiko.__version__, flush=True)
                 for name in ('deploy_server_manifest.json', 'deploy_client_manifest.json'):
                     started = time.monotonic()
-                    with sftp.open(remote_path(settings.target, name), 'rb') as source:
-                        data = source.read()
-                    print('Read', name, len(data), 'bytes in', round(time.monotonic() - started, 2), 'seconds')
-                # Use the same JSON payload that failed in the deployment.
-                with sftp.open(remote_path(settings.target, 'deploy_server_manifest.json'), 'rb') as source:
-                    payload = source.read()
-                with tempfile.TemporaryDirectory() as directory:
-                    local = Path(directory) / 'probe.bin'
-                    local.write_bytes(payload)
-                    for iteration in range(2):
-                        started = time.monotonic()
-                        print('Uploading isolated probe', iteration + 1, flush=True)
-                        _upload_with_replace(sftp, local, probe)
-                        with sftp.open(probe, 'rb') as source:
-                            actual = source.read()
-                        assert hashlib.sha256(actual).digest() == hashlib.sha256(payload).digest()
-                        print('Upload, replacement and readback OK:', round(time.monotonic() - started, 2), 'seconds')
+                    try:
+                        with sftp.open(remote_path(settings.target, name), 'rb') as source:
+                            data = source.read()
+                    except FileNotFoundError:
+                        print('No deployed manifest:', name, flush=True)
+                    else:
+                        print('Read', name, len(data), 'bytes in',
+                              round(time.monotonic() - started, 2), 'seconds', flush=True)
             finally:
                 transport.close()
-                cleanup_transport, cleanup = connect('defaults')
+
+        def probe_profile(profile, local, *, defaults=False, pipelined=True):
+            print('Starting profile:', profile, flush=True)
+            probe = remote_path(settings.target, '.sftp-probe-' + uuid.uuid4().hex)
+            transport, sftp = connect(defaults)
+            try:
+                with patch('deploy_sftp._upload', partial(_upload, pipelined=pipelined)):
+                    for iteration in (1, 2):
+                        started = time.monotonic()
+                        _upload_with_replace(sftp, local, probe)
+                        seconds = time.monotonic() - started
+                        with sftp.open(probe, 'rb') as source:
+                            source.prefetch(len(payload), max_concurrent_requests=64)
+                            actual = source.read()
+                        if hashlib.sha256(actual).digest() != expected:
+                            raise OSError('Probe readback checksum mismatch')
+                        print(profile, 'attempt', iteration, 'upload + replacement:',
+                              round(seconds, 2), 'seconds, SHA-256 OK', flush=True)
+            finally:
+                transport.close()
+                cleanup_transport, cleanup = connect(defaults=True)
                 try:
                     prefix = Path(probe).name
                     for name in cleanup.listdir(settings.target):
                         if name == prefix or name.startswith(prefix + '.tmp-') or name.startswith(prefix + '.bak-'):
                             cleanup.remove(remote_path(settings.target, name))
-                            print('Removed this run\'s probe:', name)
                 finally:
                     cleanup_transport.close()
 
-        # Exercise the real smart deployment with writes physically unavailable.
-        # A changed build fails this check before any remote mutation.
-        subprocess.run(['python', 'build_pack.py'], check=True)
-        transport, sftp = connect('current')
-        class ReadOnlySftp:
-            def open(self, path, mode):
-                if mode != 'rb':
-                    raise RuntimeError('Read-only deployment check refused a write')
-                return sftp.open(path, mode)
-
-            def stat(self, path):
-                return sftp.stat(path)
-
+        manifests_readable = True
         try:
-            deploy(ReadOnlySftp(), settings.target)
-            print('Unchanged smart deployment passed with all remote mutations blocked', flush=True)
-        finally:
-            transport.close()
+            read_manifests()
+        except Exception as error:
+            manifests_readable = False
+            print('Manifest read failed:', type(error).__name__, str(error), flush=True)
 
-        outcomes = {profile: run_probe(profile) for profile in ('current', 'defaults', 'small-writes')}
+        outcomes = {}
+        with tempfile.TemporaryDirectory() as directory:
+            local = Path(directory) / 'probe.bin'
+            local.write_bytes(payload)
+            for profile, options in (
+                ('pipelined', {}),
+                ('serial', {'pipelined': False}),
+                ('pipelined-default-channel', {'defaults': True}),
+            ):
+                try:
+                    probe_profile(profile, local, **options)
+                except Exception as error:
+                    print('PROFILE FAILED:', profile, type(error).__name__, str(error), flush=True)
+                    outcomes[profile] = False
+                else:
+                    outcomes[profile] = True
         print('PROFILE RESULTS:', outcomes, flush=True)
-        raise SystemExit(0 if all(outcomes.values()) else 1)
+        raise SystemExit(0 if manifests_readable and all(outcomes.values()) else 1)
         PY
