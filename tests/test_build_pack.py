@@ -20,16 +20,24 @@ class BuildPackTests(unittest.TestCase):
         for relative in ('mods/common.jar', 'mods/client-only.jar', 'config/shared.toml',
                          'defaultconfigs/shared.toml', 'kubejs/server_scripts/update.js',
                          'automodpack/client.conf', 'automodpack/server.conf',
-                         'automodpack/timeline.json', 'deployment/template.conf',
+                         'automodpack/client/timeline.json', 'local.cfg',
+                         'config/ignored.cfg', 'server_pack/config/runtime.cfg',
+                         'deployment/template.conf',
                          'tests/fixture.py', 'server_pack/mods/server-only.jar',
                          'server_pack/config/server.toml',
                          'server_pack/automodpack/server.conf'):
             path = self.root / relative
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(relative, encoding='utf-8')
-        (self.root / '.client_files').write_text('/mods/client-only.jar\n', encoding='utf-8')
+        (self.root / '.client_files').write_text('/mods/client-only.jar\n/automodpack/client.conf\n', encoding='utf-8')
         (self.root / '.packignore').write_text(
-            '/automodpack\n/deployment\n/tests\n', encoding='utf-8')
+            '/deployment\n/tests\n', encoding='utf-8')
+
+        (self.root / '.gitignore').write_text(
+            '/automodpack/server.conf\n/automodpack/client/\n/server_pack/config/runtime.cfg\n',
+            encoding='utf-8',
+        )
+        (self.root / 'config/.gitignore').write_text('ignored.cfg\n', encoding='utf-8')
 
     def tearDown(self):
         self.temp.cleanup()
@@ -48,7 +56,7 @@ class BuildPackTests(unittest.TestCase):
         server = self.root / 'build/server'
         self.assertEqual((client / 'automodpack/client.conf').read_text(), 'automodpack/client.conf')
         self.assertFalse((client / 'automodpack/server.conf').exists())
-        self.assertFalse((client / 'automodpack/timeline.json').exists())
+        self.assertFalse((client / 'automodpack/client/timeline.json').exists())
         self.assertFalse((server / 'automodpack').exists())
         self.assertTrue((client / 'mods/common.jar').is_file())
         self.assertTrue((server / 'mods/common.jar').is_file())
@@ -57,11 +65,24 @@ class BuildPackTests(unittest.TestCase):
         self.assertTrue((server / 'mods/server-only.jar').is_file())
         self.assertFalse((client / 'mods/server-only.jar').exists())
         for relative in ('config/shared.toml', 'defaultconfigs/shared.toml',
-                         'kubejs/server_scripts/update.js'):
+                         'kubejs/server_scripts/update.js', 'local.cfg'):
             self.assertTrue((client / relative).is_file())
             self.assertTrue((server / relative).is_file())
         self.assertFalse((client / 'deployment').exists())
         self.assertFalse((client / 'tests').exists())
+        self.assertFalse((client / 'config/ignored.cfg').exists())
+        self.assertFalse((server / 'config/ignored.cfg').exists())
+        self.assertFalse((server / 'config/runtime.cfg').exists())
+
+    def test_client_bootstrap_is_preserved_when_automodpack_is_ignored(self):
+        (self.root / '.packignore').write_text('/automodpack/\n', encoding='utf-8')
+        with contextlib.redirect_stdout(io.StringIO()):
+            build_pack.build_mode('client', str(self.root))
+
+        automodpack = self.root / 'build/client/automodpack'
+        self.assertEqual((automodpack / 'client.conf').read_text(), 'automodpack/client.conf')
+        self.assertFalse((automodpack / 'server.conf').exists())
+        self.assertFalse((automodpack / 'client').exists())
 
     def test_missing_client_bootstrap_fails_before_cleaning_output(self):
         output = self.root / 'existing-output'

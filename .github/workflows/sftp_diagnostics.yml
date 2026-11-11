@@ -18,7 +18,7 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.x'
-    - run: pip install paramiko
+    - run: python -m pip install -r requirements-build.txt paramiko
     - name: Read manifests and verify an isolated temporary upload
       env:
         SFTP_HOST: ${{ secrets.SFTP_HOST }}
