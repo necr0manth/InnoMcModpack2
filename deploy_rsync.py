@@ -11,17 +11,9 @@ import uuid
 from pathlib import Path
 
 from deploy_common import (
-    SCOPES, Scope, manifest_bytes, parse_manifest, plan_deployment,
+    SCOPES, Scope, manifest_bytes, parse_manifest, pinned_ssh_options, plan_deployment,
     read_settings, remote_path, remote_root, scan_builds,
 )
-
-
-def _ssh_base(host: str, user: str, port: str) -> list[str]:
-    return [
-        "sshpass", "-e", "ssh", "-p", port,
-        "-o", "StrictHostKeyChecking=no", "-o", "UserKnownHostsFile=/dev/null",
-        "-o", "ConnectTimeout=15", "-o", "ServerAliveInterval=30", f"{user}@{host}",
-    ]
 
 
 def _run(args: list[str], env: dict[str, str], *, capture: bool = False, check: bool = True):
@@ -58,10 +50,9 @@ def _delete(ssh: list[str], env: dict[str, str], path: str) -> None:
 
 
 def _rsync_command(
-    user: str, host: str, port: str, source: str, destination: str,
+    user: str, host: str, ssh_transport: str, source: str, destination: str,
     file_list: str, env: dict[str, str], full: bool,
 ) -> None:
-    ssh_transport = f"ssh -p {shlex.quote(port)} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
     command = [
         "sshpass", "-e", "rsync", "-avzc", "--no-perms", "--timeout=60",
         "--from0", f"--files-from={file_list}", "-s", "-e", ssh_transport,
@@ -74,22 +65,28 @@ def _rsync_command(
 
 def deploy(
     host: str, user: str, port: str, target: str, password: str,
-    full: bool = False, project_root: Path | str = ".", *, current: dict | None = None,
+    full: bool = False, project_root: Path | str = ".", *, host_key: str, current: dict | None = None,
 ) -> None:
     if current is None:
         current = scan_builds(project_root)
     env = os.environ.copy()
     env["SSHPASS"] = password
-    ssh = _ssh_base(host, user, port)
-    previous = {scope.name: _read_remote_manifest(ssh, env, target, scope) for scope in SCOPES}
-    plans = plan_deployment(current, previous, full)
-
-    remote_roots = {scope.name: remote_root(target, scope) for scope in SCOPES}
-    for scope in SCOPES:
-        _mkdir(ssh, env, remote_roots[scope.name])
-
     with tempfile.TemporaryDirectory(prefix="automodpack-deploy-") as temp_dir:
         temp_root = Path(temp_dir)
+        ssh_options = [
+            *pinned_ssh_options(temp_root / "known_hosts", host, int(port), host_key),
+            "-o", "ConnectTimeout=15", "-o", "ServerAliveInterval=30",
+        ]
+        ssh_command = ["ssh", "-p", port, *ssh_options]
+        ssh = ["sshpass", "-e", *ssh_command, f"{user}@{host}"]
+        ssh_transport = shlex.join(ssh_command)
+
+        previous = {scope.name: _read_remote_manifest(ssh, env, target, scope) for scope in SCOPES}
+        plans = plan_deployment(current, previous, full)
+        remote_roots = {scope.name: remote_root(target, scope) for scope in SCOPES}
+        for scope in SCOPES:
+            _mkdir(ssh, env, remote_roots[scope.name])
+
         for scope in SCOPES:
             uploads, _ = plans[scope.name]
             if not uploads:
@@ -97,7 +94,7 @@ def deploy(
             file_list = temp_root / f"{scope.name}-files-from.bin"
             file_list.write_bytes(b"\0".join(path.encode("utf-8") for path in uploads) + b"\0")
             source = str(Path(project_root) / scope.local_dir)
-            _rsync_command(user, host, port, source, remote_roots[scope.name], str(file_list), env, full)
+            _rsync_command(user, host, ssh_transport, source, remote_roots[scope.name], str(file_list), env, full)
 
         for scope in SCOPES:
             _, deletes = plans[scope.name]
@@ -114,7 +111,7 @@ def deploy(
             try:
                 command = [
                     "sshpass", "-e", "rsync", "-avz", "-e",
-                    f"ssh -p {shlex.quote(port)} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null",
+                    ssh_transport,
                     str(local_manifest), _destination(user, host, temporary_path),
                 ]
                 _run(command, env)
@@ -131,7 +128,7 @@ def main() -> int:
         current = scan_builds()
         deploy(
             settings.host, settings.user, str(settings.port), settings.target,
-            settings.password, settings.full, current=current,
+            settings.password, settings.full, host_key=settings.host_key, current=current,
         )
         print("Deployment complete.")
         return 0

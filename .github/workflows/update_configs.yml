@@ -21,13 +21,38 @@ jobs:
     - name: Build Server Pack
       run: python build_pack.py server
 
+    - name: Install sshpass
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y sshpass
+
     - name: Update World Server Configs via SFTP
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        server: ${{ secrets.SFTP_HOST }}
-        username: ${{ secrets.SFTP_USERNAME }}
-        password: ${{ secrets.SFTP_PASSWORD }}
-        port: ${{ secrets.SFTP_PORT || 22 }}
-        local_path: 'build/server/defaultconfigs'
-        remote_path: '${{ vars.SFTP_TARGET_DIR }}/world/serverconfig'
-        sftp_only: true
+      env:
+        SFTP_HOST: ${{ secrets.SFTP_HOST }}
+        SFTP_HOST_KEY: ${{ vars.SFTP_HOST_KEY }}
+        SFTP_USER: ${{ secrets.SFTP_USERNAME }}
+        SFTP_PASS: ${{ secrets.SFTP_PASSWORD }}
+        SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
+        TARGET_DIR: ${{ vars.SFTP_TARGET_DIR }}
+      run: |
+        python - <<'PY'
+        import json
+        import os
+        import subprocess
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+
+        from deploy_common import pinned_ssh_options, read_settings, remote_path
+
+        settings = read_settings(allow_root=True)
+        destination = remote_path(settings.target, 'world/serverconfig')
+        batch = 'put -r build/server/defaultconfigs ' + json.dumps(destination, ensure_ascii=False) + '\n'
+        host = f'[{settings.host}]' if ':' in settings.host else settings.host
+        with TemporaryDirectory() as directory:
+            options = pinned_ssh_options(Path(directory) / 'known_hosts', settings.host, settings.port, settings.host_key)
+            subprocess.run(
+                ['sshpass', '-e', 'sftp', *options, '-o', 'BatchMode=no', '-P', str(settings.port),
+                 '-b', '-', f'{settings.user}@{host}'],
+                input=batch, text=True, check=True, env=dict(os.environ, SSHPASS=settings.password),
+            )
+        PY

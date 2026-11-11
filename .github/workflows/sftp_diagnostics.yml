@@ -22,6 +22,7 @@ jobs:
     - name: Read manifests and verify an isolated temporary upload
       env:
         SFTP_HOST: ${{ secrets.SFTP_HOST }}
+        SFTP_HOST_KEY: ${{ vars.SFTP_HOST_KEY }}
         SFTP_USER: ${{ secrets.SFTP_USERNAME }}
         SFTP_PASS: ${{ secrets.SFTP_PASSWORD }}
         SFTP_PORT: ${{ secrets.SFTP_PORT || 22 }}
@@ -30,7 +31,6 @@ jobs:
         python -u - <<'PY'
         import hashlib
         import os
-        import socket
         import tempfile
         import time
         import uuid
@@ -38,29 +38,15 @@ jobs:
         from pathlib import Path
         from unittest.mock import patch
 
-        import paramiko
         from deploy_common import read_settings, remote_path
-        from deploy_sftp import _upload, _upload_with_replace
+        from deploy_sftp import _upload, _upload_with_replace, connect_sftp
 
         settings = read_settings(allow_root=True)
         payload = os.urandom(2 * 1024 * 1024)
         expected = hashlib.sha256(payload).digest()
 
         def connect(defaults=False):
-            sock = socket.create_connection((settings.host, settings.port), timeout=15)
-            transport = paramiko.Transport(sock)
-            try:
-                transport.set_keepalive(15)
-                if not defaults:
-                    transport.default_window_size = 8192
-                    transport.default_max_packet_size = 1024
-                transport.connect(username=settings.user, password=settings.password)
-                sftp = paramiko.SFTPClient.from_transport(transport)
-                sftp.get_channel().settimeout(10)
-                return transport, sftp
-            except Exception:
-                transport.close()
-                raise
+            return connect_sftp(settings, channel_timeout=10, defaults=defaults)
 
         def read_manifests():
             transport, sftp = connect()
