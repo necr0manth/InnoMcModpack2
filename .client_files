@@ -1,6 +1,23 @@
 /resourcepacks
 /shaderpacks
+/automodpack/client.conf
+/kubejs/config/web_server.json
+
+# Configs for the client and for mods excluded below.
+/config/**/*-client.toml
+/config/**/*-client.json
+/config/**/*-client.snbt
+/config/asyncparticles/
 /config/defaultoptions
+/config/dynamic_fps.json
+/config/emi-accelerator/
+/config/iris.properties
+/config/iris-excluded.json
+/config/jei/
+/config/sodium-extra-options.json
+/config/sodium-extra.properties
+/config/sodium-mixins.properties
+/config/sodium-options.json
 
 # Client mod exclusions. Wildcards cover every version and .jar.disabled files.
 # Shared libraries required by server mods (including PlayerAnimator and Inline) stay installed.

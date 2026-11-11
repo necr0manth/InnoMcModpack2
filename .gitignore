@@ -15,7 +15,6 @@
 /mods/.index
 /resourcepacks/.index
 /shaderpacks/.index
-/crash-reports
 /emi.json
 /authlib-injector*
 /patchouli_data*
@@ -26,7 +25,6 @@
 /journeymap
 /servers.*
 /local
-/authlib-injector*
 /rhino.local.properties
 /.idea
 /config/voicechat/
@@ -57,3 +55,15 @@ ponders_watched.json
 /automodpack/host-modpack/
 /automodpack/server/
 /ftbbackups3/
+
+__pycache__/
+/patched_shaders/
+/.pg-native/
+/observable_announce
+/config/**/*.bak
+/config/**/*.bak.*
+/config/**/*.backup
+/config/emi-accelerator/reload-timings.json
+/config/emi-accelerator/stack-cache.emic
+/config/rpg_series/tag_cache.json
+/config/sodium-fingerprint.json
