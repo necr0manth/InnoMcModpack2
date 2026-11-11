@@ -88,7 +88,7 @@ def read_settings(*, allow_root: bool = False) -> DeploymentSettings:
         raise ValueError("SFTP_PORT must be between 1 and 65535")
     host_key = os.environ.get("SFTP_HOST_KEY", "")
     if not host_key.strip():
-        raise ValueError("Missing required SFTP_HOST_KEY (see deployment/ssh-host-key.md)")
+        raise ValueError("Missing required SFTP_HOST_KEY: set it to the verified public key of the SFTP host")
     parse_host_key(host_key)
     return DeploymentSettings(
         host, user, password, port, host_key, target,
