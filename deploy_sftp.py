@@ -6,6 +6,7 @@ import errno
 import logging
 import os
 import posixpath
+import socket
 import stat
 import sys
 import tempfile
@@ -13,7 +14,7 @@ import uuid
 from pathlib import Path
 
 from deploy_common import (
-    SCOPES, Scope, manifest_bytes, parse_manifest, plan_deployment,
+    SCOPES, DeploymentSettings, Scope, manifest_bytes, parse_host_key, parse_manifest, plan_deployment,
     read_settings, remote_path, remote_root, scan_builds,
 )
 
@@ -200,6 +201,31 @@ def deploy(sftp, target: str, full: bool = False, project_root: Path | str = "."
         _publish_manifest(sftp, target, scope, current[scope.name])
 
 
+def connect_sftp(settings: DeploymentSettings, *, channel_timeout: int = 60, defaults: bool = False):
+    import paramiko
+
+    key_type, data = parse_host_key(settings.host_key)
+    host_key = paramiko.PKey.from_type_string(key_type, data)
+    sock = socket.create_connection((settings.host, settings.port), timeout=15)
+    transport = None
+    try:
+        transport = paramiko.Transport(sock)
+        transport.set_keepalive(15)
+        if not defaults:
+            transport.default_window_size = 8192
+            transport.default_max_packet_size = 1024
+        transport.connect(hostkey=host_key, username=settings.user, password=settings.password)
+        sftp = paramiko.SFTPClient.from_transport(transport)
+        sftp.get_channel().settimeout(channel_timeout)
+        return transport, sftp
+    except Exception:
+        if transport is None:
+            sock.close()
+        else:
+            transport.close()
+        raise
+
+
 def main() -> int:
     try:
         settings = read_settings(allow_root=True)
@@ -208,17 +234,9 @@ def main() -> int:
         logger.error("Preflight failed: %s", error)
         return 1
 
-    import paramiko
-
     transport = None
     try:
-        transport = paramiko.Transport((settings.host, settings.port))
-        transport.set_keepalive(15)
-        transport.default_window_size = 8192
-        transport.default_max_packet_size = 1024
-        transport.connect(username=settings.user, password=settings.password)
-        sftp = paramiko.SFTPClient.from_transport(transport)
-        sftp.get_channel().settimeout(60)
+        transport, sftp = connect_sftp(settings)
         logger.info("SFTP operation timeout: 60 seconds")
         deploy(sftp, settings.target, settings.full, current=current)
         sftp.close()

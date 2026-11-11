@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import base64
 import hashlib
 import json
 import os
@@ -37,8 +38,39 @@ class DeploymentSettings:
     user: str
     password: str
     port: int
+    host_key: str
     target: str
     full: bool
+
+
+def parse_host_key(value: str) -> tuple[str, bytes]:
+    line = value.strip()
+    fields = line.split()
+    if len(fields) < 2 or "\n" in line or "\r" in line:
+        raise ValueError("SFTP_HOST_KEY must be one OpenSSH public host key line")
+    key_type, encoded = fields[:2]
+    try:
+        data = base64.b64decode(encoded, validate=True)
+        type_size = int.from_bytes(data[:4], "big")
+        if not type_size or data[4:4 + type_size] != key_type.encode("ascii") or len(data) <= 4 + type_size:
+            raise ValueError
+    except ValueError:
+        raise ValueError("SFTP_HOST_KEY is not an OpenSSH public host key") from None
+    return key_type, data
+
+
+def pinned_ssh_options(known_hosts: Path, host: str, port: int, host_key: str) -> list[str]:
+    key_type, data = parse_host_key(host_key)
+    host = host.lower()
+    endpoint = host if port == 22 else f"[{host}]:{port}"
+    encoded = base64.b64encode(data).decode("ascii")
+    known_hosts.write_text(f"{endpoint} {key_type} {encoded}\n", encoding="ascii")
+    return [
+        "-F", "none",
+        "-o", "StrictHostKeyChecking=yes",
+        "-o", "GlobalKnownHostsFile=none",
+        "-o", f'UserKnownHostsFile="{known_hosts.as_posix()}"',
+    ]
 
 
 def read_settings(*, allow_root: bool = False) -> DeploymentSettings:
@@ -54,8 +86,12 @@ def read_settings(*, allow_root: bool = False) -> DeploymentSettings:
     port = int(os.environ.get("SFTP_PORT", "22"))
     if not 1 <= port <= 65535:
         raise ValueError("SFTP_PORT must be between 1 and 65535")
+    host_key = os.environ.get("SFTP_HOST_KEY", "")
+    if not host_key.strip():
+        raise ValueError("Missing required SFTP_HOST_KEY (see deployment/ssh-host-key.md)")
+    parse_host_key(host_key)
     return DeploymentSettings(
-        host, user, password, port, target,
+        host, user, password, port, host_key, target,
         os.environ.get("FORCE_FULL", "false").lower() == "true",
     )
 

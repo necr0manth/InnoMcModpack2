@@ -13,6 +13,9 @@ import deploy_rsync
 import deploy_sftp
 
 
+HOST_KEY = 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB'
+
+
 def entry(data):
     import hashlib
 
@@ -98,7 +101,7 @@ class MemorySftp:
 
 class DeployCommonTests(unittest.TestCase):
     def test_root_default_is_sftp_only_and_credentials_stay_required(self):
-        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "SFTP_HOST_KEY": HOST_KEY}
         for target in (None, "", "/", "///"):
             values = env if target is None else dict(env, TARGET_DIR=target)
             with self.subTest(target=target), patch.dict(os.environ, values, clear=True):
@@ -114,7 +117,7 @@ class DeployCommonTests(unittest.TestCase):
                 deploy_common.read_settings(allow_root=True)
 
     def test_settings_defaults_full_and_invalid_values(self):
-        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "SFTP_HOST_KEY": HOST_KEY, "TARGET_DIR": "/srv/minecraft"}
         with patch.dict(os.environ, env, clear=True):
             settings = deploy_common.read_settings()
             self.assertEqual((settings.host, settings.user, settings.password, settings.target),
@@ -130,6 +133,17 @@ class DeployCommonTests(unittest.TestCase):
                 with self.subTest(key=key, value=value), patch.dict(os.environ, {key: value}):
                     with self.assertRaises(ValueError):
                         deploy_common.read_settings()
+
+    def test_known_hosts_uses_only_the_configured_key_and_port(self):
+        with tempfile.TemporaryDirectory() as temp:
+            known_hosts = Path(temp) / "known_hosts"
+            options = deploy_common.pinned_ssh_options(known_hosts, "SFTP.Example", 2222, HOST_KEY + " comment")
+            self.assertEqual(known_hosts.read_text(encoding="ascii"), f"[sftp.example]:2222 {HOST_KEY}\n")
+            self.assertIn("StrictHostKeyChecking=yes", options)
+            self.assertIn("GlobalKnownHostsFile=none", options)
+            for invalid in ("", "SHA256:example", "ssh-ed25519 not-base64", HOST_KEY + "\n" + HOST_KEY):
+                with self.subTest(key=invalid), self.assertRaisesRegex(ValueError, "SFTP_HOST_KEY"):
+                    deploy_common.parse_host_key(invalid)
 
     def test_remote_paths_and_smart_full_planning(self):
         current = {scope.name: {"mods/new.jar": entry(b"new"), "same.cfg": entry(b"same")}
@@ -152,7 +166,7 @@ class DeployCommonTests(unittest.TestCase):
         self.assertEqual(deploy_common.remote_path("/", server.manifest_name), "/deploy_server_manifest.json")
 
     def test_both_entrypoints_scan_once_before_remote_operations(self):
-        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "TARGET_DIR": "/srv/minecraft"}
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "SFTP_HOST_KEY": HOST_KEY, "TARGET_DIR": "/srv/minecraft"}
         with tempfile.TemporaryDirectory() as temp:
             make_builds(Path(temp))
             with chdir(temp), patch.dict(os.environ, env, clear=True):
@@ -170,6 +184,7 @@ class DeployCommonTests(unittest.TestCase):
                         paramiko.Transport.side_effect = lambda *args: (remote_call(), MagicMock())[1]
                         with patch.object(module, "scan_builds", wraps=deploy_common.scan_builds) as scan, \
                                 patch.dict("sys.modules", {"paramiko": paramiko}), \
+                                patch.object(deploy_sftp.socket, "create_connection"), \
                                 patch.object(deploy_rsync, "_run", side_effect=remote_call):
                             self.assertEqual(module.main(), 0)
                             self.assertEqual(scan.call_count, 1)
@@ -199,6 +214,20 @@ class DeployCommonTests(unittest.TestCase):
 
 
 class SftpDeploymentTests(unittest.TestCase):
+    def test_wrong_host_key_never_opens_sftp(self):
+        settings = deploy_common.DeploymentSettings("host", "user", "secret", 22, HOST_KEY, "/", False)
+        paramiko = MagicMock()
+        transport = paramiko.Transport.return_value
+        transport.connect.side_effect = RuntimeError("Bad host key from server")
+        with patch.dict("sys.modules", {"paramiko": paramiko}), patch.object(deploy_sftp.socket, "create_connection"):
+            with self.assertRaisesRegex(RuntimeError, "Bad host key"):
+                deploy_sftp.connect_sftp(settings)
+        transport.connect.assert_called_once_with(
+            hostkey=paramiko.PKey.from_type_string.return_value, username="user", password="secret",
+        )
+        transport.close.assert_called_once()
+        paramiko.SFTPClient.from_transport.assert_not_called()
+
     def test_pipeline_drains_before_replacing_and_checks_size(self):
         with tempfile.TemporaryDirectory() as temp:
             local = Path(temp) / "payload"
@@ -336,7 +365,7 @@ class SftpDeploymentTests(unittest.TestCase):
             self.assertEqual(sftp.files[backup], b"previous")
 
     def test_entrypoint_deploys_to_root_with_empty_unset_or_explicit_target(self):
-        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "SFTP_HOST_KEY": HOST_KEY}
         with tempfile.TemporaryDirectory() as temp:
             make_builds(Path(temp))
             with chdir(temp):
@@ -355,7 +384,7 @@ class SftpDeploymentTests(unittest.TestCase):
                             sftp.close = lambda: None
                             paramiko = MagicMock()
                             paramiko.SFTPClient.from_transport.return_value = sftp
-                            with patch.dict("sys.modules", {"paramiko": paramiko}):
+                            with patch.dict("sys.modules", {"paramiko": paramiko}), patch.object(deploy_sftp.socket, "create_connection"):
                                 self.assertEqual(deploy_sftp.main(), 0)
                             sftp.get_channel.return_value.settimeout.assert_called_once_with(60)
                             self.assertEqual(sftp.files["/mods/common.jar"], b"common")
@@ -368,7 +397,7 @@ class SftpDeploymentTests(unittest.TestCase):
                             self.assertTrue(all(path.startswith("/") for path in sftp.files))
 
     def test_manifest_timeout_fails_without_remote_changes(self):
-        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret"}
+        env = {"SFTP_HOST": "host", "SFTP_USER": "user", "SFTP_PASS": "secret", "SFTP_HOST_KEY": HOST_KEY}
         paramiko = MagicMock()
         sftp = paramiko.SFTPClient.from_transport.return_value
 
@@ -379,6 +408,7 @@ class SftpDeploymentTests(unittest.TestCase):
         sftp.open.side_effect = stalled_open
         with patch.dict(os.environ, env, clear=True), \
                 patch.dict("sys.modules", {"paramiko": paramiko}), \
+                patch.object(deploy_sftp.socket, "create_connection"), \
                 patch.object(deploy_sftp, "scan_builds", return_value={}), \
                 self.assertLogs(deploy_sftp.logger, level="ERROR") as logs:
             self.assertEqual(deploy_sftp.main(), 1)
@@ -493,7 +523,11 @@ class RsyncDeploymentTests(unittest.TestCase):
                 return type("Result", (), {"returncode": 0, "stdout": "", "stderr": ""})()
 
             with patch.object(deploy_rsync, "_run", side_effect=fake_run):
-                deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", project_root=root)
+                deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", host_key=HOST_KEY, project_root=root)
+
+            for args, *_ in calls:
+                self.assertIn("StrictHostKeyChecking=yes", " ".join(args))
+                self.assertIn("UserKnownHostsFile=", " ".join(args))
 
             upload_calls = [call for call in calls if len(call) == 4]
             self.assertEqual(len(upload_calls), 1)
@@ -508,7 +542,7 @@ class RsyncDeploymentTests(unittest.TestCase):
 
             calls.clear()
             with patch.object(deploy_rsync, "_run", side_effect=fake_run):
-                deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", full=True, project_root=root)
+                deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", full=True, host_key=HOST_KEY, project_root=root)
             full_lists = [call[3].decode().split("\0") for call in calls if len(call) == 4]
             self.assertEqual(len(full_lists), 2)
             self.assertNotIn("mods/automodpack-5.0.0-rc.4.jar", full_lists[1])
@@ -534,7 +568,7 @@ class RsyncDeploymentTests(unittest.TestCase):
 
             with patch.object(deploy_rsync, "_run", side_effect=fake_run):
                 with self.assertRaisesRegex(RuntimeError, "delete failed"):
-                    deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", project_root=root)
+                    deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", host_key=HOST_KEY, project_root=root)
             self.assertFalse(any(command[-1].startswith("mv -f") for command in commands))
 
 
