@@ -55,4 +55,9 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: server-pack
-        path: build/server/
+        include-hidden-files: true
+        path: |
+          build/server/
+          !build/server/**/.*
+          !build/server/**/.*/**
+          build/server/.pteroignore
