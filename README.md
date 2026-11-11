@@ -53,6 +53,8 @@ Default Options читает `config/defaultoptions/keybindings.txt` на кли
 
 Перед первым запуском задайте в Actions переменную `SFTP_TARGET_DIR` и секреты `SFTP_HOST`, `SFTP_USERNAME`, `SFTP_PASSWORD`, при необходимости `SFTP_PORT` (по умолчанию 22). Указывайте цель явно. При пустом значении SFTP использует видимый `/`, а rsync завершится ошибкой.
 
+Задайте Actions-переменную `SFTP_HOST_KEY` с проверенным публичным ключом именно SFTP-узла. [Как проверить ключ и задать переменную](deployment/ssh-host-key.md).
+
 Вручную подготовьте сервер Minecraft **1.21.1** с NeoForge **21.1.256** и Java **21**. Скопируйте [шаблон AutoModpack](deployment/automodpack-server.conf.example) в `SFTP_TARGET_DIR/automodpack/server.conf`. Деплой управляет файлами раздаваемой сборки и оставляет этот конфиг и остальные служебные данные AutoModpack администратору. В режиме `HOLEPUNCH` пустой `advertised-endpoint-host` и порт `-1` используют параметры Minecraft-соединения. `mods.innomc.ru` — SRV-имя для входа в игру. В шаблоне `validate-secrets: false`, поэтому пакет может скачать любой, кто знает его endpoint.
 
 После выкладки выполните `/automodpack generate` или перезапустите сервер. После ручного изменения `server.conf` выполните `/automodpack config reload`. Если менялись сетевые параметры, выполните ещё `/automodpack host restart`.
