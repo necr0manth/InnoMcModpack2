@@ -193,14 +193,18 @@ class DeployCommonTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             make_builds(root)
+            (root / "build/server/mods/automodpack-5.0.0-rc.4.jar").write_bytes(b"bootstrap")
+            (root / "build/client/deploy_client_manifest.json").write_text("protected", encoding="utf-8")
             (root / "build/server/automodpack/server.conf").parent.mkdir()
             (root / "build/server/automodpack/server.conf").write_bytes(b"manual")
             states = deploy_common.scan_builds(root)
             self.assertIn("mods/common.jar", states["server"])
+            self.assertIn("mods/automodpack-5.0.0-rc.4.jar", states["server"])
             self.assertNotIn("automodpack/server.conf", states["server"])
             self.assertIn("mods/client-only.jar", states["client"])
-            self.assertNotIn("mods/automodpack-5.0.0-rc.4.jar", states["client"])
+            self.assertIn("mods/automodpack-5.0.0-rc.4.jar", states["client"])
             self.assertNotIn("automodpack/client.conf", states["client"])
+            self.assertNotIn("deploy_client_manifest.json", states["client"])
 
     def test_rejects_empty_build_and_malformed_or_unsafe_manifest(self):
         scope = deploy_common.SCOPES[0]
@@ -443,7 +447,10 @@ class SftpDeploymentTests(unittest.TestCase):
             self.assertNotIn(target + "/old.txt", sftp.files)
             self.assertNotIn(target + "/automodpack/host-modpack/main/removed.cfg", sftp.files)
             self.assertIn(target + "/automodpack/host-modpack/main/config/example.cfg", sftp.files)
-            self.assertNotIn(target + "/automodpack/host-modpack/main/mods/automodpack-5.0.0-rc.4.jar", sftp.files)
+            client_jar = target + "/automodpack/host-modpack/main/mods/automodpack-5.0.0-rc.4.jar"
+            self.assertEqual(sftp.files[client_jar], b"bootstrap")
+            self.assertNotIn(target + "/automodpack/host-modpack/main/mods/automodpack-old.jar", sftp.files)
+            self.assertIn("mods/automodpack-5.0.0-rc.4.jar", json.loads(sftp.files[target + "/deploy_client_manifest.json"]))
             self.assertIn(target + "/deploy_server_manifest.json", sftp.files)
             self.assertNotIn(target + "/automodpack/server.conf", json.loads(sftp.files[target + "/deploy_server_manifest.json"]))
             stale_paths = {target + "/old.txt", target + "/automodpack/host-modpack/main/removed.cfg"}
@@ -532,20 +539,30 @@ class RsyncDeploymentTests(unittest.TestCase):
             upload_calls = [call for call in calls if len(call) == 4]
             self.assertEqual(len(upload_calls), 1)
             self.assertIn("config/example.cfg\0", upload_calls[0][3].decode())
+            self.assertIn("mods/automodpack-5.0.0-rc.4.jar\0", upload_calls[0][3].decode())
+            self.assertTrue(any(call[0][-1].endswith("mods/automodpack-old.jar") for call in calls if call[0][0] == "sshpass" and "rm -f" in call[0][-1]))
             self.assertIn("automodpack/host-modpack/main", " ".join(upload_calls[0][0]))
             self.assertTrue(any("automodpack/host-modpack/main" in " ".join(call[0]) for call in calls if call[0][0] == "sshpass"))
             self.assertFalse(any("--delete" in " ".join(call[0]) for call in calls))
             delete_positions = [i for i, call in enumerate(calls) if call[0][-1].startswith("rm -f")]
             manifest_positions = [i for i, call in enumerate(calls) if "deploy_server_manifest.json.tmp-" in call[0][-1] or "deploy_client_manifest.json.tmp-" in call[0][-1]]
-            self.assertEqual(len(delete_positions), 2)
+            self.assertEqual(len(delete_positions), 3)
             self.assertLess(max(delete_positions), min(manifest_positions))
+
+            current = deploy_common.scan_builds(root)
+            server_previous, client_previous = current["server"], current["client"]
+            calls.clear()
+            with patch.object(deploy_rsync, "_run", side_effect=fake_run):
+                deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", host_key=HOST_KEY, project_root=root)
+            self.assertFalse(any("--files-from=" in " ".join(call[0]) for call in calls))
+            self.assertFalse(any(call[0][-1].startswith("rm -f") for call in calls))
 
             calls.clear()
             with patch.object(deploy_rsync, "_run", side_effect=fake_run):
                 deploy_rsync.deploy("host", "user", "22", "/srv/minecraft", "secret", full=True, host_key=HOST_KEY, project_root=root)
             full_lists = [call[3].decode().split("\0") for call in calls if len(call) == 4]
             self.assertEqual(len(full_lists), 2)
-            self.assertNotIn("mods/automodpack-5.0.0-rc.4.jar", full_lists[1])
+            self.assertIn("mods/automodpack-5.0.0-rc.4.jar", full_lists[1])
 
     def test_delete_failure_prevents_manifest_publication(self):
         with tempfile.TemporaryDirectory() as temp:

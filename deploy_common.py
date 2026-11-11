@@ -118,7 +118,6 @@ def is_protected(scope: Scope, path: str) -> bool:
         return path == "automodpack" or path.startswith("automodpack/")
     return (
         path == "automodpack" or path.startswith("automodpack/")
-        or (path.startswith("mods/") and Path(path).name.startswith("automodpack-") and Path(path).suffix.lower() == ".jar")
     )
 
 
