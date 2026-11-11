@@ -19,7 +19,7 @@ modpack {
       auto-exclude-server-side-mods: DISABLED
       from-server: []
       exclude: []
-      editable: ["**"]
+      editable: ["mods/*.jar"]
     }
   }
 }
