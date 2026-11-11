@@ -18,6 +18,8 @@
 /authlib-injector*
 /patchouli_data*
 /options.txt
+/CONTROLS.md
+/CONTROLS-INTERFACES.md
 /config/oculus.properties
 /config/fabric/indigo-renderer.properties
 /Distant_Horizons_server_data

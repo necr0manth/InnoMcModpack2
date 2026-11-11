@@ -395,7 +395,7 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in cursor if possible.
 	 */
-	craft-one-to-cursor: "ctrl key.mouse.left";
+	craft-one-to-cursor: "key.keyboard.unknown";
 
 	/**
 	 * Display the recipe that will be used to craft on a stack with no recipe context.
@@ -405,17 +405,17 @@
 	/**
 	 * Cheat in one of an item into the inventory.
 	 */
-	cheat-one-to-inventory: "ctrl key.mouse.right";
+	cheat-one-to-inventory: "key.keyboard.unknown";
 
 	/**
 	 * Cheat in a stack of an item into the inventory.
 	 */
-	cheat-stack-to-inventory: "ctrl key.mouse.left";
+	cheat-stack-to-inventory: "key.keyboard.unknown";
 
 	/**
 	 * Cheat in one of an item into the cursor.
 	 */
-	cheat-one-to-cursor: "ctrl key.mouse.middle";
+	cheat-one-to-cursor: "key.keyboard.unknown";
 
 	/**
 	 * Cheat in a stack of an item into the cursor.
@@ -425,7 +425,7 @@
 	/**
 	 * Delete the stack in the cursor when hovering the index
 	 */
-	delete-cursor-stack: "key.mouse.left";
+	delete-cursor-stack: "key.keyboard.unknown";
 
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
@@ -435,12 +435,12 @@
 	/**
 	 * In edit mode, hide the hovered stack
 	 */
-	hide-stack: "ctrl key.mouse.left";
+	hide-stack: "key.keyboard.unknown";
 
 	/**
 	 * In edit mode, hide stacks with the hovered stack's id
 	 */
-	hide-stack-by-id: "ctrl shift key.mouse.left";
+	hide-stack-by-id: "key.keyboard.unknown";
 }
 
 #dev {

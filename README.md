@@ -28,6 +28,8 @@ python build_pack.py client -o C:\Temp\InnoMcModpack2-client
 
 ## Состав сборок
 
+Управление описано в [памятке по игре](CONTROLS.md) и [памятке по интерфейсам](CONTROLS-INTERFACES.md). Default Options читает `config/defaultoptions/keybindings.txt` на клиенте и использует его для ещё не сохранённых назначений. Для настройки сборки меняйте этот файл. Личный `options.txt` исключён из поставки.
+
 - Клиент: корень репозитория, отфильтрованный правилами `.packignore`.
 - Сервер: корень репозитория, отфильтрованный сначала `.packignore`, затем `.client_files`.
 - При базовом копировании всегда исключаются `.git`, `.github`, `.idea`, `build`, `__pycache__`, `.client_files`, `.packignore`, `server_pack` и `build_pack.py`, независимо от правил фильтрации.

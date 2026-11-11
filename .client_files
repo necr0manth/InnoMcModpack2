@@ -1,5 +1,6 @@
 /resourcepacks
 /shaderpacks
+/config/defaultoptions
 
 # Client mod exclusions. Wildcards cover every version and .jar.disabled files.
 # Shared libraries required by server mods (including PlayerAnimator and Inline) stay installed.
@@ -7,6 +8,7 @@
 /mods/appleskin-*.jar*
 /mods/AsyncParticles-*.jar*
 /mods/athena-*.jar*
+/mods/balm-neoforge-*.jar*
 /mods/better-advanced-tooltips-*.jar*
 /mods/blur-neoforge-*.jar*
 /mods/CleanF3-*.jar*
@@ -16,6 +18,7 @@
 /mods/create-dyn-light-*.jar*
 /mods/createaddonorganizer-*.jar*
 /mods/DistantHorizons-*.jar*
+/mods/defaultoptions-neoforge-*.jar*
 /mods/distraction_free_recipes-neoforge-*.jar*
 /mods/dynamic-fps-*.jar*
 /mods/dynamiccrosshair-*.jar*
