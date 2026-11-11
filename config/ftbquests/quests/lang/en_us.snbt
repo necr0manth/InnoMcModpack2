@@ -2,13 +2,11 @@
 	chapter.003F14EB0B47B78E.title: "Create"
 	chapter.1D3A2C4E5B607F89.title: "Aether"
 	chapter.276FADC9194ED6BF.title: "Ice and fire"
-	chapter.3B1FCFF2D965AEE2.title: "Getting Started"
 	image.71DD63A21649E2CB.title: "Questline by: TNP Team, Gbergz."
 	quest.09E84DBC07E1AD25.quest_desc: ["Получается из руды через алтарь"]
 	quest.0BA549AAAFB83E10.quest_desc: ["Phoenix Armor: полный сет - полный иммунитет к огню и лаве; при попадании в воду превращается в обсидиановую броню и теряет резист к огню"]
 	quest.0BB051F561B567AD.quest_desc: ["Прокачка, уже можно идти в данжи"]
 	quest.0C727FCAAFC80B69.quest_desc: ["Эти инструменты в отличие от сделаных из занита изначально имеют лучшие статы и становятся хуже со временем"]
-	quest.0EA64920F573245D.title: "Quest Book"
 	quest.0CC6716B4AE53B17.quest_desc: ["Собери плавильню из созданных блоков. "]
 	quest.0CE50070E1994D2B.quest_desc: ["Усиливает рывок который даёт стратус броня"]
 	quest.0D0C5D614F2B39A0.quest_desc: ["Та самая ручка на уроке математики "]
@@ -101,5 +99,101 @@
 	quest.79BC188CB9E8CFB0.quest_desc: ["Прокачка, кирка нужна для занита"]
 	quest.7A5A4DE6CC9F80AA.quest_desc: ["Забудь про инструменты из обычного мира, незеритовый топор здесь ломает дерево медленнее чем топор из местного дерева + местные инструменты дают Х2 ресурсы"]
 	quest.7A69978BBBD46E57.quest_desc: ["Полезные расходники, получаются в алтаре"]
+	quest.1E62B19E465D1D85.quest_desc: [
+		"Your items stay in your corpse after death. Return to where you died and right-click it. A corpse with items does not expire on a timer, and other players can open it too."
+	]
+	quest.1E62B19E465D1D85.title: "Recovering your gear"
+	quest.34737A0DF8CFC552.quest_desc: [
+		"If a Create part has a Ponder hint, hold W over it to open the animation."
+		""
+		"&oTo change this control, look for Ponder in the Ponder section.&r"
+	]
+	quest.34737A0DF8CFC552.title: "Create animations in Ponder"
+	quest.3888FAE8BB171B2A.quest_desc: [
+		"Jade shows information about the block under your crosshair. Hold Left Shift to see more details."
+		""
+		"&oTo change this control, look for Show Details under Jade.&r"
+	]
+	quest.3888FAE8BB171B2A.title: "Block details in Jade"
+	quest.2F35AD64A288A9FB.quest_desc: [
+		"Right-click mature crops with an empty hand to harvest and replant them."
+	]
+	quest.2F35AD64A288A9FB.title: "Harvesting without replanting"
+	task.4A9400FFC70573A2.title: "Read"
+	task.770B0F4571F574F9.title: "Read"
+	task.6FAEDF488CF37AAD.title: "Read"
+	task.35F6FCC438386C64.title: "Read"
 	task.59A978039446DBDC.title: "Rotation"
+	quest.16637824E4CC0E4D.quest_desc: [
+		"Sable lets blocks fall, roll, and move as whole structures. Create Aeronautics also lets you build vehicles such as wheeled machines and aircraft. Barehanded lets you handle these objects from the start of the game."
+		"&lPhysics placement&r — press comma (,) to toggle the mode in which right-click places blocks directly as physics objects."
+		""
+		"&oTo change this control, look for Physics Placement Toggle under Barehanded.&r"
+	]
+	quest.16637824E4CC0E4D.title: "Physics from the first block"
+	quest.7C48E57EE77072BF.quest_desc: [
+		"To grab a block, empty your hand and aim at it."
+		"&lGrab&r — press G to grab the object without holding either mouse button. Press G again to let go. For a temporary grab, hold both mouse buttons. While holding the object, scroll to pull it closer or push it farther away."
+		"&lChests and other blocks with an interface&r — hold left-click first, then right-click, to avoid opening the interface."
+		"&lBlocks that break instantly&r — hold right-click first, then left-click, to avoid breaking the block."
+		"&lDetach a block from the world&r — sneak, hold both mouse buttons, and walk backward."
+		"&lDetach a block from a moving structure&r — sneak, hold Left Alt and both mouse buttons, then pull the block toward you."
+		"&lRotate a structure&r — hold X and move the mouse. Hold Left Alt while rotating to switch the pivot between the grab point and the center of mass."
+		"&lSnap a structure back into the world&r — line it up with the block grid and press Q while holding it. Throwing it against a block hard enough and at a suitable angle can also snap it back."
+		"&lMerge structures&r — align two physics structures, hold Left Alt, and press Q."
+		"Heavy structures are harder to pull, and holding a load drains hunger."
+		""
+		"&oTo change these controls, look for Toggle Grab Sub-level, Rotate Sub-level, Modifier Key (Pivot/Priority), and Disassemble Sub-level under Barehanded.&r"
+	]
+	quest.7C48E57EE77072BF.title: "Moving blocks by hand"
+	quest.63DDD6DA45E955BC.quest_desc: [
+		"When you chop a tree with an axe, its trunk and canopy can fall together and deal damage. Once it lands, you can harvest the logs on the ground."
+		"To remove a single log and leave the tree standing, chop while sneaking (Left Shift)."
+	]
+	quest.63DDD6DA45E955BC.title: "Trees can fall whole"
+	quest.2159D33B71F4A5C1.quest_desc: [
+		"The base backpack has 12 slots and accepts swappable modules. Pouches add storage, the Crafting Station is a portable crafting table, and the Toolbox swaps items in and out of your hotbar. Picked-up items can go straight into matching stacks in your backpack."
+		"Press B to open your equipped backpack."
+		""
+		"&oTo change this control, look for Toggle Backpack under Modular Backpacks.&r"
+	]
+	quest.2159D33B71F4A5C1.title: "A backpack you can customize"
+	quest.076DA581E78BBD17.quest_desc: [
+		"Hover over an item in EMI. R shows how to get it, and U shows what it is used for. Drag a recipe into the favorites sidebar to keep its ingredients visible."
+		"The pack changes machine recipes. For example, you can make your first Create andesite sheet with the CDG hand hammer before you get a Mechanical Press."
+		""
+		"&oTo change these controls, look for View Recipes and View Uses in EMI's settings.&r"
+	]
+	quest.076DA581E78BBD17.title: "Recipes in EMI"
+	quest.0E298DCF147A74B4.quest_desc: [
+		"Nature's Compass finds biomes, and Explorer's Compass finds structures. When either compass finds its target, the pack automatically adds a waypoint to Xaero's map."
+		"Press M to open Xaero's map."
+		""
+		"&oTo change this control, look for Open World Map under Xaero's World Map.&r"
+	]
+	quest.0E298DCF147A74B4.title: "Compasses mark the map"
+	quest.274E5A9087414870.quest_desc: [
+		"Lootr chests have separate loot for each player. If a friend already opened one in a dungeon, you'll still have your own loot."
+	]
+	quest.274E5A9087414870.title: "Lootr chests"
+	quest.198A5659073F13D2.quest_desc: [
+		"Crop growth depends on the season and humidity. If crops stall even next to water, check the Ecliptic Seasons calendar."
+	]
+	quest.198A5659073F13D2.title: "When crops won't grow"
+	quest.499754C7B05634E6.quest_desc: ["A regular wooden boat can break apart in an ocean biome even in clear weather.", "For ocean voyages, you can build ships out of blocks with Sable physics."]
+	quest.499754C7B05634E6.title: "Crossing the ocean"
+	quest.49DD2C7B3909010F.quest_desc: [
+		"When brackets appear around the crosshair as you look at a block's edge, Quark lets you right-click to place the next block beyond that edge. This helps when building bridges or roof overhangs."
+	]
+	quest.49DD2C7B3909010F.title: "Building over edges"
+	task.656CBE945E0EF7F9.title: "Read"
+	task.44C44E0421C80BF1.title: "Read"
+	task.669C0F34B7EBD2D7.title: "Read"
+	task.00B1462A9D494A5D.title: "Read"
+	task.4B4E78280692126D.title: "Read"
+	task.095DD8B9F092DD92.title: "Read"
+	task.51D8C40F885F1D6C.title: "Read"
+	task.51147817ACF1A23A.title: "Read"
+	task.36C46ACD1E05C6BF.title: "Read"
+	task.19BC6F9015E61A90.title: "Read"
 }

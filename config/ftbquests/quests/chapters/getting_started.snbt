@@ -3,27 +3,204 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: ""
-	icon: { id: "ftbquests:book" }
+	icon: {
+		id: "ftbquests:book"
+	}
 	id: "3B1FCFF2D965AEE2"
 	images: [ ]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "0EA64920F573245D"
-		rewards: [{
-			auto: "no_toast"
-			id: "6A25F8497B8396C0"
-			item: { count: 1, id: "ftbquests:book" }
-			team_reward: false
-			type: "item"
-		}]
-		tasks: [{
-			id: "030C1DF89E4E693E"
-			stat: "minecraft:play_time"
-			type: "stat"
-			value: 1
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "0EA64920F573245D"
+			rewards: [{
+				auto: "no_toast"
+				id: "6A25F8497B8396C0"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "030C1DF89E4E693E"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "16637824E4CC0E4D"
+			tasks: [{
+				id: "656CBE945E0EF7F9"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16637824E4CC0E4D"]
+			icon: {
+				id: "minecraft:piston"
+			}
+			id: "7C48E57EE77072BF"
+			tasks: [{
+				id: "44C44E0421C80BF1"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "63DDD6DA45E955BC"
+			tasks: [{
+				id: "669C0F34B7EBD2D7"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "modular_backpacks:backpack"
+			}
+			id: "2159D33B71F4A5C1"
+			tasks: [{
+				id: "00B1462A9D494A5D"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "076DA581E78BBD17"
+			tasks: [{
+				id: "4B4E78280692126D"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0E298DCF147A74B4"
+			tasks: [{
+				id: "095DD8B9F092DD92"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "274E5A9087414870"
+			tasks: [{
+				id: "51D8C40F885F1D6C"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "eclipticseasons:calendar"
+			}
+			id: "198A5659073F13D2"
+			tasks: [{
+				id: "51147817ACF1A23A"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "499754C7B05634E6"
+			tasks: [{
+				id: "36C46ACD1E05C6BF"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:scaffolding"
+			}
+			id: "49DD2C7B3909010F"
+			tasks: [{
+				id: "19BC6F9015E61A90"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "1E62B19E465D1D85"
+			tasks: [{
+				id: "4A9400FFC70573A2"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "create:mechanical_press"
+			}
+			id: "34737A0DF8CFC552"
+			tasks: [{
+				id: "770B0F4571F574F9"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create:goggles"
+			}
+			id: "3888FAE8BB171B2A"
+			tasks: [{
+				id: "6FAEDF488CF37AAD"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "2F35AD64A288A9FB"
+			tasks: [{
+				id: "35F6FCC438386C64"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+	]
 }
