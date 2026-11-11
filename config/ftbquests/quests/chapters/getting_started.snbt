@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: { id: "ftbquests:book" }
+	id: "3B1FCFF2D965AEE2"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "0EA64920F573245D"
+		rewards: [{
+			auto: "no_toast"
+			id: "6A25F8497B8396C0"
+			item: { count: 1, id: "ftbquests:book" }
+			team_reward: false
+			type: "item"
+		}]
+		tasks: [{
+			id: "030C1DF89E4E693E"
+			stat: "minecraft:play_time"
+			type: "stat"
+			value: 1
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

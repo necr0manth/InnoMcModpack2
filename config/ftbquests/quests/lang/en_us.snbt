@@ -2,11 +2,13 @@
 	chapter.003F14EB0B47B78E.title: "Create"
 	chapter.1D3A2C4E5B607F89.title: "Aether"
 	chapter.276FADC9194ED6BF.title: "Ice and fire"
+	chapter.3B1FCFF2D965AEE2.title: "Getting Started"
 	image.71DD63A21649E2CB.title: "Questline by: TNP Team, Gbergz."
 	quest.09E84DBC07E1AD25.quest_desc: ["Получается из руды через алтарь"]
 	quest.0BA549AAAFB83E10.quest_desc: ["Phoenix Armor: полный сет - полный иммунитет к огню и лаве; при попадании в воду превращается в обсидиановую броню и теряет резист к огню"]
 	quest.0BB051F561B567AD.quest_desc: ["Прокачка, уже можно идти в данжи"]
 	quest.0C727FCAAFC80B69.quest_desc: ["Эти инструменты в отличие от сделаных из занита изначально имеют лучшие статы и становятся хуже со временем"]
+	quest.0EA64920F573245D.title: "Quest Book"
 	quest.0CC6716B4AE53B17.quest_desc: ["Собери плавильню из созданных блоков. "]
 	quest.0CE50070E1994D2B.quest_desc: ["Усиливает рывок который даёт стратус броня"]
 	quest.0D0C5D614F2B39A0.quest_desc: ["Та самая ручка на уроке математики "]

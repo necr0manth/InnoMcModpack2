@@ -2,6 +2,7 @@
 	chapter.003F14EB0B47B78E.title: "Create: механическая прогрессия"
 	chapter.1D3A2C4E5B607F89.title: "Аэзер: крылья и данжи"
 	chapter.276FADC9194ED6BF.title: "Ice and Fire Community Edition"
+	chapter.3B1FCFF2D965AEE2.title: "Начало игры"
 	chapter.6ADD3E3366AF192C.title: "Электричество"
 	quest.014137B588E21ED8.quest_subtitle: "Получите кожу морозного тролля"
 	quest.02395FA0992347ED.quest_subtitle: "Убейте циклопа"
@@ -38,6 +39,7 @@
 	quest.0BB051F561B567AD.quest_subtitle: "Создайте гравититовые меч и кирку"
 	quest.0BB051F561B567AD.title: "Гравититовое оружие"
 	quest.0BE401962E6FAAC3.quest_subtitle: "Добудьте фантомный слиток с призрака"
+	quest.0EA64920F573245D.title: "Книга квестов"
 	quest.0C178E22913F7572.quest_desc: ["Хмм... Он проходит сквозь блоки?"]
 	quest.0C178E22913F7572.quest_subtitle: "Создайте фантомный клинок"
 	quest.0C178E22913F7572.title: "Фантомный клинок"
